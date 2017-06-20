@@ -1,1 +1,0 @@
-# devternity.github.io
