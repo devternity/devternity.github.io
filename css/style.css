@@ -20,8 +20,37 @@ select {
 	margin: 0 0 1em 0
 }
 
+.label.warn {
+	padding: 5px 10px;
+	background-color: #C80815;
+	color: white;
+    white-space: nowrap;
+
+}
+
+.label.ok {
+	padding: 5px 10px;
+	background-color: #4dac71;
+	color: white;
+	white-space: nowrap;
+}
+
+.row>* {
+	padding: 2em !important;
+}
+
 .button {
 	padding: 0 0.7em !important;
+}
+
+.event {
+	position: relative;
+	border: 1px solid white;
+	margin-left: 1em;
+	margin-top: 1em;
+	background-position: left bottom;
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 small {
@@ -274,6 +303,10 @@ table th {
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 1em 0;
+	}
+
+	.intro {
+		margin-top: 3em;
 	}
 
 	.intro strong, .intro h1, .intro h2, .intro h3, .intro h4, .intro h5, .intro h6 {
@@ -1107,12 +1140,6 @@ table th {
 		height: 30px;
 	}
 
-	.sold {
-		padding: 5px 10px;
-		background-color: #C80815;
-		color: white;
-	}
-
 	body.landing #header {
 		background-color: transparent;
 		left: 0;
@@ -1163,7 +1190,7 @@ table th {
 				#header nav > ul > li {
 					border-radius: 4px;
 					display: inline-block;
-					margin-left: 1.5em;
+					margin-left: 0.5em;
 					padding-left: 0;
 				}
 
