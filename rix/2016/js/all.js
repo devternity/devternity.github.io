@@ -772,26 +772,141 @@ e.$validators.maxlength=function(a,c){return 0>f||e.$isEmpty(c)||c.length<=f}}}}
 
 
 
+$(document).on('opened', '.remodal', function () {
+	$("#navButton").hide();
+
+});
+$(document).on('closed', '.remodal', function () {
+	$("#navButton").show();
+});
 
 var devternity = angular.module('devternity', ['timer']);
 
-devternity.controller('LandingPageController', function ($window, $http, $scope, $q) {
+devternity.filter("trust", ['$sce', function($sce) {
+  return function(htmlCode){
+    return $sce.trustAsHtml(htmlCode);
+  }
+}]);
 
+devternity.filter("noOverdue", [function() {
+  return function(date){
+    return moment(date).isAfter(new Date());
+  }
+}]);
+
+devternity.filter("humane", [function() {
+  return function(date){
+    return moment(date).format("dddd, MMMM Do");
+  }
+}]);
+
+devternity.filter("tags", function () {
+  return function (tags) {
+    return _.map(tags, function(tag){ return "#" + tag; }).join(" ");
+  }
+});
+
+devternity.controller("DiscountController", function($scope, $http) {
+
+	var config = {
+		apiKey: "AIzaSyAoTplKcl5aerczJm-bDay_ej0leqMbPQ0",
+		authDomain: "devternity-22e74.firebaseapp.com",
+		databaseURL: "https://devternity-22e74.firebaseio.com",
+		projectId: "devternity-22e74",
+		storageBucket: "devternity-22e74.appspot.com",
+		messagingSenderId: "696478890174"
+	};
+	firebase.initializeApp(config);
+
+
+	bioEp.init({
+	});
+
+	bioEp.show = function() {
+		$scope.inst = $("#discountOffer").remodal();
+	    $scope.inst.open();
+	};
+
+	$scope.email = "";
+
+	$scope.askForDiscount = function() {
+
+		$http.get('js/event.js').then(function(response) { 
+			var body = response.data[0];
+			var mainDayPrice = _.find(body.pricing.products, { 'name': 'Main Day' }).price;
+			var workshopPrice = _.find(body.pricing.products, { 'name': 'Workshop' }).price;
+			var discount = body.pricing.discount.amount;
+		 	firebase.database().ref("discounts")
+		 		.push()
+		 		.set({
+			 		 type: "DISCOUNT_REQUESTED",
+			 		 product: body.codename,
+					 email: $scope.email,
+					 discount: discount,
+					 price: {
+					 	mainDay: mainDayPrice,
+					 	workshop: workshopPrice
+					 },
+					 slack: {
+					 	text: "Discount request",
+					 	attachments: [
+				        {
+				          color: "#36a64f",
+				          fields: [
+				            {
+				              "title": "Email",
+				              "value": $scope.email,
+				              "short": true
+				            },
+				            {
+				              "title": "Product",
+				              "value": body.codename,
+				              "short": true
+				            },
+				            {
+				              "title": "Discount",
+				              "value": discount + "€",
+				              "short": true
+				            },
+				            {
+				              "title": "Workshop price",
+				              "value": workshopPrice + "€",
+				              "short": true
+				            },				            
+				            {
+				              "title": "Main Day price",
+				              "value": mainDayPrice + "€",
+				              "short": true
+				            }				            
+				          ]
+				      	}		  
+					 	]
+					 }	
+				 }).then(function() {
+			 		if ($scope.inst) {
+				 		$scope.inst.close();
+			 		}
+	 			});
+		});
+	}
+});
+
+devternity.controller('LandingPageController', function ($window, $http, $scope, $q) {
 	$scope.timerRunning = true;
 
-	            $scope.startTimer = function (){
-	                $scope.$broadcast('timer-start');
-	                $scope.timerRunning = true;
-	            };
+    $scope.startTimer = function (){
+        $scope.$broadcast('timer-start');
+        $scope.timerRunning = true;
+    };
 
-	            $scope.stopTimer = function (){
-	                $scope.$broadcast('timer-stop');
-	                $scope.timerRunning = false;
-	            };
+    $scope.stopTimer = function (){
+        $scope.$broadcast('timer-stop');
+        $scope.timerRunning = false;
+    };
 
-	            $scope.$on('timer-stopped', function (event, data){
-	                console.log('Timer Stopped - data = ', data);
-	            });
+    $scope.$on('timer-stopped', function (event, data){
+        console.log('Timer Stopped - data = ', data);
+    });
 
   $scope.popupSpeech = function(uid) {
     var inst = $('[data-remodal-id=' + uid + ']').remodal();
@@ -806,8 +921,8 @@ devternity.controller('LandingPageController', function ($window, $http, $scope,
     }
   }
 
-  $scope.buy = function(product, pricing) {
-    $window.location.href = 'register/?product=' + product + '&pricing=' + pricing;
+  $scope.buy = function(moveTo) {
+    $window.location.href = moveTo;
   }
 
 
@@ -860,7 +975,14 @@ devternity.controller('LandingPageController', function ($window, $http, $scope,
           var workshops = _.find(body.program, { 'event': 'workshops' });
           $scope.workshops = workshops;
           var keynotes = _.find(body.program, { 'event': 'keynotes' });
+					$scope.keynotes = keynotes;
+					$scope.event = body;
+					$scope.registrationClosesIn = moment(body.date_iso).subtract(1, 'days').valueOf();
+          $scope.days = _(body.duration_days).times(function(n){ return moment(body.date_iso).add(n, 'days').format("DD.MM.YYYY"); });
+          
+          $('#devternity-loading').fadeOut('slow',function(){
+            $('#devternity-loading').remove();
+        });
     });
-
 
 });
