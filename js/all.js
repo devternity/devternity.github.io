@@ -794,10 +794,101 @@ devternity.filter("noOverdue", [function() {
   }
 }]);
 
+devternity.filter("humane", [function() {
+  return function(date){
+    return moment(date).format("dddd, MMMM Do");
+  }
+}]);
+
 devternity.filter("tags", function () {
   return function (tags) {
     return _.map(tags, function(tag){ return "#" + tag; }).join(" ");
   }
+});
+
+devternity.controller("DiscountController", function($scope, $http) {
+
+	var config = {
+		apiKey: "AIzaSyAoTplKcl5aerczJm-bDay_ej0leqMbPQ0",
+		authDomain: "devternity-22e74.firebaseapp.com",
+		databaseURL: "https://devternity-22e74.firebaseio.com",
+		projectId: "devternity-22e74",
+		storageBucket: "devternity-22e74.appspot.com",
+		messagingSenderId: "696478890174"
+	};
+	firebase.initializeApp(config);
+
+
+	bioEp.init({
+	});
+
+	bioEp.show = function() {
+		$scope.inst = $("#discountOffer").remodal();
+	    $scope.inst.open();
+	};
+
+	$scope.email = "";
+
+	$scope.askForDiscount = function() {
+
+		$http.get('js/event.js').then(function(response) { 
+			var body = response.data[0];
+			var mainDayPrice = _.find(body.pricing.products, { 'name': 'Main Day' }).price;
+			var workshopPrice = _.find(body.pricing.products, { 'name': 'Workshop' }).price;
+			var discount = body.pricing.discount.amount;
+		 	firebase.database().ref("discounts")
+		 		.push()
+		 		.set({
+			 		 type: "DISCOUNT_REQUESTED",
+			 		 product: body.codename,
+					 email: $scope.email,
+					 discount: discount,
+					 price: {
+					 	mainDay: mainDayPrice,
+					 	workshop: workshopPrice
+					 },
+					 slack: {
+					 	text: "Discount request",
+					 	attachments: [
+				        {
+				          color: "#36a64f",
+				          fields: [
+				            {
+				              "title": "Email",
+				              "value": $scope.email,
+				              "short": true
+				            },
+				            {
+				              "title": "Product",
+				              "value": body.codename,
+				              "short": true
+				            },
+				            {
+				              "title": "Discount",
+				              "value": discount + "€",
+				              "short": true
+				            },
+				            {
+				              "title": "Workshop price",
+				              "value": workshopPrice + "€",
+				              "short": true
+				            },				            
+				            {
+				              "title": "Main Day price",
+				              "value": mainDayPrice + "€",
+				              "short": true
+				            }				            
+				          ]
+				      	}		  
+					 	]
+					 }	
+				 }).then(function() {
+			 		if ($scope.inst) {
+				 		$scope.inst.close();
+			 		}
+	 			});
+		});
+	}
 });
 
 devternity.controller('LandingPageController', function ($window, $http, $scope, $q) {
@@ -817,6 +908,16 @@ devternity.controller('LandingPageController', function ($window, $http, $scope,
         console.log('Timer Stopped - data = ', data);
     });
 
+  $scope.popupSpeech = function(uid) {
+    var inst = $('[data-remodal-id=' + uid + ']').remodal();
+    inst.open();
+  }
+
+  $scope.watchPromo = function() {
+    var inst = $("[data-remodal-id='trailer-vimeo']").remodal();
+    inst.open();	
+  }
+
   $scope.shorten = function(text) {
     if (text.length <= 50) {
       return text;
@@ -825,8 +926,65 @@ devternity.controller('LandingPageController', function ($window, $http, $scope,
     }
   }
 
+  $scope.buy = function(moveTo) {
+    $window.location.href = moveTo;
+  }
+
+
+  $scope.slideTo = function(to) {
+        $('html, body').animate({ scrollTop: $(to).position().top }, 2000);
+  }
+
+  $scope.bookWorkshop = function(workshop) {
+    $scope.workshop = workshop;
+    $scope.slideTo('#tickets-container');
+  }
+
   $http.get('js/event.js')
        .then(function(response){
+          var body = response.data[0];
+          var schedule = _.map(_.find(body.program, { 'event': 'keynotes' }).schedule, function(scheduled) {
+            return _.extend(scheduled, {uid: _.uniqueId()});
+          });
+
+          var speakers = _.chain(schedule)
+            .filter(function(scheduled) { return scheduled.type === "speech"; } )
+            .map(function(num, key, list) { return [num, num.partner] })
+            .flatten()
+            .compact()
+            .value();
+
+          var speakersInRows = _.groupBy(speakers, function(speaker, index) {
+            return Math.floor(index/4);
+          });
+
+
+          var program = _.groupBy(schedule, 'time');
+          var programTimes = _.keys(program);
+
+          $scope.speakersInRows = speakersInRows;
+          $scope.program = program;
+          $scope.programTimes = programTimes;
+
+
+          // Workshops!
+          $scope.instructorsInRows = _.chain(body.workshops)
+                                .filter(function(scheduled) {
+                                    return scheduled.type === "speech";
+                                })
+                                .groupBy(function(_, index) {
+                                  return Math.floor(index/4);
+                                })
+                                .value();
+
+          var workshops = _.find(body.program, { 'event': 'workshops' });
+          $scope.workshops = workshops;
+          var keynotes = _.find(body.program, { 'event': 'keynotes' });
+					$scope.keynotes = keynotes;
+					$scope.event = body;
+					$scope.registrationClosesIn = moment(body.date_iso).subtract(1, 'days').valueOf();
+          $scope.days = _(body.duration_days).times(function(n){ return moment(body.date_iso).add(n, 'days').format("DD.MM.YYYY"); });
+          
           $('#devternity-loading').fadeOut('slow',function(){
             $('#devternity-loading').remove();
         });
