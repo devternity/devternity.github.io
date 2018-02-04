@@ -97,7 +97,23 @@
                       "presentation": "",
                       "sold_out": false,
                       "video": ""
-                  }                    
+                  },
+                  {
+                      "product": "SERVERLESS",
+                      "time": "13:40",
+                      "tags": ["aws lambda", "amazon web services", "serverless"],
+                      "name": "Yan Cui",
+                      "type": "speech",
+                      "twitter": "theburningmonk",
+                      "country": "gb",
+                      "bio": "Developer, Software Architect, Trainer, Author of <a href=\"https://www.manning.com/livevideo/aws-lambda-in-motion/\">AWS Lambda in Motion</a>",
+                      "long_bio": "Yan Cui is a senior server developer at Space Ape Games. A polyglot software architect with over 10 years of development experience, primarily in building scalable backend systems with AWS, Yan has worked for some of the UK’s largest names in gaming and ecommerce. He is a regular speaker at user groups and conferences and keeps an active blog at Theburningmonk.com. Yan is a coauthor of F# Deep Dives.",
+                      "title": "Production-ready Serverless: Operational Patterns and Practices",
+                      "description": "<p>This course is designed to get you familiarised with the basics of AWS Lambda and the Serverless framework quickly, and then deep dive into the operational challenges with running a serverless architecture in production and the emerging patterns and practices to tackle them.</p><p>This is a hands-on course where we will build a simple e-commence site from scratch, using a number of services in the AWS ecosystem including (but not limited to) Lambda, API Gateway, Kinesis and Cognito User Pools. Expect to learn the basics of AWS Lambda and the Serverless framework in the first hour or so, which would allow us to move on to:</p><ul><li>Creating APIs with API Gateway and Lambda</li><li>Real-time stream processing with Kinesis and Lambda</li><li>Authentication and authorization</li><li>Testing strategies</li><li>Local debugging</li><li>Continuous Integration, Deployment and Delivery</li><li>Project organization</li><li>Managing shared code and shared infrastructure</li><li>Log aggregation and monitoring</li><li>Distributed tracing using X-Ray</li><li>Performance and cost optimization</li><li>Error handling</li><li>Config management</li><li>Working with VPCs</li><li>Canary deployments</li></ul><p>Bring your own laptop, open an AWS account, and install VisualStudio Code and the Serverless framework and let's get you ready for running a serverless architecture in production!</p>",
+                      "img": "images/cui.png",
+                      "presentation": "",
+                      "video": ""
+                  }          
                 ]
             },
             {
@@ -238,12 +254,20 @@
                         "title": "Lunch Break",
                         "icon": "fa-cutlery"
                     },
-                    {    
-                       "type": "speech",   
-                       "time": "13:40",    
-                       "img": "images/hz.png",   
-                       "presentation": "",   
-                       "video": ""   
+                    {
+                        "time": "13:40",
+                        "tags": ["aws lambda", "best practices", "case study"],
+                        "name": "Yan Cui",
+                        "type": "speech",
+                        "twitter": "theburningmonk",
+                        "country": "gb",
+                        "bio": "Developer, Software Architect, Trainer, Author of <a href=\"https://www.manning.com/livevideo/aws-lambda-in-motion/\">AWS Lambda in Motion</a>",
+                        "long_bio": "Yan Cui is a senior server developer at Space Ape Games. A polyglot software architect with over 10 years of development experience, primarily in building scalable backend systems with AWS, Yan has worked for some of the UK’s largest names in gaming and ecommerce. He is a regular speaker at user groups and conferences and keeps an active blog at Theburningmonk.com. Yan is a coauthor of F# Deep Dives.",
+                        "title": "Serverless in Production – An Experience Report",
+                        "description": "In this talk Yan Cui shares his experience of migrating an existing monolithic architecture for a social network to AWS Lambda, and how it empowered a small team to deliver features quickly and how they address operational concerns such as CI/CD, logging, monitoring and config management. This sessions draws on my experience leading a team that transformed our entire architecture in under 6 months, where we also managed to cut cost by over 90%, and increased production deployments from 4-6 per month to 80-100 per month. We did that whilst coming up with solutions to those common operational concerns to ensure we not only run a serverless architecture in production, but we do so responsibly. The audience should have basic understanding of how AWS Lambda works, and are aware of some popular AWS services like DynamoDB, Kinesis, S3. I’m the best person to speak on the subject as I lead the team on this migration and were responsible for large parts of the actual implementation, and as the architect I was also responsible for our entire architecture (and the first one to be woken up at night if things go wrong!). I have written extensively on the operational aspect of working with AWS Lambda, and my work has been regularly referenced by the AWS Lambda team including talks at re:invent, as well as the new Serverless Well Architected whitepaper.",
+                        "img": "images/cui.png",
+                        "presentation": "",
+                        "video": ""
                     },
                     {    
                        "type": "speech",   
