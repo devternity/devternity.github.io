@@ -17,8 +17,6 @@
 <meta property="og:image:width"   content="512" />
 <meta property="og:image:height"  content="512" />
 <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-<script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
-<script src="js/exit.js"></script>
 <script src="js/all.js"></script>
 <script src="https://connect.facebook.net/en_US/all.js#xfbml=1" async defer></script>
 <script type="application/ld+json">
@@ -55,7 +53,7 @@
           "@type": "Offer",
           "url": "https://devternity.com/registration?main",
           "name": "Main Day",
-          "validFrom": "2018-02-26T08:31:18.869Z",
+          "validFrom": "2018-02-26T09:36:10.055Z",
           "price": "299",
           "priceCurrency": "EUR",
           "availability": "http://schema.org/InStock"
@@ -64,7 +62,7 @@
           "@type": "Offer",
           "name": "Workshop",        
           "url": "https://devternity.com/registration?workshop",
-          "validFrom": "2018-02-26T08:31:18.869Z",
+          "validFrom": "2018-02-26T09:36:10.055Z",
           "price": "299",
           "priceCurrency": "EUR",
           "availability": "http://schema.org/InStock"
@@ -909,18 +907,6 @@
 </section>
 </div>
 </div>
-<section id="discountOffer" data-remodal-id="offer" class="wrapper speech tickets align-center">
-<form ng-controller="DiscountController" name="discountOffer">
-<h2>Let us make your day –</h2>
-<div>
-<input type="email" id="email" placeholder="Email address" ng-model="email"></input>
-<br />
-<input type="button" value="Receive personal {{event.pricing.discount.amount}}€ discount code" ng-click="askForDiscount()" ng-disabled="!email || discountOffer.$error.email"/>
-<br />
-</div>
-<a href="#" data-remodal-action="close">No, I don't want a discount</a>
-</form>
-</section>
 <ul class="copyright">
 <li>&copy; DevTernity. All rights reserved.</li>
 </ul>
