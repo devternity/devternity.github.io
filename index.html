@@ -22,19 +22,14 @@
 <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 <script src="js/all.js"></script>
 <script src="https://connect.facebook.net/en_US/all.js#xfbml=1" async defer></script>
+<script type="text/javascript" src="//sgwidget.leaderapps.co/js/sendgrid-widget.js"></script>
 <script type="application/ld+json">
   {
     "@context": "http://schema.org",
     "@type": "Organization",
     "name": "DevTernity",
     "url": "https://devternity.com",
-    "sameAs": [
-      "https://www.facebook.com/devternity",
-      "https://instagram.com/devternity",
-      "https://www.linkedin.com/groups/8371335",
-      "https://youtube.com/c/DevTernity",
-      "https://twitter.com/devternity"
-    ]
+    "sameAs": ["https://twitter.com/devternity","https://www.facebook.com/devternity","http://go.devternity.com/linkedin","https://www.instagram.com/devternity","https://youtube.com/c/DevTernity"  ]
   }      
 </script>
 <script type="application/ld+json">
@@ -56,7 +51,7 @@
           "@type": "Offer",
           "url": "https://devternity.com/registration?main",
           "name": "Main Day",
-          "validFrom": "2018-03-02T16:10:07.565Z",
+          "validFrom": "2018-03-03T10:42:34.255Z",
           "price": "299",
           "priceCurrency": "EUR",
           "availability": "http://schema.org/InStock"
@@ -65,7 +60,7 @@
           "@type": "Offer",
           "name": "Workshop",        
           "url": "https://devternity.com/registration?workshop",
-          "validFrom": "2018-03-02T16:10:07.565Z",
+          "validFrom": "2018-03-03T10:42:34.255Z",
           "price": "299",
           "priceCurrency": "EUR",
           "availability": "http://schema.org/InStock"
@@ -139,15 +134,7 @@
 </div>
 </div>
 <div id="fb-root"></div>
-<script>
-  (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=433199826742778";
-  fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-</script><header id="header">
+<header id="header">
 <nav id="nav">
 <ul>
 <li>
@@ -160,11 +147,11 @@
 <li><a href="code_of_conduct.html" alt="Code of Conduct">Code of Conduct</a></li>
 <li><strong><a href="http://go.devternity.com/rix_volunteer" alt="Call for Volunteers">Volunteer</a></strong></li>
 <li><strong><a ng-click="slideTo('#tickets-container')">Attend</a></strong></li>
-<li><a href="https://twitter.com/devternity" rel="noopener" target="_blank"><i class="fa fa-twitter"></i></a></li>
-<li><a href="https://www.facebook.com/devternity" rel="noopener" target="_blank"><i class="fa fa-facebook"></i></a></li>
-<li><a href="http://go.devternity.com/linkedin" rel="noopener" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-<li><a href="https://www.instagram.com/devternity/" rel="noopener" target="_blank"><i class="fa fa-instagram"></i></a></li>
-<li><a href="https://youtube.com/c/DevTernity" rel="noopener" target="_blank"><i class="fa fa-youtube"></i></a></li>    <li><a href="/rix/2017" alt="DevTernity 2017">2017</a></li><li><a href="/rix/2016" alt="DevTernity 2016">2016</a></li><li><a href="/rix/2015" alt="DevTernity 2015">2015</a></li></ul>
+<li><a href="https://twitter.com/devternity"><i class="fa fa-twitter"></i></a></li>
+<li><a href="https://www.facebook.com/devternity"><i class="fa fa-facebook"></i></a></li>
+<li><a href="http://go.devternity.com/linkedin"><i class="fa fa-linkedin"></i></a></li>
+<li><a href="https://www.instagram.com/devternity"><i class="fa fa-instagram"></i></a></li>
+<li><a href="https://youtube.com/c/DevTernity"><i class="fa fa-youtube"></i></a></li><li><a href="/rix/2017" alt="DevTernity 2017">2017</a></li><li><a href="/rix/2016" alt="DevTernity 2016">2016</a></li><li><a href="/rix/2015" alt="DevTernity 2015">2015</a></li></ul>
 </nav>
 </header>
 <!-- Banner -->
@@ -177,25 +164,10 @@
 <p>The place where forward-thinking developers, pragmatic architects and engineering leaders grow.</p>
 <p>30 Nov – 1 Dec 2018. Riga, Latvia.</p>
 <ul class="actions">
-<li  ng-if="event.status == 'on_sale'">
-<a ng-click="slideTo('#tickets-container')" class="button big pulse">Take me with you</a>
-<br /><br />
-<timer end-time="1543561200000"> We start in <strong style="color: white">{{days}} day{{daysS}}, {{hours}} hour{{hoursS}}, {{minutes}} minutes {{seconds}} seconds </strong>
-</timer>
-</li>
-<li  ng-if="event.status == 'booked'">
-<a class="button big">We are fully booked.</a>
-<br /><br />
-<ul class="links">
-<li><a href="https://twitter.com/devternity" rel="noopener" target="_blank"><i class="fa fa-twitter"></i></a></li>
-<li><a href="https://www.facebook.com/devternity" rel="noopener" target="_blank"><i class="fa fa-facebook"></i></a></li>
-<li><a href="http://go.devternity.com/linkedin" rel="noopener" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-<li><a href="https://www.instagram.com/devternity/" rel="noopener" target="_blank"><i class="fa fa-instagram"></i></a></li>
-<li><a href="https://youtube.com/c/DevTernity" rel="noopener" target="_blank"><i class="fa fa-youtube"></i></a></li>    
-</ul>          
-</li>             
-</ul>
-</section>
+  <li><a class="button big pulse" ng-click="slideTo('#tickets-container')">Take me with you</a><br><br>
+    <timer end-time="1543561200000">We start in <strong style="color: white;">{{days}} day{{daysS}}, {{hours}} hour{{hoursS}}, {{minutes}} minutes {{seconds}} seconds</strong></timer>
+  </li>
+</ul></section>
 <section class="wrapper style1 align-center"><div class="container intro">
 <header>
 <h2></h2>
@@ -290,16 +262,15 @@
 <button data-remodal-action="close" class="remodal-close"></button>
 <div class='embed-container'><iframe src='https://player.vimeo.com/video/247773795' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 </section>
-<section id="speakers-container" class="wrapper speakers align-center">
-<div class="container">
-<header>
+<section class="wrapper speakers align-center" id="speakers-container">
+  <div class="container"><header>
 <h1>Day I: Inspiring Talks (30 Nov 2018)</h1>
 <h2></h2>
 <p>We have invited speakers that are <strong>fluent</strong>, <strong>technically skilled</strong> and <strong>inspiring</strong>.</p>
 <h2></h2>
 <p>No Agile bullshit bingo and marketing talks permitted. See for yourself:</p>
 </header>
-<div class="row"><section class="feature 3u 12u$(small)">
+    <div class="row"><section class="feature 3u 12u$(small)">
 <img class="headshot" src="images/venkat.png"/>
 <div class="whoname">
 <img src="images/flags/us.png" alt="us flag" /> Venkat Subramaniam</div>
@@ -324,8 +295,8 @@
 <div class="who">Developer, Software Architect, Trainer, Author of <a href="https://www.manning.com/livevideo/aws-lambda-in-motion/">AWS Lambda in Motion</a></div><a href="https://twitter.com/theburningmonk">
 <i class="fa fa-twitter follow-speaker" aria-hidden="true"></i>
 </a></section>
-</div>
-<div class="row"><section class="feature 3u 12u$(small)">
+    </div>
+    <div class="row"><section class="feature 3u 12u$(small)">
 <img class="headshot" src="images/sandroma.png"/>
 <div class="whoname">
 <img src="images/flags/gb.png" alt="gb flag" /> Sandro Mancuso</div>
@@ -350,8 +321,8 @@
 <div class="who">High-performance & Low-latency Computing Consultant, ex-CTO of LMAX, creator of <a href="https://github.com/real-logic/aeron">Aeron</a></div><a href="https://twitter.com/mjpt777">
 <i class="fa fa-twitter follow-speaker" aria-hidden="true"></i>
 </a></section>
-</div>
-<div class="row"><section class="feature 3u 12u$(small)">
+    </div>
+    <div class="row"><section class="feature 3u 12u$(small)">
 <img class="headshot" src="images/rene.png"/>
 <div class="whoname">
 <img src="images/flags/de.png" alt="de flag" /> René Schulte </div>
@@ -370,23 +341,26 @@
 <div class="who">Founder @ mnogosdelal.ru, ex-Head of IT @ Kaspersky Lab, Author of <a href="https://www.amazon.com/dp/B06XX85FXM">Jedi Techniques</a></div><a href="https://twitter.com/cartmendum">
 <i class="fa fa-twitter follow-speaker" aria-hidden="true"></i>
 </a></section>
-</div>
-<div class="row">
-</div>
-<div class="row">
-</div><div class="row">
-<section class="feature 12u 12u$(small)"><h3 class="title">More coming soon.</h3><div class="fb-like" data-width="320" data-href="https://www.facebook.com/devternity/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
-<h5>
-</br></br>
-<a href="https://twitter.com/devternity" rel="noopener" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
-<a href="https://www.facebook.com/devternity" rel="noopener" target="_blank"><i class="fa fa-facebook"></i></a> &nbsp;&nbsp;
-<a href="http://go.devternity.com/linkedin" rel="noopener" target="_blank"><i class="fa fa-linkedin"></i></a>&nbsp;&nbsp;
-<a href="https://www.instagram.com/devternity/" rel="noopener" target="_blank"><i class="fa fa-instagram"></i></a>&nbsp;&nbsp;
-<a href="https://youtube.com/c/DevTernity" rel="noopener" target="_blank"><i class="fa fa-youtube"></i></a>                
-</h5>
-</section>
-</div>
-</div>
+    </div>
+    <div class="row">
+    </div>
+    <div class="row">
+    </div>
+    <div class="row">
+      <section class="feature 12u 12u$(small)">
+        <h3 class="title">More coming soon. Subscribe for the final announcement alert:</h3>
+        <div class="sendgrid-subscription-widget" id="sendgrid-subscription-widget">
+          <form id="sg-widget" style="text-align:center;" data-token="9427e227cec782b27ebe0546caf95873" onsubmit="return false;">
+            <div class="sg-response" id="sg-response"></div>
+            <input id="email" style="width: 200px; margin: 0 auto 0.5em auto; display: inline;" type="email" name="email" placeholder="&lt;your email address&gt;">
+            <input id="sg-submit-btn" type="submit" value="Subscribe" style="padding: 0 1em 0 1em;">
+          </form>
+        </div>
+        <h5><a href="https://twitter.com/devternity"><i class="fa fa-twitter"></i></a> &nbsp;<a href="https://www.facebook.com/devternity"><i class="fa fa-facebook"></i></a> &nbsp;<a href="http://go.devternity.com/linkedin"><i class="fa fa-linkedin"></i></a> &nbsp;<a href="https://www.instagram.com/devternity"><i class="fa fa-instagram"></i></a> &nbsp;<a href="https://youtube.com/c/DevTernity"><i class="fa fa-youtube"></i></a> &nbsp;
+        </h5>
+      </section>
+    </div>
+  </div>
 </section>
 <section class="wrapper" id="program-container">
   <div class="container">
@@ -716,7 +690,17 @@
         <h5><span></span></h5>
         <div class="who"><p>This course is designed to get you familiarised with the basics of AWS Lambda and the Serverless framework quickly, and then deep dive into the operational challenges with running a serverless architecture in production and the emerging patterns and practices to tackle them.</p><p>This is a hands-on course where we will build a simple e-commence site from scratch, using a number of services in the AWS ecosystem including (but not limited to) Lambda, API Gateway, Kinesis and Cognito User Pools. Expect to learn the basics of AWS Lambda and the Serverless framework in the first hour or so, which would allow us to move on to:</p><ul><li>Creating APIs with API Gateway and Lambda</li><li>Real-time stream processing with Kinesis and Lambda</li><li>Authentication and authorization</li><li>Testing strategies</li><li>Local debugging</li><li>Continuous Integration, Deployment and Delivery</li><li>Project organization</li><li>Managing shared code and shared infrastructure</li><li>Log aggregation and monitoring</li><li>Distributed tracing using X-Ray</li><li>Performance and cost optimization</li><li>Error handling</li><li>Config management</li><li>Working with VPCs</li><li>Canary deployments</li></ul><p>Bring your own laptop, open an AWS account, and install VisualStudio Code and the Serverless framework and let's get you ready for running a serverless architecture in production!</p></div>
       </section>
+    </div><br>
+    <h3 class="title">More coming soon. Subscribe for the final announcement alert:</h3>
+    <div class="sendgrid-subscription-widget" id="sendgrid-subscription-widget">
+      <form id="sg-widget" style="text-align:center;" data-token="9427e227cec782b27ebe0546caf95873" onsubmit="return false;">
+        <div class="sg-response" id="sg-response"></div>
+        <input id="email" style="width: 200px; margin: 0 auto 0.5em auto; display: inline;" type="email" name="email" placeholder="&lt;your email address&gt;">
+        <input id="sg-submit-btn" type="submit" value="Subscribe" style="padding: 0 1em 0 1em;">
+      </form>
     </div>
+    <h5><a href="https://twitter.com/devternity"><i class="fa fa-twitter"></i></a> &nbsp;                <a href="https://www.facebook.com/devternity"><i class="fa fa-facebook"></i></a> &nbsp;                <a href="http://go.devternity.com/linkedin"><i class="fa fa-linkedin"></i></a> &nbsp;                <a href="https://www.instagram.com/devternity"><i class="fa fa-instagram"></i></a> &nbsp;                <a href="https://youtube.com/c/DevTernity"><i class="fa fa-youtube"></i></a> &nbsp;                
+    </h5>
   </div>
 </section>
 <section class="wrapper style1 tickets align-center" id="tickets-container">
@@ -756,7 +740,7 @@
         </div>
         <div class="row">
           <section class="12u 12u$(small)">
-            <input class="pulse" type="button" value="  Secure a seat now  " ng-click="buy('https://devternity.com/registration')">
+            <input class="pulse" type="button" value="Secure a seat now" style="padding: 0 1em;" ng-click="buy('https://devternity.com/registration')">
           </section>
         </div>
       </section>
@@ -891,22 +875,19 @@
 <section class="6u 12u$(small)">
 <h3>Follow Us</h3>
 <ul class="icons">
-<li><a href="https://twitter.com/devternity" class="icon rounded fa-twitter"><span class="label">Twitter</span></a></li>
-<li><a href="https://www.facebook.com/devternity" class="icon rounded fa-facebook"><span class="label">Facebook</span></a></li>
-<li><a href="http://go.devternity.com/linkedin" class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a></li>
-<li><a href="https://www.instagram.com/devternity/" class="icon rounded fa-instagram"><span class="label">Instagram</span></a></li>
-<li><a href="https://youtube.com/c/DevTernity" class="icon rounded fa-youtube"><span class="label">YouTube</span></a></li>                
-</ul>
+<li><a href="https://twitter.com/devternity"><i class="icon rounded fa fa-twitter"></i></a></li>
+<li><a href="https://www.facebook.com/devternity"><i class="icon rounded fa fa-facebook"></i></a></li>
+<li><a href="http://go.devternity.com/linkedin"><i class="icon rounded fa fa-linkedin"></i></a></li>
+<li><a href="https://www.instagram.com/devternity"><i class="icon rounded fa fa-instagram"></i></a></li>
+<li><a href="https://youtube.com/c/DevTernity"><i class="icon rounded fa fa-youtube"></i></a></li></ul>
 <ul class="tabular">
-<li>
-<h3>Mail</h3>
-<a href="mailto:{{event.contactEmail}}">{{event.contactEmail}}</a>
-</li>
-<li>
-<h3>Phone</h3>(+371) 288 14 170 🇬🇧 🇷🇺 🇱🇻
-</li>
-</ul>
-</section>
+  <li>
+    <h3>Mail</h3><a href="mailto:riga@devternity.com">riga@devternity.com</a>
+  </li>
+  <li>
+    <h3>Phone</h3>(+371) 288 14 170 🇬🇧 🇷🇺 🇱🇻
+  </li>
+</ul></section>
 </div>
 </div>
 <ul class="copyright">

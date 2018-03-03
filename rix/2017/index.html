@@ -22,19 +22,14 @@
 <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 <script src="js/all.js"></script>
 <script src="https://connect.facebook.net/en_US/all.js#xfbml=1" async defer></script>
+<script type="text/javascript" src="//sgwidget.leaderapps.co/js/sendgrid-widget.js"></script>
 <script type="application/ld+json">
   {
     "@context": "http://schema.org",
     "@type": "Organization",
     "name": "DevTernity",
     "url": "https://devternity.com",
-    "sameAs": [
-      "https://www.facebook.com/devternity",
-      "https://instagram.com/devternity",
-      "https://www.linkedin.com/groups/8371335",
-      "https://youtube.com/c/DevTernity",
-      "https://twitter.com/devternity"
-    ]
+    "sameAs": ["https://twitter.com/devternity","https://www.facebook.com/devternity","http://go.devternity.com/linkedin","https://www.instagram.com/devternity","https://youtube.com/c/DevTernity"  ]
   }      
 </script>
 <script type="application/ld+json">
@@ -56,7 +51,7 @@
           "@type": "Offer",
           "url": "https://docs.google.com/forms/d/e/1FAIpQLSezFNvjgxEfnxpSvRHy7XHdHlSG2cvTJhULCbvN12OQqUMMPg/viewform?main",
           "name": "Main Day",
-          "validFrom": "2018-03-02T16:10:07.538Z",
+          "validFrom": "2018-03-03T10:42:34.235Z",
           "price": "199",
           "priceCurrency": "EUR",
           "availability": "http://schema.org/InStock"
@@ -65,7 +60,7 @@
           "@type": "Offer",
           "name": "Workshop",        
           "url": "https://docs.google.com/forms/d/e/1FAIpQLSezFNvjgxEfnxpSvRHy7XHdHlSG2cvTJhULCbvN12OQqUMMPg/viewform?workshop",
-          "validFrom": "2018-03-02T16:10:07.538Z",
+          "validFrom": "2018-03-03T10:42:34.235Z",
           "price": "249",
           "priceCurrency": "EUR",
           "availability": "http://schema.org/InStock"
@@ -139,15 +134,7 @@
 </div>
 </div>
 <div id="fb-root"></div>
-<script>
-  (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=433199826742778";
-  fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-</script><header id="header">
+<header id="header">
 <nav id="nav">
 <ul>
 <li>
@@ -160,11 +147,11 @@
 <li><a href="code_of_conduct.html" alt="Code of Conduct">Code of Conduct</a></li>
 <li><strong><a href="http://go.devternity.com/rix_volunteer" alt="Call for Volunteers">Volunteer</a></strong></li>
 <li><strong><a ng-click="slideTo('#tickets-container')">Attend</a></strong></li>
-<li><a href="https://twitter.com/devternity" rel="noopener" target="_blank"><i class="fa fa-twitter"></i></a></li>
-<li><a href="https://www.facebook.com/devternity" rel="noopener" target="_blank"><i class="fa fa-facebook"></i></a></li>
-<li><a href="http://go.devternity.com/linkedin" rel="noopener" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-<li><a href="https://www.instagram.com/devternity/" rel="noopener" target="_blank"><i class="fa fa-instagram"></i></a></li>
-<li><a href="https://youtube.com/c/DevTernity" rel="noopener" target="_blank"><i class="fa fa-youtube"></i></a></li>    <li><a href="/rix/2016" alt="DevTernity 2016">2016</a></li><li><a href="/rix/2015" alt="DevTernity 2015">2015</a></li></ul>
+<li><a href="https://twitter.com/devternity"><i class="fa fa-twitter"></i></a></li>
+<li><a href="https://www.facebook.com/devternity"><i class="fa fa-facebook"></i></a></li>
+<li><a href="http://go.devternity.com/linkedin"><i class="fa fa-linkedin"></i></a></li>
+<li><a href="https://www.instagram.com/devternity"><i class="fa fa-instagram"></i></a></li>
+<li><a href="https://youtube.com/c/DevTernity"><i class="fa fa-youtube"></i></a></li><li><a href="/rix/2016" alt="DevTernity 2016">2016</a></li><li><a href="/rix/2015" alt="DevTernity 2015">2015</a></li></ul>
 </nav>
 </header>
 <!-- Banner -->
@@ -177,25 +164,17 @@
 <p>The place where forward-thinking developers, pragmatic architects and engineering leaders grow.</p>
 <p>1-2 December 2017. Riga, Latvia.</p>
 <ul class="actions">
-<li  ng-if="event.status == 'on_sale'">
-<a ng-click="slideTo('#tickets-container')" class="button big pulse">Take me with you</a>
-<br /><br />
-<timer end-time="1512118800000"> We start in <strong style="color: white">{{days}} day{{daysS}}, {{hours}} hour{{hoursS}}, {{minutes}} minutes {{seconds}} seconds </strong>
-</timer>
-</li>
-<li  ng-if="event.status == 'booked'">
-<a class="button big">We are fully booked.</a>
-<br /><br />
-<ul class="links">
-<li><a href="https://twitter.com/devternity" rel="noopener" target="_blank"><i class="fa fa-twitter"></i></a></li>
-<li><a href="https://www.facebook.com/devternity" rel="noopener" target="_blank"><i class="fa fa-facebook"></i></a></li>
-<li><a href="http://go.devternity.com/linkedin" rel="noopener" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-<li><a href="https://www.instagram.com/devternity/" rel="noopener" target="_blank"><i class="fa fa-instagram"></i></a></li>
-<li><a href="https://youtube.com/c/DevTernity" rel="noopener" target="_blank"><i class="fa fa-youtube"></i></a></li>    
-</ul>          
-</li>             
-</ul>
-</section>
+  <li><a class="button big">We are fully booked</a><br><br>
+    <ul class="links">
+      <li>Follow us —</li>
+      <li><a href="https://twitter.com/devternity"><i class="fa fa-twitter"></i></a></li>
+      <li><a href="https://www.facebook.com/devternity"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="http://go.devternity.com/linkedin"><i class="fa fa-linkedin"></i></a></li>
+      <li><a href="https://www.instagram.com/devternity"><i class="fa fa-instagram"></i></a></li>
+      <li><a href="https://youtube.com/c/DevTernity"><i class="fa fa-youtube"></i></a></li>
+    </ul>
+  </li>
+</ul></section>
 <section class="wrapper style1 align-center"><div class="container intro">
 <header>
 <h2></h2>
@@ -290,16 +269,15 @@
 <button data-remodal-action="close" class="remodal-close"></button>
 <div class='embed-container'><iframe src='https://player.vimeo.com/video/247773795' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 </section>
-<section id="speakers-container" class="wrapper speakers align-center">
-<div class="container">
-<header>
+<section class="wrapper speakers align-center" id="speakers-container">
+  <div class="container"><header>
 <h1>Day I: Inspiring Talks (1 Dec 2017)</h1>
 <h2></h2>
 <p>We have invited speakers that are <strong>fluent</strong>, <strong>technically skilled</strong> and <strong>inspiring</strong>.</p>
 <h2></h2>
 <p>No Agile bullshit bingo and marketing talks permitted. See for yourself:</p>
 </header>
-<div class="row"><section class="feature 3u 12u$(small)">
+    <div class="row"><section class="feature 3u 12u$(small)">
 <img class="headshot" src="images/kevlin.png"/>
 <div class="whoname">
 <img src="images/flags/gb.png" alt="gb flag" /> Kevlin Henney</div>
@@ -324,8 +302,8 @@
 <div class="who">Developer Advocate @ Hashicorp, author of <a href="https://www.amazon.co.uk/Building-Microservices-Go-Nic-Jackson/dp/1786468662">Building Microservices in Go</a></div><a href="https://twitter.com/stack72">
 <i class="fa fa-twitter follow-speaker" aria-hidden="true"></i>
 </a></section>
-</div>
-<div class="row"><section class="feature 3u 12u$(small)">
+    </div>
+    <div class="row"><section class="feature 3u 12u$(small)">
 <img class="headshot" src="images/ianco.png"/>
 <div class="whoname">
 <img src="images/flags/gb.png" alt="gb flag" /> Ian Cooper</div>
@@ -350,8 +328,8 @@
 <div class="who">Machine Learning Researcher, PhD @ University of Cambridge, Microsoft MVP</div><a href="https://twitter.com/evelgab">
 <i class="fa fa-twitter follow-speaker" aria-hidden="true"></i>
 </a></section>
-</div>
-<div class="row"><section class="feature 3u 12u$(small)">
+    </div>
+    <div class="row"><section class="feature 3u 12u$(small)">
 <img class="headshot" src="images/nburk.png"/>
 <div class="whoname">
 <img src="images/flags/de.png" alt="de flag" /> Nikolas Burk</div>
@@ -376,8 +354,8 @@
 <div class="who">Software Architect @ Zalando</div><a href="https://twitter.com/fmueller_bln">
 <i class="fa fa-twitter follow-speaker" aria-hidden="true"></i>
 </a></section>
-</div>
-<div class="row"><section class="feature 3u 12u$(small)">
+    </div>
+    <div class="row"><section class="feature 3u 12u$(small)">
 <img class="headshot" src="images/kief.png"/>
 <div class="whoname">
 <img src="images/flags/gb.png" alt="gb flag" /> Kief Morris</div>
@@ -402,8 +380,8 @@
 <div class="who">Technical Lead @ Equal Experts, AWS Certified Solutions Architect</div><a href="https://twitter.com/rajwilkhu">
 <i class="fa fa-twitter follow-speaker" aria-hidden="true"></i>
 </a></section>
-</div>
-<div class="row"><section class="feature 3u 12u$(small)">
+    </div>
+    <div class="row"><section class="feature 3u 12u$(small)">
 <img class="headshot" src="images/dorofeev.png"/>
 <div class="whoname">
 <img src="images/flags/ru.png" alt="ru flag" /> Maxim Dorofeev</div>
@@ -428,19 +406,12 @@
 <div class="who">Software Craftsman and Founder @ Codurance, author of <a href="https://www.amazon.com/Software-Craftsman-Professionalism-Pragmatism-Robert/dp/0134052501">The Software Craftsman</a></div><a href="https://twitter.com/sandromancuso">
 <i class="fa fa-twitter follow-speaker" aria-hidden="true"></i>
 </a></section>
-</div><div class="row">
-<section class="feature 12u 12u$(small)"><div class="fb-like" data-width="320" data-href="https://www.facebook.com/devternity/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
-<h5>
-</br></br>
-<a href="https://twitter.com/devternity" rel="noopener" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
-<a href="https://www.facebook.com/devternity" rel="noopener" target="_blank"><i class="fa fa-facebook"></i></a> &nbsp;&nbsp;
-<a href="http://go.devternity.com/linkedin" rel="noopener" target="_blank"><i class="fa fa-linkedin"></i></a>&nbsp;&nbsp;
-<a href="https://www.instagram.com/devternity/" rel="noopener" target="_blank"><i class="fa fa-instagram"></i></a>&nbsp;&nbsp;
-<a href="https://youtube.com/c/DevTernity" rel="noopener" target="_blank"><i class="fa fa-youtube"></i></a>                
-</h5>
-</section>
-</div>
-</div>
+    </div>
+    <div class="row">
+      <section class="feature 12u 12u$(small)">
+      </section>
+    </div>
+  </div>
 </section>
 <section class="wrapper" id="program-container">
   <div class="container">
@@ -999,7 +970,7 @@
         </div>
         <div class="row">
           <section class="12u 12u$(small)">
-            <input class="pulse" type="button" value="  Secure a seat now  " disabled ng-click="buy('https://docs.google.com/forms/d/e/1FAIpQLSezFNvjgxEfnxpSvRHy7XHdHlSG2cvTJhULCbvN12OQqUMMPg/viewform')">
+            <input class="pulse" type="button" value="Secure a seat now" style="padding: 0 1em;" disabled ng-click="buy('https://docs.google.com/forms/d/e/1FAIpQLSezFNvjgxEfnxpSvRHy7XHdHlSG2cvTJhULCbvN12OQqUMMPg/viewform')">
           </section>
         </div>
       </section>
@@ -1134,22 +1105,19 @@
 <section class="6u 12u$(small)">
 <h3>Follow Us</h3>
 <ul class="icons">
-<li><a href="https://twitter.com/devternity" class="icon rounded fa-twitter"><span class="label">Twitter</span></a></li>
-<li><a href="https://www.facebook.com/devternity" class="icon rounded fa-facebook"><span class="label">Facebook</span></a></li>
-<li><a href="http://go.devternity.com/linkedin" class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a></li>
-<li><a href="https://www.instagram.com/devternity/" class="icon rounded fa-instagram"><span class="label">Instagram</span></a></li>
-<li><a href="https://youtube.com/c/DevTernity" class="icon rounded fa-youtube"><span class="label">YouTube</span></a></li>                
-</ul>
+<li><a href="https://twitter.com/devternity"><i class="icon rounded fa fa-twitter"></i></a></li>
+<li><a href="https://www.facebook.com/devternity"><i class="icon rounded fa fa-facebook"></i></a></li>
+<li><a href="http://go.devternity.com/linkedin"><i class="icon rounded fa fa-linkedin"></i></a></li>
+<li><a href="https://www.instagram.com/devternity"><i class="icon rounded fa fa-instagram"></i></a></li>
+<li><a href="https://youtube.com/c/DevTernity"><i class="icon rounded fa fa-youtube"></i></a></li></ul>
 <ul class="tabular">
-<li>
-<h3>Mail</h3>
-<a href="mailto:{{event.contactEmail}}">{{event.contactEmail}}</a>
-</li>
-<li>
-<h3>Phone</h3>(+371) 288 14 170 🇬🇧 🇷🇺 🇱🇻
-</li>
-</ul>
-</section>
+  <li>
+    <h3>Mail</h3><a href="mailto:riga@devternity.com">riga@devternity.com</a>
+  </li>
+  <li>
+    <h3>Phone</h3>(+371) 288 14 170 🇬🇧 🇷🇺 🇱🇻
+  </li>
+</ul></section>
 </div>
 </div>
 <ul class="copyright">
