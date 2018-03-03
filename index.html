@@ -22,7 +22,6 @@
 <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 <script src="js/all.js"></script>
 <script src="https://connect.facebook.net/en_US/all.js#xfbml=1" async defer></script>
-<script type="text/javascript" src="//sgwidget.leaderapps.co/js/sendgrid-widget.js"></script>
 <script type="application/ld+json">
   {
     "@context": "http://schema.org",
@@ -51,7 +50,7 @@
           "@type": "Offer",
           "url": "https://devternity.com/registration?main",
           "name": "Main Day",
-          "validFrom": "2018-03-03T10:42:34.255Z",
+          "validFrom": "2018-03-03T13:01:16.269Z",
           "price": "299",
           "priceCurrency": "EUR",
           "availability": "http://schema.org/InStock"
@@ -60,7 +59,7 @@
           "@type": "Offer",
           "name": "Workshop",        
           "url": "https://devternity.com/registration?workshop",
-          "validFrom": "2018-03-03T10:42:34.255Z",
+          "validFrom": "2018-03-03T13:01:16.269Z",
           "price": "299",
           "priceCurrency": "EUR",
           "availability": "http://schema.org/InStock"
@@ -348,14 +347,12 @@
     </div>
     <div class="row">
       <section class="feature 12u 12u$(small)">
-        <h3 class="title">More coming soon. Subscribe for the final announcement alert:</h3>
-        <div class="sendgrid-subscription-widget" id="sendgrid-subscription-widget">
-          <form id="sg-widget" style="text-align:center;" data-token="9427e227cec782b27ebe0546caf95873" onsubmit="return false;">
-            <div class="sg-response" id="sg-response"></div>
-            <input id="email" style="width: 200px; margin: 0 auto 0.5em auto; display: inline;" type="email" name="email" placeholder="&lt;your email address&gt;">
-            <input id="sg-submit-btn" type="submit" value="Subscribe" style="padding: 0 1em 0 1em;">
-          </form>
-        </div>
+        <h3 class="title">More coming soon. Subscribe for the final announcement alert:div</h3>
+        <form class="subscribe" ng-submit="onSubscribe()">
+          <div>{{subscribeMessage}}</div>
+          <input type="email" ng-model="subscriber" placeholder="&lt;your email address&gt;">
+          <input type="submit" value="Subscribe">
+        </form>
         <h5><a href="https://twitter.com/devternity"><i class="fa fa-twitter"></i></a> &nbsp;<a href="https://www.facebook.com/devternity"><i class="fa fa-facebook"></i></a> &nbsp;<a href="http://go.devternity.com/linkedin"><i class="fa fa-linkedin"></i></a> &nbsp;<a href="https://www.instagram.com/devternity"><i class="fa fa-instagram"></i></a> &nbsp;<a href="https://youtube.com/c/DevTernity"><i class="fa fa-youtube"></i></a> &nbsp;
         </h5>
       </section>
@@ -692,13 +689,11 @@
       </section>
     </div><br>
     <h3 class="title">More coming soon. Subscribe for the final announcement alert:</h3>
-    <div class="sendgrid-subscription-widget" id="sendgrid-subscription-widget">
-      <form id="sg-widget" style="text-align:center;" data-token="9427e227cec782b27ebe0546caf95873" onsubmit="return false;">
-        <div class="sg-response" id="sg-response"></div>
-        <input id="email" style="width: 200px; margin: 0 auto 0.5em auto; display: inline;" type="email" name="email" placeholder="&lt;your email address&gt;">
-        <input id="sg-submit-btn" type="submit" value="Subscribe" style="padding: 0 1em 0 1em;">
-      </form>
-    </div>
+    <form class="subscribe" ng-submit="onSubscribe()">
+      <div>{{subscribeMessage}}</div>
+      <input type="email" ng-model="subscriber" placeholder="&lt;your email address&gt;">
+      <input type="submit" value="Subscribe">
+    </form>
     <h5><a href="https://twitter.com/devternity"><i class="fa fa-twitter"></i></a> &nbsp;                <a href="https://www.facebook.com/devternity"><i class="fa fa-facebook"></i></a> &nbsp;                <a href="http://go.devternity.com/linkedin"><i class="fa fa-linkedin"></i></a> &nbsp;                <a href="https://www.instagram.com/devternity"><i class="fa fa-instagram"></i></a> &nbsp;                <a href="https://youtube.com/c/DevTernity"><i class="fa fa-youtube"></i></a> &nbsp;                
     </h5>
   </div>
