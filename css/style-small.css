@@ -6,27 +6,15 @@
 
 /* Basic */
 
-	body, input, select, textarea {
+	body, input {
 		font-size: 12pt;
 	}
 
 /* Section/Article */
 
-	section.special, article.special {
+	section.special {
 		text-align: center;
 	}
-
-	header.major {
-		margin-bottom: 2em;
-	}
-
-		header.major h2 {
-			font-size: 2em;
-		}
-
-		header.major p {
-			padding: 1em 1em 0 1em;
-		}
 
 /* Banner */
 
@@ -51,10 +39,6 @@
 
 		.wrapper.style1 {
 			padding: 4em 2em 2em;
-		}
-
-		.wrapper.style2 {
-			padding: 4em 0em 2em;
 		}
 
 /* Footer */
