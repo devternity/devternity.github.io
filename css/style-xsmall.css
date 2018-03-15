@@ -10,7 +10,7 @@
 		min-width: 320px;
 	}
 
-	body, input {
+	body, input, select, textarea {
 		font-size: 12pt;
 	}
 
