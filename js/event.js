@@ -44,10 +44,10 @@
         },
         "benefits": {
           "Top quality": "Everything from talks to organisation is of premium quality. We are rated <span class=\"nowrap\"><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i> <em>Excellent</em></span> on <strong><a href=\"https://trustpilot.com/review/devternity.com\">TrustPilot</a></strong>.",
-          "Best speakers": "We carefully cherry-pick speakers based on the track record and community feedback. No self-promotion, marketing and Agile bullshit permitted.",
-          "Versatile topics": "It takes more than one skill to be a great developer. That's why DevTernity is cross-discipline and covers the latest developments in coding, architecture, operations, security, leadership and other core IT areas.",
+          "Best speakers": "We carefully cherry-pick speakers based on technical and public speaking skills. No self-promotion, marketing and Agile bullshit permitted.",
+          "Versatile topics": "It takes more than one skill to be a great developer. DevTernity is cross-discipline and covers the latest developments in coding, architecture, operations, security, soft skills and other important areas.",
           "Perfect theory & practice balance": "DevTernity is blend of inspiring talks and hands-on, instructor-led power workshops.",
-          "Excellent location": "DevTernity runs in the heart of the Baltics, connected by direct flights with most European airports. The location is both stunning and affordable for foreign visitors."
+          "Excellent location": "DevTernity runs in Riga – the heart of the Baltics. Riga is beautiful, affordable and easy to reach. The venue is stunning <i class=\"fa fa-map-marker\"></i> <strong><a href=\"https://www.google.lv/maps/place/Latvijas+Nacion%C4%81l%C4%81+bibliot%C4%93ka/@56.941013,24.096625,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd136321fcd:0xf716266fca1b4d9b\">National Library of Latvia</a></strong>."
         },
         "pricing": {
             "discount": {
@@ -79,22 +79,25 @@
         ],
         "sponsorship": {
           "gold": {
-            "title": "Gold Sponsors",
+            "title": "Gold Sponsor",
             "stars": 3,
             "sponsorsPerLine": 2,            
             "sponsors": [
               {
                 "logo": "4finance.png",
+                "since": "2015",
                 "link": "http://www.4financeit.com/",
-                "info": "<p><strong><a href=\"http://4financeit.com\">4financeIT</a></strong> is a distributed software house, located in Warsaw, Riga, London, Vilnius and Prague, providing software to the rest of 4finance (15 different countries).</p>"
+                "info": "<p><strong><a href=\"http://4financeit.com\">4financeIT</a></strong> is a distributed software house, located in Warsaw, Riga, London, Vilnius and Prague, providing software to the rest of 4finance in 15 different countries.</p>"
               },
               {
                 "logo": "ulabs.png",
+                "since": "2017",                
                 "link": "https://ulabs.ubnt.com",
                 "info": "<p>In <strong><a href=\"https://ulabs.ubnt.com\">ULabs Riga</a></strong>, part of global company <strong><a href=\"https://www.ubnt.com\">Ubiquiti Networks Inc.</a></strong> producing wireless networking and consumer product, we are always searching the next big thing – we reinvent existing concepts, create smart solutions and drive innovation. Sponsoring DevTernity 2018 we see as taking steps towards this \"next big thing\" because ideas are born during the interchange of opinions, knowledge, and inspiration. We are proud to be part of evolving and dynamic platform where professionals meet to broaden their horizons and change perspective.</p>"
               },
               {
                 "logo": "devchampions.png",
+                "since": "2016",
                 "link": "https://devchampions.com/",
                 "info": "<p><strong><a href=\"https://devchampions.com\">DevChampions</a></strong> offers high-quality training courses for developers and IT professionals in the Baltics. We specialize, but are not limited to engineering practices, software architecture, automation, Agile methodologies and soft skills.</p>"
               }
@@ -293,19 +296,18 @@
                     },                         
                     {
                       "time": "11:40",
-                      "tags": ["restful api", "best practices"],
-                      "name": "Dylan Beattie",
-                      "twitter": "dylanbeattie",
+                      "tags": ["startups", "soft skills", "career"],
+                      "name": "Svetlana Bozhko",
+                      "twitter": "sbozhko",
                       "type": "speech",
                       "country": "gb",
-                      "bio": "Systems Architect, Co-organiser of London .NET User Group",
-                      "long_bio": "Dylan Beattie is a systems architect and software developer, who has built everything from tiny standalone websites to large-scale distributed systems. By day, he’s the systems architect at Spotlight, where he works on HTTP APIs, distributed systems, and the architectural challenges of delivering cutting-edge online services in a company with nearly ninety years of legacy. He’s been working with Spotlight since 2000, and his first-hand experience of watching an organisation - and their code - evolving over more than a decade has given him a unique insight into how API design, distributed systems, Conway's Law, working with legacy systems, and recruitment can all influence a company’s products and culture. Alongside his work at Spotlight, Dylan is actively involved in the software development community. He’s involved in running the FullStack and Progressive.NET conferences, and is one of the organisers of the the London .NET User Group.",
-                      "title": "Real World REST and Hands-On Hypermedia",
-                      "description": "So you've built your HTTP API, and now that it's live, you're suddenly dealing with a whole new set of problems. Do you really need to PUT the entire Customer just to change someone's email address? Why does it take you 25 API calls just to render a shopping cart? How do you find the bottlenecks when just drawing a web page requires fifty HTTP requests? What happens when one of your API consumers accidentally tries to GET your entire customer database? Most of us are familiar with the architectural style known as REST, but even experienced developers often find it difficult to translate REST's architectural principles into running code. In this talk, we'll explore the elements of REST related to hypermedia and the principle of \"hypermedia as the engine of application state\" (HATEOAS) - we'll talk about why they matter, and when you might want to implement them in your own systems. We'll look at some of the tools that exist to help you design, deliver and debug your HTTP APIs, and we'll do some hands-on coding to show you what these patterns look like in a .NET web application using the HAL hypermedia application language.",
-                      "img": "images/dylan.png",
+                      "bio": "Director of Research and Engineering @ High Dimension, Entrepreneur, <a href=\"https://devzen.ru\">DevZen</a> Podcaster",
+                      "title": "Understanding Venture Capital for Developers",
+                      "description": "There is a vast difference between working in a corporate environment and a startup. Having worked closely with dozens of startups and doing tech due diligence, Svetlana will share what can go wrong if you're working as a contractor for a startup — options, equity, shares, vesting, non-compete. You will get a set of heuristics for validating the feasibility of a startup, learn to see red flags inside “the next big unicorn” and understand how to get your job agreement right. As a bonus, you will learn the essential non-technical skills you will need to succeed with a tech startup and how to develop them.",
+                      "img": "images/sveta.png",
                       "presentation": "",
                       "video": ""
-                    },                
+                    },               
                     {
                         "type": "break",
                         "time": "12:30",
@@ -388,21 +390,22 @@
                         "img": "images/keks.png",
                         "presentation": "",
                         "video": ""
-                      },   
+                      },     
                       {
                         "time": "14:50",
-                        "tags": ["startups", "soft skills", "career"],
-                        "name": "Svetlana Bozhko",
-                        "twitter": "sbozhko",
+                        "tags": ["restful api", "best practices"],
+                        "name": "Dylan Beattie",
+                        "twitter": "dylanbeattie",
                         "type": "speech",
                         "country": "gb",
-                        "bio": "Director of Research and Engineering @ High Dimension, Entrepreneur, <a href=\"https://devzen.ru\">DevZen</a> Podcaster",
-                        "title": "Understanding Venture Capital for Developers",
-                        "description": "There is a vast difference between working in a corporate environment and a startup. Having worked closely with dozens of startups and doing tech due diligence, Svetlana will share what can go wrong if you're working as a contractor for a startup — options, equity, shares, vesting, non-compete. You will get a set of heuristics for validating the feasibility of a startup, learn to see red flags inside “the next big unicorn” and understand how to get your job agreement right. As a bonus, you will learn the essential non-technical skills you will need to succeed with a tech startup and how to develop them.",
-                        "img": "images/sveta.png",
+                        "bio": "Systems Architect, Co-organiser of London .NET User Group",
+                        "long_bio": "Dylan Beattie is a systems architect and software developer, who has built everything from tiny standalone websites to large-scale distributed systems. By day, he’s the systems architect at Spotlight, where he works on HTTP APIs, distributed systems, and the architectural challenges of delivering cutting-edge online services in a company with nearly ninety years of legacy. He’s been working with Spotlight since 2000, and his first-hand experience of watching an organisation - and their code - evolving over more than a decade has given him a unique insight into how API design, distributed systems, Conway's Law, working with legacy systems, and recruitment can all influence a company’s products and culture. Alongside his work at Spotlight, Dylan is actively involved in the software development community. He’s involved in running the FullStack and Progressive.NET conferences, and is one of the organisers of the the London .NET User Group.",
+                        "title": "Real World REST and Hands-On Hypermedia",
+                        "description": "So you've built your HTTP API, and now that it's live, you're suddenly dealing with a whole new set of problems. Do you really need to PUT the entire Customer just to change someone's email address? Why does it take you 25 API calls just to render a shopping cart? How do you find the bottlenecks when just drawing a web page requires fifty HTTP requests? What happens when one of your API consumers accidentally tries to GET your entire customer database? Most of us are familiar with the architectural style known as REST, but even experienced developers often find it difficult to translate REST's architectural principles into running code. In this talk, we'll explore the elements of REST related to hypermedia and the principle of \"hypermedia as the engine of application state\" (HATEOAS) - we'll talk about why they matter, and when you might want to implement them in your own systems. We'll look at some of the tools that exist to help you design, deliver and debug your HTTP APIs, and we'll do some hands-on coding to show you what these patterns look like in a .NET web application using the HAL hypermedia application language.",
+                        "img": "images/dylan.png",
                         "presentation": "",
                         "video": ""
-                      },   
+                      },                         
                     {
                         "type": "break",
                         "time": "15:40",
