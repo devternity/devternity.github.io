@@ -70,7 +70,7 @@
               "@type": "Offer",
               "name": "Workshop",        
               "url": "https://docs.google.com/forms/d/e/1FAIpQLSezFNvjgxEfnxpSvRHy7XHdHlSG2cvTJhULCbvN12OQqUMMPg/viewform?workshop",
-              "validFrom": "2018-04-17T14:51:11.737Z",
+              "validFrom": "2018-04-17T23:24:00.046Z",
               "price": "249",
               "priceCurrency": "EUR",
               "availability": "http://schema.org/InStock"
@@ -162,7 +162,7 @@
         <h2>&nbsp;DevTernity</h2>
       </div>
       <p>The place where forward-thinking developers, pragmatic architects and engineering leaders grow.</p>
-      <p>1-2 December 2017. Riga, Latvia.</p>
+      <p>Once in a year. 1-2 December 2017. Riga, Latvia.</p>
       <ul class="actions">
         <li><a class="button big">We are fully booked</a><br><br>
           <ul class="links">
@@ -216,7 +216,15 @@
         </div>
       </div>
       <div id="trailer">
-        <input type="button" value="Watch Video Trailer" style="padding: 0 1em;" ng-click="watchPromo()">
+        <input type="button" value="See in Action" style="padding: 0 1em;" ng-click="watchPromo()">
+      </div>
+    </section>
+    <section class="wrapper align-center" data-remodal-id="venue-location">
+      <button class="remodal-close" data-remodal-action="close"></button>
+      <div class="embed-container">
+        <div>
+          <p> National Library of Latvia, Mūkusalas iela 3, Riga, LV-1423 <a href="https://www.google.lv/maps/place/Latvijas+Nacion%C4%81l%C4%81+bibliot%C4%93ka/@56.941013,24.096625,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd136321fcd:0xf716266fca1b4d9b" target="_blank"><i class="fas fa-map-marker-alt"></i></a></p><img src="images/libka.jpg" alt="National Library of Latvia" style="width:100%;">
+        </div>
       </div>
     </section>
     <section class="wrapper align-center" data-remodal-id="trailer-vimeo">
@@ -835,9 +843,9 @@
     <section class="wrapper style1 tickets align-center" id="tickets-container">
       <div class="container">
         <header>
-          <h1>Tickets</h1>
+          <h1>Tickets to the key event of the year.</h1>
           <h2></h2>
-          <p><em>We quickly run out of tickets.</em><br> Secure your seat now and feel free to change the information about the participants later.</p>
+          <p><em>This is the limited offer.</em><br><br> There is no point to wait until the last moment, because we'll charge you more. Secure your seat now. You will be able to change the information about the participants later. Free of charge.</p>
         </header>
         <div class="row">
           <section class="feature 3u 12u$(medium) 12u$(small)">
@@ -863,32 +871,6 @@
             </div>
           </section>
           <section class="feature 3u 12u$(medium) 12u$(small)">&nbsp;</section>
-        </div>
-        <div class="row">
-          <section class="feature 12u 12u$(small)">
-            <header class="discounts">
-              <div class="row">
-                <section class="feature 4u 12u$(small)">
-                  <h3 class="title"> <i class="fa fa-percent"></i> Discount for individuals</h3>
-                  <div>
-                    <p>Not backed by a company? Get in touch!</p>
-                  </div>
-                </section>
-                <section class="feature 4u 12u$(small)">
-                  <h3 class="title"> <i class="fa fa-percent"></i> Discount for meetup organisers</h3>
-                  <div>
-                    <p>Have a blog or a meetup? Get in touch!</p>
-                  </div>
-                </section>
-                <section class="feature 4u 12u$(small)">
-                  <h3 class="title"> <i class="fa fa-percent"></i> Discount for sponsors</h3>
-                  <div>
-                    <p>Want to get sponsor discount? Get in touch!</p>
-                  </div>
-                </section>
-              </div>
-            </header>
-          </section>
         </div>
       </div>
     </section>
@@ -982,7 +964,7 @@
              Let us make you happier <i class="fa fa-leaf" style="color: #4dac71;" aria-hidden="true"></i></h2>
           <div>
             <input id="email" type="email" ng-model="email"><br>
-            <input type="button" value="Receive 60€ discount" ng-click="onDiscount()" ng-disabled="!email || exitOffer.$error.email"><br><br>
+            <input type="button" value="Receive exclusive 60€ discount" ng-click="onDiscount()" ng-disabled="!email || exitOffer.$error.email"><br><br>
             <p>{{subscribeMessage}}</p><strong><a href="#" data-remodal-action="close">No, I don't want a discount.</a></strong>
           </div>
         </form>
