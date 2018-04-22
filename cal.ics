@@ -3,9 +3,9 @@ VERSION:2.0
 CALSCALE:GREGORIAN
 PRODID:DevTernity 2018
 BEGIN:VEVENT
-UID:922a8a83-2941-438a-b833-a70e7277ad76
+UID:4d9fc414-531d-49c5-ac86-47f71c309143
 SUMMARY:Crafting Code (Sandro Mancuso)
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181201T090000Z
 DTEND:20181201T180000Z
 DESCRIPTION:This course is designed to help developers get better at Test-Driven Development and write well-crafted code—code that is clean, testable, maintainable, and an expression of the business domain. The course is entirely hands-on, designed to teach developers practical techniques they can immediately apply to real-world projects.\n\nSoftware Craftsmanship is at the heart of this course. Throughout, you will learn about the Software Craftsmanship attitude to development and how to apply it to your workplace. Writing Clean Code is difficult. Cleaning existing code, even more so. You should attend if you want to\: * Write clean code that is easy to understand and maintain\n * Become more proficient in Test-Driven Development\: using tests to design and build your code base\n * Focus your tests and production code according to business requirements using Outside-In TDD\n * Understand design principles that lead to clean code\n * Avoid over-engineering and large rewrites by incrementally evolving your design using tests\n\n\n\nOnce you have an understanding of the principles at work, we will apply them to Legacy Code to help you gain confidence in improving legacy projects through testing, refactoring and redesigning. The course is fully hands-on and developers will be writing a lot of code.
@@ -15,9 +15,9 @@ CATEGORIES:clean-code,tdd,refactoring
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:bc659321-42dd-4b79-aee2-5c9ae1da916b
+UID:109d1bd2-3565-49a6-8bcf-d01573719f61
 SUMMARY:Programming with Kotlin (Venkat Subramaniam)
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181201T090000Z
 DTEND:20181201T180000Z
 DESCRIPTION:The strength of Kotlin is that it has drawn from wonderful features that have been teased out and tried successfully in many languages. Kotlin provides sensible syntax and semantics to create highly concise code. It is a language that just feels right in many areas.\n\nIn this hands-on workshop, which has a good balance of lecture and practice exercises, you will learn the language by working on exercises. You will start with a set of unit tests that are commented out. As you take one test at a time, you will write minimum code in Kotlin to make the tests pass. Along the way you'll learn various features of the language. The workshop walk you through the fundamentals, the advanced concepts, and how to create DSLs using Kotlin.\n\nBring your own laptop, and let's get you ready for writing Kotlin applications!
@@ -27,9 +27,9 @@ CATEGORIES:kotlin,jvm,java developers
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:af5d92c2-87e5-48ed-94e7-ae739e3eb847
+UID:14903667-1209-47f3-b3cc-e58dd8a5a083
 SUMMARY:Practical DDD for Java Developers (Jakub Nabrdalik)
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181201T090000Z
 DTEND:20181201T180000Z
 DESCRIPTION:Domain-Driven Design (aka DDD) is a methodology and set of architectural best practices aimed to reduce complexity of sophisticated business applications. This course is designed to get you familiarised with the key principles of DDD using practical examples in modern Java and Spring Framework.\n\nDuring this course designed for Java developers and architects, you will learn and understand\:\n\n * What is DDD, why it’s important and how to use it effectively\n * What is CQRS and Event Sourcing and how it fits nicely with DDD\n * How domain modelling in DDD is different to classic relational data modelling\n * DDD building blocks – Aggregate Roots, Value Objects and how to map them with JPA\n * How to drive application state through interfaces\n * How to craft Domain Specific Languages (DSLs) that simplify our code (and where is it worth the effort)\n * How to use Bounded Contexts to split your app into smaller services\n * How to integrate Bounded Contexts using Domain Events, Shared Kernel and Anticorruption Layer\n * How to talk with domain experts using Ubiquitous Language\n * …and much more!\n\nBring your own laptop, and let's get you ready for writing amazing DDD/CQRS applications!
@@ -39,9 +39,9 @@ CATEGORIES:software architecture,domain-driven design,cqrs,spring
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:867f9a40-7daa-4239-ab26-4500dae78a4b
+UID:148a72f3-4702-4736-b956-05eb5889db41
 SUMMARY:Jedi Techniques of Personal Effectiveness (Maxim Dorofeev)
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181201T090000Z
 DTEND:20181201T180000Z
 DESCRIPTION:This practical workshop will equip you with necessary skills for accomplishing more, with less stress and efforts, and bring you closer to the work-life balance on a win-win basis. After the training, you will know how to achieve more at work and personal life simultaneously (instead of conventional view\: “one at the expense of another”).\n\nIn a simple and entertaining way, you will learn\:  * How do our minds work? Daniel Kahneman’s and Tim Urban’s models.\n * What does instant gratification monkey do in my head and how to tame it? \n * What cognitive biases are and how they affect our day-to-day work?\n * The concept of limited Mindfuel and how to save it\n * Why some ToDo lists do not help and how to create ToDo list that (finally) works\n * Methods of “Magic fairy” and “Rational flaneur”\n * How to succeed in a highly uncertain environment and how to make uncertainty your best friend\n * How technology hijacks our minds. The concept of information overload and how to prevеnt it.\n * How to deal with tasks and commitments under tight deadlines and high uncertainty\n * ...and much more!\n\nMore than 50% of workshop time is devoted to practice, exercises and discussions. The workshop offers concrete, ready-to-use improvement recipes for daily work.
@@ -51,9 +51,9 @@ CATEGORIES:productivity,getting things done,smarter working
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:cf7709a5-61c0-47e5-84f6-a076e5b15234
+UID:2888a91d-6700-4456-9e22-d54e9f930529
 SUMMARY:Serverless Architecture and AWS Lambda (Yan Cui)
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181201T090000Z
 DTEND:20181201T180000Z
 DESCRIPTION:This course is designed to get you familiarised with the basics of AWS Lambda and the Serverless framework quickly, and then deep dive into the operational challenges with running a serverless architecture in production and the emerging patterns and practices to tackle them.\n\nThis is a hands-on course where we will build a simple e-commerce site from scratch, using a number of services in the AWS ecosystem including (but not limited to) Lambda, API Gateway, Kinesis and Cognito User Pools. Expect to learn the basics of AWS Lambda and the Serverless framework in the first hour or so, which would allow us to move on to\:\n\n * Creating APIs with API Gateway and Lambda\n * Real-time stream processing with Kinesis and Lambda\n * Authentication and authorization\n * Testing strategies\n * Local debugging\n * Continuous Integration, Deployment and Delivery\n * Project organization\n * Managing shared code and shared infrastructure\n * \n * Log aggregation and monitoring\n * Distributed tracing using X-Ray\n * Performance and cost optimization\n * Error handling\n * Configuration management\n * Working with VPCs\n * Canary deployments\n\nBring your own laptop, open an AWS account, and install VisualStudio Code and the Serverless framework and let's get you ready for running a serverless architecture in production!
@@ -63,9 +63,9 @@ CATEGORIES:aws lambda,amazon web services,serverless
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:bf1ae2e9-c0ce-4878-b218-b4078a76fab2
+UID:efa27099-6985-478a-b886-43c2114cca4c
 SUMMARY:Registration and Coffee
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181130T080000Z
 DTEND:20181130T090000Z
 URL:https://devternity.com
@@ -74,9 +74,9 @@ CATEGORIES:
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:a0c29e00-2689-4c71-99d5-fdbdcef324dc
+UID:599e2b0b-bc35-4235-a921-2976fa2abca1
 SUMMARY:Conference Opening
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181130T090000Z
 DTEND:20181130T091500Z
 URL:https://devternity.com
@@ -85,9 +85,9 @@ CATEGORIES:
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:e620a7cc-09ae-4ea9-b1c9-9d2448cbec0e
+UID:7ccc7cf6-18f3-47c9-acf6-6895588ff4f0
 SUMMARY:12 Ways to Make Code Suck Less (Venkat Subramaniam)
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181130T091500Z
 DTEND:20181130T101000Z
 DESCRIPTION:We all have seen our share of bad code and some really good code as well. What are some of the common anti patterns that seem to be recurring over and over in code that sucks? By learning about these code smells and avoiding them, we can greatly help make our code better.
@@ -97,9 +97,9 @@ CATEGORIES:opening keynote,clean code,tips & tricks
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:d19a9853-4ea8-4018-b95f-45edd307be30
+UID:ba97df03-04e2-4d3e-a871-d0399db9e21b
 SUMMARY:Coffee Break
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181130T101000Z
 DTEND:20181130T103000Z
 URL:https://devternity.com
@@ -108,9 +108,9 @@ CATEGORIES:
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:15acac11-ed5d-4d8f-b7b6-c67b02e9a255
+UID:262bcd54-0529-442a-9ff8-55e7bfe7c54f
 SUMMARY:(Track 1) Blockchain – The Slowest and Most Fascinating Database in the World (Stefan Tilkov)
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181130T103000Z
 DTEND:20181130T112000Z
 DESCRIPTION:As the foundation of Bitcoin's virtual currency, the blockchain technique is now the starting point for numerous new business ideas. The usual suspects surpass each other with superlatives how "disruptive" the Blockchain based startups will be. In this talk, we look first at the technical foundations and then examine the advantages and disadvantages. We then identify practical scenarios and discuss how to implement them in practice.
@@ -120,9 +120,9 @@ CATEGORIES:bitcoin,ethereum,smart contracts
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:31b4b0a0-1156-4a6b-8045-826885181280
+UID:9892a5e3-e009-4223-bf62-d68e1d4a63a2
 SUMMARY:(Track 2) Secure by Design – the Architect’s Guide to Security Design Principles (Eoin Woods)
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181130T103000Z
 DTEND:20181130T112000Z
 DESCRIPTION:Security is an ever more important topic for system designers. As our world becomes digital, today’s safely-hidden back office system is tomorrow’s public API, open to anyone on the Internet with a hacking tool and time on their hands. So the days of hoping that security is someone else’s problem are over. The security community has developed a well understood set of principles used to build systems that are secure (or at least securable) by design, but this topic often isn’t included in the training of software developers, assuming that it’s only relevant to security specialists. In this talk, we will briefly discuss why security needs to be addressed as part of architecture work and then introduce a set of proven principles for the architecture of secure systems, explaining each in the context of mainstream system design, rather than in the specialised language of security engineering. Our technical examples will be Java centric, but the principles are equally applicable to other technology stacks.
@@ -132,9 +132,9 @@ CATEGORIES:key principles,best practices,architecture
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:347985b9-39d3-438d-b880-900dc72fb708
+UID:7782cf1d-740d-4f9a-94fc-71bdbbd50c25
 SUMMARY:(Track 3) Serverless in Production – an Experience Report (Yan Cui)
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181130T103000Z
 DTEND:20181130T112000Z
 DESCRIPTION:In this talk Yan Cui shares his experience of migrating an existing monolithic architecture for a social network to AWS Lambda, and how it empowered a small team to deliver features quickly and how they address operational concerns such as CI/CD, logging, monitoring and config management. This sessions draws on my experience leading a team that transformed our entire architecture in under 6 months, where we also managed to cut cost by over 90%, and increased production deployments from 4-6 per month to 80-100 per month. We did that whilst coming up with solutions to those common operational concerns to ensure we not only run a serverless architecture in production, but we do so responsibly. The audience should have basic understanding of how AWS Lambda works, and are aware of some popular AWS services like DynamoDB, Kinesis, S3. I’m the best person to speak on the subject as I lead the team on this migration and were responsible for large parts of the actual implementation, and as the architect I was also responsible for our entire architecture (and the first one to be woken up at night if things go wrong!). I have written extensively on the operational aspect of working with AWS Lambda, and my work has been regularly referenced by the AWS Lambda team including talks at re\:invent, as well as the new Serverless Well Architected whitepaper.
@@ -144,9 +144,9 @@ CATEGORIES:aws lambda,best practices,case study
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:351672e5-ead3-42c1-ab72-e63ad2d7b228
+UID:7b5b685d-9c64-4f76-a40d-3513273e7436
 SUMMARY:Coffee Break
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181130T112000Z
 DTEND:20181130T114000Z
 URL:https://devternity.com
@@ -155,9 +155,9 @@ CATEGORIES:
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:4f0367fd-7bb0-42cc-8422-6766d985732c
+UID:4daec187-bdd2-413b-819a-1d5ba0b7d14f
 SUMMARY:(Track 1) Does TDD Really Lead to Good Design? (Sandro Mancuso)
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181130T114000Z
 DTEND:20181130T123000Z
 DESCRIPTION:"TDD is a design tool." That’s what Sandro has said for years. But not anymore. After working with different teams and in different organisations, and also carefully inspecting how he works, Sandro changed his mind about the role of TDD in software design. In this talk Sandro will explain the pros and cons of the two main styles of TDD when it comes to software design, he'll discuss why some developers can test-drive well-crafted code while others can’t, and he'll also explain how to reason about design decisions.
@@ -167,9 +167,9 @@ CATEGORIES:clean code,advanced,no slides
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:af6da13f-bf93-44c7-aba9-d28028892fcb
+UID:90992a90-b4e8-40e4-9880-7aa239456166
 SUMMARY:(Track 2) The Secret Sauce of Successful Teams (Sven Peters)
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181130T114000Z
 DTEND:20181130T123000Z
 DESCRIPTION:Every software team writes code, but some teams produce fewer bugs than others. Every software team creates new features, but some teams develop features users love and others don't. What do high performance teams do differently, and why are team members more focused, satisfied and relaxed? They truly work together. No 10x programmer can achieve what a well rounded, enthusiastic team can. Sven Peters, Technical Evangelist, will examine how the best software teams set and follow goals, integrate new members fast, ensure diversity, monitor and continually improve team health, embrace transparency, use a playbook to guide them through every phase of development and much more! He shares techniques including\: bugfix rotations, OKRs, feature buddies, open demos, focus days, sanity checks and many more that help teams and team members to work more effectively together, and produce awesome results.
@@ -179,9 +179,9 @@ CATEGORIES:leadership,teamwork,tips & tricks
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:4ec627cd-645d-4e00-b4d3-4570f83ac818
+UID:78406074-fafc-4b31-886c-8a44d2b43090
 SUMMARY:(Track 3) Understanding Venture Capital for Developers (Svetlana Bozhko)
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181130T114000Z
 DTEND:20181130T123000Z
 DESCRIPTION:There is a vast difference between working in a corporate environment and a startup. Having worked closely with dozens of startups and doing tech due diligence, Svetlana will share what can go wrong if you're working as a contractor for a startup — options, equity, shares, vesting, non-compete. You will get a set of heuristics for validating the feasibility of a startup, learn to see red flags inside “the next big unicorn” and understand how to get your job agreement right. As a bonus, you will learn the essential non-technical skills you will need to succeed with a tech startup and how to develop them.
@@ -191,9 +191,9 @@ CATEGORIES:startups,soft skills,career
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:b73b1594-2aac-439a-8898-43f29ed7cd94
+UID:16d88ac0-09cd-47e7-9801-1acdffb98a90
 SUMMARY:Long Break
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181130T123000Z
 DTEND:20181130T134000Z
 URL:https://devternity.com
@@ -202,9 +202,9 @@ CATEGORIES:
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:aa5069c8-51ea-452b-a090-c2de0c06be25
+UID:00e591e5-afcd-4d49-89c1-ae08355ab2b2
 SUMMARY:(Track 1) Designing for Performance (Martin Thompson)
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181130T134000Z
 DTEND:20181130T143000Z
 DESCRIPTION:What does it really mean to design software for high-performance? Performance is such a generic and misunderstood subject. In this talk the subject of software performance will be explored. We will focus on what is means to achieve sufficient response times, throughput, and scalability. Once the theory is out of the way we will dig into how modern hardware works and what we need to know about abstractions mapping to our software designs. These abstractions are the key to the models our code represents. The author has not meet many abstraction layers he did not enjoyed violating. There is a good reason for this. So many of our abstractions are leaky or just plain wrong.
@@ -214,9 +214,9 @@ CATEGORIES:low-latency,high performance,best practices
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:3e3223cb-f5b7-4023-bfdf-5bda37c1f680
+UID:6cf214e1-c355-44e8-b51b-2a6932100032
 SUMMARY:(Track 2) Mixed Reality Development and Best Practices (René Schulte )
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181130T134000Z
 DTEND:20181130T143000Z
 DESCRIPTION:The year 2018 is the year of Mixed Reality with devices like the Microsoft HoloLens which are turning science fiction movie technology into reality. Through live code demos, you will leave this session understanding advanced development topics like Hand Proximity Interactions to create even more compelling HoloLens applications. Rene will demonstrate some of the apps he and his team worked on since 2015, and share how they were able to overcome challenges. His best practices and recommendations will help you avoid pit falls, and show you how to take your own Mixed Reality apps to the next level.
@@ -226,9 +226,9 @@ CATEGORIES:hololens,augmented reality,live demo
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:5202b325-6e62-490f-b820-6c008c58df3f
+UID:d7962f1d-4b40-44aa-9dfc-70910f8f2a4a
 SUMMARY:(Track 3) Functional Design Patterns (Scott Wlaschin)
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181130T134000Z
 DTEND:20181130T143000Z
 DESCRIPTION:In object-oriented development, we are all familiar with design patterns such as the Strategy pattern and Decorator pattern, and design principles such as SOLID. The functional programming community has design patterns and principles as well. This talk will provide an overview of some of these patterns (such as currying, monads), and present some demonstrations of FP design in practice. We'll also look at some of the ways you can use these patterns as part of a domain driven design process, with some simple real world examples in F#. No jargon, no maths, and no prior F# experience necessary.
@@ -238,9 +238,9 @@ CATEGORIES:design patterns,fsharp,lots of code
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:9e4bee05-2b82-44d0-9fce-dd92e6c186c1
+UID:28fcd4d8-24cd-41a5-a43c-91380ee34a85
 SUMMARY:Coffee Break
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181130T143000Z
 DTEND:20181130T145000Z
 URL:https://devternity.com
@@ -249,9 +249,9 @@ CATEGORIES:
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:3c6639d6-b083-4147-a000-54a8e73145ce
+UID:3b0c6876-573c-4d39-b1bb-f7f186963195
 SUMMARY:(Track 1) The Way of a Jedi: How to Get Started (Maxim Dorofeev)
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181130T145000Z
 DTEND:20181130T154000Z
 DESCRIPTION:There are huge amount of different techniques and methodologies of self-organisation and personal effectiveness. However, most of them are flawed, because they do not take into account that the world is unpredictable, people are different and “knowing how to be effective” and “being affective” are not quite the same thing. In this talk, Maxim will show not “yet another personal effectiveness methodology” but the methodology that may help you to build your own one. Be ready to become more productive after this talk!
@@ -261,9 +261,9 @@ CATEGORIES:productivity,getting things done
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:3260fc24-bb68-4d8f-a70e-f9525d83114d
+UID:947d2f0f-e98f-4db1-97a6-6ab2933e05d5
 SUMMARY:(Track 2) Kotlin in Real Projects: Pragmatic Opinion on Pragmatic Language (Anton Keks)
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181130T145000Z
 DTEND:20181130T154000Z
 DESCRIPTION:Kotlin is a marvelous JVM language that many have waited for. While we already have Java 8 and some people have migrated away from JVM while waiting for a more productive language, Kotlin finally is here, promising lots of good stuff, but still allowing us to use the cross-platform and highly optimized JVM and many of familiar frameworks. However, nothing comes without drawbacks. There have been some controversial decisions while designing the language that affect what is convenient to do in the language and what is not so. Moreover, Kotlin is yet to deliver many of its promises, like compilation speed. In this talk I'll talk about real life experience of using Kotlin in an Agile way, the obstacles that you may encounter and how to overcome them.
@@ -273,9 +273,9 @@ CATEGORIES:real experience,pros and cons
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:5ad60731-8a4b-4571-9f52-65d754b3b24f
+UID:36afc382-bdb2-414a-a129-a1a3c4fcd442
 SUMMARY:(Track 3) Real World REST and Hands-On Hypermedia (Dylan Beattie)
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181130T145000Z
 DTEND:20181130T154000Z
 DESCRIPTION:So you've built your HTTP API, and now that it's live, you're suddenly dealing with a whole new set of problems. Do you really need to PUT the entire Customer just to change someone's email address? Why does it take you 25 API calls just to render a shopping cart? How do you find the bottlenecks when just drawing a web page requires fifty HTTP requests? What happens when one of your API consumers accidentally tries to GET your entire customer database? Most of us are familiar with the architectural style known as REST, but even experienced developers often find it difficult to translate REST's architectural principles into running code. In this talk, we'll explore the elements of REST related to hypermedia and the principle of "hypermedia as the engine of application state" (HATEOAS) - we'll talk about why they matter, and when you might want to implement them in your own systems. We'll look at some of the tools that exist to help you design, deliver and debug your HTTP APIs, and we'll do some hands-on coding to show you what these patterns look like in a .NET web application using the HAL hypermedia application language.
@@ -285,9 +285,9 @@ CATEGORIES:restful api,best practices
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:f6438073-941b-45e0-a884-3ba60cdfedd1
+UID:37bc2e77-2ba1-4a7b-87bc-6fb2275e6d57
 SUMMARY:Coffee Break
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181130T154000Z
 DTEND:20181130T160000Z
 URL:https://devternity.com
@@ -296,9 +296,9 @@ CATEGORIES:
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:be10417f-c42f-4a21-b6a4-2726fc29e855
-SUMMARY:(Track 1) 10 Tips for Failing at Microservices (David Schmitz)
-DTSTAMP:20180422T171400Z
+UID:5b10b936-dd6b-4291-8fe9-601f44cf4734
+SUMMARY:(Track 1) 10 Tips for Failing Badly at Microservices (David Schmitz)
+DTSTAMP:20180422T171800Z
 DTSTART:20181130T160000Z
 DTEND:20181130T165000Z
 DESCRIPTION:Microservices are just a bunch hip new framework plus some AngularJS frontend or React, right? So, if you want to make sure that you absolutely and definitely fail at your Microservice project, then watch this talk and learn how. Using real world experience from multiple green field and brown field projects, I can show you how to ignore the mandatory organizational impact, how to focus on the code only without any regard towards ops and testing, why continuous deployment is for losers, why jumping onto every new and untested framework is a must, why event-sourcing and CQRS are both free lunches and now you can add complexity without any real need, and more! \nIf you mind my tips, then surely you will fail at Microservices and your boss will never again try to move away from your beloved vintage monolith.
@@ -308,9 +308,9 @@ CATEGORIES:architecture,anti-patterns,rant
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:a2eaad9f-33c9-49f3-8fa8-c0a4116a359e
+UID:817a298a-c515-4d0a-9450-37dbab426206
 SUMMARY:(Track 2) <i class="fas fa-clock"></i> architecture talk pending (Jakub Nabrdalik)
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181130T160000Z
 DTEND:20181130T165000Z
 URL:https://devternity.com
@@ -319,9 +319,9 @@ CATEGORIES:
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:687f26a6-ced8-4f02-94ac-6b0100a91aba
+UID:f1a1e22f-c101-41ce-9992-710a8ed81336
 SUMMARY:(Track 3) <i class="fas fa-clock"></i> kubernetes talk pending (Ray Tsang)
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181130T160000Z
 DTEND:20181130T165000Z
 URL:https://devternity.com
@@ -330,9 +330,9 @@ CATEGORIES:
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:7ca55fdd-0d68-4459-b9f4-3d689189826e
+UID:fdb58b59-9f49-45a1-9aa3-0ce1fa01cc8a
 SUMMARY:Coffee Break
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181130T165000Z
 DTEND:20181130T171000Z
 URL:https://devternity.com
@@ -341,9 +341,9 @@ CATEGORIES:
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:04e84ba7-c8a7-4eb5-8ba3-4aa3b4b82832
+UID:2312d1d4-9a00-4072-983b-1f9fa5a8c182
 SUMMARY:Coffee Break
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181130T180000Z
 DTEND:20181130T182000Z
 URL:https://devternity.com
@@ -352,9 +352,9 @@ CATEGORIES:
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:f0e37835-be76-40fb-9879-762939174283
+UID:58b93827-01b8-4152-82cd-cbba7ca8fc11
 SUMMARY:Final Words
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181130T191000Z
 DTEND:20181130T193000Z
 URL:https://devternity.com
@@ -363,9 +363,9 @@ CATEGORIES:
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:4e547926-a833-439d-958e-8bf4857e84f9
+UID:58a71cc1-69fc-47f2-9449-38579662f70f
 SUMMARY:Beer Afterparty
-DTSTAMP:20180422T171400Z
+DTSTAMP:20180422T171800Z
 DTSTART:20181130T193000Z
 DTEND:20181130T230000Z
 URL:https://devternity.com
