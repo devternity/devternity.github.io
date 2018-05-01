@@ -871,11 +871,11 @@
       <section id="exitOffer" data-remodal-id="exitOffer">
         <form ng-controller="ExitOfferController" name="exitOffer">
           <h2>
-             Let us make you happier <i class="fa fa-leaf" style="color: #4dac71;" aria-hidden="true"></i></h2>
+             Lucky you! Here is the secret deal <i class="fas fa-user-secret" aria-hidden="true"></i></h2>
           <div>
             <input id="email" type="email" ng-model="email"><br>
-            <input type="button" value="Receive exclusive 60€ discount" ng-click="onDiscount()" ng-disabled="!email || exitOffer.$error.email"><br><br>
-            <p>{{subscribeMessage}}</p><strong><a href="#" data-remodal-action="close">No, I don't want a discount.</a></strong>
+            <input type="button" value="Receive limited 60€ discount" ng-click="onDiscount()" ng-disabled="!email || exitOffer.$error.email"><br><br>
+            <p>{{subscribeMessage}}</p><strong><a href="#" data-remodal-action="close">No, thanks. Already have a my ticket.</a></strong>
           </div>
         </form>
       </section>
