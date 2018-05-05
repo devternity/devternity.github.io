@@ -56,25 +56,7 @@
           "@type": "Organization",
           "name": "DevTernity",
           "sameAs": "https://devternity.com/"
-        },  
-        "offers": [
-          {
-              "@type": "Offer",
-              "url": "https://devternity.com/registration?main",
-              "name": "Main Day",
-              "price": "299",
-              "priceCurrency": "EUR",
-              "availability": "http://schema.org/InStock"
-            },  
-          {
-              "@type": "Offer",
-              "name": "Workshop",        
-              "url": "https://devternity.com/registration?workshop",
-              "price": "299",
-              "priceCurrency": "EUR",
-              "availability": "http://schema.org/InStock"
-            }      
-        ],
+        },
         "location": {
           "@type": "Place",
           "address": {
@@ -790,25 +772,13 @@
              &nbsp;</section>
           <section class="tick feature 8u 12u$(medium) 12u$(small)">
             <div class="row nopadding">
-              <section class="4u 12u$(small)">
-                <h3 class="product fade-attention">Main Day <br><span>299 </span>
-                  <strike>399</strike>€<br><i class="fas fa-battery-half"></i>
-                </h3>
-              </section>
-              <section class="4u 12u$(small)">
-                <h3 class="product fade-attention">Power Workshop <br><span>299 </span>
-                  <strike>415</strike>€<br><i class="fas fa-battery-quarter"></i>
-                </h3>
-              </section>
-              <section class="4u 12u$(small)">
-                <h3 class="product attention">2-Days Super Pack <br>🚀<span class="fa-layers fa-fw fa-3x best"><i class="fas fa-certificate" style="color:#ffffff;"></i><i class="fas fa-certificate" style="color:#e2333f;" data-fa-transform="shrink-1"></i><span class="fa-layers-text fa-inverse" data-fa-transform="shrink-11.5 rotate--30">BEST             </span></span><span>599 </span>
-                  <strike>799</strike>€<br><i class="fas fa-battery-quarter"></i>
-                </h3>
+              <section class="4u 12u$(small)" ng-repeat="product in event.pricing.products">
+                <h3 class="product" ng-class="{'attention' : product.attention, 'fade-attention': !product.attention}">{{product.name}}<br><span ng-if="!product.sold_out &amp;&amp; event.status == 'on_sale'"><span ng-if="product.attention">🚀</span><span class="fa-layers fa-fw fa-3x best" ng-if="product.attention"><i class="fas fa-certificate" style="color:#ffffff;"></i><i class="fas fa-certificate" style="color:#e2333f;" data-fa-transform="shrink-1"></i><span class="fa-layers-text fa-inverse" data-fa-transform="shrink-11.5 rotate--30">BEST</span></span><span>{{product.price}} </span>
+                    <strike>{{product.price + product.extra}}</strike>€<br><i class="fas" ng-class="product.battery"></i></span><span ng-if="product.sold_out || event.status == 'booked'">SOLD OUT</span></h3>
               </section>
             </div>
             <div class="row">
-              <section class="12u 12u$(small)"><a class="button pulse" href="https://devternity.com/registration" style="padding: 0 0.5em;">Register now and save 200€</a>
-              </section>
+              <section class="12u 12u$(small)"><a class="button pulse" ng-if="event.status != 'booked'" href="{{event.register}}" style="padding: 0 0.5em;">Register now and save {{event.pricing.products[2].extra}}€</a></section>
             </div>
           </section>
           <section class="feature 2u 12u$(medium) 12u$(small)">&nbsp;</section>
