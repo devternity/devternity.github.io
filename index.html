@@ -148,7 +148,7 @@
       <p>Turning developers into architects and engineering leaders since 2015.</p>
       <p>30 Nov – 1 Dec 2018. Riga, Latvia.</p>
       <ul class="actions">
-        <li><a class="button big pulse" ng-click="slideTo('#tickets-container')">Take me with you</a><br><br>
+        <li><a class="button big pulse" ng-click="slideTo('#tickets-container')">Get tickets</a><br><br>
           <timer end-time="1543561200000">We start in <strong style="color: white;">{{days}} day{{daysS}}, {{hours}} hour{{hoursS}}, {{minutes}} minutes {{seconds}} seconds</strong></timer>
         </li>
       </ul>
@@ -158,46 +158,16 @@
         <header>
           <h2></h2>
           <p>
-             DevTernity is the top tech conference in Europe. </p>
+             DevTernity is the top tech conference in Latvia, ranked among Top 20 tech conferences in Europe.</p>
           <h2></h2>
           <p>
              We turn developers into architects and engineering leaders since 2015.</p>
           <p></p>
           <h2></h2>
-          <h2></h2>
-          <p>Here you learn more than on other conferences. We focus on the core areas that are paramount to your success — software architecture, clean code and leadership. All noise is removed and can be learned elsewhere.</p>
+          <p>Here you learn more than on other conferences. We focus on the core areas that are paramount to your success — <em>software architecture</em> <em>clean code</em> and <em>leadership</em>. All noise is removed and can be learned elsewhere.</p>
         </header>
-        <h2>Why the best developers choose DevTernity?</h2>
-        <div class="row 200% why">
-          <section class="6u 12u$(small) align-left">
-            <h3><i class="fa fa-check-circle" aria-hidden="true"></i> Trusted by architects and engineering leaders</h3>
-            <p>83% of conference attendees are top-level professionals — senior developers, software architects and engineering leaders. They are great at making choices. Trust those who is already at the top.</p>
-          </section>
-          <section class="6u 12u$(small) align-left">
-            <h3><i class="fa fa-check-circle" aria-hidden="true"></i> Learn from industry influencers</h3>
-            <p>Tired of Captain Obvious, marketing and Agile bullshit? We, too. We only invite speakers with outstanding technical and public speaking skills. Any exceptions, such as sponsored talks? Sorry, not at this conference.</p>
-          </section>
-          <section class="6u 12u$(small) align-left">
-            <h3><i class="fa fa-check-circle" aria-hidden="true"></i> Know more than your competitors</h3>
-            <p>In just two days, you will learn much more than your competitors, who attend narrow-focused conferences. Start preparing for the role of software architect, engineering leader or CTO today.</p>
-          </section>
-          <section class="6u 12u$(small) align-left">
-            <h3><i class="fa fa-check-circle" aria-hidden="true"></i> Earn certificate of attendance</h3>
-            <p>After the conference, we issue an official, nice, laminated certificate of accomplishment, confirming the attendance of the conference. Use it for boosting your credibility, enrich your LinkedIn profile or build a nice certificate wall.</p>
-          </section>
-          <section class="6u 12u$(small) align-left">
-            <h3><i class="fa fa-check-circle" aria-hidden="true"></i> Visit beautiful Riga</h3>
-            <p>Riga, the capital of Latvia, is one of the top destinations in Europe. Beautiful, well-located, ranked among the top 10 fastest internet cities in the world. Our venue, <strong><a ng-click="seeVenue()">the Castle of Light</a></strong>, has won International Excellence Award 2018. This is a must-see.</p>
-          </section>
-          <section class="6u 12u$(small) align-left">
-            <h3><i class="fa fa-check-circle" aria-hidden="true"></i> And more!</h3>
-            <p><a class="button" href="why.html">25 reasons why you must be here</a></p>
-          </section>
-        </div>
       </div>
-      <div id="trailer">
-        <input type="button" value="See in Action" style="padding: 0 1em;" ng-click="watchPromo()">
-      </div>
+      <div><a class="button" href="why.html">25 reasons why developers choose DevTernity</a></div>
     </section>
     <section class="wrapper align-center" data-remodal-id="venue-location">
       <button class="remodal-close" data-remodal-action="close"></button>
@@ -768,20 +738,14 @@
           <p><em>This is the limited offer.</em><br><br> There is no point to wait until the last moment, because we'll charge you more. Secure your seat now. You will be able to change the information about the participants later. Free of charge.</p>
         </header>
         <div class="row">
-          <section class="feature 2u 12u$(medium) 12u$(small)">
-             &nbsp;</section>
-          <section class="tick feature 8u 12u$(medium) 12u$(small)">
-            <div class="row nopadding">
+          <section class="tick feature 12u 12u$(medium) 12u$(small)">
+            <div class="row">
               <section class="4u 12u$(small)" ng-repeat="product in event.pricing.packages | packages">
-                <h3 class="product" ng-class="{'attention' : product.attention, 'fade-attention': !product.attention}">{{product.name}}<br><span ng-if="!product.sold_out &amp;&amp; event.status == 'on_sale'"><span ng-if="product.attention">🚀</span><span class="fa-layers fa-fw fa-3x best" ng-if="product.attention"><i class="fas fa-certificate" style="color:#ffffff;"></i><i class="fas fa-certificate" style="color:#e2333f;" data-fa-transform="shrink-1"></i><span class="fa-layers-text fa-inverse" data-fa-transform="shrink-11.5 rotate--30">BEST</span></span><span>{{product.price}} </span>
-                    <strike>{{product.price + product.extra}}</strike>€<br><i class="fas" ng-class="product.battery"></i></span><span ng-if="product.sold_out || event.status == 'booked'">SOLD OUT</span></h3>
+                <h3 class="product" ng-class="{'attention' : product.attention, 'fade-attention': !product.attention}"><span style="font-weight: bolder;">{{product.name}}</span><br><span ng-if="!product.sold_out &amp;&amp; event.status == 'on_sale'"><span ng-if="product.attention">🚀</span><span class="fa-layers fa-fw fa-3x best" ng-if="product.attention"><i class="fas fa-certificate" style="color:#ffffff;"></i><i class="fas fa-certificate" style="color:#e2333f;" data-fa-transform="shrink-1"></i><span class="fa-layers-text fa-inverse" data-fa-transform="shrink-11.5 rotate--30">BEST</span></span><span>{{product.price}} </span>
+                    <strike>{{product.price + product.extra}}</strike>€<br><i class="fas" style="font-size: 40px;" ng-class="product.battery"></i><br><a class="button" ng-if="event.status != 'booked'" href="{{event.register}}" style="padding: 0 0.5em; width: auto;">Buy</a></span><span ng-if="product.sold_out || event.status == 'booked'">SOLD OUT</span></h3>
               </section>
             </div>
-            <div class="row">
-              <section class="12u 12u$(small)"><a class="button pulse" ng-if="event.status != 'booked'" href="{{event.register}}" style="padding: 0 0.5em;">Register now and save 200€</a></section>
-            </div>
           </section>
-          <section class="feature 2u 12u$(medium) 12u$(small)">&nbsp;</section>
         </div>
       </div>
     </section>
@@ -820,7 +784,7 @@
             <p>DevTernity is organised with love <i class="fa fa-heart" style="color: red;" aria-hidden="true"></i> and care <i class="fa fa-leaf" style="color: #4dac71;" aria-hidden="true"></i>  by the leaders of Latvian software craftsmanship community: </p><img class="lazy" data-src="images/team.jpg" style="width: 100%;">
           </section>
           <section class="6u 12u$(small)">
-            <h3> <em>Connect on socials:</em></h3>
+            <h3>Let's stay connected:</h3>
             <ul class="icons">
               <li><a href="https://twitter.com/devternity"><i class="fab fa-twitter"></i></a></li>
               <li><a href="https://meetup.com/devternity"><i class="fab fa-meetup"></i></a></li>
