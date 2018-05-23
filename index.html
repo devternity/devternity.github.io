@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html class="lt-ie9" lang="en" ng-app="devternity" ng-controller="LandingPageController">
   <head>
+    <base href="/">
     <meta charset="UTF-8">
     <title>🚀 DevTernity 2018 – The Top Tech Conference in Europe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,6 +25,7 @@
     <script src="css/ie/html5shiv.js"></script><![endif]-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-route.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-timer/1.3.3/angular-timer.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/2.2.0/skel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js"></script>
@@ -32,7 +34,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/skel-layers/2.2.0/skel.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
     <script src="js/exit.js"></script>
-    <script src="js/all.js?purge"></script>
+    <script src="js/all.js?purgee"></script>
     <script src="https://connect.facebook.net/en_US/all.js#xfbml=1" async defer></script>
     <script type="application/ld+json">
       {
@@ -795,7 +797,7 @@
             <div class="row">
               <section class="4u 12u$(small)" ng-repeat="product in event.pricing.packages | packages">
                 <h3 class="product" ng-class="{'attention' : product.attention, 'fade-attention': !product.attention}"><span style="font-weight: bolder;">{{product.name}}</span><br><span ng-if="!product.sold_out &amp;&amp; event.status == 'on_sale'"><span ng-if="product.attention">🚀</span><span class="fa-layers fa-fw fa-3x best" ng-if="product.attention"><i class="fas fa-certificate" style="color:#ffffff;"></i><i class="fas fa-certificate" style="color:#e2333f;" data-fa-transform="shrink-1"></i><span class="fa-layers-text fa-inverse" data-fa-transform="shrink-11.5 rotate--30">BEST</span></span><span>{{product.price}} </span>
-                    <strike>{{product.price + product.extra}}</strike>€<br><i class="fas" style="font-size: 40px;" ng-class="product.battery"></i><br><a class="button" ng-if="event.status != 'booked'" href="{{event.register}}" style="padding: 0 0.5em; width: auto;">Buy</a></span><span ng-if="product.sold_out || event.status == 'booked'">SOLD OUT</span></h3>
+                    <strike>{{product.price + product.extra}}</strike>€<br><i class="fas" style="font-size: 40px;" ng-class="product.battery"></i><br><a class="button" ng-if="event.status != 'booked'" ng-click="moveTo(event.register)" style="padding: 0 0.5em; width: auto;">Buy</a></span><span ng-if="product.sold_out || event.status == 'booked'">SOLD OUT</span></h3>
               </section>
             </div>
           </section>
