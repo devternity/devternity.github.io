@@ -13,6 +13,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="//cdn.auth0.com/js/auth0/9.5.1/auth0.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/localStorage/2.0.1/localStorage.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.1/clipboard.min.js"></script>
     <script src="//connect.facebook.net/en_US/all.js#xfbml=1" async defer></script>
     <link rel="shortcut icon" type="image/png" href="images/logo_2017_filled.png">
     <link rel="icon" href="/images/favicon.png">
@@ -70,6 +71,7 @@
           <div class="step-details">
             <p class="step-title">Get a unique sharing link</p>
             <p class="logged-only" id="uniqueLink"></p>
+            <button class="button is-hidden logged-only" id="copyLink">Copy to clipboard</button>
           </div>
         </div>
         <div class="step-item is-info">
@@ -164,6 +166,12 @@
      var uniqueLink = $('#uniqueLink');
      var profile = $('#profile')
     
+     new ClipboardJS('#copyLink', {
+         text: function(trigger) {
+             return uniqueLink.text();
+         }
+     });
+    
      function isAuthenticated() {
        var expiresAt = JSON.parse(localStorage.getItem('expires_at'));
        return new Date().getTime() < expiresAt;
@@ -201,12 +209,11 @@
          $('.logged-only').removeClass('is-hidden');
          $('.step-item').addClass('is-completed');
          profile.text('Hey ' + localStorage.getItem('name') + '!')
-         uniqueLink.text(theLink())
+         uniqueLink.text(theLink())          
        } else {
          $('.step-item').removeClass('is-completed');               
          $('.anonym-only').removeClass('is-hidden');
          $('.logged-only').addClass('is-hidden');
-       
        }
      }    
     
