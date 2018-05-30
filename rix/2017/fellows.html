@@ -86,7 +86,7 @@
         </div>
       </div>
       <p>
-         You can also convince your colleagues to go to DevTernity and <b>share profits</b>.</p>
+         You can also convince your colleagues to go to DevTernity and <b>share profits </b><i class="fas fa-users"> </i></p>
       <div class="logged-only">
         <h3>How can I boost my earnings?</h3>
         <p>
@@ -111,7 +111,38 @@
           <label for="lncheck">LinkedIn</label><a class="check button is-small" id="ln" href="" target="_blank">
             <div class="icon"><i class="fab fa-linkedin-in"></i></div><span>Share</span></a>
         </div>
-        <div class="notification is-info">We recommend sharing the message on your timeline, in groups and pages. Don't forget to @mention friends!          </div>
+        <div class="notification is-info">We recommend sharing the message on your timeline, in groups and pages. Don't forget to @mention friends!</div>
+        <div class="field">
+          <input class="is-checkradio is-circle" type="checkbox" id="qucheck" name="qucheck" checked="checked">
+          <label for="qucheck">Recommend DevTernity on Quora</label><a class="check button is-small" href="https://www.quora.com/What-are-the-best-developer-conferences-to-attend-in-2017-1" target="_blank">
+            <div class="icon"><i class="fab fa-quora"></i></div><span>Here</span></a>&nbsp;<a class="check button is-small" href="https://www.quora.com/What-are-the-best-tech-conferences-in-Europe" target="_blank">
+            <div class="icon"><i class="fab fa-quora"></i></div><span>Here</span></a> and   <a class="check button is-small" href="https://www.quora.com/What-are-the-best-developer-conferences-to-attend-in-2018" target="_blank">
+            <div class="icon"><i class="fab fa-quora"></i></div><span>Here</span></a>
+        </div>
+        <div class="field">
+          <input class="is-checkradio is-circle" type="checkbox" id="meetup" name="meetup" checked="checked">
+          <label for="meetup">
+             Recommend on a  <a href="https://meetup.com" target="_blank">Meetup.com</a> group</label>
+        </div>
+        <div class="field">
+          <input class="is-checkradio is-circle" type="checkbox" id="colleagues" name="colleagues" checked="checked">
+          <label for="colleagues">Recommend to your colleagues in a chat, corporate wiki or Yammer</label>
+        </div>
+        <div class="field">
+          <input class="is-checkradio is-circle" type="checkbox" id="gh" name="gh" checked="checked">
+          <label for="gh">Add DevTernity shield to you GitHub project:</label><br><br><img src="https://devternity.com/shields/recommends.svg">
+          <blockquote><code id="ghRecommends"></code></blockquote><br><img src="https://devternity.com/shields/fellow.svg">
+          <blockquote><code id="ghFellow"></code></blockquote>
+        </div>
+        <div class="field">
+          <input class="is-checkradio is-circle" type="checkbox" id="lg" name="lg" checked="checked">
+          <label for="lg">
+             Add <a href="https://github.com/devternity/graphics" target="_blank">DevTernity logo</a> to your website</label>
+        </div>
+        <div class="field">
+          <input class="is-checkradio is-circle" type="checkbox" id="blog" name="blog" checked="checked">
+          <label for="blog">Write a blog post            </label>
+        </div>
       </div>
       <h3>How much can I earn?</h3>
       <p>The math is simple. You get 50 EUR per registered 2-day attendee. For a 1-day attendee, you get half the premium.</p>
@@ -205,6 +236,8 @@
          $("#tw").attr('href', 'https://twitter.com/intent/tweet?text=The most waited tech conference of the year is coming. Are you in?&hashtags=techconference,tech,technology,devternity&url=' + theLink());
          $("#gp").attr('href', 'https://plus.google.com/share?url=' + theLink());
          $("#ln").attr('href', 'https://www.linkedin.com/shareArticle?mini=true&url=' + theLink() + '&title=DevTernity is coming! &summary=The most waited tech conference of the year is coming. Are you in?&source=');
+         $("#ghRecommends").text('[![DevTernity recommends](https://devternity.com/shields/recommends.svg)](' + theLink() + ')');
+         $("#ghFellow").text('[![DevTernity fellow](https://devternity.com/shields/fellow.svg)](' + theLink()  + ')');
          $('.anonym-only').addClass('is-hidden');
          $('.logged-only').removeClass('is-hidden');
          $('.step-item').addClass('is-completed');
