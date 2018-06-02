@@ -3,9 +3,9 @@ VERSION:2.0
 CALSCALE:GREGORIAN
 PRODID:DevTernity 2017
 BEGIN:VEVENT
-UID:a12be5de-f8f2-41bc-aef7-19dcc84b4afd
+UID:cad26119-1f2b-4611-9033-54448d3e1fdd
 SUMMARY:Patterns and Anti-Patterns of Enterprise DevOps (Roy Osherove)
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171202T090000Z
 DTEND:20171202T180000Z
 DESCRIPTION:DevOps is the implementation of continuous delivery and agile concepts across the organization, focusing on pipelines as the main building blocks for delivery value internally and to the customer.\n\nBut getting to that state is complicated because it requires several facets of work\: People, process and tools. In large organizations, we have the added complexity. In large organizations, we have the added complexity of\: * Multiple dependencies and sub systems\n * Multiple teams, groups, business units with competing interests\n * Varying degrees of agility, culture, tools, technologies and processes\n * Security, compliance and policy gates\n\nIn this workshop, we will discuss main patterns and anti-patterns for adopting and implementing DevOps pipelines throughout the organization, that scale\: * Defining DevOps and Enterprise DevOps Pipelines\n * Defining Current Challenges & Pain points\n * Continuous Integration vs Continuous Delivery\n * Enterprise vs small scale DevOps challenges\n * Software defined everything\n * Value Streaming (intro, exercises, bottlenecks, anti-patterns & root causes)\n * Infrastructure as Code\n * Ephemeral Environments\n * Pipelines\n * Parent pipelines and child pipelines\n * Adoption (proofs of value, templating, patterns & anti-patterns, planning)
@@ -15,9 +15,9 @@ CATEGORIES:
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:ccb0e83f-4090-4ea7-aa58-89547cdae120
+UID:09a5a1f4-a8a5-4853-a02d-65a552e4aebe
 SUMMARY:Agile Architecture (Kevlin Henney)
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171202T090000Z
 DTEND:20171202T180000Z
 DESCRIPTION:Every system has an architecture, whether accidental or intentional, and regardless of whether it was put in place by a nominated architect or whether it emerged from the decisions and discussions of a team. All too often the focus of what is often described as architecture is centred around a specific set of platform technologies, which forms only one part of the set of concerns an architecture should. And all too often architecture is seen as a separate concern from development process, whereas the two are intertwined — what you build is influenced by how you build it, and vice versa. This course looks at the relationship between Agile processes and good architecture, taking in development process models, architectural styles, requirements techniques, sufficient modelling techniques, design patterns and testing practices. This course includes a number of practical exercises so that attendees can see how the different activities fit together.\n\nThe course covers a wide range of topics through a number of practical exercises, with plenty of time dedicated to group discussion\:\n\n * The relationship between development process and architecture\n * The roles and failure modes of testing, modelling and technology platforms\n * Different architectural styles and design patterns\n * How to transform product vision into architecture\n * Future-proofing your architecture, and accounting for uncertainty\n * How to ground your architecture and avoid overdesign\n * ...and much more!
@@ -27,9 +27,9 @@ CATEGORIES:
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:5a472f61-8bf9-4302-9bb4-859ef44a718e
+UID:1d8dba0d-318b-46f2-9387-338afd989bbc
 SUMMARY:Practical Machine Learning with Functional Programming (Evelina Gabasova)
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171202T090000Z
 DTEND:20171202T180000Z
 DESCRIPTION:Welcome to the 'Practical Machine Learning with Functional Programming' workshop!\n\nThis will be a hands-on workshop, so be sure to come with a laptop. You’ll also need to install F# with an editor of your choice. To get that, follow the instructions on http\://fsharp.org/ for Mac, Windows or Linux. On Mac, we recommend VS Code or Xamarin Studio\; on Windows, we recommend VS Code or Visual Studio.\n\nIf you’re using Atom or VS Code, follow the installation instructions in 'Getting started' on the Ionide page (http\://ionide.io/). You'll need to install mono (Mac and Linux) or F# (Windows) and Atom/VS Code itself. Then install the ionide-installer package.\n\nAnd that’s all, no previous experience with F# or machine learning is needed!
@@ -39,9 +39,9 @@ CATEGORIES:
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:5c5af215-dfad-4ce8-9c15-780379719eca
+UID:e6aea5ab-ca3a-42e0-ada3-7adec4c121d7
 SUMMARY:Resilient Software Design in Theory and Practice (Uwe Friedrichsen)
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171202T090000Z
 DTEND:20171202T180000Z
 DESCRIPTION:To make the complex, distributed and highly interconnected system landscapes of today robust, responsive and highly available, we need to implement resilience into them at application level. Many patterns for implementing resilience into an application exist. The daunting questions are how to slice (design) an application and which patterns to pick and combine in order to match your specific needs best.\n\nThis workshop will address those questions in three parts\: * In the first part you will learn about the challenges how to design applications in a resilient way, get an overview about the resilience pattern landscape, learn some of the most important patterns and when to apply them.\n * In the second part you will have the opportunity to apply the just learned contents to a real-life case study and design and discuss your own resilient solution.\n * In the last part we will complete the workshop with a peek in some complementing topics, like some advanced patterns, a resilient design cycle and how to introduce the topic into the software development process.\n\n\n\nAfter this workshop, you will have a much deeper understanding how to design a solution that satisfies your specific robustness needs.
@@ -51,9 +51,9 @@ CATEGORIES:
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:45417986-729a-451d-ab79-61232bd084f7
+UID:5cf81a46-9f61-4369-bce5-258faccb624a
 SUMMARY:Crafting Code (Sandro Mancuso)
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171202T090000Z
 DTEND:20171202T180000Z
 DESCRIPTION:This course is designed to help developers get better at Test-Driven Development and write well-crafted code—code that is clean, testable, maintainable, and an expression of the business domain. The course is entirely hands-on, designed to teach developers practical techniques they can immediately apply to real-world projects.\n\nSoftware Craftsmanship is at the heart of this course. Throughout, you will learn about the Software Craftsmanship attitude to development and how to apply it to your workplace. Writing Clean Code is difficult. Cleaning existing code, even more so. You should attend if you want to\: * Write clean code that is easy to understand and maintain\n * Become more proficient in Test-Driven Development (TDD)\: using tests to design and build your code base\n * Focus your tests and production code according to business requirements using Outside-In TDD (a.k.a. the London School of TDD)\n * Understand design principles that lead to clean code\n * Avoid over-engineering and large rewrites by incrementally evolving your design using tests\n\n\n\nOnce you have an understanding of the principles at work, we will apply them to Legacy Code to help you gain confidence in improving legacy projects through testing, refactoring and redesigning. The course is fully hands-on and developers will be writing a lot of code.
@@ -63,9 +63,9 @@ CATEGORIES:
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:39eb3f26-2bc6-4d38-8b38-c789448247c2
+UID:206dcc68-06b4-4017-973b-fdb283c8dde8
 SUMMARY:Building Event-Sourcing and CQRS Applications with Spring (Jakub Pilimon)
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171202T090000Z
 DTEND:20171202T180000Z
 DESCRIPTION:In this hands-on workshop, together with Jakub you're gonna build a fully featured distributed system from a scratch using Spring Boot and Spring Cloud Stream. During the whole day we will learn\:\n\n * Why's and How's behind Event Sourcing and CQRS\n * How to rewrite a Domain-Driven-Design-like app to event-sourced model with pure Java (almost)\n * How to unit test objects backed by event sourcing\n * How to leverage CQRS to eliminate accidental complexity in our domain model\n * How to build simple Process Managers in a distributed system\n * How to use messaging and Spring Cloud Stream to achieve loose coupling\n * What are Kafka Streams and why they are awesome\n * ...and much more!\n\nRequirements\:\n\n 1. Java 8\n 2. Maven\n 3. Your best IDE\n\nAdditional Requirements (not needed, but will help)\:\n\n 1. Kafka installed on your machine. It is really easy to start\: https\://kafka.apache.org/quickstart. Can be as docker image.\n\nBefore workshop please\:\n\n 1. git clone https\://gitlab.com/pilloPl/devternity-event-sourcing.git\n 2. git clone https\://gitlab.com/pilloPl/devternity-event-listener.git\n 3. mvn clean install (if does not work please drop me a line at jakub.pilimon@gmail.com)\n 4.
@@ -75,9 +75,9 @@ CATEGORIES:
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:1ff7c40c-989a-4bc3-859e-fcb3ebe81314
+UID:124a3fc1-4757-4ddc-8a68-fd2ac28a6963
 SUMMARY:Modern Infrastructure with the HashiStack (Paul Stack)
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171202T090000Z
 DTEND:20171202T180000Z
 DESCRIPTION:This is a comprehensive, engineer led course that covers building infrastructure in an IaC (Infrastructure as Code) fashion, using HashiCorp's Packer and Terraform tools. Topics include\: * Terraform and Packer syntax, internals, and patterns\n * Creating and accessing compute instances\n * Provisioning resources with Terraform\n * Working with remote state\n * Managing DNS with Terraform\n * Continuous delivery of machine images with Packer\n * Learn how to safely provision and manage infrastructure lifecycle with Terraform and Packer!
@@ -87,9 +87,9 @@ CATEGORIES:
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:e4aac355-f413-46c1-ba38-5df16e7f8428
+UID:594ee351-93d1-43d1-8e34-3382373e13a8
 SUMMARY:Registration and Coffee
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T080000Z
 DTEND:20171201T090000Z
 URL:https://devternity.com
@@ -98,9 +98,9 @@ CATEGORIES:
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:78824d7c-32f0-48ef-9603-d777353442ae
+UID:aa6bde31-b29b-436f-a340-306db6d945da
 SUMMARY:Conference Opening
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T090000Z
 DTEND:20171201T091500Z
 URL:https://devternity.com
@@ -109,9 +109,9 @@ CATEGORIES:
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:cf6de158-51f5-40a5-80c5-12b5899427d5
+UID:5d045c3b-d6e0-472e-9a83-3723f30a2098
 SUMMARY:The Error of Our Ways (Kevlin Henney)
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T091500Z
 DTEND:20171201T101000Z
 DESCRIPTION:What happens when things break? What happens when software fails? We regard it as a normal and personal inconvenience when apps crash or servers become unavailable, but what are the implications beyond the individual user? Is software reliability simply a business decision or does it have economic, social and cultural consequences? What are the moral and practical implications for software developers? And when we talk of 'systems', are we part of the 'system'? What about the bugs on our side of the keyboard? In this talk we will explore examples of failures in software and its application, and how they affect us at different scales, from user to society.
@@ -121,9 +121,9 @@ CATEGORIES:opening keynote,general programming,software issues
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:b543705d-cd15-4835-b001-6d52e2137b42
+UID:767c6027-f2a5-4339-b511-1722e42af751
 SUMMARY:Coffee Break
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T101000Z
 DTEND:20171201T103000Z
 URL:https://devternity.com
@@ -132,9 +132,9 @@ CATEGORIES:
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:e3fd849c-eaab-4424-b421-20c929050a84
+UID:9e81d4bf-16b0-4421-a815-8df396ea6d77
 SUMMARY:(Track 1) How Much Do You Cost? (Yegor Bugayenko)
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T103000Z
 DTEND:20171201T112000Z
 DESCRIPTION:We all want to make more money, being programmers, senior programmers, architects. How to get more money doing the same amount of work and spending the same amount of time is always a big question. There are a number of key points, which you have to pay attention to if you want to boost your profile as a software engineer and increase your salary or your hourly rate. At the presentation we will go through all of them, illustrated by practical examples and real CVs I’ve been getting over the last five years from over 300 programmers.
@@ -144,9 +144,9 @@ CATEGORIES:career,salary,cv,self-development
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:7db0980d-bee5-4b8b-b050-d3086ccdfb67
+UID:733d8962-cd7b-4082-961c-919da53fc2d5
 SUMMARY:(Track 2) The 7 Quests of Resilient Software Design (Uwe Friedrichsen)
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T103000Z
 DTEND:20171201T112000Z
 DESCRIPTION:Resilient software design is around for some years meanwhile. Still, there seems to be a mismatch between popularity and progress - while patterns and libraries are quite well known for a while, only little progress in terms of creating better robust applications seems to be made. In this session we will examine the probably biggest obstacles and pitfalls on our way towards creating resilient systems. You will learn what they are, how you identify them and what you can do about it. After all, it is still a long way to become a resilient software designer...
@@ -156,9 +156,9 @@ CATEGORIES:resilience,distributed systems,patterns
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:7fbe2c08-1240-4e65-8b86-a8cacd8c2967
+UID:9cc7dadb-408f-4f1f-8966-939a45cd7087
 SUMMARY:(Track 3) Nomad: Scheduling Applications at Scale (Nic Jackson)
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T103000Z
 DTEND:20171201T112000Z
 DESCRIPTION:Tools like Docker and rkt make it easier than ever to package and distribute applications. Unfortunately, not all organizations have the luxury of being able to package their applications in a container runtime. Many organizations have virtualized workloads that cannot be easily containerized, such as applications that require full hardware isolation or virtual appliances. On the opposite end of the spectrum, some organizations deploy workloads that are already static binaries such as Go applications or Java applications that only rely on the JVM. These types of applications do not benefit from containerization as they are already self-contained. To address the growing heterogeneity of workloads, HashiCorp created Nomad – a globally aware, distributed scheduler and cluster manager. Nomad is designed to handle many types of workloads, on a variety of operating systems, at massive scale. Nomad empowers developers to specify jobs and tasks using a high-level specification in a plain-text file. Nomad accepts the job specification, parses the information, determines which compatible hosts have available resources, and then automatically manages the placement, healing, and scaling of the application. By placing multiple applications per host, Nomad maximizes resource utilization and dramatically reduces infrastructure costs. The flexibility of Nomad’s design brings the benefits of a scheduled application workflow to organizations with heterogeneous workloads and operating systems. This talk will discuss the pros and cons of running in a scheduled environment and includes a series of live demos to supplement the learning experience.
@@ -168,9 +168,9 @@ CATEGORIES:docker,containers,workload management
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:f3969b81-3665-47c4-a5b5-04b026d318b3
+UID:2caea352-8167-4378-9722-e07c8c07dd62
 SUMMARY:Coffee Break
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T112000Z
 DTEND:20171201T114000Z
 URL:https://devternity.com
@@ -179,9 +179,9 @@ CATEGORIES:
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:78a80b65-6e80-429a-8f72-c848f75c1091
+UID:d65580d2-7ddc-4823-883d-4b55424edeb9
 SUMMARY:(Track 1) TDD, Where Did It All Go Wrong (Ian Cooper)
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T114000Z
 DTEND:20171201T123000Z
 DESCRIPTION:Since Kent Beck wrote the book on TDD in 2002 a lot of words have been dedicated to the subject. But many of them propogated misunderstandings of Kent's original rules so that TDD practice bears little resemblance to Kent's original ideas. Key misunderstandings around what do I test, what is a unit test, and what is the 'public interface' have led to test suites that are brittle, hard to read, and do not support easy refactoring. In this talk we re-discover Kent's original proposition, discover where key misunderstandings occured and look at a better approach to TDD that supports sofware development instead of impeding it. Be prepared from some sacred cows to be slaughtered and fewer but better tests to be written.
@@ -191,9 +191,9 @@ CATEGORIES:better testing,bdd,clean code,refactoring
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:82498919-3b46-47c7-8dca-9387ab2a0f81
+UID:77c412ec-e93b-4f3a-9f28-3250393779b8
 SUMMARY:(Track 2) Machine Intelligence at Google Scale: Vision/Speech (Guillaume Laforge)
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T114000Z
 DTEND:20171201T123000Z
 DESCRIPTION:The biggest challenge of Deep Learning technology is the scalability. As long as using single GPU server, you have to wait for hours or days to get the result of your work. This doesn't scale for production service, so you need a Distributed Training on the cloud eventually. Google has been building infrastructure for training the large scale neural network on the cloud for years, and now started to share the technology with external developers. In this session, we will introduce new pre-trained ML services such as Cloud Vision API and Speech API that works without any training. Also, we will look how TensorFlow and Cloud Machine Learning will accelerate custom model training for 10x - 40x with Google's distributed training infrastructure.
@@ -203,9 +203,9 @@ CATEGORIES:deep learning,tensorflow,live demo
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:6310bd72-7969-42bc-a636-54ef1b77d4c4
+UID:bd5dce9f-b363-453f-8ff7-7d698e20ec1c
 SUMMARY:(Track 3) Journey from Monolith to Microservices and DevOps by WIX (Aviran Mordo)
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T114000Z
 DTEND:20171201T123000Z
 DESCRIPTION:Wix.com started the journey toward DevOps and a microservices solution about 5 years ago when we switched from a monolithic application to a microservices-based system—a transition that took two full years to complete, with many lessons learned along the way. Today, Wix successfully operates over 200 microservices on a battle-tested production environment. In this talk, we will cover why Continuous Delivery and DevOps are important requirements for microservices, discuss guidelines for a good microservice architecture, explain why YAGNI and KISS are important and how operational concerns (DevOps) affect the design of a microservices architecture, as well as give some recommendations on the best way to transition from a monolithic to a microservices architecture.
@@ -215,9 +215,9 @@ CATEGORIES:case study,software architecture,organisation scalability
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:d416cbca-86ac-400e-9c1a-1ec9678c9f78
+UID:4528c80f-45e9-45bc-8602-84bea2853c18
 SUMMARY:Lunch Break
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T123000Z
 DTEND:20171201T134000Z
 URL:https://devternity.com
@@ -226,9 +226,9 @@ CATEGORIES:
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:c9fb5c95-315f-45e7-97fc-8e7f192ead79
+UID:eec4f892-fbfa-4fee-a887-3330cac3ba60
 SUMMARY:(Track 1) Exploring StackOverflow Data with Machine Learning (Evelina Gabasova)
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T134000Z
 DTEND:20171201T143000Z
 DESCRIPTION:When you’re stuck while programming - who you gonna call? StackOverflow! It’s an invaluable source of daily help to many. Interestingly, you can also download the entire data dump of StackOverflow and let machine learning loose on the dataset. In the talk I’ll look at what we can learn from the crowdsourced knowledge of developers worldwide. Meanwhile, you will also learn about ideas behind some machine learning algorithms that can give us insights into complex data - and also how does it all relate to cancer research! I will use a combination of statistical computing language R with functional language F# to show how you can easily access and process large-scale data the functional way.
@@ -238,9 +238,9 @@ CATEGORIES:unique insights,machine learning,f sharp
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:877e55c9-92a2-41c2-8c39-1b3306a41136
+UID:6f7718e1-2fdd-4699-8cd4-a5bd5b463d6f
 SUMMARY:(Track 2) REST in Peace - Modern API Design with GraphQL (Nikolas Burk)
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T134000Z
 DTEND:20171201T143000Z
 DESCRIPTION:GraphQL is riding the hype wave right now. Yet many developers don't understand how they could benefit from it or where it fits into their stack. I'll introduce core concepts and give a practical demo how you can use GraphQL with React & Apollo. I'll also outline major advantages of GraphQL so you can convince your manager and developer friends to use it in your next project.
@@ -250,9 +250,9 @@ CATEGORIES:api,react,live demo
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:9b3a8e3d-369c-4d18-96b7-35eeab6f78ab
+UID:2e762cbf-929e-404b-a4bc-996a6c9d9034
 SUMMARY:(Track 3) An Introduction to Chaos Engineering (Paul Stack)
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T134000Z
 DTEND:20171201T143000Z
 DESCRIPTION:Chaos Engineering is methodology that experiments on a distributed system in order to build confidence that the system will work well in production. Essentially, we experiment by trying to break our system to uncover system weakness. In this talk, Paul will cover the basics of Chaos Engineer, give some case studies of companies that currently do this in production and give an introduction to some of the open source tooling that currently exists so that you can maybe try this at your company. Paul will also show that, by following good infrastructure management practices, that you can recover and scale the system when necessary, easily!
@@ -262,9 +262,9 @@ CATEGORIES:distributed systems,stress testing,simian army
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:1e67223b-971a-439d-bcad-3542176d6680
+UID:93a52167-d89d-4361-adda-c6c194b215ab
 SUMMARY:Coffee Break
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T143000Z
 DTEND:20171201T145000Z
 URL:https://devternity.com
@@ -273,9 +273,9 @@ CATEGORIES:
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:d9f791d7-bb1c-4083-9125-564dd0cbeba4
+UID:f09c52ca-c99e-433c-b7d6-57662f71d222
 SUMMARY:(Track 1) Mid-sized Building Blocks & Hexagonal Architecture (Jakub Nabrdalik)
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T145000Z
 DTEND:20171201T154000Z
 DESCRIPTION:Do you know why the default scope in Java is package-private? Because that's what designers thought should be the most popular scope. Is that the scope you most often see? Probably not. Somehow Java devs became crazy communists-capitalists, recognising only private and public access, and preferring public everywhere. And so our projects look like a lawn right after snow melts\: full of shit laying in public. Hard to put into your head. Hard to reason about. Entanglement instead of encapsulation. People even register every possible class in an IoC container, because FU (nctional) programming, that's why. You wanna find something in my code? Google it. Or how about inheritance? James Gosling asked in 2001 about what he would do differently if he had a chance to recreate Java, said he would probably remove class inheritance. We are in 2016, having lambdas, defaults on interfaces, AOP and other tricks, but young developers still prefer to just add another abstract class to your code. Gonna be fun navigating those seven layers of hell when you read it. Ok, maybe it's not THAT bad, but it's not much better either. The problem of course, is that we all start with tutorials, which cut corners for brevity. And we don't pay attention to those small problems till they hit us hard. Let's see how we can make our situation a little bit better, using Domain Driven Design, package-private scope, sensible packaging structure, and CQRS on microservices. Because it is actually easier, than not doing it. Real life project examples included.
@@ -285,9 +285,9 @@ CATEGORIES:code organisation,layering,java
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:c9504995-30d9-4cda-aa5a-642adc668be5
+UID:83b6b7ea-b511-48e8-9544-56d0873ee01f
 SUMMARY:(Track 2) Scaling Architecture @ Zalando (Felix Müller)
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T145000Z
 DTEND:20171201T154000Z
 DESCRIPTION:Zalando introduced Radical Agility last year\: an organizational concept which fosters autonomous teams. By building your organization on autonomous teams, you may wonder how architecture works takes place in such an environment - especially with a separate architecture team. Architecture should not become a bottleneck. In this talk I show, how we try to achieve shared understanding regarding architecture across our organization by facilitating architectural principles and forming guilds. You will hear about our most important guidelines, why we have them and which technical challenges arise by them.
@@ -297,9 +297,9 @@ CATEGORIES:case study,enterprise architecture,radical agility
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:6c437762-ce17-4d62-9ca2-3ea3b644d84d
+UID:daa57114-3e5c-4abe-ac50-5a0b1651198e
 SUMMARY:(Track 3) Implementing Infrastructure as Code (Kief Morris)
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T145000Z
 DTEND:20171201T154000Z
 DESCRIPTION:Infrastructure as Code (IaC) is the "A(utomation)" in the DevOps "CALMS" model. It treats dynamic infrastructure as a software system, which means development tools and agile practices like TDD, CI, and CD can be used. Most development and operations teams are making at least some use of IaC tools such as cloud, Chef, Puppet, Ansible, Terraform, etc. But not many are using them to their full potential. This talk explains some of the core challenges of managing infrastructure in a fully automated way, and shares principles and patterns for addressing them. The talk walks through a number of patterns for implementing IaC tools such as AWS, Chef, Puppet, Ansible, and Terraform, to build a change management pipeline to automatically test and apply configuration to infrastructure. The patterns are not tool-specific, so should be useful for any team using these types of tools. Attendees should come away with an understanding of how concepts such as Continuous Integration (CI), Continuous Delivery (CD), Test Driven Development (TDD) can be applied to infrastructure.
@@ -309,9 +309,9 @@ CATEGORIES:devops,automation,patterns
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:211dad25-6514-44cb-a672-0201277696be
+UID:401d3139-730e-48b2-96f2-9f6cae530239
 SUMMARY:Coffee Break
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T154000Z
 DTEND:20171201T160000Z
 URL:https://devternity.com
@@ -320,9 +320,9 @@ CATEGORIES:
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:3cdb9ecc-338f-4d51-a534-c36cc90f499e
+UID:da206cbb-54d4-474a-adb6-b55f1bf6237c
 SUMMARY:(Track 1) Team Leadership in the Age of Agile (Roy Osherove)
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T160000Z
 DTEND:20171201T165000Z
 DESCRIPTION:In this talk Roy explores the three maturity stages of a software team, and how a team leader can adjust their leadership type based on the current phase the team is in. Roy explores common mistakes and techniques team leaders can take to make sure their team gets on the road to craftsmanship and maturity in software development.
@@ -332,9 +332,9 @@ CATEGORIES:team leadership,self-organisation,soft skills
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:701e4062-3f67-44b5-8400-11ab1354b3b0
+UID:a0217b0c-e946-4639-b039-aab6273923f6
 SUMMARY:(Track 2) Refactoring to Event-Sourcing – No Slides, Just Code (Jakub Pilimon)
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T160000Z
 DTEND:20171201T165000Z
 DESCRIPTION:Tired of fancy abstractions without actual down to earth implementation? In this talk we will go through some benefits of having event-sourced model on a real example. This is full-time live coding and we will start from a simple Spring Boot based OOP application and turn it upside down with events. Basic knowledge about DDD and/or OOP is welcome!
@@ -344,9 +344,9 @@ CATEGORIES:java,ddd,cqrs,live-coding
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:43e11bcd-0e4b-40e9-a16d-9436678b71ec
+UID:fd02cebf-1ec1-4b6d-b003-7d38f827167d
 SUMMARY:(Track 3) Using AWS Lambda and Azure Functions to Develop Serverless Apps (Raj Singh)
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T160000Z
 DTEND:20171201T165000Z
 DESCRIPTION:In this session we will look at how you can develop applications using AWS Lambda and Azure Functions, create a deployment pipeline and monitor your applications written on those two platforms. We will go through real examples of how they are used and share the experience of working with the two technologies in production. The talk will be supported with live demos with tips on setting up a continuous deployment pipeline and working with both technologies.
@@ -356,9 +356,9 @@ CATEGORIES:serverless,architecture,live demo
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:43eb62d5-0498-4352-8c09-79e058b4492a
+UID:4a869923-cd5b-4fe0-994b-13567d3164ea
 SUMMARY:Coffee Break
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T165000Z
 DTEND:20171201T171000Z
 URL:https://devternity.com
@@ -367,9 +367,9 @@ CATEGORIES:
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:14656109-5c79-4415-8116-f1e840cf8aae
+UID:3067062b-5a0f-46ca-8b34-34371ac874df
 SUMMARY:(Track 1) Jedi Techniques of Personal Effectiveness (Maxim Dorofeev)
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T171000Z
 DTEND:20171201T180000Z
 DESCRIPTION:During the last ten years (at least) I was deliberately thinking about what makes us productive, creative and gives us the effectiveness. I came to several counter-intuitive conclusions\: – we're often late because we're trying to save time. - we're uncertain about some things, because we have too much information. - we're too slow, because we try to do them faster. During my talk I'm going to illustrate this in more details and show how it can be explained from the point of view of modern cognitive science as well as ancient wisdom. And of course the way to become more productive will be shown.
@@ -379,9 +379,9 @@ CATEGORIES:productivity,getting things done,smarter working
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:72e49e1f-f69d-47dc-baf9-456d59a2668b
+UID:80192fe3-a879-451d-9a61-12a839950558
 SUMMARY:(Track 2) Docker Under the Hood (Amir Chaudhry)
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T171000Z
 DTEND:20171201T180000Z
 DESCRIPTION:Docker is a platform that helps developers and ops teams to build, ship and run their applications. It's a complex system made up of a number of components, many of which are open-sourced under the Moby Project umbrella. This talk looks in detail at one of these components, LinuxKit, which is an open-source toolkit for building custom, minimal, and immutable Linux distributions. Docker uses LinuxKit to create the minimal host OS (a container OS) which ships as part of the Docker Desktop editions — in active use by developers all over the world. We will go through how LinuxKit is put together and demo how to use it to build your own, customised container OS within minutes — without compromising on security or usability. This talk will also cover announcements made at DockerCon and how LinuxKit enabled those features and integrations.
@@ -391,9 +391,9 @@ CATEGORIES:docker,linuxkit,technical
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:ba94c0c8-2b32-4bb9-806c-d63454e02175
+UID:af26862b-7617-4370-87a6-21330cd11fec
 SUMMARY:(Track 3) Web Application Security Risks: A Look at OWASP Top Ten 2017 (Christian Wenz)
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T171000Z
 DTEND:20171201T180000Z
 DESCRIPTION:Since 2003, the Open Web Application Security Project curates a list of the top ten secuity risks for web applications. The 2017 edition of the list proved to be a major challenge. Originally scheduled for 2016, a first release candidate came out in mid-2017, just to be retracted later. If all goes according to (the new) plan, the final version of the list will see the light of day a few days before the conference. What is still relevant in web application security, which attacks are getting rare, and which new threats are coming up on the horizon? Attend this session to find out!
@@ -403,9 +403,9 @@ CATEGORIES:web,security,hacking,attack examples
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:aa7240f7-09a4-4f69-a87d-a66c621d3c44
+UID:833df950-2d1a-4d47-8712-437f741772b3
 SUMMARY:Coffee Break
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T180000Z
 DTEND:20171201T182000Z
 URL:https://devternity.com
@@ -414,9 +414,9 @@ CATEGORIES:
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:4e4e873b-42ba-44c0-a6c3-70b4950cc738
+UID:59e72ece-03af-4206-ab0a-3dd7fb508323
 SUMMARY:The Long Road (Sandro Mancuso)
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T182000Z
 DTEND:20171201T191000Z
 DESCRIPTION:Choosing the next career step in such a diverse and fast-paced industry is not an easy task. But when it comes to our careers, there is no right or wrong. Or there is? How do we know? In this talk we will be talking about different career choices, how can we choose good companies to work for, what we can learn from interviews and selection processes, when should we look for a new job, and how to change our working environment.
@@ -426,9 +426,9 @@ CATEGORIES:closing keynote,software craftsmanship,career development
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:95e4e908-5936-4713-b50f-5ba4c4a942b1
+UID:ce3a4f68-adaa-41a3-ace5-981b0bcf01a5
 SUMMARY:Final Words
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T191000Z
 DTEND:20171201T193000Z
 URL:https://devternity.com
@@ -437,9 +437,9 @@ CATEGORIES:
 ORGANIZER;CN=DevTernity Team:mailto:hello@devternity.com
 END:VEVENT
 BEGIN:VEVENT
-UID:75b74d13-a7ca-4245-95eb-bb7bfcc3a1b5
+UID:d7bb7408-ff91-4fee-8ec4-4ef6c3ca83a3
 SUMMARY:Beer Afterparty
-DTSTAMP:20180530T160400Z
+DTSTAMP:20180602T110800Z
 DTSTART:20171201T193000Z
 DTEND:20171201T230000Z
 URL:https://devternity.com
