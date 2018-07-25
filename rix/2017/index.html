@@ -35,7 +35,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/skel-layers/2.2.0/skel.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
     <script src="js/exit.js"></script>
-    <script src="js/all.js?purgeeeee"></script>
+    <script src="js/all.js?pg"></script>
     <script src="https://connect.facebook.net/en_US/all.js#xfbml=1" async defer></script>
     <script type="application/ld+json">
       {
@@ -99,7 +99,7 @@
         position: fixed;
       }
       #devternity-loading div.loading-container {
-        background-color: #353c46;
+        background-color: black;
         bottom: 0px;
         left: 0px;
         opacity: 1.0;
@@ -130,7 +130,7 @@
     <header id="header">
       <nav id="nav">
         <ul>
-          <li><a href="fellows.html" alt="Affiliates">Affiliates 💰 </a></li>
+          <li><a href="fellows.html" alt="Affiliates">Affiliates</a></li>
           <li><a href="code_of_conduct.html" alt="Code of Conduct">Code of Conduct</a></li>
           <li><a href="https://twitter.com/devternity"><i class="fab fa-twitter"></i></a></li>
           <li><a href="https://www.facebook.com/devternity"><i class="fab fa-facebook"></i></a></li>
@@ -142,40 +142,40 @@
         </ul>
       </nav>
     </header><!-- Banner -->
-    <section id="banner"><img id="trust" src="images/trustpilot.png">
-      <div><img src="images/logo_2017.png">
-        <h2>&nbsp;DevTernity</h2>
+    <section id="banner">
+      <video id="video" autoplay="" loop="" muted="">
+        <source src="images/video.mp4" type="video/mp4">
+      </video><a id="trust" href="https://itconference.top"><img src="images/trustpilot.png"></a>
+      <div class="info">
+        <div><img src="images/logo_2017.png">
+          <h2>&nbsp;DevTernity</h2>
+        </div>
+        <p>Where best developers, architects and engineering leaders grow.</p>
+        <p>1-2 December 2017. National Library of Latvia.</p>
+        <ul class="actions">
+          <li><a class="button big">We are fully booked</a><br><br>
+            <ul class="links">
+              <li>Follow us —</li>
+              <li><a href="https://twitter.com/devternity"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="https://www.facebook.com/devternity"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="http://go.devternity.com/linkedin"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="https://www.instagram.com/devternity"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="https://youtube.com/c/DevTernity"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+          </li>
+        </ul>
       </div>
-      <p>Where best developers, architects and engineering leaders grow.</p>
-      <p>1-2 December 2017. Riga, National Library of Latvia.</p>
-      <ul class="actions">
-        <li><a class="button big">We are fully booked</a><br><br>
-          <ul class="links">
-            <li>Follow us —</li>
-            <li><a href="https://twitter.com/devternity"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="https://www.facebook.com/devternity"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="http://go.devternity.com/linkedin"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="https://www.instagram.com/devternity"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="https://youtube.com/c/DevTernity"><i class="fab fa-youtube"></i></a></li>
-          </ul>
-        </li>
-      </ul>
     </section>
     <section class="wrapper style1 align-center">
       <div class="container intro">
         <header>
           <h2></h2>
           <p>
-             DevTernity is <a href="//itconference.top" target="_blank"><em>the top 3</em></a> international software development conference in Europe.</p>
+             DevTernity is <a href="//itconference.top" target="_blank"><strong>the top 3</strong></a> international software development conference in Europe. </p>
           <h2></h2>
-          <p>
-             We turn developers into architects and engineering leaders since 2015.</p>
-          <p></p>
-          <h2></h2>
-          <p>Here you learn more than on other conferences. We focus on the core areas that are paramount to your success — <em>software architecture</em> <em>clean code</em> and <em>leadership</em>. All noise is removed and can be learned elsewhere.</p>
-        </header><a class="button" href="why.html">25 reasons why DevTernity rocks</a><br><br>
+          <p>Here you learn more than on other conferences. We focus on the core areas that are paramount to your success — software architecture, clean code and leadership. All noise is removed and can be learned elsewhere.</p>
+        </header><a class="button" href="why.html">25 reasons to attend</a><br><br>
       </div>
-      <div class="fb-like" data-width="320px" data-href="https://www.facebook.com/devternity" data-layout="standard" data-action="like" data-show-faces="true" style="min-height: 100px;"></div>
     </section>
     <section class="wrapper align-center" data-remodal-id="venue-location">
       <button class="remodal-close" data-remodal-action="close"></button>
@@ -716,7 +716,7 @@
             <table>
               <tr>
                 <td style="vertical-align:middle; padding: 1em;"><img class="lazy headshot" style="width: 100px;" data-src="images/roy.png"></td>
-                <td style="vertical-align:middle;"><a href="https://twitter.com/undefined"><i class="fab fa-twitter"></i></a><b> Roy Osherove</b>
+                <td style="vertical-align:middle;"><a class="follow-speaker" href="https://twitter.com/undefined"><i class="fab fa-twitter"></i></a><b> Roy Osherove</b>
                   <div class="who"><strong>DevOps Process Lead & Continuous Delivery Architect @ Dell EMC, author of <a href="https://www.amazon.com/Elastic-Leadership-Growing-self-organizing-teams/dp/1617293083">Elastic Leadership</a>, <a href="https://www.amazon.com/Art-Unit-Testing-examples/dp/1617290890">The Art of Unit Testing</a></strong></div>
                 </td>
               </tr>
@@ -738,7 +738,7 @@
             <table>
               <tr>
                 <td style="vertical-align:middle; padding: 1em;"><img class="lazy headshot" style="width: 100px;" data-src="images/kevlin.png"></td>
-                <td style="vertical-align:middle;"><a href="https://twitter.com/undefined"><i class="fab fa-twitter"></i></a><b> Kevlin Henney</b>
+                <td style="vertical-align:middle;"><a class="follow-speaker" href="https://twitter.com/undefined"><i class="fab fa-twitter"></i></a><b> Kevlin Henney</b>
                   <div class="who"><strong>Consultant, Trainer, Writer, Author of 97 Things Every Programmer Should Know</strong></div>
                 </td>
               </tr>
@@ -759,7 +759,7 @@
             <table>
               <tr>
                 <td style="vertical-align:middle; padding: 1em;"><img class="lazy headshot" style="width: 100px;" data-src="images/evelina.png"></td>
-                <td style="vertical-align:middle;"><a href="https://twitter.com/undefined"><i class="fab fa-twitter"></i></a><b> Evelina Gabasova</b>
+                <td style="vertical-align:middle;"><a class="follow-speaker" href="https://twitter.com/undefined"><i class="fab fa-twitter"></i></a><b> Evelina Gabasova</b>
                   <div class="who"><strong>Machine Learning Researcher, PhD @ University of Cambridge</strong></div>
                 </td>
               </tr>
@@ -780,7 +780,7 @@
             <table>
               <tr>
                 <td style="vertical-align:middle; padding: 1em;"><img class="lazy headshot" style="width: 100px;" data-src="images/uwe.jpg"></td>
-                <td style="vertical-align:middle;"><a href="https://twitter.com/undefined"><i class="fab fa-twitter"></i></a><b> Uwe Friedrichsen</b>
+                <td style="vertical-align:middle;"><a class="follow-speaker" href="https://twitter.com/undefined"><i class="fab fa-twitter"></i></a><b> Uwe Friedrichsen</b>
                   <div class="who"><strong>CTO @ Codecentric, Fellow, Speaker, Nerd, Consultant</strong></div>
                 </td>
               </tr>
@@ -801,7 +801,7 @@
             <table>
               <tr>
                 <td style="vertical-align:middle; padding: 1em;"><img class="lazy headshot" style="width: 100px;" data-src="images/sandroma.jpg"></td>
-                <td style="vertical-align:middle;"><a href="https://twitter.com/undefined"><i class="fab fa-twitter"></i></a><b> Sandro Mancuso</b>
+                <td style="vertical-align:middle;"><a class="follow-speaker" href="https://twitter.com/undefined"><i class="fab fa-twitter"></i></a><b> Sandro Mancuso</b>
                   <div class="who"><strong>Software Craftsman and Founder @ Codurance, author of <a href="https://www.amazon.com/Software-Craftsman-Professionalism-Pragmatism-Robert/dp/0134052501">The Software Craftsman</a></strong></div>
                 </td>
               </tr>
@@ -822,7 +822,7 @@
             <table>
               <tr>
                 <td style="vertical-align:middle; padding: 1em;"><img class="lazy headshot" style="width: 100px;" data-src="images/jakubpilo.jpg"></td>
-                <td style="vertical-align:middle;"><a href="https://twitter.com/undefined"><i class="fab fa-twitter"></i></a><b> Jakub Pilimon</b>
+                <td style="vertical-align:middle;"><a class="follow-speaker" href="https://twitter.com/undefined"><i class="fab fa-twitter"></i></a><b> Jakub Pilimon</b>
                   <div class="who"><strong>Software Developer, Trainer @ ‎Bottega IT Minds, DZone's Most-Valuable Blogger</strong></div>
                 </td>
               </tr>
@@ -843,7 +843,7 @@
             <table>
               <tr>
                 <td style="vertical-align:middle; padding: 1em;"><img class="lazy headshot" style="width: 100px;" data-src="images/pstack.jpg"></td>
-                <td style="vertical-align:middle;"><a href="https://twitter.com/undefined"><i class="fab fa-twitter"></i></a><b> Paul Stack</b>
+                <td style="vertical-align:middle;"><a class="follow-speaker" href="https://twitter.com/undefined"><i class="fab fa-twitter"></i></a><b> Paul Stack</b>
                   <div class="who"><strong>Software Engineer @ Joyent, ex-Software Engineer @ HashiCorp</strong></div>
                 </td>
               </tr>
@@ -862,7 +862,7 @@
         <header>
           <h1>Tickets to the key event of the year.</h1>
           <h2></h2>
-          <p><em>This is the limited offer.</em><br><br> There is no point to wait until the last moment, because we'll charge you more. Secure your seat now. You will be able to change the information about the participants later. Free of charge.</p>
+          <p>There is no point to wait until the last moment, because this is the limited offer. Secure your seat now. You will be able to change the information about the participants later. Free of charge.</p>
         </header>
         <div class="row">
           <section class="tick feature 12u 12u$(medium) 12u$(small)">
@@ -936,7 +936,7 @@
         <div class="row">
           <section class="6u 12u$(small)">
             <h3>Organisers</h3>
-            <p>DevTernity is organised with love <i class="fa fa-heart" style="color: red;" aria-hidden="true"></i> and care <i class="fa fa-leaf" style="color: #4dac71;" aria-hidden="true"></i>  by the leaders of Latvian software craftsmanship community: </p><img class="lazy" data-src="images/team.jpg" style="width: 100%;">
+            <p>DevTernity is organised with love <i class="fa fa-heart" style="color: red;" aria-hidden="true"></i> and care <i class="fa fa-leaf" style="color: #4dac71;" aria-hidden="true"></i>  by the leaders of Latvian software craftsmanship community.</p>
           </section>
           <section class="6u 12u$(small)">
             <h3>Let's stay connected:</h3>
