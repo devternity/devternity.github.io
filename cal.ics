@@ -31,22 +31,8 @@ END:VTIMEZONE
 
 
 BEGIN:VEVENT
-UID:b41b0b81
-DTSTAMP:20180818T110405Z
-DTSTART:20181201T090000Z
-DTEND:20181201T180000Z
-SUMMARY:Crafting Code (Sandro Mancuso)
-SEQUENCE:0
-LOCATION:DevTernity 
-DESCRIPTION:#clean-code #tdd #refactoring\n\nAFTER THE TRAINING\, YOU WILL:\n * Know how to write clean code that is easy to understand and maintain\n * Become more proficient in Test-Driven Development: using tests to design and build your code base\n * Focus your tests and production code according to business requirements using Outside-In TDD\n * Understand design principles that lead to clean code\n * Avoid over-engineering and large rewrites by incrementally evolving your design using tests\n\n\n\nOnce you have an understanding of the principles at work\, we will apply them to Legacy Code to help you gain confidence in improving legacy projects through testing\, refactoring and redesigning. The course is fully hands-on and developers will be writing a lot of code.
-URL;VALUE=URI:https://devternity.com
-ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
-END:VEVENT
-
-
-BEGIN:VEVENT
-UID:2150dc10
-DTSTAMP:20180818T110405Z
+UID:6bb0bb7b
+DTSTAMP:20180829T071238Z
 DTSTART:20181201T090000Z
 DTEND:20181201T180000Z
 SUMMARY:Surviving Legacy Code (J.B. Rainsberger)
@@ -59,36 +45,36 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:98a2dc06
-DTSTAMP:20180818T110405Z
+UID:f7acec8f
+DTSTAMP:20180829T071238Z
 DTSTART:20181201T090000Z
 DTEND:20181201T180000Z
-SUMMARY:Mastering Amazon Web Services (AWS) (Juris Pavlyuchenkov)
+SUMMARY:Mastering Cloud Infrastructure with AWS (Juris Pavlyuchenkov)
 SEQUENCE:0
 LOCATION:DevTernity 
-DESCRIPTION:#automation #cloud #devops\n\nTHE COURSE COVERS:\n * Introduction to AWS ideology\, basic terminology and pricing\n * Managing your account on AWS (shared security model\, 2-factor authentication\, IAM users\, roles\, groups and policies)\n * Amazon EC2 (understanding instance types\, pricing and lifecycle\, storage options\, AMIs)\n * Configuring Amazon for High Availability and Fault Tolerance (regions and availability zones)\n * Monitoring with Amazon CloudWatch\n * Networking (Route53\, Elastic Network Interfaces\, Elastic IP\, Elastic Load Balancer\, Security Groups\, VPC\, pricing and limitations)\n * Amazon EBS (use cases\, limitations\, snapshotting\, resizing\, warmup and tagging)\n * Amazon RDS (database engines\, snapshotting\, multi-az vs. single az.\, read- replicas\, migrating data to and from RDS)\n * Amazon S3 (architecture\, limitations\, naming best practices\, hosting static content\, access policies\, retention policies\, reduced redundancy\, infrequent access).\n * Amazon Glacier (data archiving\, backups\, integration with S3\, best practices)\n * Amazon CloudFront (introduction to content-delivery networks\, object expiration\, monitoring\, signed content\, access logs\, SSL certificates\, integration with S3)\n\n\n\nAfter this course\, you'll gain deep understanding of AWS\, learn how to operate production-grade AWS infrastructure and discover hidden tips and tricks from a certified AWS expert.\n\n.
+DESCRIPTION:#automation #cloud #devops\n\nTHE COURSE COVERS:\n * Introduction to AWS ideology\, basic and pricing\n * Managing your account on AWS (shared security model\, 2-factor authentication\, IAM users\, roles\, groups and policies)\n * Amazon EC2 (understanding instance types\, pricing and lifecycle\, storage options\, AMIs)\n * Configuring Amazon for High Availability and Fault Tolerance (regions and availability zones)\n * Monitoring with Amazon CloudWatch\n * Networking (Route53\, Elastic Network Interfaces\, Elastic IP\, Elastic Load Balancer\, Security Groups\, VPC\, pricing and limitations)\n * Amazon EBS (use cases\, limitations\, snapshotting\, resizing\, warmup and tagging)\n * Amazon RDS (database engines\, snapshotting\, multi-az vs. single az.\, read- replicas\, migrating data to and from RDS)\n * Amazon S3 (architecture\, limitations\, naming best practices\, hosting static content\, access policies\, retention policies\, reduced redundancy\, infrequent access).\n * Amazon Glacier (data archiving\, backups\, integration with S3\, best practices)\n * Amazon CloudFront (introduction to content-delivery networks\, object expiration\, monitoring\, signed content\, access logs\, SSL certificates\, integration with S3)\n\n\n\nAfter this course\, you'll gain deep understanding of AWS\, learn how to operate production-grade AWS infrastructure and discover hidden tips and tricks from a certified AWS expert.\n\n.
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
 END:VEVENT
 
 
 BEGIN:VEVENT
-UID:1acf92eb
-DTSTAMP:20180818T110405Z
+UID:02a971d6
+DTSTAMP:20180829T071238Z
 DTSTART:20181201T090000Z
 DTEND:20181201T180000Z
 SUMMARY:Making Your Tests Rock (Jakub Nabrdalik)
 SEQUENCE:0
 LOCATION:DevTernity 
-DESCRIPTION:#test-automation #tdd #bdd #java #spock\n\nDURING THE TRAINING\, YOU WILL LEARN:\n * How to start benefiting from Test-Driven and Behaviour-Driven development\, understand the power (and weaknesses) of both approaches\n * How to work with requirements and how to transform them into well-readable tests\n * How to efficiently balance unit\, integration and manual testing\n * How to reduce test maintenance costs\n * How to organize your tests\n * How to improve system’s testability by leveraging Hexagonal Architecture\n * How to design acceptance tests that everyone can understand\n * How to deal with databases\, stateful storage and IO\n * How to deal with long-running tests\n * How to test distributed systems\, microservices and 3rd-party integrations\n * Testing anti-patterns and how to avoid falling into the common traps\n * …and much more!\n\nReady to bring your tests to the next level? Bring your own laptop\, and let's start coding!
+DESCRIPTION:#test automation #tdd #bdd\n\nDURING THE TRAINING\, YOU WILL LEARN:\n * How to start benefiting from Test-Driven and Behaviour-Driven development\, understand the power (and weaknesses) of both approaches\n * How to work with requirements and how to transform them into well-readable tests\n * How to efficiently balance unit\, integration and manual testing\n * How to reduce test maintenance costs\n * How to organize your tests\n * How to improve system’s testability by leveraging Hexagonal Architecture\n * How to design acceptance tests that everyone can understand\n * How to deal with databases\, stateful storage and IO\n * How to deal with long-running tests\n * How to test distributed systems\, microservices and 3rd-party integrations\n * Testing anti-patterns and how to avoid falling into the common traps\n * …and much more!\n\nReady to bring your tests to the next level? Bring your own laptop\, and let's start coding!
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
 END:VEVENT
 
 
 BEGIN:VEVENT
-UID:4fea1277
-DTSTAMP:20180818T110405Z
+UID:2d318f94
+DTSTAMP:20180829T071238Z
 DTSTART:20181201T090000Z
 DTEND:20181201T180000Z
 SUMMARY:Jedi Techniques of Personal Effectiveness (Maxim Dorofeev)
@@ -101,8 +87,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:b8ffb9d6
-DTSTAMP:20180818T110405Z
+UID:98a993db
+DTSTAMP:20180829T071238Z
 DTSTART:20181201T090000Z
 DTEND:20181201T180000Z
 SUMMARY:Production-ready Serverless: Operational Best Practices (Yan Cui)
@@ -115,8 +101,22 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:eaa0d93f
-DTSTAMP:20180818T110405Z
+UID:7af56b58
+DTSTAMP:20180829T071238Z
+DTSTART:20181201T090000Z
+DTEND:20181201T180000Z
+SUMMARY:Crafting Code (Sandro Mancuso)
+SEQUENCE:0
+LOCATION:DevTernity 
+DESCRIPTION:#clean-code #tdd #refactoring\n\nAFTER THE TRAINING\, YOU WILL:\n * Know how to write clean code that is easy to understand and maintain\n * Become more proficient in Test-Driven Development: using tests to design and build your code base\n * Focus your tests and production code according to business requirements using Outside-In TDD\n * Understand design principles that lead to clean code\n * Avoid over-engineering and large rewrites by incrementally evolving your design using tests\n\n\n\nOnce you have an understanding of the principles at work\, we will apply them to Legacy Code to help you gain confidence in improving legacy projects through testing\, refactoring and redesigning. The course is fully hands-on and developers will be writing a lot of code.
+URL;VALUE=URI:https://devternity.com
+ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
+END:VEVENT
+
+
+BEGIN:VEVENT
+UID:240e1be9
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T080000Z
 DTEND:20181130T090000Z
 SUMMARY:Registration and Coffee
@@ -128,8 +128,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:0acf5588
-DTSTAMP:20180818T110405Z
+UID:fd4262f0
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T090000Z
 DTEND:20181130T091500Z
 SUMMARY:Conference Opening
@@ -141,8 +141,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:c7429fbe
-DTSTAMP:20180818T110405Z
+UID:6f4dc030
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T091500Z
 DTEND:20181130T101000Z
 SUMMARY:12 Ways to Make Code Suck Less (Venkat Subramaniam)
@@ -155,8 +155,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:0739e8e4
-DTSTAMP:20180818T110405Z
+UID:d2375289
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T101000Z
 DTEND:20181130T103000Z
 SUMMARY:Coffee Break
@@ -168,8 +168,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:babc271a
-DTSTAMP:20180818T110405Z
+UID:cc5c5e89
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T103000Z
 DTEND:20181130T112000Z
 SUMMARY:Blockchain – The Slowest and Most Fascinating Database in the World (Stefan Tilkov)
@@ -182,8 +182,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:93c5ffc9
-DTSTAMP:20180818T110405Z
+UID:5acf355a
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T103000Z
 DTEND:20181130T112000Z
 SUMMARY:Secure by Design – the Architect’s Guide to Security Design Principles (Eoin Woods)
@@ -196,8 +196,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:d8fa2c50
-DTSTAMP:20180818T110405Z
+UID:8c4f9819
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T103000Z
 DTEND:20181130T112000Z
 SUMMARY:Serverless in Production (Yan Cui)
@@ -210,8 +210,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:3340d79f
-DTSTAMP:20180818T110405Z
+UID:944adee6
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T112000Z
 DTEND:20181130T114000Z
 SUMMARY:Coffee Break
@@ -223,8 +223,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:00dea82e
-DTSTAMP:20180818T110405Z
+UID:e53bf9c3
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T114000Z
 DTEND:20181130T123000Z
 SUMMARY:Functional Design Patterns (Scott Wlaschin)
@@ -237,8 +237,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:25b1fa78
-DTSTAMP:20180818T110405Z
+UID:481281be
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T114000Z
 DTEND:20181130T123000Z
 SUMMARY:What Every Programmer Has to Know About Database Storage (Alex Petrov)
@@ -251,8 +251,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:3bd9c790
-DTSTAMP:20180818T110405Z
+UID:ec92c07b
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T114000Z
 DTEND:20181130T123000Z
 SUMMARY:Kotlin in Real Projects: Pragmatic Opinion on Pragmatic Language (Anton Keks)
@@ -265,8 +265,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:27b012d8
-DTSTAMP:20180818T110405Z
+UID:3dad8e37
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T123000Z
 DTEND:20181130T134000Z
 SUMMARY:Long Break
@@ -278,8 +278,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:5e75cfe2
-DTSTAMP:20180818T110405Z
+UID:e4ee579b
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T134000Z
 DTEND:20181130T143000Z
 SUMMARY:Does TDD Really Lead to Good Design? (Sandro Mancuso)
@@ -292,8 +292,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:aace35e6
-DTSTAMP:20180818T110405Z
+UID:1d1cc883
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T134000Z
 DTEND:20181130T143000Z
 SUMMARY:The Way of a Jedi: How to Get Started (Maxim Dorofeev)
@@ -306,8 +306,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:150fbd98
-DTSTAMP:20180818T110405Z
+UID:24ef6028
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T134000Z
 DTEND:20181130T143000Z
 SUMMARY:Real World REST and Hands-On Hypermedia (Dylan Beattie)
@@ -320,8 +320,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:835c17f6
-DTSTAMP:20180818T110405Z
+UID:ac17b7e7
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T143000Z
 DTEND:20181130T145000Z
 SUMMARY:Coffee Break
@@ -333,8 +333,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:0a223502
-DTSTAMP:20180818T110405Z
+UID:c10d7922
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T145000Z
 DTEND:20181130T154000Z
 SUMMARY:The Secret Sauce of Successful Teams (Sven Peters)
@@ -347,8 +347,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:9d7f9786
-DTSTAMP:20180818T110405Z
+UID:64618558
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T145000Z
 DTEND:20181130T154000Z
 SUMMARY:Making Your Tests Rock in Just 45 Minutes (Jakub Nabrdalik)
@@ -361,8 +361,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:ff3bebc6
-DTSTAMP:20180818T110405Z
+UID:ade731b9
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T145000Z
 DTEND:20181130T154000Z
 SUMMARY:The Pillars of Domain-Driven Design (Marco Heimeshoff)
@@ -375,8 +375,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:4de4fb1f
-DTSTAMP:20180818T110405Z
+UID:98e53546
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T154000Z
 DTEND:20181130T160000Z
 SUMMARY:Coffee Break
@@ -388,8 +388,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:76d64547
-DTSTAMP:20180818T110405Z
+UID:536b99fc
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T160000Z
 DTEND:20181130T165000Z
 SUMMARY:The Economics of Software Design (J.B. Rainsberger)
@@ -402,8 +402,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:02fa9cb9
-DTSTAMP:20180818T110405Z
+UID:31a877b3
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T160000Z
 DTEND:20181130T165000Z
 SUMMARY:10 Tips for Failing Badly at Microservices (David Schmitz)
@@ -416,8 +416,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:c2968749
-DTSTAMP:20180818T110405Z
+UID:70da994b
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T160000Z
 DTEND:20181130T165000Z
 SUMMARY:Understanding Venture Capital for Developers (Svetlana Bozhko)
@@ -430,8 +430,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:ed5cb61d
-DTSTAMP:20180818T110405Z
+UID:a4398e42
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T165000Z
 DTEND:20181130T171000Z
 SUMMARY:Coffee Break
@@ -443,8 +443,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:788fb63f
-DTSTAMP:20180818T110405Z
+UID:9ae4a4a0
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T171000Z
 DTEND:20181130T180000Z
 SUMMARY:Designing for Performance (Martin Thompson)
@@ -457,8 +457,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:31b0c5e9
-DTSTAMP:20180818T110405Z
+UID:5bd6dc32
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T171000Z
 DTEND:20181130T180000Z
 SUMMARY:Mixed Reality Development and Best Practices (René Schulte )
@@ -471,8 +471,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:d188a3b6
-DTSTAMP:20180818T110405Z
+UID:0bf099d9
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T171000Z
 DTEND:20181130T180000Z
 SUMMARY:Deploying & Managing Microservices with Containers and Kubernetes (Ray Tsang)
@@ -485,8 +485,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:8dae9f54
-DTSTAMP:20180818T110405Z
+UID:a4bf782a
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T180000Z
 DTEND:20181130T182000Z
 SUMMARY:Coffee Break
@@ -498,8 +498,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:0d5b744e
-DTSTAMP:20180818T110405Z
+UID:87738ce6
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T182000Z
 DTEND:20181130T191000Z
 SUMMARY:How We Built Dev.Tube (Eduards Sizovs)
@@ -512,8 +512,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:016cbbc3
-DTSTAMP:20180818T110405Z
+UID:7785a02b
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T191000Z
 DTEND:20181130T193000Z
 SUMMARY:Final Words
@@ -525,8 +525,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:a364744e
-DTSTAMP:20180818T110405Z
+UID:cfbcbcd4
+DTSTAMP:20180829T071238Z
 DTSTART:20181130T193000Z
 DTEND:20181130T230000Z
 SUMMARY:Beer Afterparty
