@@ -156,7 +156,7 @@
         <p>30 Nov – 1 Dec 2018. Riga. National Library of Latvia.</p>
         <ul class="actions">
           <li><a class="button big pulse" ng-click="slideTo('#tickets-container')">Get tickets</a><br><br>
-            <timer ng-show="showCountdown(event.date_epoch)" end-time="1543561200000">We start in <strong style="color: white;">{{days}} day{{daysS}}, {{hours}} hour{{hoursS}}, {{minutes}} minutes {{seconds}} seconds</strong></timer>
+            <timer ng-show="showCountdown(event.date_epoch)" end-time="1543561200000" max-time-unit="'month'">We start in just <strong style="color: white;">{{months ? months + ' month' + monthsS + ', ' : ''}} {{days}} day{{daysS}}, {{hours}} hour{{hoursS}}, {{minutes}} minutes {{seconds}} seconds</strong></timer>
           </li>
         </ul>
       </div>
@@ -172,7 +172,7 @@
           <h2></h2>
           <p>Start preparing for the role of software architect, engineering leader or CTO today.</p>
           <h2>
-            <p>It's a must see.</p>
+            <p style="text-transform: uppercase;">it's a must-see.</p>
           </h2>
           <p style="color: #ffdd57;"><i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></p>
         </header>
@@ -894,7 +894,7 @@
           <p><em>We are partnering with amazing companies that have continuous learning and innovation in their DNA:              </em></p><br>
           <div class="row align-center">
             <section class="12u 12u$(medium)"><a target="_blank" rel="noopener" href="http://cognizant.lv"><img class="lazy" style="max-width: 250px; max-height: 120px;" data-src="images/cognizant.png"></a><br><i class="fa fa-star" aria-hidden="true" style="color: orange;"></i><i class="fa fa-star" aria-hidden="true" style="color: orange;"></i><i class="fa fa-star" aria-hidden="true" style="color: orange;"></i><i class="fa fa-star" aria-hidden="true" style="color: orange;"></i><i class="fa fa-star" aria-hidden="true" style="color: orange;"></i><em> Platinum Sponsor  (since 2018)</em>
-              <p><p><strong><a href="http://cognizant.lv">Cognizant</a></strong> is a multinational corporation born in the USA, providing a range of IT services. We were the first company to be listed on NASDAQ 100, and today we have over two decades of experience and 260 000 employees worldwide. In 2011, we made our way into Fortune 500 list. In 2015, the Fortune magazine named us the world’s 4th most admired IT services company. In 2017, we jumped into Fortune’s Future 50 list. Where does the digital drive take us next? Join our journey to find out - <strong><a href="http://cognizant.lv">cognizant.lv</a></strong></p></p>
+              <p><p><strong><a href="http://cognizant.lv">Cognizant</a></strong> is a multinational corporation born in the USA, providing a range of IT services. We were the first company to be listed on NASDAQ 100, and today we have over two decades of experience and 260 000 employees worldwide. In 2011, we made our way into Fortune 500 list. In 2015, the Fortune magazine named us the world’s 4th most admired IT services company. In 2017, we jumped into Fortune’s Future 50 list. Where does the digital drive take us next? Join our journey to find out.</p>
             </section><br>
           </div><br>
           <div class="row align-center">
@@ -934,9 +934,9 @@
         <div class="row">
           <section class="6u 12u$(small)">
             <h3>Organisers</h3>
-            <p>DevTernity is organised with love <i class="fa fa-heart" style="color: red;" aria-hidden="true"></i> and care <i class="fa fa-leaf" style="color: #4dac71;" aria-hidden="true"></i>  by the leaders of Latvian software craftsmanship community.</p>
-            <h3>Location</h3>
-            <p> <a href="https://www.google.lv/maps/place/DevTernity+Conference/@56.9397819,24.0966023,17z/data=!3m1!4b1!4m5!3m4!1s0x46eec53ffbf34663:0xa268eab43af282d4!8m2!3d56.939779!4d24.098791" target="_blank"><i class="fas fa-map-marker-alt"></i></a> The venue is National Library of Latvia, Mūkusalas iela 3 </p>
+            <p>DevTernity is organised with love <i class="fa fa-heart" style="color: red;" aria-hidden="true"></i> and care by <strong><a target="_blank" href="https://medium.com/@eduardsi/my-team-58f99b215be8">passionate software developers.</a></strong></p>
+            <h3>Location / Venue</h3>
+            <p> <a href="https://www.google.lv/maps/place/DevTernity+Conference/@56.9397819,24.0966023,17z/data=!3m1!4b1!4m5!3m4!1s0x46eec53ffbf34663:0xa268eab43af282d4!8m2!3d56.939779!4d24.098791" target="_blank"><i class="fas fa-map-marker-alt"></i></a> National Library of Latvia, Mūkusalas iela 3 </p>
           </section>
           <section class="6u 12u$(small)">
             <h3>Let's stay connected:</h3>
