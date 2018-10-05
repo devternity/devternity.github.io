@@ -162,7 +162,7 @@
         <p>Turning developers into architects and engineering leaders.</p>
         <p>30 Nov – 1 Dec 2018. Riga. National Library of Latvia.</p>
         <ul class="actions">
-          <li><a class="button big pulse" ng-click="slideTo('#tickets-container')">Get tickets</a><br><br>
+          <li><a class="button big pulse" ng-click="slideTo('#tickets-container')" ng-if="!event.sold_out">Get tickets</a><a class="button big disabled" ng-if="event.sold_out">SOLD OUT.</a><br><br>
             <timer ng-show="showCountdown(event.date_epoch)" end-time="1543561200000" max-time-unit="'month'">We start in just <strong style="color: white;">{{months ? months + ' month' + monthsS + ', ' : ''}} {{days}} day{{daysS}}, {{hours}} hour{{hoursS}}, {{minutes}} minutes {{seconds}} seconds</strong></timer>
           </li>
         </ul>
