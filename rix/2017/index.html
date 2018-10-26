@@ -159,15 +159,7 @@
         <p>Where best developers, architects and engineering leaders grow.</p>
         <p>1-2 December 2017. Riga. National Library of Latvia.</p>
         <ul class="actions">
-          <li><a class="button big">We are fully booked</a><br><br>
-            <ul class="links">
-              <li>Follow us —</li>
-              <li><a href="https://twitter.com/devternity"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="https://www.facebook.com/devternity"><i class="fab fa-facebook"></i></a></li>
-              <li><a href="http://go.devternity.com/linkedin"><i class="fab fa-linkedin"></i></a></li>
-              <li><a href="https://www.instagram.com/devternity"><i class="fab fa-instagram"></i></a></li>
-              <li><a href="https://youtube.com/c/DevTernity"><i class="fab fa-youtube"></i></a></li>
-            </ul>
+          <li><a class="button big">We are sold out.</a><br><br><span class="links"><a href="https://twitter.com/devternity"><i class="fab fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;</span><span class="links"><a href="https://www.facebook.com/devternity"><i class="fab fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;</span><span class="links"><a href="http://go.devternity.com/linkedin"><i class="fab fa-linkedin"></i></a>&nbsp;&nbsp;&nbsp;</span><span class="links"><a href="https://www.instagram.com/devternity"><i class="fab fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;</span><span class="links"><a href="https://youtube.com/c/DevTernity"><i class="fab fa-youtube"></i></a>&nbsp;&nbsp;&nbsp;</span><a ng-click="slideTo('#footer')" style="cursor: pointer;">Join Waitlist</a>
           </li>
         </ul>
       </div>
@@ -285,10 +277,6 @@
           <section class="feature 3u 12u$(small)"><img class="lazy headshot" data-src="images/sandroma.jpg" alt="Sandro Mancuso">
             <div class="whoname"><img class="lazy" data-src="images/flags/gb.png" alt="gb flag"> Sandro Mancuso</div>
             <div class="who">Software Craftsman and Founder @ Codurance, author of <a href="https://www.amazon.com/Software-Craftsman-Professionalism-Pragmatism-Robert/dp/0134052501">The Software Craftsman</a></div><a href="https://twitter.com/sandromancuso"><i class="fab fa-twitter follow-speaker" aria-hidden="true"></i></a>
-          </section>
-        </div>
-        <div class="row">
-          <section class="feature 12u 12u$(small)">
           </section>
         </div>
       </div>
@@ -878,9 +866,6 @@
           <section class="feature 6u 12u$(small) align-left"><p>This is a comprehensive, engineer led course that covers building infrastructure in an IaC (Infrastructure as Code) fashion, using HashiCorp's Packer and Terraform tools. Topics include:<ul><li>Terraform and Packer syntax, internals, and patterns</li><li>Creating and accessing compute instances</li><li>Provisioning resources with Terraform</li><li>Working with remote state</li><li>Managing DNS with Terraform</li><li>Continuous delivery of machine images with Packer</li><li>Learn how to safely provision and manage infrastructure lifecycle with Terraform and Packer!</li></ul></p>
           </section>
         </div>
-        <div id="fb-root">
-          <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
-        </div>
       </div>
     </section>
     <section class="wrapper style1 tickets align-center" id="tickets-container">
@@ -974,13 +959,15 @@
               <li><a href="http://go.devternity.com/linkedin"><i class="fab fa-linkedin"></i></a></li>
               <li><a href="https://www.instagram.com/devternity"><i class="fab fa-instagram"></i></a></li>
               <li><a href="https://youtube.com/c/DevTernity"><i class="fab fa-youtube"></i></a></li>
+              <li>riga@devternity.com</li>
             </ul>
             <ul class="tabular">
               <li>
-                <h3>Mail</h3><a href="mailto:riga@devternity.com">riga@devternity.com</a>
-              </li>
-              <li>
-                <h3>Phone</h3>(+371) 28814170
+                <h3>Waitlist</h3>
+                <form class="subscribe" ng-submit="onSubscribe()">
+                  <input type="email" ng-model="subscriber" placeholder="&lt;email address&gt;">
+                  <input type="submit" value="Subscribe">&nbsp; {{subscribeMessage}}               
+                </form>
               </li>
             </ul>
           </section>

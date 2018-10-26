@@ -162,8 +162,7 @@
         <p>Turning developers into architects and engineering leaders.</p>
         <p>30 Nov – 1 Dec 2018. Riga. National Library of Latvia.</p>
         <ul class="actions">
-          <li><a class="button big pulse" ng-click="slideTo('#tickets-container')" ng-if="!event.sold_out">Get tickets</a><a class="button big disabled" ng-if="event.sold_out">SOLD OUT.</a><br><br>
-            <timer ng-show="showCountdown(event.date_epoch)" end-time="1543561200000" max-time-unit="'month'">We start in just <strong style="color: white;">{{months ? months + ' month' + monthsS + ', ' : ''}} {{days}} day{{daysS}}, {{hours}} hour{{hoursS}}, {{minutes}} minutes {{seconds}} seconds</strong></timer>
+          <li><a class="button big">We are sold out.</a><br><br><span class="links"><a href="https://twitter.com/devternity"><i class="fab fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;</span><span class="links"><a href="https://meetup.com/devternity"><i class="fab fa-meetup"></i></a>&nbsp;&nbsp;&nbsp;</span><span class="links"><a href="https://www.facebook.com/devternity"><i class="fab fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;</span><span class="links"><a href="http://go.devternity.com/linkedin"><i class="fab fa-linkedin"></i></a>&nbsp;&nbsp;&nbsp;</span><span class="links"><a href="https://www.instagram.com/devternity"><i class="fab fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;</span><span class="links"><a href="https://youtube.com/c/DevTernity"><i class="fab fa-youtube"></i></a>&nbsp;&nbsp;&nbsp;</span><span class="links"><a href="https://en.wikipedia.org/wiki/DevTernity_Conference"><i class="fab fa-wikipedia-w"></i></a>&nbsp;&nbsp;&nbsp;</span><a ng-click="slideTo('#footer')" style="cursor: pointer;">Join Waitlist</a>
           </li>
         </ul>
       </div>
@@ -281,10 +280,6 @@
           <section class="feature 3u 12u$(small)"><img class="lazy headshot" data-src="images/venk_vec.png" alt="Venkat Subramaniam">
             <div class="whoname"><img class="lazy" data-src="images/flags/us.png" alt="us flag"> Venkat Subramaniam</div>
             <div class="who">Founder @ Agile Developer, Author of <a href="https://www.amazon.com/Practices-Agile-Developer-Pragmatic-Bookshelf/dp/097451408X/">Practices of an Agile Developer</a>, <a href="https://www.amazon.com/Programming-Concurrency-JVM-Mastering-Synchronization-ebook/dp/B00A32NZEI/">Programming Concurrency on the JVM</a>, <a href="https://www.amazon.com/Functional-Programming-Java-Harnessing-Expressions/dp/1937785467/">Functional Programming in Java</a></div><a href="https://twitter.com/venkat_s"><i class="fab fa-twitter follow-speaker" aria-hidden="true"></i></a>
-          </section>
-        </div>
-        <div class="row">
-          <section class="feature 12u 12u$(small)">
           </section>
         </div>
       </div>
@@ -864,9 +859,6 @@
           <section class="feature 6u 12u$(small) align-left"><h3>After the training, you will:</h3><ul class="fa-ul"><li><span class="fa-li"><i class="fas fa-check-square"></i></span>Know how to write clean code that is easy to understand and maintain</li><li><span class="fa-li"><i class="fas fa-check-square"></i></span>Become more proficient in Test-Driven Development: using tests to design and build your code base</li><li><span class="fa-li"><i class="fas fa-check-square"></i></span>Focus your tests and production code according to business requirements using Outside-In TDD</li><li><span class="fa-li"><i class="fas fa-check-square"></i></span>Understand design principles that lead to clean code</li><li><span class="fa-li"><i class="fas fa-check-square"></i></span>Avoid over-engineering and large rewrites by incrementally evolving your design using tests</li></ul></p><p>Once you have an understanding of the principles at work, we will apply them to <b>Legacy Code</b> to help you gain confidence in improving legacy projects through testing, refactoring and redesigning. <b>The course is fully hands-on and developers will be writing a lot of code.</b>
           </section>
         </div>
-        <div id="fb-root">
-          <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
-        </div>
       </div>
     </section>
     <section class="wrapper style1 tickets align-center" id="tickets-container">
@@ -953,13 +945,15 @@
               <li><a href="https://www.instagram.com/devternity"><i class="fab fa-instagram"></i></a></li>
               <li><a href="https://youtube.com/c/DevTernity"><i class="fab fa-youtube"></i></a></li>
               <li><a href="https://en.wikipedia.org/wiki/DevTernity_Conference"><i class="fab fa-wikipedia-w"></i></a></li>
+              <li>hello@devternity.com</li>
             </ul>
             <ul class="tabular">
               <li>
-                <h3>Mail</h3><a href="mailto:hello@devternity.com">hello@devternity.com</a>
-              </li>
-              <li>
-                <h3>Phone</h3>(+371) 28814170
+                <h3>Waitlist</h3>
+                <form class="subscribe" ng-submit="onSubscribe()">
+                  <input type="email" ng-model="subscriber" placeholder="&lt;email address&gt;">
+                  <input type="submit" value="Subscribe">&nbsp; {{subscribeMessage}}               
+                </form>
               </li>
             </ul>
           </section>
