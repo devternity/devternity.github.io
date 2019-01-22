@@ -31,8 +31,8 @@ END:VTIMEZONE
 
 
 BEGIN:VEVENT
-UID:92b9de68
-DTSTAMP:20190116T113434Z
+UID:6748857e
+DTSTAMP:20190122T145323Z
 DTSTART:20191207T090000Z
 DTEND:20191207T180000Z
 SUMMARY:Elastic\, Agile and Adaptive Leadership (Roy Osherove)
@@ -45,8 +45,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:526f2621
-DTSTAMP:20190116T113434Z
+UID:3984bcf7
+DTSTAMP:20190122T145323Z
 DTSTART:20191207T090000Z
 DTEND:20191207T180000Z
 SUMMARY:Kubernetes for Developers (Juris Pavlyuchenkov)
@@ -59,8 +59,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:97a90aa7
-DTSTAMP:20190116T113434Z
+UID:2c9f398a
+DTSTAMP:20190122T145323Z
 DTSTART:20181130T080000Z
 DTEND:20181130T090000Z
 SUMMARY:Registration and Coffee
@@ -72,8 +72,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:1e7684dc
-DTSTAMP:20190116T113434Z
+UID:9facc740
+DTSTAMP:20190122T145323Z
 DTSTART:20181130T090000Z
 DTEND:20181130T091500Z
 SUMMARY:Conference Opening
@@ -85,8 +85,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:5050946c
-DTSTAMP:20190116T113434Z
+UID:fa1e4170
+DTSTAMP:20190122T145323Z
 DTSTART:20181130T091500Z
 DTEND:20181130T101000Z
 SUMMARY:The Silver Bullet Syndrome (Hadi Hariri)
@@ -99,8 +99,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:8adb3630
-DTSTAMP:20190116T113434Z
+UID:36054ea4
+DTSTAMP:20190122T145323Z
 DTSTART:20181130T101000Z
 DTEND:20181130T103000Z
 SUMMARY:Coffee Break
@@ -112,13 +112,13 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:ccd0a965
-DTSTAMP:20190116T113434Z
+UID:adc86a9c
+DTSTAMP:20190122T145323Z
 DTSTART:20181130T103000Z
 DTEND:20181130T112000Z
 SUMMARY:The Coaching Architect Manifesto (Roy Osherove)
 SEQUENCE:0
-LOCATION:DevTernity 
+LOCATION:DevTernity (Track 1)
 DESCRIPTION:#team leadership #self-organization #people\n\nWhat does it take to bring your team to the next level? In this talk\, you'll learn practical techniques that architects and tech leads can use to achieve that goal. Roy will share do's and don'ts from the hard won battles in the field. You'll also learn the core principles of Elastic Leadership and Coaching Manifesto and how they map to the actions outlined in the talk.
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
@@ -126,13 +126,13 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:17cae4d0
-DTSTAMP:20190116T113434Z
+UID:7d22a407
+DTSTAMP:20190122T145323Z
 DTSTART:20181130T103000Z
 DTEND:20181130T112000Z
 SUMMARY:Elixir — Easy Fun for Busy Developers (David Schmitz)
 SEQUENCE:0
-LOCATION:DevTernity 
+LOCATION:DevTernity (Track 2)
 DESCRIPTION:#live coding #new language #distributed systems\n\nDid you ever want to create an application that is never down? Have you ever been jealous of those Erlang guys\, that produce applications that practically never fail? Have you tried Erlang and fled because of its baroque syntax and tooling? Enter Elixir! Elixir combines Ruby's love for programmers with the absolute power that is the Erlang platform. This talk will introduce programmers to Elixir and OTP. You will gain an understanding of what Elixir brings to the table and how to build highly scale-able systems with a toolset that is actually fun to use. Even if you will never use Elixir and OTP for you projects\, you will learn some of the concepts\, that make Erlang into such a powerful ecosystem.
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
@@ -140,8 +140,22 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:996f5d6e
-DTSTAMP:20190116T113434Z
+UID:c7eaf3d3
+DTSTAMP:20190122T145323Z
+DTSTART:20181130T103000Z
+DTEND:20181130T112000Z
+SUMMARY:The Well-Balanced Programmer (J.B. Rainsberger)
+SEQUENCE:0
+LOCATION:DevTernity (Track 3)
+DESCRIPTION:#productivity #work habits #software design\n\nA well-balanced programmer feels comfortable dealing with designing software\, managing projects\, and working with people. Companies seem to want to hire "the best"\, but well-balanced programmers relatively rare. Although many programmers feel confident arguing about algorithms\, modularity\, and scalability in design sessions\, they would stand out from their peers if they also had incredible habits for managing their work\, knew how to negotiate features with product owners\, had intelligent conversations with project managers about the risks in their project\, and understood what lies behind the irrationality of the people and systems around them. Sadly\, most programmers don't appreciate the value of these skills. Others don't know how to get started learning them. I started programming computers because people are messy! I'd like to share a curated collection of concepts for you explore that will help you become irresistibly valuable to your employer or clients. I plan to share the design principles and programming techniques that amplified my skills the most over the last 20 years. In addition\, I'll describe how I learned the key non-programming concepts\, techniques\, and approaches that have endeared me to fellow programmers\, managers\, and clients. I offer you a very practical approach to issues like influencing peers\, negotiating with stakeholders\, and adopting new ways of working safely. I'll help you start to build a personal work system that will free your mind to do your best work. I know how this might sound. I promise to share concrete techniques that you can begin applying right away. Of course\, these techniques aren't magic\, so you'll have to read some more and practise on your own\, but you will know how to get started right away on becoming the well-balanced programmer that every manager and co-worker will love to have on their team.
+URL;VALUE=URI:https://devternity.com
+ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
+END:VEVENT
+
+
+BEGIN:VEVENT
+UID:f5458a9e
+DTSTAMP:20190122T145323Z
 DTSTART:20181130T112000Z
 DTEND:20181130T114000Z
 SUMMARY:Coffee Break
@@ -153,8 +167,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:5a8c330a
-DTSTAMP:20190116T113434Z
+UID:d8fba9fa
+DTSTAMP:20190122T145323Z
 DTSTART:20181130T123000Z
 DTEND:20181130T134000Z
 SUMMARY:Long Break
@@ -166,8 +180,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:334c19df
-DTSTAMP:20190116T113434Z
+UID:b0ab28f7
+DTSTAMP:20190122T145323Z
 DTSTART:20181130T143000Z
 DTEND:20181130T145000Z
 SUMMARY:Coffee Break
@@ -179,8 +193,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:12fc24d5
-DTSTAMP:20190116T113434Z
+UID:8ddee588
+DTSTAMP:20190122T145323Z
 DTSTART:20181130T154000Z
 DTEND:20181130T160000Z
 SUMMARY:Coffee Break
@@ -192,8 +206,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:13112cef
-DTSTAMP:20190116T113434Z
+UID:e80ef2a1
+DTSTAMP:20190122T145323Z
 DTSTART:20181130T165000Z
 DTEND:20181130T171000Z
 SUMMARY:Coffee Break
@@ -205,8 +219,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:4e3a0eab
-DTSTAMP:20190116T113434Z
+UID:74c47d45
+DTSTAMP:20190122T145323Z
 DTSTART:20181130T180000Z
 DTEND:20181130T182000Z
 SUMMARY:Coffee Break
@@ -218,8 +232,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:f50d87ea
-DTSTAMP:20190116T113434Z
+UID:9d37b0bc
+DTSTAMP:20190122T145323Z
 DTSTART:20181130T191000Z
 DTEND:20181130T193000Z
 SUMMARY:Final Words
@@ -231,8 +245,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:322ce8cf
-DTSTAMP:20190116T113434Z
+UID:2e059e00
+DTSTAMP:20190122T145323Z
 DTSTART:20181130T193000Z
 DTEND:20181130T230000Z
 SUMMARY:Beer Afterparty
