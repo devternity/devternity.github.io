@@ -31,13 +31,13 @@ END:VTIMEZONE
 
 
 BEGIN:VEVENT
-UID:6748857e
-DTSTAMP:20190122T145323Z
+UID:ecc06724
+DTSTAMP:20190129T132531Z
 DTSTART:20191207T090000Z
 DTEND:20191207T180000Z
 SUMMARY:Elastic\, Agile and Adaptive Leadership (Roy Osherove)
 SEQUENCE:0
-LOCATION:DevTernity 
+LOCATION:DevTernity (Track 1)
 DESCRIPTION:#mentorship #team leadership #people\n\nDURING THIS TRAINING\, YOU WILL:\n * Learn about the three basic team modes: Survival mode\, Learning mode and Self Organization Mode. Learn how to know which mode your team is in right now.\n * Learn essential skills for the three modes of leadership you will need for the three phases of the team: Command and control leadership\, Coaching and facilitative leadership.\n * Learn how to change anything by understanding why people behave the way they do\, and understanding the six influence forces that affect our behavior.\n * Participate in engaging exercises that will examine your skills at the various leadership modes.\n\nMore than 50% of workshop time is devoted to practice\, exercises and discussions. The workshop offers concrete\, ready-to-use improvement recipes for daily work.
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
@@ -45,13 +45,13 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:3984bcf7
-DTSTAMP:20190122T145323Z
+UID:bc61881f
+DTSTAMP:20190129T132531Z
 DTSTART:20191207T090000Z
 DTEND:20191207T180000Z
 SUMMARY:Kubernetes for Developers (Juris Pavlyuchenkov)
 SEQUENCE:0
-LOCATION:DevTernity 
+LOCATION:DevTernity (Track 2)
 DESCRIPTION:#k8s #containers\n\nTHE COURSE COVERS:\n * Why Kubernetes is important\, when to use it and when to avoid\n * Understanding Docker basics – manifests\, images\, containers\, repositories\n * Understanding how Kubernetes is built (API\, scheduler\, etcd\, plugins\, internals)\n * Configuring\, deploying and operating stateless apps with Pods\, Services\, Deployments\, Ingresses\, Secrets\, ConfigMaps\n * Running stateful Redis cluster with StatefulSets\, PersistantVolumes\n * Running scheduled operations in a cluster (CronJobs\, DaemonSets\, Pod affinity)\n * Configuring Kubernetes cluster for maximum security\n * Troubleshooting Kubernetes\, monitoring\, logging and debugging\n\nAfter this course\, you'll get deep understanding of the core Kubernetes concepts\, and will be able to easily run and operate your own containerized applications.
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
@@ -59,8 +59,22 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:2c9f398a
-DTSTAMP:20190122T145323Z
+UID:003605e6
+DTSTAMP:20190129T132531Z
+DTSTART:20191207T090000Z
+DTEND:20191207T180000Z
+SUMMARY:Jedi Techniques of Personal Effectiveness (Maxim Dorofeev)
+SEQUENCE:0
+LOCATION:DevTernity (Track 3)
+DESCRIPTION:#productivity #getting things done #smarter working\n\nIN A SIMPLE AND ENTERTAINING WAY\, YOU WILL LEARN:\n * How do our minds work? Daniel Kahneman’s and Tim Urban’s models.\n * What does instant gratification monkey do in my head and how to tame it? \n * What cognitive biases are and how they affect our day-to-day work?\n * The concept of limited Mindfuel and how to save it\n * Why some ToDo lists do not help and how to create ToDo list that (finally) works\n * Methods of “Magic fairy” and “Rational flaneur”\n * How to succeed in a highly uncertain environment and how to make uncertainty your best friend\n * How technology hijacks our minds. The concept of information overload and how to prevеnt it.\n * How to deal with tasks and commitments under tight deadlines and high uncertainty\n * ...and much more!\n\nMore than 50% of workshop time is devoted to practice\, exercises and discussions. The workshop offers concrete\, ready-to-use improvement recipes for daily work.
+URL;VALUE=URI:https://devternity.com
+ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
+END:VEVENT
+
+
+BEGIN:VEVENT
+UID:6f4c6e77
+DTSTAMP:20190129T132531Z
 DTSTART:20181130T080000Z
 DTEND:20181130T090000Z
 SUMMARY:Registration and Coffee
@@ -72,8 +86,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:9facc740
-DTSTAMP:20190122T145323Z
+UID:227d03b3
+DTSTAMP:20190129T132531Z
 DTSTART:20181130T090000Z
 DTEND:20181130T091500Z
 SUMMARY:Conference Opening
@@ -85,8 +99,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:fa1e4170
-DTSTAMP:20190122T145323Z
+UID:a11be1a5
+DTSTAMP:20190129T132531Z
 DTSTART:20181130T091500Z
 DTEND:20181130T101000Z
 SUMMARY:The Silver Bullet Syndrome (Hadi Hariri)
@@ -99,8 +113,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:36054ea4
-DTSTAMP:20190122T145323Z
+UID:b6708b37
+DTSTAMP:20190129T132531Z
 DTSTART:20181130T101000Z
 DTEND:20181130T103000Z
 SUMMARY:Coffee Break
@@ -112,8 +126,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:adc86a9c
-DTSTAMP:20190122T145323Z
+UID:6e8a9f39
+DTSTAMP:20190129T132531Z
 DTSTART:20181130T103000Z
 DTEND:20181130T112000Z
 SUMMARY:The Coaching Architect Manifesto (Roy Osherove)
@@ -126,8 +140,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:7d22a407
-DTSTAMP:20190122T145323Z
+UID:fbeaa66a
+DTSTAMP:20190129T132531Z
 DTSTART:20181130T103000Z
 DTEND:20181130T112000Z
 SUMMARY:Elixir — Easy Fun for Busy Developers (David Schmitz)
@@ -140,8 +154,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:c7eaf3d3
-DTSTAMP:20190122T145323Z
+UID:4e8e48c1
+DTSTAMP:20190129T132531Z
 DTSTART:20181130T103000Z
 DTEND:20181130T112000Z
 SUMMARY:The Well-Balanced Programmer (J.B. Rainsberger)
@@ -154,8 +168,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:f5458a9e
-DTSTAMP:20190122T145323Z
+UID:4e7f5117
+DTSTAMP:20190129T132531Z
 DTSTART:20181130T112000Z
 DTEND:20181130T114000Z
 SUMMARY:Coffee Break
@@ -167,8 +181,50 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:d8fba9fa
-DTSTAMP:20190122T145323Z
+UID:edd8d7fa
+DTSTAMP:20190129T132531Z
+DTSTART:20181130T114000Z
+DTEND:20181130T123000Z
+SUMMARY:Jedi Techniques of Effective Problem Solving (Maxim Dorofeev)
+SEQUENCE:0
+LOCATION:DevTernity (Track 1)
+DESCRIPTION:#productivity #getting things done\n\ncoming soon
+URL;VALUE=URI:https://devternity.com
+ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
+END:VEVENT
+
+
+BEGIN:VEVENT
+UID:0efce0f0
+DTSTAMP:20190129T132531Z
+DTSTART:20181130T114000Z
+DTEND:20181130T123000Z
+SUMMARY:The Clean Architecture (Ian Cooper)
+SEQUENCE:0
+LOCATION:DevTernity (Track 2)
+DESCRIPTION:#architecture #.net examples\n\nWhat is the clean architecture and how you would build one in .NET? Recently Bob Martin has categorized a set of architectures\, including hexagonal architecture\, onion architecture and screaming architecture as 'the clean architecture' - a layered architecture of concentric circles with a strong emphasis on separation of concerns. This architecture has become popular because of its amenability to modification as an evolutionary architecture and its support for practices such as TDD. In this presentation we will discuss the clean architecture and its benefits. More than that\, in the bulk of the presentation\, we will show you how to implement a clean architecture in .NET. From first steps to working code\, we will show you the moves required to embrace this approach\, and introduce you to some of the OSS libraries that can help you get there. All examples will be in .NET Core
+URL;VALUE=URI:https://devternity.com
+ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
+END:VEVENT
+
+
+BEGIN:VEVENT
+UID:d810d675
+DTSTAMP:20190129T132531Z
+DTSTART:20181130T114000Z
+DTEND:20181130T123000Z
+SUMMARY:Programming Style & Your Brain (Douglas Crockford)
+SEQUENCE:0
+LOCATION:DevTernity (Track 3)
+DESCRIPTION:#coding #code readability #linting\n\nComputer programs are the most complicated things humans make. They must be perfect\, which is hard for us because we are not perfect. Programming is thought to be a "head" activity\, but there is a lot of "gut" involved. Indeed\, it may be the gut that gives us the insight necessary for solving hard problems. But gut messes us up when it come to matters of style.The systems in our brains that make us vulnerable to advertising and propaganda also influence our programming styles. This talk looks systematically at the development of a programming style that specifically improves the reliability of programs. The examples are given in JavaScript\, a language with an uncommonly large number of bad parts\, but the principles are applicable to all languages.
+URL;VALUE=URI:https://devternity.com
+ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
+END:VEVENT
+
+
+BEGIN:VEVENT
+UID:564d171a
+DTSTAMP:20190129T132531Z
 DTSTART:20181130T123000Z
 DTEND:20181130T134000Z
 SUMMARY:Long Break
@@ -180,8 +236,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:b0ab28f7
-DTSTAMP:20190122T145323Z
+UID:fc7e5bb7
+DTSTAMP:20190129T132531Z
 DTSTART:20181130T143000Z
 DTEND:20181130T145000Z
 SUMMARY:Coffee Break
@@ -193,8 +249,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:8ddee588
-DTSTAMP:20190122T145323Z
+UID:e520a422
+DTSTAMP:20190129T132531Z
 DTSTART:20181130T154000Z
 DTEND:20181130T160000Z
 SUMMARY:Coffee Break
@@ -206,8 +262,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:e80ef2a1
-DTSTAMP:20190122T145323Z
+UID:f493590b
+DTSTAMP:20190129T132531Z
 DTSTART:20181130T165000Z
 DTEND:20181130T171000Z
 SUMMARY:Coffee Break
@@ -219,8 +275,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:74c47d45
-DTSTAMP:20190122T145323Z
+UID:7b01598e
+DTSTAMP:20190129T132531Z
 DTSTART:20181130T180000Z
 DTEND:20181130T182000Z
 SUMMARY:Coffee Break
@@ -232,8 +288,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:9d37b0bc
-DTSTAMP:20190122T145323Z
+UID:3e8bbaf8
+DTSTAMP:20190129T132531Z
 DTSTART:20181130T191000Z
 DTEND:20181130T193000Z
 SUMMARY:Final Words
@@ -245,8 +301,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:2e059e00
-DTSTAMP:20190122T145323Z
+UID:9dcfb51a
+DTSTAMP:20190129T132531Z
 DTSTART:20181130T193000Z
 DTEND:20181130T230000Z
 SUMMARY:Beer Afterparty
