@@ -31,13 +31,13 @@ END:VTIMEZONE
 
 
 BEGIN:VEVENT
-UID:ecc06724
-DTSTAMP:20190129T132531Z
+UID:8bcfd9e5
+DTSTAMP:20190204T224946Z
 DTSTART:20191207T090000Z
 DTEND:20191207T180000Z
 SUMMARY:Elastic\, Agile and Adaptive Leadership (Roy Osherove)
 SEQUENCE:0
-LOCATION:DevTernity (Track 1)
+LOCATION:DevTernity 
 DESCRIPTION:#mentorship #team leadership #people\n\nDURING THIS TRAINING\, YOU WILL:\n * Learn about the three basic team modes: Survival mode\, Learning mode and Self Organization Mode. Learn how to know which mode your team is in right now.\n * Learn essential skills for the three modes of leadership you will need for the three phases of the team: Command and control leadership\, Coaching and facilitative leadership.\n * Learn how to change anything by understanding why people behave the way they do\, and understanding the six influence forces that affect our behavior.\n * Participate in engaging exercises that will examine your skills at the various leadership modes.\n\nMore than 50% of workshop time is devoted to practice\, exercises and discussions. The workshop offers concrete\, ready-to-use improvement recipes for daily work.
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
@@ -45,13 +45,13 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:bc61881f
-DTSTAMP:20190129T132531Z
+UID:0a0d3ab7
+DTSTAMP:20190204T224946Z
 DTSTART:20191207T090000Z
 DTEND:20191207T180000Z
 SUMMARY:Kubernetes for Developers (Juris Pavlyuchenkov)
 SEQUENCE:0
-LOCATION:DevTernity (Track 2)
+LOCATION:DevTernity 
 DESCRIPTION:#k8s #containers\n\nTHE COURSE COVERS:\n * Why Kubernetes is important\, when to use it and when to avoid\n * Understanding Docker basics – manifests\, images\, containers\, repositories\n * Understanding how Kubernetes is built (API\, scheduler\, etcd\, plugins\, internals)\n * Configuring\, deploying and operating stateless apps with Pods\, Services\, Deployments\, Ingresses\, Secrets\, ConfigMaps\n * Running stateful Redis cluster with StatefulSets\, PersistantVolumes\n * Running scheduled operations in a cluster (CronJobs\, DaemonSets\, Pod affinity)\n * Configuring Kubernetes cluster for maximum security\n * Troubleshooting Kubernetes\, monitoring\, logging and debugging\n\nAfter this course\, you'll get deep understanding of the core Kubernetes concepts\, and will be able to easily run and operate your own containerized applications.
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
@@ -59,13 +59,13 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:003605e6
-DTSTAMP:20190129T132531Z
+UID:5208d7b4
+DTSTAMP:20190204T224946Z
 DTSTART:20191207T090000Z
 DTEND:20191207T180000Z
 SUMMARY:Jedi Techniques of Personal Effectiveness (Maxim Dorofeev)
 SEQUENCE:0
-LOCATION:DevTernity (Track 3)
+LOCATION:DevTernity 
 DESCRIPTION:#productivity #getting things done #smarter working\n\nIN A SIMPLE AND ENTERTAINING WAY\, YOU WILL LEARN:\n * How do our minds work? Daniel Kahneman’s and Tim Urban’s models.\n * What does instant gratification monkey do in my head and how to tame it? \n * What cognitive biases are and how they affect our day-to-day work?\n * The concept of limited Mindfuel and how to save it\n * Why some ToDo lists do not help and how to create ToDo list that (finally) works\n * Methods of “Magic fairy” and “Rational flaneur”\n * How to succeed in a highly uncertain environment and how to make uncertainty your best friend\n * How technology hijacks our minds. The concept of information overload and how to prevеnt it.\n * How to deal with tasks and commitments under tight deadlines and high uncertainty\n * ...and much more!\n\nMore than 50% of workshop time is devoted to practice\, exercises and discussions. The workshop offers concrete\, ready-to-use improvement recipes for daily work.
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
@@ -73,8 +73,22 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:6f4c6e77
-DTSTAMP:20190129T132531Z
+UID:0d8569e4
+DTSTAMP:20190204T224946Z
+DTSTART:20191207T090000Z
+DTEND:20191207T180000Z
+SUMMARY:Practical Messaging (Ian Cooper)
+SEQUENCE:0
+LOCATION:DevTernity 
+DESCRIPTION:#distributed systems #integration #rabbitmq examples\n\nTHE COURSE COVERS: \n * Why Messaging is important\, when to use it and when RPC is good enough\n * Understanding integration styles\, Architectures and Simple Patterns\n * Understanding Eventual Consistency\n * Understanding Guaranteed\, At Least Once and Exactly Once Delivery\n * Understanding Pipes and Filters Architectures\n * Understanding Channels\, Endpoints\, Routers\n * Understanding Command\, Events\, & Documents\n * Understanding Channels (Point-to-Point\, Publish-Subscribe\, Dead Letters)\n * Understanding Consumers (Polling\, Event-Driven\, Competing)\n * ...and much more!\n\nBy the end of the workshop you should feel understand when and how to use messaging and become comfortable understanding how to implement it in your applications.
+URL;VALUE=URI:https://devternity.com
+ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
+END:VEVENT
+
+
+BEGIN:VEVENT
+UID:ac50f308
+DTSTAMP:20190204T224946Z
 DTSTART:20181130T080000Z
 DTEND:20181130T090000Z
 SUMMARY:Registration and Coffee
@@ -86,8 +100,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:227d03b3
-DTSTAMP:20190129T132531Z
+UID:e4763e75
+DTSTAMP:20190204T224946Z
 DTSTART:20181130T090000Z
 DTEND:20181130T091500Z
 SUMMARY:Conference Opening
@@ -99,8 +113,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:a11be1a5
-DTSTAMP:20190129T132531Z
+UID:bd5a6c1d
+DTSTAMP:20190204T224946Z
 DTSTART:20181130T091500Z
 DTEND:20181130T101000Z
 SUMMARY:The Silver Bullet Syndrome (Hadi Hariri)
@@ -113,8 +127,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:b6708b37
-DTSTAMP:20190129T132531Z
+UID:0615b6db
+DTSTAMP:20190204T224946Z
 DTSTART:20181130T101000Z
 DTEND:20181130T103000Z
 SUMMARY:Coffee Break
@@ -126,8 +140,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:6e8a9f39
-DTSTAMP:20190129T132531Z
+UID:dc759dc0
+DTSTAMP:20190204T224946Z
 DTSTART:20181130T103000Z
 DTEND:20181130T112000Z
 SUMMARY:The Coaching Architect Manifesto (Roy Osherove)
@@ -140,8 +154,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:fbeaa66a
-DTSTAMP:20190129T132531Z
+UID:2fda015d
+DTSTAMP:20190204T224946Z
 DTSTART:20181130T103000Z
 DTEND:20181130T112000Z
 SUMMARY:Elixir — Easy Fun for Busy Developers (David Schmitz)
@@ -154,8 +168,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:4e8e48c1
-DTSTAMP:20190129T132531Z
+UID:4960251e
+DTSTAMP:20190204T224946Z
 DTSTART:20181130T103000Z
 DTEND:20181130T112000Z
 SUMMARY:The Well-Balanced Programmer (J.B. Rainsberger)
@@ -168,8 +182,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:4e7f5117
-DTSTAMP:20190129T132531Z
+UID:fd6a33da
+DTSTAMP:20190204T224946Z
 DTSTART:20181130T112000Z
 DTEND:20181130T114000Z
 SUMMARY:Coffee Break
@@ -181,8 +195,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:edd8d7fa
-DTSTAMP:20190129T132531Z
+UID:2c4ac963
+DTSTAMP:20190204T224946Z
 DTSTART:20181130T114000Z
 DTEND:20181130T123000Z
 SUMMARY:Jedi Techniques of Effective Problem Solving (Maxim Dorofeev)
@@ -195,8 +209,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:0efce0f0
-DTSTAMP:20190129T132531Z
+UID:d5b96f53
+DTSTAMP:20190204T224946Z
 DTSTART:20181130T114000Z
 DTEND:20181130T123000Z
 SUMMARY:The Clean Architecture (Ian Cooper)
@@ -209,8 +223,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:d810d675
-DTSTAMP:20190129T132531Z
+UID:64307b63
+DTSTAMP:20190204T224946Z
 DTSTART:20181130T114000Z
 DTEND:20181130T123000Z
 SUMMARY:Programming Style & Your Brain (Douglas Crockford)
@@ -223,8 +237,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:564d171a
-DTSTAMP:20190129T132531Z
+UID:1d0d2b1d
+DTSTAMP:20190204T224946Z
 DTSTART:20181130T123000Z
 DTEND:20181130T134000Z
 SUMMARY:Long Break
@@ -236,8 +250,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:fc7e5bb7
-DTSTAMP:20190129T132531Z
+UID:2338ff95
+DTSTAMP:20190204T224946Z
 DTSTART:20181130T143000Z
 DTEND:20181130T145000Z
 SUMMARY:Coffee Break
@@ -249,8 +263,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:e520a422
-DTSTAMP:20190129T132531Z
+UID:563c7d4f
+DTSTAMP:20190204T224946Z
 DTSTART:20181130T154000Z
 DTEND:20181130T160000Z
 SUMMARY:Coffee Break
@@ -262,8 +276,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:f493590b
-DTSTAMP:20190129T132531Z
+UID:ae723aae
+DTSTAMP:20190204T224946Z
 DTSTART:20181130T165000Z
 DTEND:20181130T171000Z
 SUMMARY:Coffee Break
@@ -275,8 +289,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:7b01598e
-DTSTAMP:20190129T132531Z
+UID:7fe175b4
+DTSTAMP:20190204T224946Z
 DTSTART:20181130T180000Z
 DTEND:20181130T182000Z
 SUMMARY:Coffee Break
@@ -288,8 +302,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:3e8bbaf8
-DTSTAMP:20190129T132531Z
+UID:b99c146e
+DTSTAMP:20190204T224946Z
 DTSTART:20181130T191000Z
 DTEND:20181130T193000Z
 SUMMARY:Final Words
@@ -301,8 +315,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:9dcfb51a
-DTSTAMP:20190129T132531Z
+UID:0b3fafb3
+DTSTAMP:20190204T224946Z
 DTSTART:20181130T193000Z
 DTEND:20181130T230000Z
 SUMMARY:Beer Afterparty
