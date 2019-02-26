@@ -31,8 +31,8 @@ END:VTIMEZONE
 
 
 BEGIN:VEVENT
-UID:610205da
-DTSTAMP:20190205T223029Z
+UID:e6eb5794
+DTSTAMP:20190226T113802Z
 DTSTART:20191207T090000Z
 DTEND:20191207T180000Z
 SUMMARY:Elastic\, Agile and Adaptive Leadership (Roy Osherove)
@@ -45,11 +45,11 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:80fe4559
-DTSTAMP:20190205T223029Z
+UID:1042a479
+DTSTAMP:20190226T113802Z
 DTSTART:20191207T090000Z
 DTEND:20191207T180000Z
-SUMMARY:Kubernetes for Developers (Juris Pavlyuchenkov)
+SUMMARY:Mastering Kubernetes and Containers (Juris Pavlyuchenkov)
 SEQUENCE:0
 LOCATION:DevTernity 
 DESCRIPTION:#k8s #containers\n\nTHE COURSE COVERS:\n * Why Kubernetes is important\, when to use it and when to avoid\n * Understanding Docker basics – manifests\, images\, containers\, repositories\n * Understanding how Kubernetes is built (API\, scheduler\, etcd\, plugins\, internals)\n * Configuring\, deploying and operating stateless apps with Pods\, Services\, Deployments\, Ingresses\, Secrets\, ConfigMaps\n * Running stateful Redis cluster with StatefulSets\, PersistantVolumes\n * Running scheduled operations in a cluster (CronJobs\, DaemonSets\, Pod affinity)\n * Configuring Kubernetes cluster for maximum security\n * Troubleshooting Kubernetes\, monitoring\, logging and debugging\n\nAfter this course\, you'll get deep understanding of the core Kubernetes concepts\, and will be able to easily run and operate your own containerized applications.
@@ -59,8 +59,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:5f995ff0
-DTSTAMP:20190205T223029Z
+UID:dd3ff214
+DTSTAMP:20190226T113802Z
 DTSTART:20191207T090000Z
 DTEND:20191207T180000Z
 SUMMARY:Jedi Techniques of Personal Effectiveness (Maxim Dorofeev)
@@ -73,8 +73,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:65ba1e56
-DTSTAMP:20190205T223029Z
+UID:e291be64
+DTSTAMP:20190226T113802Z
 DTSTART:20191207T090000Z
 DTEND:20191207T180000Z
 SUMMARY:SOA Done Right (Jimmy Bogard)
@@ -87,22 +87,22 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:00faf819
-DTSTAMP:20190205T223029Z
+UID:8f9a54a9
+DTSTAMP:20190226T113802Z
 DTSTART:20191207T090000Z
 DTEND:20191207T180000Z
 SUMMARY:Practical Messaging (Ian Cooper)
 SEQUENCE:0
 LOCATION:DevTernity 
-DESCRIPTION:#distributed systems #integration #rabbitmq examples\n\nTHE COURSE COVERS: \n * Why Messaging is important\, when to use it and when RPC is good enough\n * Understanding integration styles\, Architectures and Simple Patterns\n * Understanding Eventual Consistency\n * Understanding Guaranteed\, At Least Once and Exactly Once Delivery\n * Understanding Pipes and Filters Architectures\n * Understanding Channels\, Endpoints\, Routers\n * Understanding Command\, Events\, & Documents\n * Understanding Channels (Point-to-Point\, Publish-Subscribe\, Dead Letters)\n * Understanding Consumers (Polling\, Event-Driven\, Competing)\n * ...and much more!\n\nBy the end of the workshop you should feel understand when and how to use messaging and become comfortable understanding how to implement it in your applications.
+DESCRIPTION:#distributed systems #integration #microservices\n\nTHE COURSE COVERS: \n * Asynchronous messaging architectures and patterns\n * Distributed systems advanced patterns and integration styles\n * Understanding CAP theorem\, strong and eventual consistency\n * Understanding delivery semantics (guaranteed\, at least once\, exactly once)\n * Understanding Pipes and Filters architectures\n * Understanding command\, events\, & documents\n * Understanding channels (point-to-point\, publish-subscribe\, dead letters)\n * Understanding consumers (polling\, event-driven\, competing)\n * ...and much more!\n\nBy the end of the workshop you will understand when and how to use messaging and will be able to use it effectively in your applications. There will be hands on coding exercises enabling you to implement simple and more complex messaging scenarios. We will use Rabbit MQ for examples. You need not have the latter installed on your machine\, but you should have Docker installed on your machine\, as exercises will use Docker Compose.
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
 END:VEVENT
 
 
 BEGIN:VEVENT
-UID:f7b92abb
-DTSTAMP:20190205T223029Z
+UID:01227b43
+DTSTAMP:20190226T113802Z
 DTSTART:20181130T080000Z
 DTEND:20181130T090000Z
 SUMMARY:Registration and Coffee
@@ -114,8 +114,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:07279f72
-DTSTAMP:20190205T223029Z
+UID:5ff48c27
+DTSTAMP:20190226T113802Z
 DTSTART:20181130T090000Z
 DTEND:20181130T091500Z
 SUMMARY:Conference Opening
@@ -127,8 +127,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:615f09b0
-DTSTAMP:20190205T223029Z
+UID:b3c36e93
+DTSTAMP:20190226T113802Z
 DTSTART:20181130T091500Z
 DTEND:20181130T101000Z
 SUMMARY:The Silver Bullet Syndrome (Hadi Hariri)
@@ -141,8 +141,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:8e799194
-DTSTAMP:20190205T223029Z
+UID:1aa1d9e3
+DTSTAMP:20190226T113802Z
 DTSTART:20181130T101000Z
 DTEND:20181130T103000Z
 SUMMARY:Coffee Break
@@ -154,8 +154,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:7ed8f4f8
-DTSTAMP:20190205T223029Z
+UID:6491340b
+DTSTAMP:20190226T113802Z
 DTSTART:20181130T103000Z
 DTEND:20181130T112000Z
 SUMMARY:The Coaching Architect Manifesto (Roy Osherove)
@@ -168,8 +168,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:35b460a6
-DTSTAMP:20190205T223029Z
+UID:1b640bf0
+DTSTAMP:20190226T113802Z
 DTSTART:20181130T103000Z
 DTEND:20181130T112000Z
 SUMMARY:Elixir — Easy Fun for Busy Developers (David Schmitz)
@@ -182,8 +182,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:bfd4584b
-DTSTAMP:20190205T223029Z
+UID:c7a82aab
+DTSTAMP:20190226T113802Z
 DTSTART:20181130T103000Z
 DTEND:20181130T112000Z
 SUMMARY:The Well-Balanced Programmer (J.B. Rainsberger)
@@ -196,8 +196,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:34ac7f97
-DTSTAMP:20190205T223029Z
+UID:757bb2c2
+DTSTAMP:20190226T113802Z
 DTSTART:20181130T112000Z
 DTEND:20181130T114000Z
 SUMMARY:Coffee Break
@@ -209,8 +209,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:95c26646
-DTSTAMP:20190205T223029Z
+UID:fd31b2ca
+DTSTAMP:20190226T113802Z
 DTSTART:20181130T114000Z
 DTEND:20181130T123000Z
 SUMMARY:Jedi Techniques of Effective Problem Solving (Maxim Dorofeev)
@@ -223,8 +223,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:285e94cd
-DTSTAMP:20190205T223029Z
+UID:85a455bc
+DTSTAMP:20190226T113802Z
 DTSTART:20181130T114000Z
 DTEND:20181130T123000Z
 SUMMARY:The Clean Architecture (Ian Cooper)
@@ -237,8 +237,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:aba38a90
-DTSTAMP:20190205T223029Z
+UID:44d8f6f3
+DTSTAMP:20190226T113802Z
 DTSTART:20181130T114000Z
 DTEND:20181130T123000Z
 SUMMARY:Programming Style & Your Brain (Douglas Crockford)
@@ -251,8 +251,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:ea9db0ff
-DTSTAMP:20190205T223029Z
+UID:97509350
+DTSTAMP:20190226T113802Z
 DTSTART:20181130T123000Z
 DTEND:20181130T134000Z
 SUMMARY:Long Break
@@ -264,8 +264,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:d751c48a
-DTSTAMP:20190205T223029Z
+UID:3a6a3155
+DTSTAMP:20190226T113802Z
 DTSTART:20181130T134000Z
 DTEND:20181130T143000Z
 SUMMARY:Vertical Slice Architecture (Jimmy Bogard)
@@ -278,8 +278,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:f1bd987c
-DTSTAMP:20190205T223029Z
+UID:1873bba5
+DTSTAMP:20190226T113802Z
 DTSTART:20181130T143000Z
 DTEND:20181130T145000Z
 SUMMARY:Coffee Break
@@ -291,8 +291,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:969a0ea9
-DTSTAMP:20190205T223029Z
+UID:43b8d7e3
+DTSTAMP:20190226T113802Z
 DTSTART:20181130T154000Z
 DTEND:20181130T160000Z
 SUMMARY:Coffee Break
@@ -304,8 +304,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:b2099ee8
-DTSTAMP:20190205T223029Z
+UID:94622a57
+DTSTAMP:20190226T113802Z
 DTSTART:20181130T165000Z
 DTEND:20181130T171000Z
 SUMMARY:Coffee Break
@@ -317,8 +317,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:6e9f4989
-DTSTAMP:20190205T223029Z
+UID:f1c3e876
+DTSTAMP:20190226T113802Z
 DTSTART:20181130T180000Z
 DTEND:20181130T182000Z
 SUMMARY:Coffee Break
@@ -330,8 +330,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:d1fca255
-DTSTAMP:20190205T223029Z
+UID:f8415c39
+DTSTAMP:20190226T113802Z
 DTSTART:20181130T191000Z
 DTEND:20181130T193000Z
 SUMMARY:Final Words
@@ -343,8 +343,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:6f4a29db
-DTSTAMP:20190205T223029Z
+UID:d2443e08
+DTSTAMP:20190226T113802Z
 DTSTART:20181130T193000Z
 DTEND:20181130T230000Z
 SUMMARY:Beer Afterparty
