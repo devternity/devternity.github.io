@@ -235,6 +235,10 @@
             <div class="whoname"><img class="lazy" data-src="images/flags/ch.svg" alt="ch flag" style="height: 13px;"> Adam Ralph</div>
             <div class="who">Software Developer @ Particular Software, OSS maintainer, Microsoft MVP</div>
           </section>
+          <section class="feature 3u 12u$(small)"><img class="lazy headshot" data-src="images/thierry.png" alt="Thierry de Pauw">
+            <div class="whoname"><img class="lazy" data-src="images/flags/be.svg" alt="be flag" style="height: 13px;"> Thierry de Pauw</div>
+            <div class="who">Founder, Consultant @ ThinkingLabs, Continuous Delivery Advocate</div>
+          </section>
         </div>
         <div class="row">
         </div>
@@ -312,7 +316,7 @@
           </section>
         </div>
         <div class="evt row odd">
-          <section class="align-center feature 4u">16:00<br><span><i class="fas fa-clock"> </i> amazing talk pending</span><br><span></span>
+          <section class="align-center feature 4u">16:00<br><a class="pointer" ng-click="popupSpeech(83)"> Thierry de Pauw<br><strong>Feature Branching Considered Evil</strong></a><br><span>#continuous integration #continuous delivery</span>
           </section>
           <section class="align-center feature 4u">16:00<br><span><i class="fas fa-clock"> </i> amazing talk pending</span><br><span></span>
           </section>
@@ -555,6 +559,22 @@
               </div>
               <p class="whoname"><em>Finding Your Service Boundaries</em></p>
               <p class="speaker">We know it's useful to split up complex systems. We've seen the benefits of modular deployment of microservices. Dealing with only one piece of code at a time eases our cognitive load. But how do we know where to draw the service boundaries? In complex business domains, it's often difficult to know where to start. When we get our boundaries wrong, the clocks starts ticking. Before long, we hear ourselves say "it would be easier to re-write it". Join Adam for practical advice on discovering the hidden boundaries in your systems. Help tease out the natural separation of concerns in a sample business domain. During 20 years of developing complex systems, Adam has had plenty of time to get things wrong. Learn to avoid the common pitfalls that can lead us down the path to "the big re-write".</p>
+            </section>
+          </div>
+        </section>
+      </div>
+      <div class="container">
+        <section class="wrapper speech tickets align-center" data-remodal-id="83">
+          <button class="remodal-close" data-remodal-action="close"></button>
+          <div class="row">
+            <section class="12u">
+              <div><img class="headshot" src="images/thierry.png" alt="speaker headshot">
+                <p class="whoname"><img src="images/flags/be.svg" alt="be flag" style="height: 13px;"> Thierry de Pauw 
+                </p>
+                <p class="speaker-bio">Founder, Consultant @ ThinkingLabs, Continuous Delivery Advocate</p>
+              </div>
+              <p class="whoname"><em>Feature Branching Considered Evil</em></p>
+              <p class="speaker">With DVCSs branch creation became very easy, but it comes at a certain cost. Long living branches break the flow of the software delivery process, impacting stability and throughput. The session explores why teams are using feature branches, what problems are introduced by using them and what techniques exist to avoid them altogether. It explores exactly what's evil about feature branches, which is not necessarily the problems they introduce - but rather, the real reasons why teams are using them. After the session, you'll understand a different branching strategy and how it relates to CI/CD.</p>
             </section>
           </div>
         </section>
