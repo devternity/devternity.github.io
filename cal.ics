@@ -31,8 +31,8 @@ END:VTIMEZONE
 
 
 BEGIN:VEVENT
-UID:eb4b8989
-DTSTAMP:20190424T121209Z
+UID:a0183695
+DTSTAMP:20190501T170423Z
 DTSTART:20191207T090000Z
 DTEND:20191207T180000Z
 SUMMARY:Elastic\, Agile and Adaptive Leadership (Roy Osherove)
@@ -45,8 +45,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:14e4c11a
-DTSTAMP:20190424T121209Z
+UID:3a4c3649
+DTSTAMP:20190501T170423Z
 DTSTART:20191207T090000Z
 DTEND:20191207T180000Z
 SUMMARY:Software Architecture in a Post-agile World (Uwe Friedrichsen)
@@ -59,8 +59,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:14b25adc
-DTSTAMP:20190424T121209Z
+UID:9566a8dc
+DTSTAMP:20190501T170423Z
 DTSTART:20191207T090000Z
 DTEND:20191207T180000Z
 SUMMARY:Jedi Techniques of Personal Effectiveness (Maxim Dorofeev)
@@ -73,8 +73,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:95735ed8
-DTSTAMP:20190424T121209Z
+UID:d9d698d1
+DTSTAMP:20190501T170423Z
 DTSTART:20191207T090000Z
 DTEND:20191207T180000Z
 SUMMARY:SOA Done Right (Jimmy Bogard)
@@ -87,8 +87,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:c8c9469e
-DTSTAMP:20190424T121209Z
+UID:e3da13a6
+DTSTAMP:20190501T170423Z
 DTSTART:20191207T090000Z
 DTEND:20191207T180000Z
 SUMMARY:Practical Messaging (Ian Cooper)
@@ -101,8 +101,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:d0b64ba8
-DTSTAMP:20190424T121209Z
+UID:fe7d77ad
+DTSTAMP:20190501T170423Z
 DTSTART:20191207T090000Z
 DTEND:20191207T180000Z
 SUMMARY:Good Code (Kevlin Henney)
@@ -115,8 +115,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:bf3b31cb
-DTSTAMP:20190424T121209Z
+UID:d5c6364d
+DTSTAMP:20190501T170423Z
 DTSTART:20181130T080000Z
 DTEND:20181130T090000Z
 SUMMARY:Registration and Coffee
@@ -128,8 +128,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:d7e59d1a
-DTSTAMP:20190424T121209Z
+UID:195bbd78
+DTSTAMP:20190501T170423Z
 DTSTART:20181130T090000Z
 DTEND:20181130T091500Z
 SUMMARY:Conference Opening
@@ -141,8 +141,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:ce198ac7
-DTSTAMP:20190424T121209Z
+UID:e59df33b
+DTSTAMP:20190501T170423Z
 DTSTART:20181130T091500Z
 DTEND:20181130T101000Z
 SUMMARY:Lean Code (Kevlin Henney)
@@ -155,8 +155,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:753f40e9
-DTSTAMP:20190424T121209Z
+UID:f1998806
+DTSTAMP:20190501T170423Z
 DTSTART:20181130T101000Z
 DTEND:20181130T103000Z
 SUMMARY:Coffee Break
@@ -168,8 +168,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:799812c4
-DTSTAMP:20190424T121209Z
+UID:b05be3a0
+DTSTAMP:20190501T170423Z
 DTSTART:20181130T103000Z
 DTEND:20181130T112000Z
 SUMMARY:The Coaching Architect Manifesto (Roy Osherove)
@@ -182,8 +182,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:f557e5b9
-DTSTAMP:20190424T121209Z
+UID:ae5131ab
+DTSTAMP:20190501T170423Z
 DTSTART:20181130T103000Z
 DTEND:20181130T112000Z
 SUMMARY:Elixir — Easy Fun for Busy Developers (David Schmitz)
@@ -196,8 +196,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:b7b2796f
-DTSTAMP:20190424T121209Z
+UID:4d3b9c9b
+DTSTAMP:20190501T170423Z
 DTSTART:20181130T103000Z
 DTEND:20181130T112000Z
 SUMMARY:The Well-Balanced Programmer (J.B. Rainsberger)
@@ -210,8 +210,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:ee2a1abc
-DTSTAMP:20190424T121209Z
+UID:46578fb5
+DTSTAMP:20190501T170423Z
 DTSTART:20181130T112000Z
 DTEND:20181130T114000Z
 SUMMARY:Coffee Break
@@ -223,8 +223,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:a875d402
-DTSTAMP:20190424T121209Z
+UID:243e6886
+DTSTAMP:20190501T170423Z
 DTSTART:20181130T114000Z
 DTEND:20181130T123000Z
 SUMMARY:The Jedi Techniques of Problem Solving (Maxim Dorofeev)
@@ -237,8 +237,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:2c78d20d
-DTSTAMP:20190424T121209Z
+UID:fcba01fe
+DTSTAMP:20190501T170423Z
 DTSTART:20181130T114000Z
 DTEND:20181130T123000Z
 SUMMARY:The Clean Architecture (Ian Cooper)
@@ -251,8 +251,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:5a6b57c4
-DTSTAMP:20190424T121209Z
+UID:9df0a654
+DTSTAMP:20190501T170423Z
 DTSTART:20181130T114000Z
 DTEND:20181130T123000Z
 SUMMARY:UX for Developers (Janne Jul Jensen)
@@ -265,8 +265,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:a16f765f
-DTSTAMP:20190424T121209Z
+UID:907864e8
+DTSTAMP:20190501T170423Z
 DTSTART:20181130T123000Z
 DTEND:20181130T134000Z
 SUMMARY:Long Break
@@ -278,8 +278,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:a1465b3d
-DTSTAMP:20190424T121209Z
+UID:9627d7c1
+DTSTAMP:20190501T170423Z
 DTSTART:20181130T134000Z
 DTEND:20181130T143000Z
 SUMMARY:Vertical Slice Architecture (Jimmy Bogard)
@@ -292,8 +292,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:fc0dddb5
-DTSTAMP:20190424T121209Z
+UID:422afae5
+DTSTAMP:20190501T170423Z
 DTSTART:20181130T134000Z
 DTEND:20181130T143000Z
 SUMMARY:Securing Your Infrastructure with Vault (Paul Stack)
@@ -306,8 +306,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:5bc8b9df
-DTSTAMP:20190424T121209Z
+UID:31a8867f
+DTSTAMP:20190501T170423Z
 DTSTART:20181130T134000Z
 DTEND:20181130T143000Z
 SUMMARY:Event-Driven Architecture Traps (Jakub Pilimon)
@@ -320,8 +320,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:8a8a95ce
-DTSTAMP:20190424T121209Z
+UID:57ee0056
+DTSTAMP:20190501T170423Z
 DTSTART:20181130T143000Z
 DTEND:20181130T145000Z
 SUMMARY:Coffee Break
@@ -333,8 +333,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:a39e9ac4
-DTSTAMP:20190424T121209Z
+UID:48c3ccd6
+DTSTAMP:20190501T170423Z
 DTSTART:20181130T145000Z
 DTEND:20181130T154000Z
 SUMMARY:Achieving Technical Excellence in Your Software Teams (Peter Gfader)
@@ -347,8 +347,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:fed06c08
-DTSTAMP:20190424T121209Z
+UID:6c828c7b
+DTSTAMP:20190501T170423Z
 DTSTART:20181130T145000Z
 DTEND:20181130T154000Z
 SUMMARY:DevOps is Not Enough – Re-thinking IT from Scratch (Uwe Friedrichsen)
@@ -361,8 +361,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:c8bb184c
-DTSTAMP:20190424T121209Z
+UID:02c1f812
+DTSTAMP:20190501T170423Z
 DTSTART:20181130T145000Z
 DTEND:20181130T154000Z
 SUMMARY:Finding Your Service Boundaries (Adam Ralph)
@@ -375,8 +375,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:671e84de
-DTSTAMP:20190424T121209Z
+UID:68b05b29
+DTSTAMP:20190501T170423Z
 DTSTART:20181130T154000Z
 DTEND:20181130T160000Z
 SUMMARY:Coffee Break
@@ -388,13 +388,13 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:87356a9d
-DTSTAMP:20190424T121209Z
+UID:ee94bd52
+DTSTAMP:20190501T170423Z
 DTSTART:20181130T160000Z
 DTEND:20181130T165000Z
 SUMMARY:Feature Branching Considered Evil (Thierry de Pauw)
 SEQUENCE:0
-LOCATION:DevTernity 
+LOCATION:DevTernity (Track 1)
 DESCRIPTION:#continuous integration #continuous delivery\n\nWith DVCSs branch creation became very easy\, but it comes at a certain cost. Long living branches break the flow of the software delivery process\, impacting stability and throughput. The session explores why teams are using feature branches\, what problems are introduced by using them and what techniques exist to avoid them altogether. It explores exactly what's evil about feature branches\, which is not necessarily the problems they introduce - but rather\, the real reasons why teams are using them. After the session\, you'll understand a different branching strategy and how it relates to CI/CD.
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
@@ -402,13 +402,13 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:079fc95e
-DTSTAMP:20190424T121209Z
+UID:0518cac7
+DTSTAMP:20190501T170423Z
 DTSTART:20181130T160000Z
 DTEND:20181130T165000Z
 SUMMARY:Leadership Guide for the Reluctant Leader (David Neal)
 SEQUENCE:0
-LOCATION:DevTernity 
+LOCATION:DevTernity (Track 2)
 DESCRIPTION:#leadership #soft skills #people\n\nRegardless of the technology you know\, regardless of the job title you have\, you have amazing potential to impact your workplace\, community\, and beyond. In this talk\, I’ll share a few candid stories of my career failures… I mean… learning opportunities. We’ll start by debunking the myth that leadership == management. Next\, we’ll talk about some the attributes\, behaviors and skills of good leaders. Last\, we’ll cover some practical steps and resources to accelerate your journey. You’ll walk away with some essential leadership skills I believe anyone can develop\, and a good dose of encouragement to be more awesome!
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
@@ -416,8 +416,22 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:1d04e0cf
-DTSTAMP:20190424T121209Z
+UID:b32ab556
+DTSTAMP:20190501T170423Z
+DTSTART:20181130T160000Z
+DTEND:20181130T165000Z
+SUMMARY:What Neuroscience and Science Fiction Taught Me About DDD (Jakub Nabrdalik)
+SEQUENCE:0
+LOCATION:DevTernity (Track 3)
+DESCRIPTION:#domain-driven design #architecture #experience report\n\nWhen I visit a company and ask them to show me their architecture\, usually they would go over their kubernetes clusters\, their istio based networking\, their choice of microfrontend framework\, their message queues and databases. And it looks exactly the same as any other company with k8s\, istio\, microfrontend and event based communication. When I ask them about their domain\, they seem puzzled. Top level management says: “we’ve hired the best people on the market that already know the domain”. The senior people say: “I don’t have the big picture\, but here’s what my service does”. And regular devs usually go with “Oh\, it’s just a big fucking mess”. When I push the devs with “So where do we put the logic for a new feature?” they answer with “It’s mostly random”. We have books about DDD building blocks\, we’ve learned Event Storming\, we use Event Sourcing\, Value-stream mapping\, we write Functional/Objective microservices or lambdas\, and yet again we fail at modelling the domain. How come? And what can we do about it?
+URL;VALUE=URI:https://devternity.com
+ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
+END:VEVENT
+
+
+BEGIN:VEVENT
+UID:7e3be150
+DTSTAMP:20190501T170423Z
 DTSTART:20181130T165000Z
 DTEND:20181130T171000Z
 SUMMARY:Coffee Break
@@ -429,8 +443,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:a2fe749c
-DTSTAMP:20190424T121209Z
+UID:0a9b87a7
+DTSTAMP:20190501T170423Z
 DTSTART:20181130T180000Z
 DTEND:20181130T182000Z
 SUMMARY:Coffee Break
@@ -442,8 +456,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:4debdc0a
-DTSTAMP:20190424T121209Z
+UID:03287245
+DTSTAMP:20190501T170423Z
 DTSTART:20181130T191000Z
 DTEND:20181130T193000Z
 SUMMARY:Final Words
@@ -455,8 +469,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:a0362dcd
-DTSTAMP:20190424T121209Z
+UID:487b09b5
+DTSTAMP:20190501T170423Z
 DTSTART:20181130T193000Z
 DTEND:20181130T230000Z
 SUMMARY:Beer Afterparty
