@@ -174,7 +174,7 @@
                 "logo": "eas.png",
                 "since": "2017",
                 "link": "https://www.workinestonia.com",
-                "info": "<p><strong><a href=\"https://www.workinestonia.com\">Work in Estonia</a></strong> introduces Estonia as an attractive living and working destination to talented potential employees worldwide, particularly in the ICT sector. Come and join the first digital society!</p>"
+                "info": "Work in Estonia introduces Estonia as an attractive living and working destination to talented potential employees worldwide, particularly in the ICT sector. Come and join the first digital society!</p>"
               }              
             ]
           }, 
@@ -193,26 +193,26 @@
                 "logo": "visma.jpg",
                 "since": "2015",
                 "link": "https://www.visma.lv/vakances/",
-                "info": "<p>Do you think time and money matter? We at Visma believe so. Therefore we make IT solutions that enable our customers to save both. \"Efficiency experts\", that's how we like to call ourselves. We achieve that by building international teams of smart minds who enjoy being stretched to their limits. <p>Click <strong><a href=\"https://www.visma.lv/vakances/\">here</a></strong> to check if you would like to join us.</p></p>"
+                "info": "<p>Do you think time and money matter? We at Visma believe so. Therefore we make IT solutions that enable our customers to save both. \"Efficiency experts\", that's how we like to call ourselves. We achieve that by building international teams of smart minds who enjoy being stretched to their limits.</p>"
               },
               {
                 "logo": "4finance.png",
                 "since": "2015",
                 "link": "http://www.4financeit.com/",
-                "info": "<p><strong><a href=\"http://4financeit.com\">4financeIT</a></strong> is a distributed software house, located in Warsaw, Riga, London, Vilnius and Prague, providing software to the rest of 4finance in 15 different countries.</p>"
+                "info": "<p>We are a distributed software house, located in Warsaw, Riga, London, Vilnius and Prague, providing software to the rest of 4finance in 15 different countries.</p>"
               },
               {
                 "logo": "proof.png",
                 "since": "2019",
                 "link": "http://proofit.lv",
-                "info": "<p>It’s not about where you work, but who you work with, is it? Our enthusiastic and mindful <strong><a href=\"http://proofit.lv\">Proof IT</a></strong> team will gladly help you to realize your full potential by taking part in the development of IT solutions that matter while exploring new technologies and business areas!</p>"
+                "info": "<p>It’s not about where you work, but who you work with, is it? Our enthusiastic and mindful Proof IT team will gladly help you to realize your full potential by taking part in the development of IT solutions that matter while exploring new technologies and business areas!</p>"
               }              
             ]
         },
         "silver": {
           "title": "Silver Sponsor",
           "stars": 0,
-          "sponsorsPerLine": 2,
+          "sponsorsPerLine": 4,
           "sponsors": [
             {
               "title": "Silver Sponsor",
@@ -225,9 +225,45 @@
               "logo": "sunfi.png",
               "since": "2019",
               "link": "https://www.sunfinance.group"
-            }                          
+            },
+            {
+              "title": "Partner",
+              "logo": "google.png",
+              "since": "2019",
+              "link": "https://www.google.com"
+            },
+            {
+              "title": "Partner",
+              "logo": "digitalocean.png",
+              "since": "2019",
+              "link": "https://www.digitalocean.com"
+            },
+            {
+              "title": "Partner",
+              "logo": "github.png",
+              "since": "2019",
+              "link": "https://www.github.com"
+            },
+            {
+              "title": "Partner",
+              "logo": "slack.png",
+              "since": "2019",
+              "link": "https://www.slack.com"
+            },
+            {
+              "title": "Partner",
+              "logo": "coursera.png",
+              "since": "2019",
+              "link": "https://www.coursera.com"
+            },
+            {
+              "title": "Partner",
+              "logo": "medium.png",
+              "since": "2019",
+              "link": "https://www.medium.com"
+            }               
           ]
-        }        
+        }               
       },
         "program": [
             {
@@ -320,7 +356,6 @@
                 "description": "<h3>The course covers: </h3><ul class=\"fa-ul\">   <li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>UI Decomposition</li>   <li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Data ownership across the enterprise</li>   <li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Finding service boundaries</li>   <li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Fault tolerance – HTTP and queues</li>   <li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Reliable integration with 3rd party systems</li>   <li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Scalability, high availability & monitoring</li>   <li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Scalable command-processing endpoints</li>   <li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Publish/subscribe event-processing interactions</li>   <li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Long-running multi-stage business processes and policies</li>   <li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>...and much more!</li></ul><p>You'll apply those concepts to build a simple, fully functional system sample with a microservices architecture!</p>",
                 "img": "images/jimbo.png",
                 "presentation": "",
-                "sold_out_soon": true,                
                 "video": ""
               },
               {
