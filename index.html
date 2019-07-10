@@ -216,9 +216,9 @@
           </section>
         </div>
         <div class="row">
-          <section class="feature 3u 12u$(small)"><img class="lazy headshot" data-src="images/vec_paul.png" alt="Paul Stack">
-            <div class="whoname"><img class="lazy" data-src="images/flags/gb.svg" alt="gb flag" style="height: 13px;"> Paul Stack</div>
-            <div class="who">Staff Software Engineer @ Pulumi, ex-Software Engineer @ HashiCorp</div><a href="https://twitter.com/stack72" aria-label="Paul Stack Twitter account"><i class="fab fa-twitter follow-speaker" aria-hidden="true"></i></a>
+          <section class="feature 3u 12u$(small)"><img class="lazy headshot" data-src="images/egorov.jpg" alt="Sergei Egorov">
+            <div class="whoname"><img class="lazy" data-src="images/flags/de.svg" alt="de flag" style="height: 13px;"> Sergei Egorov</div>
+            <div class="who">Staff Engineer @ Pivotal, Groovy, Reactor and Testcontainers Committer</div><a href="https://twitter.com/bsideup" aria-label="Sergei Egorov Twitter account"><i class="fab fa-twitter follow-speaker" aria-hidden="true"></i></a>
           </section>
           <section class="feature 3u 12u$(small)"><img class="lazy headshot" data-src="images/pilo.png" alt="Jakub Pilimon">
             <div class="whoname"><img class="lazy" data-src="images/flags/pl.svg" alt="pl flag" style="height: 13px;"> Jakub Pilimon</div>
@@ -255,6 +255,10 @@
           <section class="feature 3u 12u$(small)"><img class="lazy headshot" data-src="images/schmitz_vec.png" alt="David Schmitz">
             <div class="whoname"><img class="lazy" data-src="images/flags/de.svg" alt="de flag" style="height: 13px;"> David Schmitz</div>
             <div class="who">Principal Architect @ Senacor Technologies</div><a href="https://twitter.com/koenighotze" aria-label="David Schmitz Twitter account"><i class="fab fa-twitter follow-speaker" aria-hidden="true"></i></a>
+          </section>
+          <section class="feature 3u 12u$(small)"><img class="lazy headshot" data-src="images/vec_paul.png" alt="Paul Stack">
+            <div class="whoname"><img class="lazy" data-src="images/flags/gb.svg" alt="gb flag" style="height: 13px;"> Paul Stack</div>
+            <div class="who">Staff Software Engineer @ Pulumi, ex-Software Engineer @ HashiCorp</div><a href="https://twitter.com/stack72" aria-label="Paul Stack Twitter account"><i class="fab fa-twitter follow-speaker" aria-hidden="true"></i></a>
           </section>
         </div>
       </div>
@@ -309,7 +313,7 @@
         <div class="evt row odd">
           <section class="align-center feature 4u">13:40<br><a class="pointer" ng-click="popupSpeech(75)"> Jimmy Bogard<br><strong>Vertical Slice Architecture</strong></a><br><span>#architecture #domain-driven design #.net examples</span>
           </section>
-          <section class="align-center feature 4u">13:40<br><a class="pointer" ng-click="popupSpeech(76)"> Paul Stack<br><strong>Securing Your Infrastructure with Vault</strong></a><br><span>#security #hashistack #live demo</span>
+          <section class="align-center feature 4u">13:40<br><a class="pointer" ng-click="popupSpeech(76)"> Sergei Egorov<br><strong>Integration Testing with Docker and Testcontainers</strong></a><br><span>#docker #testing #java demo</span>
           </section>
           <section class="align-center feature 4u">13:40<br><a class="pointer" ng-click="popupSpeech(77)"> Jakub Pilimon<br><strong>Event-Driven Architecture and Traps</strong></a><br><span>#cqrs #event sourcing #spring</span>
           </section>
@@ -345,7 +349,7 @@
         <div class="evt row odd">
           <section class="align-center feature 4u">17:10<br><a class="pointer" ng-click="popupSpeech(87)"> David Schmitz<br><strong>Elixir — Easy Fun for Busy Developers</strong></a><br><span>#live coding #new language #distributed systems</span>
           </section>
-          <section class="align-center feature 4u">17:10<br><span><i class="fas fa-clock"> </i> amazing talk pending</span><br><span></span>
+          <section class="align-center feature 4u">17:10<br><a class="pointer" ng-click="popupSpeech(88)"> Paul Stack<br><strong>Securing Your Infrastructure with Vault</strong></a><br><span>#security #hashistack #live demo</span>
           </section>
           <section class="align-center feature 4u">17:10<br><span><i class="fas fa-clock"> </i> amazing talk pending</span><br><span></span>
           </section>
@@ -500,13 +504,13 @@
           <button class="remodal-close" data-remodal-action="close"></button>
           <div class="row">
             <section class="12u">
-              <div><img class="headshot" src="images/vec_paul.png" alt="speaker headshot">
-                <p class="whoname"><img src="images/flags/gb.svg" alt="gb flag" style="height: 13px;"> Paul Stack 
+              <div><img class="headshot" src="images/egorov.jpg" alt="speaker headshot">
+                <p class="whoname"><img src="images/flags/de.svg" alt="de flag" style="height: 13px;"> Sergei Egorov 
                 </p>
-                <p class="speaker-bio">Staff Software Engineer @ Pulumi, ex-Software Engineer @ HashiCorp</p>
+                <p class="speaker-bio">Staff Engineer @ Pivotal, Groovy, Reactor and Testcontainers Committer</p>
               </div>
-              <p class="whoname"><em>Securing Your Infrastructure with Vault</em></p>
-              <p class="speaker">Coming soon.</p>
+              <p class="whoname"><em>Integration Testing with Docker and Testcontainers</em></p>
+              <p class="speaker">Unit testing is fine, but without proper integration testing, especially if you work with external resources like databases and other services, you might not know how your application will actually behave once it has been deployed to the real production environment. Testcontainers is a popular JVM testing library that provides lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container. In this talk, we will briefly go throught the past, present and the future of the library.</p>
             </section>
           </div>
         </section>
@@ -635,6 +639,22 @@
               </div>
               <p class="whoname"><em>Elixir — Easy Fun for Busy Developers</em></p>
               <p class="speaker">Did you ever want to create an application that is never down? Have you ever been jealous of those Erlang guys, that produce applications that practically never fail? Have you tried Erlang and fled because of its baroque syntax and tooling? Enter Elixir! Elixir combines Ruby's love for programmers with the absolute power that is the Erlang platform. This talk will introduce programmers to Elixir and OTP. You will gain an understanding of what Elixir brings to the table and how to build highly scale-able systems with a toolset that is actually fun to use. Even if you will never use Elixir and OTP for you projects, you will learn some of the concepts, that make Erlang into such a powerful ecosystem.</p>
+            </section>
+          </div>
+        </section>
+      </div>
+      <div class="container">
+        <section class="wrapper speech tickets align-center" data-remodal-id="88">
+          <button class="remodal-close" data-remodal-action="close"></button>
+          <div class="row">
+            <section class="12u">
+              <div><img class="headshot" src="images/vec_paul.png" alt="speaker headshot">
+                <p class="whoname"><img src="images/flags/gb.svg" alt="gb flag" style="height: 13px;"> Paul Stack 
+                </p>
+                <p class="speaker-bio">Staff Software Engineer @ Pulumi, ex-Software Engineer @ HashiCorp</p>
+              </div>
+              <p class="whoname"><em>Securing Your Infrastructure with Vault</em></p>
+              <p class="speaker">Coming soon.</p>
             </section>
           </div>
         </section>
