@@ -1,9 +1,9 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 CALSCALE:GREGORIAN
-X-WR-CALNAME:DevTernity 2019
+X-WR-CALNAME:DevTernity 2020
 METHOD:PUBLISH
-PRODID:DevTernity 2019
+PRODID:DevTernity 2020
 X-WR-TIMEZONE:europe/riga
 
 BEGIN:VTIMEZONE
@@ -31,108 +31,66 @@ END:VTIMEZONE
 
 
 BEGIN:VEVENT
-UID:68a288f3
-DTSTAMP:20200216T075853Z
-DTSTART:20191207T090000Z
-DTEND:20191207T180000Z
-SUMMARY:Surviving Legacy Code (J.B. Rainsberger)
+UID:547e92db
+DTSTAMP:20200322T104645Z
+DTSTART:20201204T090000Z
+DTEND:20201204T180000Z
+SUMMARY:Leadership Guide for the Reluctant Leader (David Neal)
 SEQUENCE:0
 LOCATION:DevTernity 
-DESCRIPTION:#evolutionary design #legacy code #clean code\n\nWHAT YOU’LL LEARN:\n * When to refactor and when to rewrite\, and how to do that safely.\n * The killer technique for exposing in glorious detail exactly where the code wants us to break it apart.\n * How to use statistical sampling and logs to cobble together the beginnings of a test suite.\n * How to sterilise a legacy environment before even trying to change the code.\n * How to crack the chicken-and-egg problem: I need to write tests in order to refactor\, and I need to refactor in order to write tests.\n\n\n\nWe will work in short sessions on a diabolical-but-fun code base (available in at least 20 programming languages)\, practise micro-committing\, a key technique to changing difficult code safely\, practise a handful of refactoring and testing exercises that develop the most essential legacy code rescue skills and disciplines.
+DESCRIPTION:#leadership #teamwork #mentoring\n\nWHAT YOU’LL LEARN:\n * Why leadership and awesomeness skills matter to everyone\n * How to become a better leader\n * How to run effective meetings\n * How to deal with conflict and find consensus\n * How to get getter at listening and communication\n * How to encourage and motivate others\n\n\n\nThrough a series of practical exercises\, we will discover and discuss the most important and relevant topics you want to cover\, so that you can get the most value out of this workshop!
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
 END:VEVENT
 
 
 BEGIN:VEVENT
-UID:47ffa35d
-DTSTAMP:20200216T075853Z
-DTSTART:20191207T090000Z
-DTEND:20191207T180000Z
-SUMMARY:Elastic\, Agile and Adaptive Leadership (Roy Osherove)
+UID:a9494bd5
+DTSTAMP:20200322T104645Z
+DTSTART:20201204T090000Z
+DTEND:20201204T180000Z
+SUMMARY:From Legacy to Solid Code with Blue-Green Refactoring (Bartłomiej Słota)
 SEQUENCE:0
 LOCATION:DevTernity 
-DESCRIPTION:#mentorship #team leadership #people\n\nDURING THIS TRAINING\, YOU WILL:\n * Learn about the three basic team modes: Survival mode\, Learning mode and Self Organization Mode. Learn how to know which mode your team is in right now.\n * Learn essential skills for the three modes of leadership you will need for the three phases of the team: Command and control leadership\, Coaching and facilitative leadership.\n * Learn how to change anything by understanding why people behave the way they do\, and understanding the six influence forces that affect our behavior.\n * Participate in engaging exercises that will examine your skills at the various leadership modes.\n\nMore than 50% of workshop time is devoted to practice\, exercises and discussions. The workshop offers concrete\, ready-to-use improvement recipes for daily work.
+DESCRIPTION:#refactoring #event storming #java examples\n\nWHAT YOU'LL LEARN:\n * Why do we refactor\, when do we do it\, and where\n * What are the pros and cons of small-steps refactoring compared to blue-green refactoring?\n * How EventStorming can help us create the new model\n * How to split logical modules from the existing codebase\n * How and when to refactor towards DDD\n * How to test your legacy code and identify seams\n * How to be sure that the new code works exactly like the old one\n * How to securely withdraw changes when something goes bad
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
 END:VEVENT
 
 
 BEGIN:VEVENT
-UID:75368800
-DTSTAMP:20200216T075853Z
-DTSTART:20191207T090000Z
-DTEND:20191207T180000Z
-SUMMARY:Software Architecture in a Post-agile World (Uwe Friedrichsen)
+UID:08f83c58
+DTSTAMP:20200322T104645Z
+DTSTART:20201204T090000Z
+DTEND:20201204T180000Z
+SUMMARY:Modular Monoliths vs. Distributed Synchronous Systems vs. Event Driven Systems (Jakub Nabrdalik)
 SEQUENCE:0
 LOCATION:DevTernity 
-DESCRIPTION:#software architecture\n\nWHAT'S INSIDE?\nIn this workshop we will first discuss the challenges of architectural work in a post-agile IT world. Then\, after rediscovering why we need architectural work at all\, we will set up a surprisingly simple down-to-earth approach for implementing it. After that\, we will fill the building blocks one by one. Finally\, we will complete the picture by discussing questions like: When should we do what? How much should we do in which context? How can we create a sustainable architecture and where are the limits? Plus some more topics. All this will happen in a mix of bits of theory\, lots of interaction and hands-on\, plus room for questions\, discussion\, tips\, tricks and more. After this workshop\, you will have a better understanding what architectural work actually is about\, what is important\, what is not\, and how to tackle it in practice.
+DESCRIPTION:#architecture #microservices #modularity\n\nWHAT YOU'LL LEARN:\n * The three main styles of enterprise service architecture\n * Pros and cons of each style and how to choose the right style\n * How to mix different architecture styles\n * Best practices in designing backend architectures and services\n * Typical errors in designing service architecture and how to avoid them\n * How to use C4 model to communicate your architecture\n * ...and much more!
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
 END:VEVENT
 
 
 BEGIN:VEVENT
-UID:12a192b2
-DTSTAMP:20200216T075853Z
-DTSTART:20191207T090000Z
-DTEND:20191207T180000Z
-SUMMARY:Jedi Techniques of Personal Effectiveness (Maxim Dorofeev)
+UID:f0d0db0c
+DTSTAMP:20200322T104645Z
+DTSTART:20201204T090000Z
+DTEND:20201204T180000Z
+SUMMARY:Advanced Jedi Techniques (Maxim Dorofeev)
 SEQUENCE:0
 LOCATION:DevTernity 
-DESCRIPTION:#productivity #getting things done #smarter working\n\nIN A SIMPLE AND ENTERTAINING WAY\, YOU WILL LEARN:\n * How do our minds work? Daniel Kahneman’s and Tim Urban’s models.\n * What does instant gratification monkey do in my head and how to tame it? \n * What cognitive biases are and how they affect our day-to-day work?\n * The concept of limited Mindfuel and how to save it\n * Why some ToDo lists do not help and how to create ToDo list that (finally) works\n * Methods of “Magic fairy” and “Rational flaneur”\n * How to succeed in a highly uncertain environment and how to make uncertainty your best friend\n * How technology hijacks our minds. The concept of information overload and how to prevеnt it.\n * How to deal with tasks and commitments under tight deadlines and high uncertainty\n * ...and much more!\n\nMore than 50% of workshop time is devoted to practice\, exercises and discussions. The workshop offers concrete\, ready-to-use improvement recipes for daily work.
+DESCRIPTION:#productivity #getting things done #smarter working\n\nIN PRACTICAL AND ENTERTAINING WAY\, YOU WILL LEARN:\n * How do our minds work? Daniel Kahneman’s and Tim Urban’s models.\n * What does instant gratification monkey do in my head and how to tame it? \n * How cognitive biases affect our day-to-day work?\n * The concept of limited Mindfuel and how to save it\n * Why some TODO lists don't work and how to make TODOs work\n * Methods of “Magic fairy” and “Rational flaneur”\n * How to succeed in a highly uncertain environment\n * How technology hijacks our minds and how to prevеnt it\n * How to deal with commitments under tight deadlines and high uncertainty\n * ...and much more!\n\nMore than 50% of workshop time is devoted to practice\, exercises and discussions. The workshop offers concrete\, ready-to-use improvement recipes for daily work.
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
 END:VEVENT
 
 
 BEGIN:VEVENT
-UID:787f2076
-DTSTAMP:20200216T075853Z
-DTSTART:20191207T090000Z
-DTEND:20191207T180000Z
-SUMMARY:SOA Done Right (Jimmy Bogard)
-SEQUENCE:0
-LOCATION:DevTernity 
-DESCRIPTION:#architecture #microservices #.net examples\n\nTHE COURSE COVERS: \n * UI Decomposition\n * Data ownership across the enterprise\n * Finding service boundaries\n * Fault tolerance – HTTP and queues\n * Reliable integration with 3rd party systems\n * Scalability\, high availability & monitoring\n * Scalable command-processing endpoints\n * Publish/subscribe event-processing interactions\n * Long-running multi-stage business processes and policies\n * ...and much more!\n\nYou'll apply those concepts to build a simple\, fully functional system sample with a microservices architecture!
-URL;VALUE=URI:https://devternity.com
-ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
-END:VEVENT
-
-
-BEGIN:VEVENT
-UID:fc0d6815
-DTSTAMP:20200216T075853Z
-DTSTART:20191207T090000Z
-DTEND:20191207T180000Z
-SUMMARY:Practical Messaging (Ian Cooper)
-SEQUENCE:0
-LOCATION:DevTernity 
-DESCRIPTION:#distributed systems #integration #microservices\n\nTHE COURSE COVERS: \n * Asynchronous messaging architectures and patterns\n * Distributed systems advanced patterns and integration styles\n * Understanding CAP theorem\, strong and eventual consistency\n * Understanding delivery semantics (guaranteed\, at least once\, exactly once)\n * Understanding Pipes and Filters architectures\n * Understanding command\, events\, & documents\n * Understanding channels (point-to-point\, publish-subscribe\, dead letters)\n * Understanding consumers (polling\, event-driven\, competing)\n * ...and much more!\n\nBy the end of the workshop you will understand when and how to use messaging and will be able to use it effectively in your applications. There will be hands on coding exercises enabling you to implement simple and more complex messaging scenarios. We will use Rabbit MQ for examples. You need not have the latter installed on your machine\, but you should have Docker installed on your machine\, as exercises will use Docker Compose.
-URL;VALUE=URI:https://devternity.com
-ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
-END:VEVENT
-
-
-BEGIN:VEVENT
-UID:3677a87a
-DTSTAMP:20200216T075853Z
-DTSTART:20191207T090000Z
-DTEND:20191207T180000Z
-SUMMARY:Good Code (Kevlin Henney)
-SEQUENCE:0
-LOCATION:DevTernity 
-DESCRIPTION:#clean code #code design #best practices\n\nTHE COURSE COVERS: \n * What constitutes good code?\n * How to write good code?\n * Economics of good / bad code\n * Naming Heuristics\n * SOLID Principles\n * Code Comments\n * Coupling and Cohesion\n * Testability\n * ...and much more!\n\nMore than 50% of workshop time is devoted to practice\, whiteboard exercises and group discussion.
-URL;VALUE=URI:https://devternity.com
-ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
-END:VEVENT
-
-
-BEGIN:VEVENT
-UID:c6ebe70a
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T080000Z
-DTEND:20181130T090000Z
+UID:2e742026
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T080000Z
+DTEND:20201203T090000Z
 SUMMARY:Registration and Coffee
 SEQUENCE:0
 LOCATION:DevTernity 
@@ -142,10 +100,10 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:90c7c0d7
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T090000Z
-DTEND:20181130T091500Z
+UID:fd9a44d9
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T090000Z
+DTEND:20201203T091500Z
 SUMMARY:Conference Opening
 SEQUENCE:0
 LOCATION:DevTernity 
@@ -155,24 +113,24 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:b9ab61d3
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T091500Z
-DTEND:20181130T101000Z
-SUMMARY:Lean Code (Kevlin Henney)
+UID:8701c371
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T091500Z
+DTEND:20201203T101000Z
+SUMMARY:The Silver Bullet Syndrome (Hadi Hariri)
 SEQUENCE:0
 LOCATION:DevTernity 
-DESCRIPTION:#general programming #coding #best practices\n\nLean has been applied as a toolkit to fine-tune development processes and organisational workflow\, but what does it mean when we apply the practices to the detail of the code\, the practices used to develop it and the people who develop it? What does Lean Code and its creation look like? There is a need to move beyond often separated worlds of software craft and agile development\, to properly embrace code in its detail\, but to also connect it more completely to the flow of business and the intelligence of people around it. To move beyond simple exhortations of clean code to something more human. This talk offers a fresh look at Lean principles and practices from the perspective of the code and the coder\, rather than the usual scale of the organisation and the development process.
+DESCRIPTION:#programmer's life #trends #making choices\n\nWe love our silver bullets don’t we? Constantly chasing the dream that the next big thing will solve all our past problems. It doesn’t matter if it’s a language\, framework\, platform or library\, we’re out there chasing it. Why? Well because it’s going to solve our needs\, it’s going to solve the business needs. Well supposedly it will. And how much is it going to cost? Not that much\, especially if we’re not the ones paying the bills. It’s about time we look at the hard facts and ask those difficult questions. Are we really looking for a silver bullet? Why are we constantly riding the technology bandwagon? Where is the churn going to take us? And at what cost?
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
 END:VEVENT
 
 
 BEGIN:VEVENT
-UID:ca5ca5bb
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T101000Z
-DTEND:20181130T103000Z
+UID:f8a2ea9b
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T101000Z
+DTEND:20201203T103000Z
 SUMMARY:Coffee Break
 SEQUENCE:0
 LOCATION:DevTernity 
@@ -182,52 +140,52 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:1cd9f8de
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T103000Z
-DTEND:20181130T112000Z
-SUMMARY:Vertical Slice Architecture (Jimmy Bogard)
+UID:656ea413
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T103000Z
+DTEND:20201203T112000Z
+SUMMARY:Effective Microservice Communication and Conversation Patterns (Jimmy Bogard)
 SEQUENCE:0
 LOCATION:DevTernity (Track 1)
-DESCRIPTION:#architecture #domain-driven design #.net examples\n\nMoving from a layered architecture to a vertical slice architecture can be a bit daunting. We remove abstractions\, complex structures\, and focus building on the axis of change\, then what's next? What new structures\, patterns\, and policies will need to be introduced in this style of architecture? How will we deal with common business functionality\, and where do concepts like CQRS and DDD fit in? In this session\, we'll introduce the idea of vertical slice architectures\, and dive into the patterns\, tools\, and techniques used with slices. We'll also cover how you can fit vertical slices into different kinds of systems\, from desktop\, SPA\, and normal MVC applications. Finally\, we'll look at some of the new challenges that come with slices and layers\, and how a different approach provides a much more maintainable end result.
+DESCRIPTION:#architecture #microservices #protocols\n\nOrchestration or Choreography? Sagas or process manager? REST\, RPC or Events? Are we just making this all up as we go along? Once we move away from a single process to many services and processes\, we immediately hit the problem that our services need to communicate with each other. The architect mandated REST! But then nothing worked in production. Then came events! And nothing ever completed. In this talk we'll look at the problem from a holistic perspective - take the fundamental property of autonomy for any microservice-based architecture\, and design how services should communicate so that they can still achieve their purpose in the world. We'll cover basic communication patterns\, where we run into problems with them\, and how advanced conversational patterns can help. Finally\, we'll look at some real-world scenarios for designing complex coordination and where conversation patterns can retain our autonomy and loose coupling.
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
 END:VEVENT
 
 
 BEGIN:VEVENT
-UID:57edb495
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T103000Z
-DTEND:20181130T112000Z
-SUMMARY:Achieving Technical Excellence in Your Software Teams (Peter Gfader)
+UID:83b1d4d5
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T103000Z
+DTEND:20201203T112000Z
+SUMMARY:Refactoring with Exuberance (Katrina Owen)
 SEQUENCE:0
 LOCATION:DevTernity (Track 2)
-DESCRIPTION:#software craftsmanship #clean code #best practices\n\nOur industry has a problem: We are not lacking software methodologies\, programming languages\, tools or frameworks but we need great software engineers. Great software engineer teams build quality-in and deliver great software on a regular basis. The technical excellence of those engineers will help you escape the "Waterfall sandwich" and make your organization a little more agile\, from the inception of an idea till they go live. I will talk about my experiences from the last 15 years\, including small software delivery teams until big financial institutions. Why would a company like to be "agile"? How can a company achieve that? How can you achieve Technical Excellence in your software teams? What developer skills are more important than languages\, methods or frameworks? This will be an interactive session with a Q&A at the end.
+DESCRIPTION:#coding #clean code #refactoring\n\nWhen is it okay to build an orbital laser to destroy an ant-hill? Many cry "overkill" when design principles are applied to trivial problems. And for good reason: in the context of work\, excessive embellishment gets us into trouble. Complexity costs us time and money. This talk explores how stepping outside of the realm of work and applying outrageous engineering practices to toy problems can deepen our understanding of the trade-offs that we make. Comically simple problems provide the perfect ground for developing actionable heuristics which can be applied to those monstrous complexities that we face in the real world.
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
 END:VEVENT
 
 
 BEGIN:VEVENT
-UID:58aa3119
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T103000Z
-DTEND:20181130T112000Z
-SUMMARY:Securing Your Infrastructure with Vault (Paul Stack)
+UID:0e3e32ff
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T103000Z
+DTEND:20201203T112000Z
+SUMMARY:Things Every Developer Needs to Know About Database Indexing (Kai Sassnowski)
 SEQUENCE:0
 LOCATION:DevTernity (Track 3)
-DESCRIPTION:#security #hashistack #live demo\n\nMaking sure our systems are secure has become a huge priority for companies but not everyone actually dedicated the time to making it happen. In this session\, Paul will demonstrate examples of how to secure infrastructure and applications to have end to end TLS using Vault. He will be able to prove to attendees that by investing a little time upfront\, we can ensure that our development and production environments have TLS throughout and will allow us to not get surprised when our systems to production.
+DESCRIPTION:#databases #internals #deep-dive\n\nThis talk dives deep into a topic that I believe developers don't know enough about: database indexing. There are four sections to this talk: - What's an index? * How to create an index? * Understanding the execution plan * Common pitfalls What's an index In the first part we will learn what an index actually is. And we're talking data structures. How is an index actually represented internally and what are the implications of that. This is important because it makes certain characteristics of indexes much easier to understand.
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
 END:VEVENT
 
 
 BEGIN:VEVENT
-UID:b7c7abee
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T112000Z
-DTEND:20181130T114000Z
+UID:e135b2b0
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T112000Z
+DTEND:20201203T114000Z
 SUMMARY:Coffee Break
 SEQUENCE:0
 LOCATION:DevTernity 
@@ -237,52 +195,52 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:3a710d8d
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T114000Z
-DTEND:20181130T123000Z
-SUMMARY:The Coaching Architect Manifesto (Roy Osherove)
+UID:7d8c2935
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T114000Z
+DTEND:20201203T123000Z
+SUMMARY:Testing Done Right (Jakub Pilimon)
 SEQUENCE:0
 LOCATION:DevTernity (Track 1)
-DESCRIPTION:#team leadership #self-organization #people\n\nWhat does it take to bring your team to the next level? In this talk\, you'll learn practical techniques that architects and tech leads can use to achieve that goal. Roy will share do's and don'ts from the hard won battles in the field. You'll also learn the core principles of Elastic Leadership and Coaching Manifesto and how they map to the actions outlined in the talk.
+DESCRIPTION:#automated testing #best practices #live coding\n\nComing soon...
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
 END:VEVENT
 
 
 BEGIN:VEVENT
-UID:6a047dc4
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T114000Z
-DTEND:20181130T123000Z
-SUMMARY:Beyond Software Craftsmanship: From Dev to Chief Architect (Eduards Sizovs)
+UID:428feb57
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T114000Z
+DTEND:20201203T123000Z
+SUMMARY:The World Needs Full-Stack Craftspeople (Anton Keks)
 SEQUENCE:0
 LOCATION:DevTernity (Track 2)
-DESCRIPTION:#career #interviews #hacks\n\nJohnny is a full-stack developer with 5+ years of experience under the belt\, M.Sc degree and ‘get sh%t done fast’ mentality. Although Johnny possesses exceptional technical skills\, Milton – his manager – doesn’t promote Johnny\, because Johnny lacks some important skills. What skills Milton is talking about? Together with Johnny\, you will walk the thorny road to his remarkable career as a Chief Software Architect\; the road full of struggles\, discoveries and actions that will turn your career around.
+DESCRIPTION:#professionalism #extreme programming #career\n\nDevelopers and IT people in general tend to specialize and become narrowly skilled. In the past there was always the conflict of DB developers vs application developers\, or DBA vs developers vs testers. Nowadays developers split even more into front-end/back-end/Android/iOS/whatever else. This leads to inflated teams\, inefficient communication\, lack of each developer's responsibility\, low team's truck factor\, and inability to solve production/design problems once and for all instead of applying patches here and there. The term "full-stack" is often applied to developers being responsible for all aspects of their work\, but XP/craftsmanship practices go further — we should also take our communication\, requirements\, operations\, testing\, etc. under control. True сraftsmen can be an order of magnitude more efficient than narrowly skilled developers. They not only write code\, but solve problems. Surely you want to be one. Let's break it down and see why it works.
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
 END:VEVENT
 
 
 BEGIN:VEVENT
-UID:615ba561
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T114000Z
-DTEND:20181130T123000Z
-SUMMARY:Feature Branching Considered Evil (Thierry de Pauw)
+UID:3cb72a1c
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T114000Z
+DTEND:20201203T123000Z
+SUMMARY:Prioritizing Technical Debt as if Time and Money Matters (Adam Tornhill)
 SEQUENCE:0
 LOCATION:DevTernity (Track 3)
-DESCRIPTION:#continuous integration #continuous delivery\n\nWith DVCSs branch creation became very easy\, but it comes at a certain cost. Long living branches break the flow of the software delivery process\, impacting stability and throughput. The session explores why teams are using feature branches\, what problems are introduced by using them and what techniques exist to avoid them altogether. It explores exactly what's evil about feature branches\, which is not necessarily the problems they introduce - but rather\, the real reasons why teams are using them. After the session\, you'll understand a different branching strategy and how it relates to CI/CD.
+DESCRIPTION:#strategic refactoring #technical debt #code analysis\n\nMany codebases contain code that is overly complicated\, hard to understand\, and hence expensive to change and evolve. Prioritizing technical debt is a hard problem as modern systems might have millions of lines of code and multiple development teams -- no-one has a holistic overview. In addition\, there's always a trade-off between improving existing code versus adding new features so we need to use our time wisely. So what if we could mine the collective intelligence of all contributing programmers\, and start to make decisions based on information from how the organization actually works with the code? In this presentation you'll see how easily obtained version-control data let us uncover the behavior and patterns of the development organization. This language-neutral approach lets you prioritize the parts of your system that benefit the most from improvements\, so that you can balance short- and long-term goals guided by data. The specific examples are from real-world codebases like Android\, the Linux Kernel\, .Net Core Runtime\, and more. This new perspective on software development will change how you view code.
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
 END:VEVENT
 
 
 BEGIN:VEVENT
-UID:5685ebaf
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T123000Z
-DTEND:20181130T134000Z
+UID:ec32bf27
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T123000Z
+DTEND:20201203T134000Z
 SUMMARY:Long Break
 SEQUENCE:0
 LOCATION:DevTernity 
@@ -292,52 +250,52 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:7b75b2e3
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T134000Z
-DTEND:20181130T143000Z
-SUMMARY:The Clean Architecture (Ian Cooper)
+UID:23514230
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T134000Z
+DTEND:20201203T143000Z
+SUMMARY:Certainly Uncertain: Predicting Delivery Dates (Maxim Dorofeev)
 SEQUENCE:0
 LOCATION:DevTernity (Track 1)
-DESCRIPTION:#architecture #.net examples\n\nWhat is the clean architecture and how you would build one in .NET? Recently Bob Martin has categorized a set of architectures\, including hexagonal architecture\, onion architecture and screaming architecture as 'the clean architecture' - a layered architecture of concentric circles with a strong emphasis on separation of concerns. This architecture has become popular because of its amenability to modification as an evolutionary architecture and its support for practices such as TDD. In this presentation we will discuss the clean architecture and its benefits. More than that\, in the bulk of the presentation\, we will show you how to implement a clean architecture in .NET. From first steps to working code\, we will show you the moves required to embrace this approach\, and introduce you to some of the OSS libraries that can help you get there. All examples will be in .NET Core
+DESCRIPTION:#estimation #planning #handling deadlines\n\nAs soon as you become a team lead or manager\, you immediately become responsible for making vague things certain. When you have no idea what exactly shall be done\, you are asked how much it costs and how long it will take. When you give an estimate and commit to delivering to your promise\, scope creeps and enjoy estimation hell again. In this talk\, you will learn how to estimate without screwing things up. I will be as practical as possible and will share the real Excel-spreadsheet that implements a simple statistical model of project estimation so you can use it for your projects the next day.
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
 END:VEVENT
 
 
 BEGIN:VEVENT
-UID:b0d6c5c6
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T134000Z
-DTEND:20181130T143000Z
-SUMMARY:Object-Oriented Programming in the Enterprise (Nicolas Fränkel)
+UID:efce5b5c
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T134000Z
+DTEND:20201203T143000Z
+SUMMARY:The Soul of Erlang and Elixir (Saša Jurić)
 SEQUENCE:0
 LOCATION:DevTernity (Track 2)
-DESCRIPTION:#oop #dependency injection #java\n\nMost developers don’t write Object-Oriented code\, including myself. And yet\, we have learned how to do it. Why is that? One of the possible reasons\, is that many frameworks (Java EE\, Spring) do not favor OOP in their design. But what is OOP really? We will have a look at a super-simplified bank account model. In my demo\, I’ll demo with a Java-based application how can we evolve from the traditional current approach to proper OOP. Finally\, it will be time to have a look at the benefits and drawbacks of both approach.
+DESCRIPTION:#distributed systems #fault tolerance #live demo\n\nWhether you're developing a small web site or a large-scale distributed system\, Erlang and Elixir are great tools for building server-side systems. Both languages can help you start quickly and deal with highly complex problems at a large scale. This talk aims to explain what makes Erlang and Elixir suitable for such tasks. We'll look past the syntax and the ecosystem\, focusing instead on the concurrency model of these languages. Combining a bit of high-level theory and a couple of demos\, we'll examine some important properties of Erlang/Elixir concurrency\, with a special emphasis on why these properties are very relevant when building highly available systems. The talk targets experienced backend developers\, but no knowledge of Erlang or Elixir is required. You will walk away from the talk with a better understanding of what distinguishes Erlang and Elixir from the rest of the pack\, and why these languages are very compelling choices to power your next software system.
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
 END:VEVENT
 
 
 BEGIN:VEVENT
-UID:4ca3f4f6
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T134000Z
-DTEND:20181130T143000Z
-SUMMARY:UX for Developers (Janne Jul Jensen)
+UID:825341b6
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T134000Z
+DTEND:20201203T143000Z
+SUMMARY:The Effective Developer – Work Smarter\, Not Harder (Sven Peters)
 SEQUENCE:0
 LOCATION:DevTernity (Track 3)
-DESCRIPTION:#ux #design #beyond software\n\nSome people in the software development industry still seem to think\, that UX is some kind of unicorn fairy dust\, that you sprinkle on a project in the end\, and then it will magically make everything\, that was ever wrong with that project\, all better. This talk will explore why it isn’t so\, what real UX is\, why it is a team effort and what UX-responsibilities the various stakeholders can\, and should own up to\, for the greater good of the project.
+DESCRIPTION:#effectiveness #productivity #deep work\n\nWe’re agile\, we’re doing DevOps\, we work in cross-functional teams\, and we use the latest developer pipeline tooling. With all those methodologies and technologies we should be highly effective\, right? Probably not. Most of us still struggle with balancing coding speed and quality\, working on the stuff that really makes a difference\, and feeling constantly stressed by all the things we should learn. Effective developers don't just write clean\, simple\, and robust code. They also have a strong understanding of the entire development process and the problem that needs to be solved. They take time to learn\, practice\, and play. Learn how those developers build effective coding habits\, use automations whenever needed\, reserve time for deep work\, and much more. You’ll walk away from this talk with lots of ideas on how to work smarter\, not harder.
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
 END:VEVENT
 
 
 BEGIN:VEVENT
-UID:1353567f
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T143000Z
-DTEND:20181130T145000Z
+UID:73446ecb
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T143000Z
+DTEND:20201203T145000Z
 SUMMARY:Coffee Break
 SEQUENCE:0
 LOCATION:DevTernity 
@@ -347,10 +305,10 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:f2d8b86c
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T145000Z
-DTEND:20181130T154000Z
+UID:67e4e4dc
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T145000Z
+DTEND:20201203T154000Z
 SUMMARY:Leadership Guide for the Reluctant Leader (David Neal)
 SEQUENCE:0
 LOCATION:DevTernity (Track 1)
@@ -361,38 +319,37 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:f8823421
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T145000Z
-DTEND:20181130T154000Z
-SUMMARY:Live Refactoring Towards Solid Code (Bartłomiej Słota)
+UID:d62f4e7d
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T145000Z
+DTEND:20201203T154000Z
+SUMMARY:Functional Domain Modeling – How to Make Your Architecture Scream (Bartłomiej Słota)
 SEQUENCE:0
 LOCATION:DevTernity (Track 2)
-DESCRIPTION:#clean code #domain-driven design #java examples\n\nIn this live coding session we will refactor a part of some legacy system. We will approach the problem pragmatically\, identifying issues and fixing them by applying rules and patterns related to modularity\, cohesion\, testability\, and more. We will also see how Domain Driven Design can help us achieving the goal of a clean and solid code.
+DESCRIPTION:#clean code #domain-driven design #java examples\n\nWe might have heard that Domain Driven Design is Object Oriented done right. Is it\, however\, always true? Thinking of business processes as workflows and pipelines lets us map our problems into the concepts of functional programming\, thus bringing our code to another level. During this session we will apply bits of functional programming into our Java application\, discussing their impact\, including security\, testability\, readability\, and more.
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
 END:VEVENT
 
 
 BEGIN:VEVENT
-UID:7553740b
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T145000Z
-DTEND:20181130T154000Z
-SUMMARY:Finding Your Service Boundaries – A Practical Guide (Adam Ralph)
+UID:65070632
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T145000Z
+DTEND:20201203T154000Z
+SUMMARY:pending
 SEQUENCE:0
 LOCATION:DevTernity (Track 3)
-DESCRIPTION:#architecture #soa #microservices\n\nWe know it's useful to split up complex systems. We've seen the benefits of modular deployment of microservices. Dealing with only one piece of code at a time eases our cognitive load. But how do we know where to draw the service boundaries? In complex business domains\, it's often difficult to know where to start. When we get our boundaries wrong\, the clocks starts ticking. Before long\, we hear ourselves say "it would be easier to re-write it". Join Adam for practical advice on discovering the hidden boundaries in your systems. Help tease out the natural separation of concerns in a sample business domain. During 20 years of developing complex systems\, Adam has had plenty of time to get things wrong. Learn to avoid the common pitfalls that can lead us down the path to "the big re-write".
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
 END:VEVENT
 
 
 BEGIN:VEVENT
-UID:b069ec8e
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T154000Z
-DTEND:20181130T160000Z
+UID:66015046
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T154000Z
+DTEND:20201203T160000Z
 SUMMARY:Coffee Break
 SEQUENCE:0
 LOCATION:DevTernity 
@@ -402,52 +359,52 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:906085e5
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T160000Z
-DTEND:20181130T165000Z
-SUMMARY:Common Mistakes When Moving to Microservices (Jakub Nabrdalik)
+UID:e89dfa4e
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T160000Z
+DTEND:20201203T165000Z
+SUMMARY:pending (Jakub Nabrdalik)
 SEQUENCE:0
 LOCATION:DevTernity (Track 1)
-DESCRIPTION:#architecture #microservices #experience report\n\nCommon mistakes when moving to microservices that I'll discuss and provide solutions for: No realistic architecture process (architecture decisions too rigid\, or not taken\; infra vs domain\; architecture guild vs no cooperation\, knowledge sharing )\; QA thinks testing end-to-end is possible\; Management wants to control deployment\; Devs not DevOps\; Not understanding event based architecture\; Not using the tools properly (Kafka)\; Relying on cloud provider shitty tools\; Error prone team setup\; Pivots vs domain vs team composition.
+DESCRIPTION:\n\nCommon mistakes when moving to microservices that I'll discuss and provide solutions for: No realistic architecture process (architecture decisions too rigid\, or not taken\; infra vs domain\; architecture guild vs no cooperation\, knowledge sharing )\; QA thinks testing end-to-end is possible\; Management wants to control deployment\; Devs not DevOps\; Not understanding event based architecture\; Not using the tools properly (Kafka)\; Relying on cloud provider shitty tools\; Error prone team setup\; Pivots vs domain vs team composition.
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
 END:VEVENT
 
 
 BEGIN:VEVENT
-UID:15452d69
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T160000Z
-DTEND:20181130T165000Z
-SUMMARY:DevOps is Not Enough – Re-thinking IT from Scratch (Uwe Friedrichsen)
+UID:0abcde65
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T160000Z
+DTEND:20201203T165000Z
+SUMMARY:pending (Uwe Friedrichsen)
 SEQUENCE:0
 LOCATION:DevTernity (Track 2)
-DESCRIPTION:#devops #IT performance #best practices\n\nDevOps - a simple term\, but tons of confusion. Some think\, it is about more collaboration between Dev and Ops. Others think\, it is just about tools and automation. But in its core\, DevOps is about accelerating the IT value chain. How long does it take to deliver a business idea to your customer using IT? How fast can you go - repeatedly and without compromising quality? But why should we speed up in the first place? Do we really need it? How fast is fast enough? How can we implement it? What else do we need to take into account? ... lots of questions if we follow this thought for a moment. In this session we will try to answer some of the questions. We will examine the drivers and goals behind DevOps and answer the question why we need to change. Then we will see how DevOps affects the way we think and act\, what else is needed to really "become DevOps" and how all these building blocks are connected to each other. Finally\, we will have a brief peek into the (likely) future of DevOps.
+DESCRIPTION:\n\nDevOps - a simple term\, but tons of confusion. Some think\, it is about more collaboration between Dev and Ops. Others think\, it is just about tools and automation. But in its core\, DevOps is about accelerating the IT value chain. How long does it take to deliver a business idea to your customer using IT? How fast can you go - repeatedly and without compromising quality? But why should we speed up in the first place? Do we really need it? How fast is fast enough? How can we implement it? What else do we need to take into account? ... lots of questions if we follow this thought for a moment. In this session we will try to answer some of the questions. We will examine the drivers and goals behind DevOps and answer the question why we need to change. Then we will see how DevOps affects the way we think and act\, what else is needed to really "become DevOps" and how all these building blocks are connected to each other. Finally\, we will have a brief peek into the (likely) future of DevOps.
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
 END:VEVENT
 
 
 BEGIN:VEVENT
-UID:01a69b79
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T160000Z
-DTEND:20181130T165000Z
-SUMMARY:The Jedi Techniques of Problem Solving (Maxim Dorofeev)
+UID:40f4fe36
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T160000Z
+DTEND:20201203T165000Z
+SUMMARY:pending (Maxim Dorofeev)
 SEQUENCE:0
 LOCATION:DevTernity (Track 3)
-DESCRIPTION:#productivity #getting things done #teamwork\n\nAn anthill is not a simple sum of ants. What matters most is an interaction between them. Taking into account that people are extremely more complicated creature than ants it is possible to assume that making every team member productive definitely will not give us a productive team as a whole. The fundamental feature of any productive team is the ability to collaborative problem-solving. The most common reason for a problem to occur is that too often we see the same thing in different ways (typically all of us are wrong) and at the same time\, we can poorly express our thought. I’m going to share with you some simple and useful tools that could help us better understand each other and to find better solutions for the problems we face.
+DESCRIPTION:\n\nAs soon as you become a team lead or manager\, you immediately become responsible for making vague things certain. When you have no idea what exactly shall be done\, you are asked how much it costs and how long it will take. When you give an estimate and commit to delivering to your promise\, scope creeps and enjoy estimation hell again. In this talk\, you will learn how to estimate without screwing things up. I will be as practical as possible and will share the real Excel-spreadsheet that implements a simple statistical model of project estimation so you can use it for your projects the next day.
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
 END:VEVENT
 
 
 BEGIN:VEVENT
-UID:97ab6647
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T165000Z
-DTEND:20181130T171000Z
+UID:e7417060
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T165000Z
+DTEND:20201203T171000Z
 SUMMARY:Coffee Break
 SEQUENCE:0
 LOCATION:DevTernity 
@@ -457,39 +414,39 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:5488e6cd
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T171000Z
-DTEND:20181130T180000Z
-SUMMARY:The Well-Balanced Programmer (J.B. Rainsberger)
+UID:96dfe145
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T171000Z
+DTEND:20201203T180000Z
+SUMMARY:pending (J.B. Rainsberger)
 SEQUENCE:0
 LOCATION:DevTernity (Track 1)
-DESCRIPTION:#productivity #work habits #software design\n\nA well-balanced programmer feels comfortable dealing with designing software\, managing projects\, and working with people. Companies seem to want to hire "the best"\, but well-balanced programmers relatively rare. Although many programmers feel confident arguing about algorithms\, modularity\, and scalability in design sessions\, they would stand out from their peers if they also had incredible habits for managing their work\, knew how to negotiate features with product owners\, had intelligent conversations with project managers about the risks in their project\, and understood what lies behind the irrationality of the people and systems around them. Sadly\, most programmers don't appreciate the value of these skills. Others don't know how to get started learning them. I started programming computers because people are messy! I'd like to share a curated collection of concepts for you explore that will help you become irresistibly valuable to your employer or clients. I plan to share the design principles and programming techniques that amplified my skills the most over the last 20 years. In addition\, I'll describe how I learned the key non-programming concepts\, techniques\, and approaches that have endeared me to fellow programmers\, managers\, and clients. I offer you a very practical approach to issues like influencing peers\, negotiating with stakeholders\, and adopting new ways of working safely. I'll help you start to build a personal work system that will free your mind to do your best work. I know how this might sound. I promise to share concrete techniques that you can begin applying right away. Of course\, these techniques aren't magic\, so you'll have to read some more and practise on your own\, but you will know how to get started right away on becoming the well-balanced programmer that every manager and co-worker will love to have on their team.
+DESCRIPTION:\n\nA well-balanced programmer feels comfortable dealing with designing software\, managing projects\, and working with people. Companies seem to want to hire "the best"\, but well-balanced programmers relatively rare. Although many programmers feel confident arguing about algorithms\, modularity\, and scalability in design sessions\, they would stand out from their peers if they also had incredible habits for managing their work\, knew how to negotiate features with product owners\, had intelligent conversations with project managers about the risks in their project\, and understood what lies behind the irrationality of the people and systems around them. Sadly\, most programmers don't appreciate the value of these skills. Others don't know how to get started learning them. I started programming computers because people are messy! I'd like to share a curated collection of concepts for you explore that will help you become irresistibly valuable to your employer or clients. I plan to share the design principles and programming techniques that amplified my skills the most over the last 20 years. In addition\, I'll describe how I learned the key non-programming concepts\, techniques\, and approaches that have endeared me to fellow programmers\, managers\, and clients. I offer you a very practical approach to issues like influencing peers\, negotiating with stakeholders\, and adopting new ways of working safely. I'll help you start to build a personal work system that will free your mind to do your best work. I know how this might sound. I promise to share concrete techniques that you can begin applying right away. Of course\, these techniques aren't magic\, so you'll have to read some more and practise on your own\, but you will know how to get started right away on becoming the well-balanced programmer that every manager and co-worker will love to have on their team.
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
 END:VEVENT
 
 
 BEGIN:VEVENT
-UID:914cfcbf
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T171000Z
-DTEND:20181130T180000Z
-SUMMARY:Integration Testing with Docker and Testcontainers (Sergei Egorov)
+UID:c0dc28d1
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T171000Z
+DTEND:20201203T180000Z
+SUMMARY:pending (Sergei Egorov)
 SEQUENCE:0
 LOCATION:DevTernity (Track 2)
-DESCRIPTION:#docker #testing #java demo\n\nUnit testing is fine\, but without proper integration testing\, especially if you work with external resources like databases and other services\, you might not know how your application will actually behave once it has been deployed to the real production environment. Testcontainers is a popular JVM testing library that provides lightweight\, throwaway instances of common databases\, Selenium web browsers\, or anything else that can run in a Docker container. In this talk\, we will briefly go throught the past\, present and the future of the library.
+DESCRIPTION:\n\nUnit testing is fine\, but without proper integration testing\, especially if you work with external resources like databases and other services\, you might not know how your application will actually behave once it has been deployed to the real production environment. Testcontainers is a popular JVM testing library that provides lightweight\, throwaway instances of common databases\, Selenium web browsers\, or anything else that can run in a Docker container. In this talk\, we will briefly go throught the past\, present and the future of the library.
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
 END:VEVENT
 
 
 BEGIN:VEVENT
-UID:c75aa546
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T171000Z
-DTEND:20181130T180000Z
-SUMMARY:none
+UID:2146a712
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T171000Z
+DTEND:20201203T180000Z
+SUMMARY:pending
 SEQUENCE:0
 LOCATION:DevTernity (Track 3)
 URL;VALUE=URI:https://devternity.com
@@ -498,10 +455,10 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:647da829
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T180000Z
-DTEND:20181130T182000Z
+UID:3f5e776c
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T180000Z
+DTEND:20201203T182000Z
 SUMMARY:Coffee Break
 SEQUENCE:0
 LOCATION:DevTernity 
@@ -511,24 +468,24 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:362939f7
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T182000Z
-DTEND:20181130T191000Z
-SUMMARY:Scaling Yourself (Scott Hanselman)
+UID:e6dbc332
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T182000Z
+DTEND:20201203T191000Z
+SUMMARY:pending (Scott Hanselman)
 SEQUENCE:0
 LOCATION:DevTernity 
-DESCRIPTION:#closing keynote #productivity #career advice\n\nAs information workers\, we are asked to absorb even more information than ever before. More blogs\, more documentation\, more patterns\, more layers of abstraction. Now Twitter and Facebook compete with Email and Texts for our attention\, keeping us up-to-date on our friends dietary details and movie attendance second-by-second. Does all this information take a toll on your psyche or sharpen the saw? Is it a matter of finding the right tools and filters to capture what you need\, or do you just need to unplug.
+DESCRIPTION:\n\nAs information workers\, we are asked to absorb even more information than ever before. More blogs\, more documentation\, more patterns\, more layers of abstraction. Now Twitter and Facebook compete with Email and Texts for our attention\, keeping us up-to-date on our friends dietary details and movie attendance second-by-second. Does all this information take a toll on your psyche or sharpen the saw? Is it a matter of finding the right tools and filters to capture what you need\, or do you just need to unplug.
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
 END:VEVENT
 
 
 BEGIN:VEVENT
-UID:f7c19952
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T191000Z
-DTEND:20181130T193000Z
+UID:ae05e8ce
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T191000Z
+DTEND:20201203T193000Z
 SUMMARY:Final Words
 SEQUENCE:0
 LOCATION:DevTernity 
@@ -538,10 +495,10 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:7f571650
-DTSTAMP:20200216T075853Z
-DTSTART:20181130T193000Z
-DTEND:20181130T230000Z
+UID:d7c517e9
+DTSTAMP:20200322T104645Z
+DTSTART:20201203T193000Z
+DTEND:20201203T230000Z
 SUMMARY:Beer Afterparty
 SEQUENCE:0
 LOCATION:Stargorod Riga — Czech brewery\, Republikas Laukums 1\, Central District\, Riga
