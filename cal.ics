@@ -31,8 +31,8 @@ END:VTIMEZONE
 
 
 BEGIN:VEVENT
-UID:37f0e1a3
-DTSTAMP:20200602T154605Z
+UID:f322a850
+DTSTAMP:20200603T111459Z
 DTSTART:20201204T090000Z
 DTEND:20201204T180000Z
 SUMMARY:Leadership Guide for the Reluctant Leader (David Neal)
@@ -45,8 +45,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:4585c7c3
-DTSTAMP:20200602T154605Z
+UID:62291c91
+DTSTAMP:20200603T111459Z
 DTSTART:20201204T090000Z
 DTEND:20201204T180000Z
 SUMMARY:From Legacy to Solid Code with Blue-Green Refactoring (Bartłomiej Słota)
@@ -59,8 +59,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:40f6c686
-DTSTAMP:20200602T154605Z
+UID:f81a5f86
+DTSTAMP:20200603T111459Z
 DTSTART:20201204T090000Z
 DTEND:20201204T180000Z
 SUMMARY:Modular Monoliths vs. Distributed Synchronous Systems vs. Event Driven Systems (Jakub Nabrdalik)
@@ -73,8 +73,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:51970218
-DTSTAMP:20200602T154605Z
+UID:970c0519
+DTSTAMP:20200603T111459Z
 DTSTART:20201204T090000Z
 DTEND:20201204T180000Z
 SUMMARY:Advanced Jedi Techniques (Maxim Dorofeev)
@@ -87,22 +87,22 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:8fa40cfa
-DTSTAMP:20200602T154605Z
+UID:196adc05
+DTSTAMP:20200603T111459Z
 DTSTART:20201204T090000Z
 DTEND:20201204T180000Z
-SUMMARY:Fundamentals of Organization Dynamics with Team Topologies (Matthew Skelton)
+SUMMARY:Team Topologies Fundamentals (Matthew Skelton)
 SEQUENCE:0
 LOCATION:DevTernity 
-DESCRIPTION:#fast teams #architecture #continuous delivery\n\nYOU WILL LEARN:\n * The 4 key team topologies\, and the pros and cons of each\n * How to choose and mix team topologies\n * How to structure and organize teams for fast flow and Continuous Delivery\n * How to make Conway's Law work for you\n * How to evolve organizations and architecture\n * How to improve the intercommunication between teams with team APIs\n * ... and much more!\n\nThis practical workshop is for CTO/CIO and other leaders\, Head of Department\, software architects\, systems architects\, managers\, team leaders and engineers.
+DESCRIPTION:#fast teams #architecture #continuous delivery\n\nYOU WILL LEARN:\n * How to organize software development for fast flow.\n * How to organize effective DevOps process.\n * How to keep an organization fast and agile as it grows.\n * How to use Conway’s Law as a driver for choosing the right architecture and team structure.\n * How and when to use four team topologies (Stream-aligned team\, Enabling team\, Subsystem team\, Platform team).\n * How and when to use three interaction modes (Collaboration\, X-as-a-Service and Facilitating)\n * ... and much more!\n\nThis practical workshop is for team leaders\, architects\, senior developers\, engineering managers\, and CTO/CIO-level leaders.
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
 END:VEVENT
 
 
 BEGIN:VEVENT
-UID:713cd44b
-DTSTAMP:20200602T154605Z
+UID:036095c0
+DTSTAMP:20200603T111459Z
 DTSTART:20201204T090000Z
 DTEND:20201204T180000Z
 SUMMARY:Agile Architecture (Kevlin Henney)
@@ -115,8 +115,22 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:c1e2f82b
-DTSTAMP:20200602T154605Z
+UID:46bb00f1
+DTSTAMP:20200603T111459Z
+DTSTART:20201204T090000Z
+DTEND:20201204T180000Z
+SUMMARY:Crafted Design (Sandro Mancuso)
+SEQUENCE:0
+LOCATION:DevTernity 
+DESCRIPTION:#clean code #code design #refactoring\n\nWHAT YOU WILL LEARN?\n * Drive out a flexible design at different levels\, from details of code all the way up to microservices.\n * Build software that is not bound to a specific technology or framework by keeping them at the boundaries of your system\n *  Express your business domain in every facet of your application\, not just methods and classes\n * Keep your design clean as your application grows and requirements change\n * Let your architecture emerge\, rather than designing a rigid and unchangeable structure up-front\n * Use TDD as a design tool\, learning about the two main TDD styles (Classicist and Outside-In) and how they differ when driving the design of your code\n * ...and much more!\n\nThe course is fully hands-on and developers will be writing a lot of code.
+URL;VALUE=URI:https://devternity.com
+ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
+END:VEVENT
+
+
+BEGIN:VEVENT
+UID:5c93fd13
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T080000Z
 DTEND:20201203T090000Z
 SUMMARY:Registration and Coffee
@@ -128,8 +142,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:14fd7777
-DTSTAMP:20200602T154605Z
+UID:35963146
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T090000Z
 DTEND:20201203T091500Z
 SUMMARY:Conference Opening
@@ -141,22 +155,22 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:f6a654e9
-DTSTAMP:20200602T154605Z
+UID:b78f61a4
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T091500Z
 DTEND:20201203T101000Z
-SUMMARY:The Silver Bullet Syndrome (Hadi Hariri)
+SUMMARY:Decremental Development (Kevlin Henney)
 SEQUENCE:0
 LOCATION:DevTernity 
-DESCRIPTION:#programmer's life #trends #technical decisions\n\nWe love our silver bullets don’t we? Constantly chasing the dream that the next big thing will solve all our past problems. It doesn’t matter if it’s a language\, framework\, platform or library\, we’re out there chasing it. Why? Well because it’s going to solve our needs\, it’s going to solve the business needs. Well supposedly it will. And how much is it going to cost? Not that much\, especially if we’re not the ones paying the bills. It’s about time we look at the hard facts and ask those difficult questions. Are we really looking for a silver bullet? Why are we constantly riding the technology bandwagon? Where is the churn going to take us? And at what cost?
+DESCRIPTION:#simplicity #yagni #architecture\n\nLess is more. Less is also more effort. Is it worth it? We keep talking about incremental development\, but we don't talk enough about decremental development. When we talk about refactoring\, we often speak optimistically and vaguely about improving code and cleaner code. In the real world the main activity of any significant clean-up is throwing out and reducing. The less code you have\, the less you will have to optimise\, to secure\, to debug\, to rework\, etc.\; the more of a codebase you will be able to fit in your head and understand and reason about. What can you remove? Dead code\, speculative generalisations and needless abstractions. What can you reduce? Accidental complexity\, verbosity and first-draft thinking now that we know better. Welcome to the world of decremental development.
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
 END:VEVENT
 
 
 BEGIN:VEVENT
-UID:4a93d6e0
-DTSTAMP:20200602T154605Z
+UID:9724423e
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T101000Z
 DTEND:20201203T103000Z
 SUMMARY:Coffee Break
@@ -168,8 +182,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:ffb2534a
-DTSTAMP:20200602T154605Z
+UID:44d74aed
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T103000Z
 DTEND:20201203T112000Z
 SUMMARY:Effective Microservice Communication and Conversation Patterns (Jimmy Bogard)
@@ -182,8 +196,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:3741ea7d
-DTSTAMP:20200602T154605Z
+UID:42a467f5
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T103000Z
 DTEND:20201203T112000Z
 SUMMARY:Refactoring with Exuberance (Katrina Owen)
@@ -196,8 +210,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:95584838
-DTSTAMP:20200602T154605Z
+UID:bb0a873d
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T103000Z
 DTEND:20201203T112000Z
 SUMMARY:Rights and Responsibilities of a Delivery Team (Sandro Mancuso)
@@ -210,8 +224,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:70ccad42
-DTSTAMP:20200602T154605Z
+UID:4966a635
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T112000Z
 DTEND:20201203T114000Z
 SUMMARY:Coffee Break
@@ -223,8 +237,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:94154c88
-DTSTAMP:20200602T154605Z
+UID:082489d1
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T114000Z
 DTEND:20201203T123000Z
 SUMMARY:Unit Testing Done Right (Jakub Pilimon)
@@ -237,8 +251,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:cf0b4f50
-DTSTAMP:20200602T154605Z
+UID:e347a3fd
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T114000Z
 DTEND:20201203T123000Z
 SUMMARY:The World Needs Full-Stack Craftspeople (Anton Keks)
@@ -251,8 +265,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:542ad5a5
-DTSTAMP:20200602T154605Z
+UID:89c6f760
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T114000Z
 DTEND:20201203T123000Z
 SUMMARY:Prioritizing Technical Debt as if Time and Money Matters (Adam Tornhill)
@@ -265,8 +279,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:597c3097
-DTSTAMP:20200602T154605Z
+UID:127bb91b
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T123000Z
 DTEND:20201203T134000Z
 SUMMARY:Long Break
@@ -278,8 +292,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:12b6070a
-DTSTAMP:20200602T154605Z
+UID:36999d2b
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T134000Z
 DTEND:20201203T143000Z
 SUMMARY:Certainly Uncertain: Predicting Delivery Dates (Maxim Dorofeev)
@@ -292,8 +306,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:f81bacfe
-DTSTAMP:20200602T154605Z
+UID:dd4bcc37
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T134000Z
 DTEND:20201203T143000Z
 SUMMARY:The Soul of Erlang and Elixir (Saša Jurić)
@@ -306,8 +320,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:ec15d94f
-DTSTAMP:20200602T154605Z
+UID:3c3a1178
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T134000Z
 DTEND:20201203T143000Z
 SUMMARY:The Effective Developer (Sven Peters)
@@ -320,8 +334,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:c77079f0
-DTSTAMP:20200602T154605Z
+UID:d17f0f69
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T143000Z
 DTEND:20201203T145000Z
 SUMMARY:Coffee Break
@@ -333,8 +347,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:7bc7bd57
-DTSTAMP:20200602T154605Z
+UID:a2b6ade0
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T145000Z
 DTEND:20201203T154000Z
 SUMMARY:Leadership Guide for the Reluctant Leader (David Neal)
@@ -347,8 +361,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:0eca9348
-DTSTAMP:20200602T154605Z
+UID:2854a9e1
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T145000Z
 DTEND:20201203T154000Z
 SUMMARY:Functional Domain Modeling – How to Make Your Architecture Scream (Bartłomiej Słota)
@@ -361,8 +375,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:f47ad368
-DTSTAMP:20200602T154605Z
+UID:113123a0
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T145000Z
 DTEND:20201203T154000Z
 SUMMARY:Accidental Architects - How HR Designs Software Systems? (Matthew Skelton)
@@ -375,8 +389,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:3bdffb1f
-DTSTAMP:20200602T154605Z
+UID:03f2078f
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T154000Z
 DTEND:20201203T160000Z
 SUMMARY:Coffee Break
@@ -388,8 +402,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:5e01c405
-DTSTAMP:20200602T154605Z
+UID:800de8cb
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T160000Z
 DTEND:20201203T165000Z
 SUMMARY:Mastering the Linux Command Line (Bert Jan Schrijver)
@@ -402,8 +416,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:99fe2fce
-DTSTAMP:20200602T154605Z
+UID:2843d70e
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T160000Z
 DTEND:20201203T165000Z
 SUMMARY:Things Every Developer Needs to Know About Database Indexing (Kai Sassnowski)
@@ -416,22 +430,22 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:2fad6cd2
-DTSTAMP:20200602T154605Z
+UID:c218e58e
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T160000Z
 DTEND:20201203T165000Z
-SUMMARY:TBA (Jakub Nabrdalik)
+SUMMARY:User Stories Considered Harmful (Jakub Nabrdalik)
 SEQUENCE:0
 LOCATION:DevTernity (Track 3)
-DESCRIPTION:\n\ncoming soon...
+DESCRIPTION:#behavior-driven development #understanding requirements\n\nLong time ago there was a role of a business analyst\, who would discover and gather client requirements\, then together with a system analysts\, write them down. Next\, they would meet an architect\, where they would analyze the impact of those requirements on the architecture\, and impact of architecture on business opportunities. This collaboration would provide new ideas for the business\, but most of all\, would create the analysis that went to developers. Then there were eXtreme Programming (XP). Then came Scrum and Kanban with Scrum Masters and Product Owners. Neither of them had any experience with XP\, but since they loathed the old world\, they have fired all the system and business analysts. And so\, two working methods of requirement analysis were replaced by a single ineffective meeting called “grooming”\, where a seven plus/minus three people\, without any preparation\, try to estimate something that nobody took time to understand. I’d like to show you how we came to this point\, why the current situation puts developers in jail\, and how to solve this madness.
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
 END:VEVENT
 
 
 BEGIN:VEVENT
-UID:4e403e37
-DTSTAMP:20200602T154605Z
+UID:b414d1ef
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T165000Z
 DTEND:20201203T171000Z
 SUMMARY:Coffee Break
@@ -443,22 +457,22 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:2cd4f3b7
-DTSTAMP:20200602T154605Z
+UID:f731acfb
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T171000Z
 DTEND:20201203T180000Z
-SUMMARY:TBA (Kevlin Henney)
+SUMMARY:The Silver Bullet Syndrome (Hadi Hariri)
 SEQUENCE:0
 LOCATION:DevTernity (Track 1)
-DESCRIPTION:\n\ncoming soon...
+DESCRIPTION:#programmer's life #trends #technical decisions\n\nWe love our silver bullets don’t we? Constantly chasing the dream that the next big thing will solve all our past problems. It doesn’t matter if it’s a language\, framework\, platform or library\, we’re out there chasing it. Why? Well because it’s going to solve our needs\, it’s going to solve the business needs. Well supposedly it will. And how much is it going to cost? Not that much\, especially if we’re not the ones paying the bills. It’s about time we look at the hard facts and ask those difficult questions. Are we really looking for a silver bullet? Why are we constantly riding the technology bandwagon? Where is the churn going to take us? And at what cost?
 URL;VALUE=URI:https://devternity.com
 ORGANIZER;CN="DevTernity Team":mailto:hello@devternity.com
 END:VEVENT
 
 
 BEGIN:VEVENT
-UID:3db2d4ca
-DTSTAMP:20200602T154605Z
+UID:3eb08894
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T171000Z
 DTEND:20201203T180000Z
 SUMMARY:pending (Sergei Egorov)
@@ -471,8 +485,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:af8507db
-DTSTAMP:20200602T154605Z
+UID:95025565
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T171000Z
 DTEND:20201203T180000Z
 SUMMARY:pending
@@ -484,8 +498,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:953dda3f
-DTSTAMP:20200602T154605Z
+UID:6690f5c2
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T180000Z
 DTEND:20201203T182000Z
 SUMMARY:Coffee Break
@@ -497,8 +511,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:22d99dc9
-DTSTAMP:20200602T154605Z
+UID:4d989c0b
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T182000Z
 DTEND:20201203T191000Z
 SUMMARY:pending (Scott Hanselman)
@@ -511,8 +525,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:d4e48d97
-DTSTAMP:20200602T154605Z
+UID:623c3d76
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T191000Z
 DTEND:20201203T193000Z
 SUMMARY:Final Words
@@ -524,8 +538,8 @@ END:VEVENT
 
 
 BEGIN:VEVENT
-UID:fcd77b8d
-DTSTAMP:20200602T154605Z
+UID:304e3a58
+DTSTAMP:20200603T111459Z
 DTSTART:20201203T193000Z
 DTEND:20201203T230000Z
 SUMMARY:Beer Afterparty
