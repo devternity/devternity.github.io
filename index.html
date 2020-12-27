@@ -227,9 +227,9 @@
             <div class="whoname"><img class="lazy" data-src="images/flags/ca.svg" alt="ca flag" style="height: 13px;"> J.B. Rainsberger</div>
             <div class="who">Software Coach, Mentor and Consultant, TDD Trainer <a href="https://tdd.training">tdd.training</a></div><a href="https://twitter.com/jbrains" aria-label="J.B. Rainsberger Twitter account"><i class="fab fa-twitter follow-speaker" aria-hidden="true"></i></a>
           </section>
-          <section class="feature 3u 12u$(small)"><img class="lazy headshot" data-src="images/dneal.png" alt="David Neal">
-            <div class="whoname"><img class="lazy" data-src="images/flags/us.svg" alt="us flag" style="height: 13px;"> David Neal</div>
-            <div class="who">Senior Developer Advocate @ Octa, Microsoft MVP</div><a href="https://twitter.com/reverentgeek" aria-label="David Neal Twitter account"><i class="fab fa-twitter follow-speaker" aria-hidden="true"></i></a>
+          <section class="feature 3u 12u$(small)"><img class="lazy headshot" data-src="images/liz.png" alt="Liz Rice">
+            <div class="whoname"><img class="lazy" data-src="images/flags/gb.svg" alt="gb flag" style="height: 13px;"> Liz Rice</div>
+            <div class="who">Chair @ Cloud Native Computing Foundation, VP OSS Engineering @ Aqua Security, Author of <a href="https://www.amazon.com/Container-Security-Fundamental-Containerized-Applications/dp/1492056707">Container Security</a></div><a href="https://twitter.com/lizrice" aria-label="Liz Rice Twitter account"><i class="fab fa-twitter follow-speaker" aria-hidden="true"></i></a>
           </section>
           <section class="feature 3u 12u$(small)"><img class="lazy headshot" data-src="images/bart.png" alt="Bartłomiej Słota">
             <div class="whoname"><img class="lazy" data-src="images/flags/pl.svg" alt="pl flag" style="height: 13px;"> Bartłomiej Słota</div>
@@ -266,6 +266,10 @@
           <section class="feature 3u 12u$(small)"><img class="lazy headshot" data-src="images/tilkov_vec.png" alt="Stefan Tilkov">
             <div class="whoname"><img class="lazy" data-src="images/flags/de.svg" alt="de flag" style="height: 13px;"> Stefan Tilkov</div>
             <div class="who">Co-founder & Software Architect @ innoQ, Author of <a href="https://www.amazon.com/REST-HTTP-Stefan-Tilkov/dp/3864901200/">REST and HTTP</a></div><a href="https://twitter.com/stilkov" aria-label="Stefan Tilkov Twitter account"><i class="fab fa-twitter follow-speaker" aria-hidden="true"></i></a>
+          </section>
+          <section class="feature 3u 12u$(small)"><img class="lazy headshot" data-src="images/dneal.png" alt="David Neal">
+            <div class="whoname"><img class="lazy" data-src="images/flags/us.svg" alt="us flag" style="height: 13px;"> David Neal</div>
+            <div class="who">Senior Developer Advocate @ Octa, Microsoft MVP</div><a href="https://twitter.com/reverentgeek" aria-label="David Neal Twitter account"><i class="fab fa-twitter follow-speaker" aria-hidden="true"></i></a>
           </section>
         </div>
       </div>
@@ -330,7 +334,7 @@
           </section>
         </div>
         <div class="evt row odd">
-          <section class="align-center feature 4u">14:50<br><a class="pointer" ng-click="popupSpeech(110)"> David Neal<br><strong>Leadership Guide for the Reluctant Leader</strong></a><br><span>#leadership #soft skills #people</span>
+          <section class="align-center feature 4u">14:50<br><a class="pointer" ng-click="popupSpeech(110)"> Liz Rice<br><strong>Building a Container from Scratch</strong></a><br><span>#containers #docker #live-coding</span>
           </section>
           <section class="align-center feature 4u">14:50<br><a class="pointer" ng-click="popupSpeech(111)"> Bartłomiej Słota<br><strong>How to Make Your Architecture Scream with Functional Domain Modeling</strong></a><br><span>#clean code #domain-driven design #java examples</span>
           </section>
@@ -366,7 +370,7 @@
           </section>
         </div>
         <div class="evt row odd">
-          <section class="align-center feature 12u">18:20<br><span><i class="fas fa-clock"> </i> amazing talk pending</span><br><span></span>
+          <section class="align-center feature 12u">18:20<br><a class="pointer" ng-click="popupSpeech(122)"> David Neal<br><strong>Leadership Guide for the Reluctant Leader</strong></a><br><span>#leadership #soft skills #people</span>
           </section>
         </div>
         <div class="evt row even">
@@ -523,11 +527,11 @@
           <button class="remodal-close" data-remodal-action="close"></button>
           <div class="row">
             <section class="12u">
-              <div><img class="headshot" src="images/dneal.png" alt="speaker headshot">
-                <p class="speaker-bio">Senior Developer Advocate @ Octa, Microsoft MVP</p>
+              <div><img class="headshot" src="images/liz.png" alt="speaker headshot">
+                <p class="speaker-bio">Chair @ Cloud Native Computing Foundation, VP OSS Engineering @ Aqua Security, Author of <a href="https://www.amazon.com/Container-Security-Fundamental-Containerized-Applications/dp/1492056707">Container Security</a></p>
               </div>
-              <p class="whoname"><em>Leadership Guide for the Reluctant Leader</em></p>
-              <p class="speaker">Regardless of the technology you know, regardless of the job title you have, you have amazing potential to impact your workplace, community, and beyond. In this talk, I’ll share a few candid stories of my career failures… I mean… learning opportunities. We’ll start by debunking the myth that leadership == management. Next, we’ll talk about some the attributes, behaviors and skills of good leaders. Last, we’ll cover some practical steps and resources to accelerate your journey. You’ll walk away with some essential leadership skills I believe anyone can develop, and a good dose of encouragement to be more awesome!</p>
+              <p class="whoname"><em>Building a Container from Scratch</em></p>
+              <p class="speaker">What is a container? Is it really a “lightweight VM”? What are namespaces and control groups? What does a host machine know about my containers? And what do my containers know about each other? In this talk Liz will live-code a container in a few lines of Go code, to answer</p>
             </section>
           </div>
         </section>
@@ -640,6 +644,20 @@
               </div>
               <p class="whoname"><em>"Good Enough" Architecture</em></p>
               <p class="speaker">In this session, we’ll take a look at some of the ways we can determine whether the development efforts we’re undertaking suffer from too much or too little focus on architecture. We’ll examine a number of real-world examples that are intended to inspire either admiration or terror, and try to find some recipes of how we can get more of the former and less of the latter in our own projects.</p>
+            </section>
+          </div>
+        </section>
+      </div>
+      <div class="container">
+        <section class="wrapper speech tickets align-center" data-remodal-id="122">
+          <button class="remodal-close" data-remodal-action="close"></button>
+          <div class="row">
+            <section class="12u">
+              <div><img class="headshot" src="images/dneal.png" alt="speaker headshot">
+                <p class="speaker-bio">Senior Developer Advocate @ Octa, Microsoft MVP</p>
+              </div>
+              <p class="whoname"><em>Leadership Guide for the Reluctant Leader</em></p>
+              <p class="speaker">Regardless of the technology you know, regardless of the job title you have, you have amazing potential to impact your workplace, community, and beyond. In this talk, I’ll share a few candid stories of my career failures… I mean… learning opportunities. We’ll start by debunking the myth that leadership == management. Next, we’ll talk about some the attributes, behaviors and skills of good leaders. Last, we’ll cover some practical steps and resources to accelerate your journey. You’ll walk away with some essential leadership skills I believe anyone can develop, and a good dose of encouragement to be more awesome!</p>
             </section>
           </div>
         </section>
