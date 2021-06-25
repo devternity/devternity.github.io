@@ -1,14 +1,14 @@
 [
     {
-        "theme": "DevTernity 2022",
+        "theme": "DevTernity 2021",
         "selfLink": "https://devternity.com",
         "codename": "DT_RIX_21",
         "facebookEvent": "https://www.facebook.com/events/240371927133227",
         "desc": "Turning developers into architects and engineering leaders.",
         "month": "December 2022",
-        "date": "9-10 December 2022",
-        "date_iso": "2022-12-09",
-        "date_epoch": "1639040400000",
+        "date": "10–11 December 2021",
+        "date_iso": "2021-12-10",
+        "date_epoch": "1639119600000",
         "duration_days": 2,
         "attendees_total": 800,
         "roomCapacities": {
@@ -21,7 +21,7 @@
         },
         "talks_total": 20,
         "workshops_total": 7,
-        "city": "Riga",
+        "city": "Online",
         "city_img": "riga.png",
         "contactEmail": "hello@devternity.com",
         "slack_channels": "C6X29SJM7,C6WTMHFQ8",
@@ -40,7 +40,7 @@
         "announced": true,
         "venue_address": "Mukusalas street 3",
         "venue_postal_code": "LV-1423", 
-        "venue_name": "The National Library of Latvia",
+        "venue_name": "Eastern European Time",
         "venue_map": "https://www.google.com/maps/place/DevTernity+Conference/@56.9397422,24.0965636,17z/data=!3m1!4b1!4m5!3m4!1s0x46eec53ffbf34663:0xa268eab43af282d4!8m2!3d56.9397393!4d24.0987577",
         "buzzwords": [],
         "team": [
@@ -246,7 +246,7 @@
         "program": [
             {
                 "event": "workshops",
-                "date_iso": "2022-12-10",
+                "date_iso": "2021-12-11",
                 "schedule": [
                   {
                     "product": "DNEAL",
@@ -381,7 +381,7 @@
             },
             {
                 "event": "keynotes",
-                "date_iso": "2021-12-10",
+                "date_iso": "2022-12-10",
                 "schedule": [
                     {
                         "type": "start",
