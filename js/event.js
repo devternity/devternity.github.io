@@ -239,7 +239,13 @@
             "logo": "pulumi.jpg",
             "since": "2019",
             "link": "https://pulumi.com"
-          }
+          },
+          {
+            "title": "LikeIT",
+            "logo": "likeit.png",
+            "since": "2021",
+            "link": "https://likeit.lv"
+          }          
         ]
       }
     },
