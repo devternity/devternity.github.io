@@ -567,7 +567,22 @@
           "time": "14:00",
           "title": "Coffee Break",
           "icon": "fa-coffee"
-        },                
+        },         
+        {
+          "time": "14:20",
+          "tags": [],
+          "name": "Natalia Slater",
+          "twitter": "",
+          "type": "speech",
+          "country": "us",
+          "bio": "Software Craftswoman @ Coinbase, Author @ The Practical Dev",
+          "title": "Anything",
+          "description": "Many developers aspire to become architects. Some of us serve currently as architects while the rest of us may hope to become one some day. We all have worked with architects, some good, and some that could be better. What are the traits of a good architect? What are the skills and qualities we should pick to become a very good one? Come to this presentation to learn about things that can make that journey to be a successful architect a pleasant one.",
+          "img": "images/inta_150x150.png",
+          "presentation": "",
+          "plumber": true,
+          "video": ""
+        },                  
         {
           "time": "14:20",
           "tags": ["agility", "software delivery", "work organization"],
@@ -696,7 +711,22 @@
           "presentation": "",
           "superspeaker": true,
           "video": ""
-        },             
+        }, 
+        {
+          "time": "16:40",
+          "tags": [],
+          "name": "Julia Kirsina",
+          "twitter": "UnicornCoding",
+          "type": "speech",
+          "country": "lv",
+          "bio": "Technical Lead, Tech Influencer @ Instagram",
+          "title": "Anything",
+          "description": "Many developers aspire to become architects. Some of us serve currently as architects while the rest of us may hope to become one some day. We all have worked with architects, some good, and some that could be better. What are the traits of a good architect? What are the skills and qualities we should pick to become a very good one? Come to this presentation to learn about things that can make that journey to be a successful architect a pleasant one.",
+          "img": "images/sveta_vec.png",
+          "presentation": "",
+          "plumber": true,
+          "video": ""
+        },                       
           {
             "time": "16:40",
             "tags": ["leadership", "soft skills", "people"],
