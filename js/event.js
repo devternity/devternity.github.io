@@ -212,12 +212,6 @@
           },
           {
             "title": "Partner",
-            "logo": "github.png",
-            "since": "2019",
-            "link": "https://www.github.com"
-          },
-          {
-            "title": "Partner",
             "logo": "slack.png",
             "since": "2019",
             "link": "https://www.slack.com"
