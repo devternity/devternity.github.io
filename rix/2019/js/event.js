@@ -726,6 +726,21 @@
                         "description": "A well-balanced programmer feels comfortable dealing with designing software, managing projects, and working with people. Companies seem to want to hire \"the best\", but well-balanced programmers relatively rare. Although many programmers feel confident arguing about algorithms, modularity, and scalability in design sessions, they would stand out from their peers if they also had incredible habits for managing their work, knew how to negotiate features with product owners, had intelligent conversations with project managers about the risks in their project, and understood what lies behind the irrationality of the people and systems around them. Sadly, most programmers don't appreciate the value of these skills. Others don't know how to get started learning them. I started programming computers because people are messy! I'd like to share a curated collection of concepts for you explore that will help you become irresistibly valuable to your employer or clients. I plan to share the design principles and programming techniques that amplified my skills the most over the last 20 years. In addition, I'll describe how I learned the key non-programming concepts, techniques, and approaches that have endeared me to fellow programmers, managers, and clients. I offer you a very practical approach to issues like influencing peers, negotiating with stakeholders, and adopting new ways of working safely. I'll help you start to build a personal work system that will free your mind to do your best work. I know how this might sound. I promise to share concrete techniques that you can begin applying right away. Of course, these techniques aren't magic, so you'll have to read some more and practise on your own, but you will know how to get started right away on becoming the well-balanced programmer that every manager and co-worker will love to have on their team.",
                         "tags": ["productivity", "work habits", "software design"]
                       },     
+                      {
+                        "time": "17:10",
+                        "tags": ["machine learning", "deep learning", "node.js"],
+                        "name": "Nikhila Ravi",
+                        "twitter": "nikhilaravi",
+                        "type": "speech",
+                        "country": "us",
+                        "bio": "Software Engineer in the Applied Machine Learning Group",
+                        "title": "Client-side Machine Learning",
+                        "description": "Machine Learning (ML) and Artificial Intelligence are becoming ubiquitous in websites, chatbots and mobile apps. While Node.js may not be the language of choice for building and training ML models, it is an excellent option for building the user-facing server layer that brings ML product to life. In this talk you'll learn about the ways that Node and ML can work together, whether it’s through running ML models in the browser (using WebAssembly and WebGPU) or writing a node server for an ML chatbot.",
+                        "img": "images/nikki2.png",
+                        "presentation": "",
+                        "plumber": true,
+                        "video": ""
+                      },                          
                       {                           
                         "time": "17:10",                            
                         "name": "Sergei Egorov",
@@ -738,19 +753,8 @@
                         "description": "Unit testing is fine, but without proper integration testing, especially if you work with external resources like databases and other services, you might not know how your application will actually behave once it has been deployed to the real production environment. Testcontainers is a popular JVM testing library that provides lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container. In this talk, we will briefly go throught the past, present and the future of the library.",
                         "tags": ["docker", "testing", "java demo"]
                       },                                                                                                                                                                                                  
-                      {                           
-                        "time": "17:10",
-                        "title": "none",
-                        "type": "speech"
-                      },                                                                                  
-                    {
-                        "type": "break",
-                        "time": "18:00",
-                        "title": "Coffee Break",
-                        "icon": "fa-coffee"
-                    },
                     {                           
-                      "time": "18:20",                            
+                      "time": "17:10",                            
                       "name": "Scott Hanselman",
                       "type": "speech",
                       "twitter": "shanselman",                      
