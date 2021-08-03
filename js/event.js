@@ -716,7 +716,22 @@
             "img": "images/dneal.png",
             "presentation": "",
             "video": ""
-          },          
+          },     
+          {
+            "time": "16:40",
+            "tags": ["refactoring", "clean code"],
+            "name": "Katrina Owen",
+            "twitter": "kytrinyx",
+            "type": "speech",
+            "country": "us",
+            "bio": "Senior Software Engineer @ GitHub, Creator @ exercism.io, Co-author of <a href=\"https://www.sandimetz.com/99bottles\">99 Bottles of OOP</a>Senior Developer Advocate @ Octa, Microsoft MVP",
+            "title": "One Small Step",
+            "description": "Refactoring sometimes devolves into an appalling mess. You're chasing a broken test suite, and every change just makes it worse. An even more insidious antipattern is the slow, perfectly controlled process culminating in dreadful design. This talk presents an end-to-end refactoring that demonstrates simple strategies to avoid such misadventures.",
+            "img": "images/katrina.png",
+            "presentation": "",
+            "video": "",
+            "plumber": true
+          },                 
           {
             "type": "break",
             "time": "17:30",
