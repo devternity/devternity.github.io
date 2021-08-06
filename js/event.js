@@ -571,7 +571,7 @@
         {
           "time": "14:20",
           "tags": [],
-          "name": "Natalia Slater",
+          "name": "Natalia Stadler",
           "twitter": "",
           "type": "speech",
           "country": "us",
