@@ -413,7 +413,7 @@
             "twitter": "warsh33p",
             "type": "speech",
             "country": "de",
-            "bio": "Senior Software Engineer @ Wycomco, OSS contributor",
+            "bio": "Senior Software Engineer @ Wycomco, OSS contributor, Author of <a href=\"https://www.kai-sassnowski.com/developers-guide-to-database-indexing/\">Developer's Guide to Database Indexing</a>",
             "title": "Things Every Developer Needs to Know About Database Indexing",
             "description": "This talk dives deep into a topic that I believe developers don't know enough about: database indexing. There are four sections to this talk: - What's an index? * How to create an index? * Understanding the execution plan * Common pitfalls What's an index In the first part we will learn what an index actually is. And we're talking data structures. How is an index actually represented internally and what are the implications of that. This is important because it makes certain characteristics of indexes much easier to understand. ",
             "img": "images/kai.png",
