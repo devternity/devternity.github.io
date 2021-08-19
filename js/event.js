@@ -428,20 +428,6 @@
           },        
           {
             "time": "10:10",
-            "tags": ["containers", "docker", "live-coding"],
-            "name": "Liz Rice",
-            "type": "speech",
-            "twitter": "lizrice",
-            "country": "gb",
-            "bio": "Chair @ Cloud Native Computing Foundation, VP OSS Engineering @ Aqua Security, Author of <a href=\"https://www.amazon.com/Container-Security-Fundamental-Containerized-Applications/dp/1492056707\">Container Security</a>",
-            "title": "Building a Container from Scratch",
-            "description": "What is a container? Is it really a “lightweight VM”? What are namespaces and control groups? What does a host machine know about my containers? And what do my containers know about each other? In this talk Liz will live-code a container in a few lines of Go code, to answer",
-            "img": "images/liz.png",
-            "presentation": "",
-            "video": ""
-          },            
-          {
-            "time": "10:10",
             "tags": ["architecture", "principles", "lessons learned"],
             "name": "Stefan Tilkov",
             "type": "speech",
@@ -469,6 +455,20 @@
             "presentation": "",
             "video": ""
         },             
+          {
+            "time": "10:10",
+            "tags": ["clean code", "design patterns", "best practices"],
+            "name": "Alla Babkina",
+            "type": "speech",
+            "twitter": "allababkina",
+            "country": "gb",
+            "bio": "Engineering Manager @ Theorem, Head of Global Platform Engineering @ ClearScore",
+            "title": "SOLID Design Principles in Real Life",
+            "description": "In this talk, Alla will explain SOLID principles, their promised benefits and rarely talked about drawbacks, and how these principles apply to real-world codebases.",
+            "img": "images/allab.png",
+            "presentation": "",
+            "video": ""
+          },                      
         {
           "type": "break",
           "time": "11:00",
