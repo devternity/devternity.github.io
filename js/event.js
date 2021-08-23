@@ -464,7 +464,7 @@
             "country": "gb",
             "bio": "Engineering Manager @ Theorem, Head of Global Platform Engineering @ ClearScore",
             "title": "SOLID Design Principles in Real Life",
-            "description": "In this talk, Alla will explain SOLID principles, their promised benefits and rarely talked about drawbacks, and how these principles apply to real-world codebases.",
+            "description": "Designing good software in real life is tricky. Luckily you know SOLID principles, a powerful weapon to help you with the challenge. Let’s talk about how to leverage it in real life missions without shooting yourself in the foot.",
             "img": "images/allab.png",
             "presentation": "",
             "video": ""
