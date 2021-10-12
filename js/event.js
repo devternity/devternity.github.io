@@ -462,7 +462,7 @@
             "type": "speech",
             "twitter": "allababkina",
             "country": "gb",
-            "bio": "Engineering Manager @ Theorem, Head of Global Platform Engineering @ ClearScore",
+            "bio": "Director of Engineering @ Theorem, Head of Global Platform Engineering @ ClearScore",
             "title": "SOLID Design Principles in Real Life",
             "description": "Designing good software in real life is tricky. Luckily you know SOLID principles, a powerful weapon to help you with the challenge. Let’s talk about how to leverage it in real life missions without shooting yourself in the foot.",
             "img": "images/allab.png",
