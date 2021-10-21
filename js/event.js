@@ -252,7 +252,7 @@
             "product": "DNEAL",
             "name": "David Neal",
             "type": "speech",
-            "sold_out": false,
+            "sold_out_soon": true,
             "twitter": "reverentgeek",
             "time": "9:00",
             "endTime": "18:00",
@@ -281,7 +281,7 @@
             "description": "<h3>What you'll learn:</h3><ul class=\"awsm\"><li>Why do we refactor, when do we do it, and where</li><li>What are the pros and cons of small-steps refactoring compared to blue-green refactoring?</li><li>How EventStorming can help us create the new model</li><li>How to split logical modules from the existing codebase</li><li>How and when to refactor towards DDD</li><li>How to test your legacy code and identify seams</li><li>How to be sure that the new code works exactly like the old one</li><li>How to write SOLID and clean OO code</li></ul>",
             "img": "images/bart.png",
             "presentation": "",
-            "sold_out": false,
+            "sold_out_soon": true,
             "video": ""
           },
           {
@@ -316,7 +316,7 @@
             "description": "<h3>What's inside?</h3> <p>The course covers a wide range of topics through a number of practical exercises, with plenty of time dedicated to group discussion:</p><ul class=\"awsm\"><li>The relationship between development process and architecture<li>The roles and failure modes of testing, modelling and technology platforms<li>Different architectural styles and design patterns<li>How to transform product vision into architecture<li>Future-proofing your architecture, and accounting for uncertainty<li>How to ground your architecture and avoid overdesign<li>...and much more!</li></ul>",
             "img": "images/kevlin.png",
             "presentation": "",
-            "sold_out": false,
+            "sold_out_soon": true,
             "video": ""
           },
           {
@@ -334,6 +334,7 @@
             "description": "<h3>During this training, you'll learn:</h3><ul class=\"awsm\"><li>How Continuous Delivery works in practice</li><li>How Continious Delivery is related to DevOps</li><li>How to ship software safer, sooner, better</li><li>How to develop a Continuous Everything (coding, testing, delivery & etc) mindset</li><li>How to build a fast and reliable Deployment Pipeline</li><li>How Continuous Delivery impacts code quality, coding habits, and communication in the team</li><li>... and much more!</li></ul></p>",
             "img": "images/davefarleysmall.png",
             "presentation": "",
+            "sold_out_soon": true,
             "video": ""
           },
           {
