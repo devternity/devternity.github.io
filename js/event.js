@@ -177,7 +177,7 @@
             "logo": "devchampions.png",
             "since": "2015",
             "link": "https://www.devchampions.com/",
-            "info": "<p>Do you believe that face-to-face interaction is the best way to learn? We believe it, too. At DevChampions, we offer the highest quality training for software developers. We specialize, but are not limited to engineering practices, software architecture, automation and soft skills.</p>"
+            "info": "<p>DevChampions offer the highest quality courses for software developers. We specialize, but are not limited to engineering practices, software architecture, automation and soft skills.</p>"
           },
           {
             "logo": "innogames.png",
