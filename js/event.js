@@ -235,6 +235,12 @@
             "link": "https://pulumi.com"
           },
           {
+            "title": "DNA325",
+            "logo": "dns325.png",
+            "since": "2021",
+            "link": "https://dna325.com/"
+          },          
+          {
             "title": "LikeIT",
             "logo": "likeit.png",
             "since": "2021",
