@@ -239,6 +239,12 @@
             "logo": "dns325.png",
             "since": "2021",
             "link": "https://dna325.com/"
+          },
+          {
+            "title": "Gitlab",
+            "logo": "gitlab.jpeg",
+            "since": "2021",
+            "link": "https://gitlab.com/"
           },          
           {
             "title": "LikeIT",
