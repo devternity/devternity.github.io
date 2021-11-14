@@ -346,7 +346,7 @@
             "description": "<h3>What's inside?</h3> <p>The course covers a wide range of topics through a number of practical exercises, with plenty of time dedicated to group discussion:</p><ul class=\"awsm\"><li>The relationship between development process and architecture<li>The roles and failure modes of testing, modelling and technology platforms<li>Different architectural styles and design patterns<li>How to transform product vision into architecture<li>Future-proofing your architecture, and accounting for uncertainty<li>How to ground your architecture and avoid overdesign<li>...and much more!</li></ul>",
             "img": "images/kevlin.png",
             "presentation": "",
-            "sold_out_soon": true,
+            "sold_out": true,
             "video": ""
           },
           {
