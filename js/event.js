@@ -184,7 +184,13 @@
             "since": "2019",
             "link": "https://www.innogames.com/career/",
             "info": "<p>InnoGames is Germany’s leading game developer & publisher, and a certified Great Place to Work®. We are best known for Forge of Empires, Elvenar and Tribal Wars. Join our awesome international team in Hamburg!</p>"
-          }
+          },
+          {
+            "logo": "lmt.png",
+            "since": "2021",
+            "link": "https://sistemas.lmt.lv/",
+            "info": "<p>We are a professional and highly motived team working on especially complex and large-scale IT project implementation. We are privileged to have sustainable and innovative resources to tackle challenges rather than create new ones.</p>"
+          }          
         ]
       },
       "silver": {
