@@ -331,7 +331,25 @@
             "presentation": "",
             "sold_out_soon": true,
             "video": ""
-          },          
+          },     
+          {
+            "product": "VENKAT",
+            "name": "Venkat Subramaniam",
+            "type": "speech",
+            "twitter": "venkat_s",
+            "time": "9:00",
+            "endTime": "18:00",
+            "tags": ["architecture", "code design principles"],
+            "country": "us",
+            "bio": "Founder @ Agile Developer, Author of <a href=\"https://www.amazon.com/Practices-Agile-Developer-Pragmatic-Bookshelf/dp/097451408X/\">Practices of an Agile Developer</a>, <a href=\"https://www.amazon.com/Programming-Concurrency-JVM-Mastering-Synchronization-ebook/dp/B00A32NZEI/\">Programming Concurrency on the JVM</a>, <a href=\"https://www.amazon.com/Functional-Programming-Java-Harnessing-Expressions/dp/1937785467/\">Functional Programming in Java</a>",
+            "title": "Evolutionary Design",
+            "brief_description": "A good design is critical for success with agile development. That does not mean a big up-front design. The design has to be evolutionary. However, the design you evolve must be extensible and maintainable. After all, you can’t be agile if your design sucks. <p><strong>In this training, we will address what evolutionary design is, and will delve into principles and practices that can help realize an effective evolutionary design.</strong></p><p>Note: this workshop runs from 9:00 until 16:00.</p>",
+            "description": "<h3>What's inside?</h3> <ul class=\"awsm\"><li>Why Evolutionary?</li><li>How to create Evolutionary Architecture?</li><li>Refactoring design and architecture</li><li>Code Quality and its impact on Evolutionary Design</li><li>Good coding practices for Evolutionary Design</li><li>Test-Driven Design</li><li>Engineering practices to succeed in Evolutionary Design</li>...and much more!</li></ul> <p>The course has a good balance of interactive lectures and hands-on exercises. The attendees are expected to pair-up and work on the lab exercises.</p>",
+            "img": "images/venk_vec.png",
+            "presentation": "",
+            "sold_out_soon": true,
+            "video": ""
+          },               
           {
             "product": "MODUL",
             "time": "9:00",
@@ -365,24 +383,6 @@
             "img": "images/kevlin.png",
             "presentation": "",
             "sold_out": true,
-            "video": ""
-          },
-          {
-            "product": "VENKAT",
-            "name": "Venkat Subramaniam",
-            "type": "speech",
-            "twitter": "venkat_s",
-            "time": "9:00",
-            "endTime": "18:00",
-            "tags": ["architecture", "code design principles"],
-            "country": "us",
-            "bio": "Founder @ Agile Developer, Author of <a href=\"https://www.amazon.com/Practices-Agile-Developer-Pragmatic-Bookshelf/dp/097451408X/\">Practices of an Agile Developer</a>, <a href=\"https://www.amazon.com/Programming-Concurrency-JVM-Mastering-Synchronization-ebook/dp/B00A32NZEI/\">Programming Concurrency on the JVM</a>, <a href=\"https://www.amazon.com/Functional-Programming-Java-Harnessing-Expressions/dp/1937785467/\">Functional Programming in Java</a>",
-            "title": "Evolutionary Design",
-            "brief_description": "A good design is critical for success with agile development. That does not mean a big up-front design. The design has to be evolutionary. However, the design you evolve must be extensible and maintainable. After all, you can’t be agile if your design sucks. <p><strong>In this training, we will address what evolutionary design is, and will delve into principles and practices that can help realize an effective evolutionary design.</strong></p><p>Note: this workshop runs from 9:00 until 16:00.</p>",
-            "description": "<h3>What's inside?</h3> <ul class=\"awsm\"><li>Why Evolutionary?</li><li>How to create Evolutionary Architecture?</li><li>Refactoring design and architecture</li><li>Code Quality and its impact on Evolutionary Design</li><li>Good coding practices for Evolutionary Design</li><li>Test-Driven Design</li><li>Engineering practices to succeed in Evolutionary Design</li>...and much more!</li></ul> <p>The course has a good balance of interactive lectures and hands-on exercises. The attendees are expected to pair-up and work on the lab exercises.</p>",
-            "img": "images/venk_vec.png",
-            "presentation": "",
-            "sold_out_soon": true,
             "video": ""
           },
           {
