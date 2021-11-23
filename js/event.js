@@ -190,7 +190,13 @@
             "since": "2021",
             "link": "https://sistemas.lmt.lv/",
             "info": "<p>We are a professional and highly motived team working on especially complex and large-scale IT project implementation. We are privileged to have sustainable and innovative resources to tackle challenges rather than create new ones.</p>"
-          }          
+          },
+          {
+            "logo": "bets.png",
+            "since": "2021",
+            "link": "https://betsoftware.com/",
+            "info": "<p>BET Software is one of the most diverse betting software providers in Sub-Saharan Africa, with a growing presence internationally. We are the workplace of choice for technologists and engineers due to our pioneering use of technology, our talented Team and the innovative solutions we deliver.</p>"
+          }               
         ]
       },
       "silver": {
