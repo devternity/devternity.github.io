@@ -263,7 +263,13 @@
             "logo": "likeit.png",
             "since": "2021",
             "link": "https://likeit.lv"
-          }          
+          },
+          {
+            "title": "80 Level",
+            "logo": "80lv.svg",
+            "since": "2021",
+            "link": "https://80.lv/"
+          }
         ]
       }
     },
