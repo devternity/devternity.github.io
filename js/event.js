@@ -272,7 +272,7 @@
           },
           {
             "title": "SwissDev Jobs",
-            "logo": "swissdev",
+            "logo": "swissdev.png",
             "since": "2021",
             "link": "https://swissdevjobs.ch/"
           }          
