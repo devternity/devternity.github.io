@@ -269,7 +269,13 @@
             "logo": "80lv.svg",
             "since": "2021",
             "link": "https://80.lv/"
-          }
+          },
+          {
+            "title": "SwissDev Jobs",
+            "logo": "swissdev",
+            "since": "2021",
+            "link": "https://swissdevjobs.ch/"
+          }          
         ]
       }
     },
