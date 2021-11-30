@@ -497,20 +497,6 @@
             "video": ""
           },
           {
-            "time": "10:10",            
-            "name": "Dave Farley",
-            "type": "speech",
-            "tags": ["testing", "qa", "automation"],
-            "twitter": "davefarley77",
-            "country": "gb",
-            "bio": "Founder and Director @ Continuous Delivery Ltd, Co-author of best-selling <a href=\"https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912\">Continuous Delivery</a> and <a href=\"https://leanpub.com/cd-pipelines\">Continuous Delivery Pipelines</a>",
-            "title": "Acceptance Testing for Continuous Delivery",
-            "description": "Writing and maintaining a suite of acceptance tests that can give you a high level of confidence in the behaviour and configuration of your system is a complex task. In this session, Dave will describe approaches to acceptance testing that allow teams to work quickly and effectively, build excellent functional coverage for complex enterprise-scale systems, manage and maintain those tests in the face of change, and of evolution in both the codebase and the understanding of the business problem.",
-            "img": "images/davefarleysmall.png",
-            "presentation": "",
-            "video": ""
-        },             
-          {
             "time": "10:10",
             "tags": ["clean code", "design patterns", "best practices"],
             "name": "Alla Babkina",
@@ -523,7 +509,21 @@
             "img": "images/allab.png",
             "presentation": "",
             "video": ""
-          },                      
+          },               
+          {
+            "time": "10:10",            
+            "name": "Dave Farley",
+            "type": "speech",
+            "tags": ["testing", "qa", "automation"],
+            "twitter": "davefarley77",
+            "country": "gb",
+            "bio": "Founder and Director @ Continuous Delivery Ltd, Co-author of best-selling <a href=\"https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912\">Continuous Delivery</a> and <a href=\"https://leanpub.com/cd-pipelines\">Continuous Delivery Pipelines</a>",
+            "title": "Acceptance Testing for Continuous Delivery",
+            "description": "Writing and maintaining a suite of acceptance tests that can give you a high level of confidence in the behaviour and configuration of your system is a complex task. In this session, Dave will describe approaches to acceptance testing that allow teams to work quickly and effectively, build excellent functional coverage for complex enterprise-scale systems, manage and maintain those tests in the face of change, and of evolution in both the codebase and the understanding of the business problem.",
+            "img": "images/davefarleysmall.png",
+            "presentation": "",
+            "video": ""
+        },                              
         {
           "type": "break",
           "time": "11:00",
