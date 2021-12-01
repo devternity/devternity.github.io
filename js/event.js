@@ -518,7 +518,7 @@
             "type": "speech",
             "twitter": "VictorRentea",
             "country": "ro",
-            "bio": "Java Champion, Independent Technical Trainer / Consultant, ex-Lead Architect @ IBM",
+            "bio": "Software Craftsman, Java Champion and Trainer",
             "title": "Clean Code, Two Decades Later",
             "description": "Clean Code principles have become a cornerstone of professional developer teams worldwide. But frameworks and languages changed, and so have the challenges we’re facing today while crafting modern applications. Single-page apps, extremely DRY code, microservices, excessive functional programming, and reactive flows have all taken their toll on our code quality. Hop aboard this roundtrip of the most damaging code smells as of 2021 and fill your toolbox with a load of practical tricks you can immediately apply to your day-to-day work. All in an entertaining show spiced with lightning live-coding moments using power features of IntelliJ.",
             "img": "images/viktor_small.png",
