@@ -718,21 +718,7 @@
           "presentation": "",
           "superspeaker": true,
           "video": ""
-        },        
-        {
-          "time": "15:30",
-          "tags": ["automated testing", "best practices", "live coding"],
-          "name": "Jakub Pilimon",
-          "type": "speech",
-          "twitter": "jakubpilimon",
-          "country": "pl",
-          "bio": "Principal Technologist @ VMWare, Trainer @ ‎Bottega IT Minds, DZone's Most-Valuable Blogger",
-          "title": "Unit Testing Done Right",
-          "description": "\"Test-Driven-Development leads to a great design\" - they said. Does it? Always? \"Don’t Mock in your tests\" vs \"Mock everything\" - so which one do I choose? \"100% code coverage is a must\" - really? Why? And the list goes on… In this presentation we are going to talk about popular beliefs in the testing world. We will see  slides and live coding examples. Both juniors and seniors should find something useful in it.",
-          "img": "images/pilo.png",
-          "presentation": "",
-          "video": ""
-        },           
+        },
         {
           "time": "15:30",            
           "name": "Hadi Hariri",
@@ -746,7 +732,21 @@
           "img": "images/hadi.png",
           "presentation": "",
           "video": ""
-        },         
+        },
+        {
+          "time": "15:30",
+          "tags": ["automated testing", "best practices", "live coding"],
+          "name": "Jakub Pilimon",
+          "type": "speech",
+          "twitter": "jakubpilimon",
+          "country": "pl",
+          "bio": "Principal Technologist @ VMWare, Trainer @ Bottega IT Minds, DZone's Most-Valuable Blogger",
+          "title": "Unit Testing Done Right",
+          "description": "\"Test-Driven-Development leads to a great design\" - they said. Does it? Always? \"Don’t Mock in your tests\" vs \"Mock everything\" - so which one do I choose? \"100% code coverage is a must\" - really? Why? And the list goes on… In this presentation we are going to talk about popular beliefs in the testing world. We will see  slides and live coding examples. Both juniors and seniors should find something useful in it.",
+          "img": "images/pilo.png",
+          "presentation": "",
+          "video": ""
+        },
         {
           "type": "break",
           "time": "16:20",
