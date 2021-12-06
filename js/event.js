@@ -317,7 +317,7 @@
             "description": "<h3>What you'll learn:</h3><ul class=\"awsm\"><li>Why do we refactor, when do we do it, and where</li><li>What are the pros and cons of small-steps refactoring compared to blue-green refactoring?</li><li>How EventStorming can help us create the new model</li><li>How to split logical modules from the existing codebase</li><li>How and when to refactor towards DDD</li><li>How to test your legacy code and identify seams</li><li>How to be sure that the new code works exactly like the old one</li><li>How to write SOLID and clean OO code</li></ul>",
             "img": "images/bart.png",
             "presentation": "",
-            "sold_out_soon": true,
+            "sold_out": true,
             "video": ""
           },       
           {
