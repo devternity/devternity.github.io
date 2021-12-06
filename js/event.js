@@ -299,7 +299,7 @@
             "description": "<h3>During this training, you'll learn:</h3><ul class=\"awsm\"><li>How Continuous Delivery works in practice</li><li>How Continious Delivery is related to DevOps</li><li>How to ship software safer, sooner, better</li><li>How to develop a Continuous Everything (coding, testing, delivery & etc) mindset</li><li>How to build a fast and reliable Deployment Pipeline</li><li>How Continuous Delivery impacts code quality, coding habits, and communication in the team</li><li>... and much more!</li></ul></p>",
             "img": "images/davefarleysmall.png",
             "presentation": "",
-            "sold_out": true,
+            "sold_out_soon": true,
             "video": ""
           },                      
           {
