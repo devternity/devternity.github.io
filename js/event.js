@@ -283,7 +283,25 @@
       {
         "event": "workshops",
         "date_iso": "2021-12-11",
-        "schedule": [            
+        "schedule": [  
+          {
+            "product": "CD",
+            "name": "Dave Farley",
+            "type": "speech",
+            "twitter": "davefarley77",
+            "time": "9:00",
+            "endTime": "18:00",
+            "tags": ["devops", "continuous delivery"],
+            "country": "gb",
+            "bio": "Founder and Director @ Continuous Delivery Ltd, Co-author of best-selling <a href=\"https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912\">Continuous Delivery</a> and <a href=\"https://leanpub.com/cd-pipelines\">Continuous Delivery Pipelines</a>",
+            "title": "Continuous Delivery: Better Software Faster",
+            "brief_description": "Continuous Delivery are practiced by many of the most successful teams and businesses on the planet — like Amazon, Netflix, Google, and Tesla. This workshop will teach you the Continuous Delivery and DevOps techniques you need to deliver quality software into the hands of your customers more quickly. <p>Dave Farley – the co-author of best-selling \"Continuous Delivery\" and \"Modern Software Engineering\" books will teach you how to transform your daily work, team, and company, so you ship software – better, safer, and sooner.</p><p>Note: this workshop runs from 9:00 until 16:00.</p>",
+            "description": "<h3>During this training, you'll learn:</h3><ul class=\"awsm\"><li>How Continuous Delivery works in practice</li><li>How Continious Delivery is related to DevOps</li><li>How to ship software safer, sooner, better</li><li>How to develop a Continuous Everything (coding, testing, delivery & etc) mindset</li><li>How to build a fast and reliable Deployment Pipeline</li><li>How Continuous Delivery impacts code quality, coding habits, and communication in the team</li><li>... and much more!</li></ul></p>",
+            "img": "images/davefarleysmall.png",
+            "presentation": "",
+            "sold_out_soon": true,
+            "video": ""
+          },                      
           {
             "product": "JBRAINS",
             "name": "J.B. Rainsberger",
@@ -299,7 +317,7 @@
             "description": "<h3>You'll learn:</h3> <ul class=\"awsm\"><li>How to (finally) start refactoring your codebase at work</li><li>How to work effectively with Legacy Code</li><li>How to master effective refactoring skills for <b>speed and confidence</b></li><li>How not to let the lack of tests stand in the way of refactoring</li><li>How to refactor accurately and safely using nanosteps</li><li>How to approach refactoring <b>strategically</b></li><li>How to effectively learn and teach refactoring to others</li><li>...and much more!</li></ul><p>This contains is hands-on and contains a handful of refactoring practice drills.</p>",
             "img": "images/jb_vec.png",
             "presentation": "",
-            "sold_out_soon": true,
+            "sold_out": true,
             "video": ""
           },          
           {
@@ -319,25 +337,7 @@
             "presentation": "",
             "sold_out": true,
             "video": ""
-          },       
-          {
-            "product": "CD",
-            "name": "Dave Farley",
-            "type": "speech",
-            "twitter": "davefarley77",
-            "time": "9:00",
-            "endTime": "18:00",
-            "tags": ["devops", "continuous delivery"],
-            "country": "gb",
-            "bio": "Founder and Director @ Continuous Delivery Ltd, Co-author of best-selling <a href=\"https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912\">Continuous Delivery</a> and <a href=\"https://leanpub.com/cd-pipelines\">Continuous Delivery Pipelines</a>",
-            "title": "Continuous Delivery: Better Software Faster",
-            "brief_description": "Continuous Delivery are practiced by many of the most successful teams and businesses on the planet — like Amazon, Netflix, Google, and Tesla. This workshop will teach you the Continuous Delivery and DevOps techniques you need to deliver quality software into the hands of your customers more quickly. <p>Dave Farley – the co-author of best-selling \"Continuous Delivery\" and \"Modern Software Engineering\" books will teach you how to transform your daily work, team, and company, so you ship software – better, safer, and sooner.</p><p>Note: this workshop runs from 9:00 until 16:00.</p>",
-            "description": "<h3>During this training, you'll learn:</h3><ul class=\"awsm\"><li>How Continuous Delivery works in practice</li><li>How Continious Delivery is related to DevOps</li><li>How to ship software safer, sooner, better</li><li>How to develop a Continuous Everything (coding, testing, delivery & etc) mindset</li><li>How to build a fast and reliable Deployment Pipeline</li><li>How Continuous Delivery impacts code quality, coding habits, and communication in the team</li><li>... and much more!</li></ul></p>",
-            "img": "images/davefarleysmall.png",
-            "presentation": "",
-            "sold_out_soon": true,
-            "video": ""
-          },          
+          },               
           {
             "product": "VENKAT",
             "name": "Venkat Subramaniam",
