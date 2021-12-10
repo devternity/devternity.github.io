@@ -198,7 +198,7 @@
             "info": "<p>BET Software is one of the most diverse betting software providers in Sub-Saharan Africa, with a growing presence internationally. We are the workplace of choice for technologists and engineers due to our pioneering use of technology, our talented Team and the innovative solutions we deliver.</p>"
           },
           {
-            "logo": "onair.jpg",
+            "logo": "onair2.jpg",
             "since": "2021",
             "link": "https://humancapitalmanagement.wd3.myworkdayjobs.com/en-US/OnAir-Entertainment-Careers",
             "info": "<p>On Air Entertainment, founded in December 2020, is led by a collective of senior industry professionals with a proven history in live casino. Guided by a clear vision, our management team seized the opportunity to build a new live casino studio from the ground up, with our purpose-built platform and suite of live casino products, including our first game Standard Blackjack – debut game delivered in record 11 months. Rapid growth ensued as we moved into our current head office in Malta before expanding into our spacious modern studio in Riga, Latvia. As our team continuously grows, new IT Hubs were established in Poland and Estonia.</p>"            
