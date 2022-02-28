@@ -195,7 +195,7 @@
             "bio": "Consultant, Trainer, Writer, Author of 97 Things Every Programmer Should Know",
             "title": "Architecture with Agility",
             "brief_description": "<p>Every system has an architecture, whether accidental or intentional, and regardless of whether it was put in place by a nominated architect or whether it emerged from the decisions and discussions of a team. All too often the focus of what is often described as architecture is centred around a specific set of platform technologies, which forms only one part of the set of concerns an architecture should. And all too often architecture is seen as a separate concern from development process, whereas the two are intertwined — what you build is influenced by how you build it, and vice versa. </p><p>This workshop looks at the relationship between Agile processes and good architecture, taking in development process models, architectural styles, requirements techniques, sufficient modelling techniques, design patterns and testing practices. This workshop includes a number of practical exercises so that attendees can see how the different activities fit together.</p><p>Note: this workshop runs from 9:00 until 16:00.</p>",
-            "img": "images/kevlin.png"
+            "img": "images/kevie.png"
           },
           {
             "tags": ["clean architecture", "patterns", "java"],
@@ -223,7 +223,7 @@
             "bio": "Consultant, Trainer, Writer, Editor of <a href=\"https://www.amazon.com/Things-Every-Programmer-Should-Know/dp/0596809484/\">97 Things Every Programmer Should Know</a>",
             "title": "Code?",
             "description": "Coming soon...",
-            "img": "images/vec_kevlin.png"
+            "img": "images/kevie.png"
           },          
           {
             "time": "9:00",
