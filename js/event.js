@@ -183,9 +183,25 @@
             "country": "us",
             "bio": "Founder @ Agile Developer, Author of <a href=\"https://www.amazon.com/Practices-Agile-Developer-Pragmatic-Bookshelf/dp/097451408X/\">Practices of an Agile Developer</a>, <a href=\"https://www.amazon.com/Programming-Concurrency-JVM-Mastering-Synchronization-ebook/dp/B00A32NZEI/\">Programming Concurrency on the JVM</a>, <a href=\"https://www.amazon.com/Functional-Programming-Java-Harnessing-Expressions/dp/1937785467/\">Functional Programming in Java</a>",
             "title": "Software Design By Practice",
-            "brief_description": "<p>The goal of this intensive, hands-on workshop, is to deepen your understanding of SOLID and other core software design principles and patterns.</p><p>You'll be practicing those concepts under different constraints and requirements, devising elegant lightweight design, writing code, and discussing the tradeoffs. </p><p>Come experience the evolution of ideas into clean code by way of incremental development!</p><p>Note: this workshop runs from 9:00 until 16:00.</p>",
+            "brief_description": "The goal of this intensive, hands-on workshop, is to <strong>deepen your understanding of SOLID and other core software design principles and patterns</strong>. You'll be practicing those concepts under different constraints and requirements, devising elegant lightweight design, writing code, and discussing the tradeoffs. <p>Come experience the evolution of ideas into clean code by way of incremental development!</p><p>Note: this workshop runs from 9:00 until 16:00.</p>",
             "img": "images/venk_vec.png"
-          },            
+          },
+          {
+            "product": "JBRAINS",
+            "name": "J.B. Rainsberger",
+            "type": "speech",
+            "twitter": "jbrains",
+            "time": "9:00",
+            "endTime": "18:00",                      
+            "tags": ["evolutionary design", "legacy code", "clean code"],
+            "country": "ca",
+            "bio": "Software Coach, Mentor and Consultant, TDD Trainer <a href=\"https://tdd.training\">tdd.training</a>",
+            "title": "Surviving Legacy Code",
+            "brief_description": "We all have legacy code, meaning profitable code that we’re afraid to change. It doesn’t matter who wrote it, in which language, nor when. It matters that we feel the fear now and need to deal with it. Rewrite or refactor? How do we write tests? There’s so much to change; how do we get started? In the typical programmer’s day job, there’s no time to learn how to do this. We’re already behind schedule and the cost of fixing the legacy code is crushing us. We need a way to learn how to do this safely, correctly, and eventually, even quickly. You'll learn: <ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>When to refactor and when to rewrite, and how to do that safely.</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>The killer technique for exposing in glorious detail exactly where the code wants us to break it apart.</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to use statistical sampling and logs to cobble together the beginnings of a test suite.</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to sterilise a legacy environment before even trying to change the code.</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to crack the chicken-and-egg problem: I need to write tests in order to refactor, and I need to refactor in order to write tests.</li></ul></p><p>We will work in short sessions on a diabolical-but-fun code base (available in at least 20 programming languages), practise micro-committing, a key technique to changing difficult code safely, practise a handful of refactoring and testing exercises that <b>develop the most essential legacy code rescue skills and disciplines.</b><p>Note: this workshop runs from 13:00 until 19:00.</p>",
+            "img": "images/jb_vec.png",
+            "presentation": "",
+            "video": ""
+          },             
           {
             "product": "AGILE_ARCHITECTURE",
             "name": "Kevlin Henney",
@@ -194,7 +210,7 @@
             "country": "gb",
             "bio": "Consultant, Trainer, Writer, Author of 97 Things Every Programmer Should Know",
             "title": "Architecture with Agility",
-            "brief_description": "<p>Every system has an architecture, whether accidental or intentional, and regardless of whether it was put in place by a nominated architect or whether it emerged from the decisions and discussions of a team. All too often the focus of what is often described as architecture is centred around a specific set of platform technologies, which forms only one part of the set of concerns an architecture should. And all too often architecture is seen as a separate concern from development process, whereas the two are intertwined — what you build is influenced by how you build it, and vice versa. </p><p>This workshop looks at the relationship between Agile processes and good architecture, taking in development process models, architectural styles, requirements techniques, sufficient modelling techniques, design patterns and testing practices. This workshop includes a number of practical exercises so that attendees can see how the different activities fit together.</p><p>Note: this workshop runs from 9:00 until 16:00.</p>",
+            "brief_description": "Every system has an architecture, whether accidental or intentional, and regardless of whether it was put in place by a nominated architect or whether it emerged from the decisions and discussions of a team. All too often the focus of what is often described as architecture is centred around a specific set of platform technologies, which forms only one part of the set of concerns an architecture should. And all too often architecture is seen as a separate concern from development process, whereas the two are intertwined — what you build is influenced by how you build it, and vice versa. <p>This workshop looks at the relationship between Agile processes and good architecture, taking in development process models, architectural styles, requirements techniques, sufficient modelling techniques, design patterns and testing practices. This workshop includes a number of practical exercises so that attendees can see how the different activities fit together.</p><p>Note: this workshop runs from 9:00 until 16:00.</p>",
             "img": "images/kevie.png"
           },
           {
@@ -205,14 +221,54 @@
             "country": "ro",
             "bio": "Software Craftsman, Java Champion and Trainer",
             "title": "Clean and Pragmatic Architecture",
-            "brief_description": "<p>In this workshop, through code examples, hands-on exercises, and discussions you'll learn how to design a clean and pragmatic architecture. The topics include:</p><ul class=\"awsm\"><li>Layered Architecture: strict and relaxed variants</li><li>Onion Architecture (aka Clean, Hexagonal, Ports-and-Adapters, Universal)</li><li>Controllers: typical design options with tradeoffs</li><li>Entities: techniques and best practices for modeling expressive entities</li><li>Domain Services: how to keep them small, what is the domain logic?</li><li>Facade vs. Application Service (DDD): a pragmatic evolutionary design strategy</li><li>DTOs: enemy structures and when to keep them out of our domain</li><li>Entity/DTO mapping: Best practices, pitfalls of automatic mappers</li><li>Dependency Inversion Principle: stopping external APIs from polluting our domain</li><li>Repositories: designing a domain-friendly search DSL</li><li>Domain Events: mainstream best practices</li><li>CQRS: separating read/write models</li><li>...and much more!</li></ul><p>This workshop uses Java as a reference language.</p><p>Note: this workshop runs from 9:00 until 16:00.</p>",
+            "brief_description": "In this workshop, through code examples, hands-on exercises, and discussions you'll learn how to design a clean and pragmatic architecture. The topics include: <ul class=\"awsm\"><li>Layered Architecture: strict and relaxed variants</li><li>Onion Architecture (aka Clean, Hexagonal, Ports-and-Adapters, Universal)</li><li>Controllers: typical design options with tradeoffs</li><li>Entities: techniques and best practices for modeling expressive entities</li><li>Domain Services: how to keep them small, what is the domain logic?</li><li>Facade vs. Application Service (DDD): a pragmatic evolutionary design strategy</li><li>DTOs: enemy structures and when to keep them out of our domain</li><li>Entity/DTO mapping: Best practices, pitfalls of automatic mappers</li><li>Dependency Inversion Principle: stopping external APIs from polluting our domain</li><li>Repositories: designing a domain-friendly search DSL</li><li>Domain Events: mainstream best practices</li><li>CQRS: separating read/write models</li><li>...and much more!</li></ul><p>This workshop uses Java as a reference language.</p><p>Note: this workshop runs from 9:00 until 16:00.</p>",
             "img": "images/viktor_small.png"
+          },
+          {
+            "product": "DNEAL",
+            "name": "David Neal",
+            "type": "speech",
+            "twitter": "reverentgeek",
+            "time": "9:00",
+            "endTime": "18:00",
+            "tags": ["leadership", "teamwork", "mentoring"],
+            "country": "us",
+            "bio": "Developer Relations Manager @ ActiveCampaign, Microsoft MVP",
+            "title": "Leadership for Software Developers",
+            "brief_description": "We all have an opportunity every day to make a postive impact on folks around us. These are often called \"soft skills,\" but they can be some of the hardest to learn! We could call them \"people skills,\" \"essential skills,\" or \"core skills.\" But, how about \"<b>SKILLS OF AWESOMENESS</b>?\" Yes, what we all need is more ways we can be awesome to each other, and awesome together. You'll learn: <ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Why leadership and awesomeness skills matter to everyone</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to become a better leader</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to run effective meetings</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to deal with conflict and find consensus</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to get better at listening and communication</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to encourage and motivate others</li></ul></p><p>Through a series of practical exercises, we will discover and discuss the most important and relevant topics you want to cover, so that you can get the most value out of this workshop! The workshop is led by David Neal – #1 speaker of 2019.</p><p>Note: this workshop runs from 9:00 until 16:00.</p>",
+            "img": "images/dneal.png",
+            "presentation": "",
+            "video": ""
           }          
         ]
       },
       {
         "event": "keynotes",
         "schedule": [
+          {
+            "time": "9:00",
+            "tags": ["clean code", "code design", "patterns"],
+            "name": "Venkat Subramaniam",
+            "twitter": "venkat_s",
+            "type": "speech",
+            "country": "us",
+            "bio": "Founder @ Agile Developer, Author of <a href=\"https://www.amazon.com/Practices-Agile-Developer-Pragmatic-Bookshelf/dp/097451408X/\">Practices of an Agile Developer</a>, <a href=\"https://www.amazon.com/Programming-Concurrency-JVM-Mastering-Synchronization-ebook/dp/B00A32NZEI/\">Programming Concurrency on the JVM</a>, <a href=\"https://www.amazon.com/Functional-Programming-Java-Harnessing-Expressions/dp/1937785467/\">Functional Programming in Java</a>",
+            "title": "Reasons & Ways to Improve Code Quality",
+            "description": "As programmers we crank out code day in and day out. In the pressure to deliver faster and to keep up with change, it's easy to forget about code quality. Over time, we may not even realize how much the code has deteriorated except that we feel the pain moving forward, as with each line of code we touch gets harder and slower to change. We will discuss the reasons to maintain good quality code and ways in which we, each one of us, can be part of creating quality code.",
+            "img": "images/venk_vec.png"
+          },          
+          {
+            "time": "9:00",
+            "name": "J.B. Rainsberger",
+            "type": "speech",
+            "twitter": "jbrains",
+            "country": "ca",
+            "bio": "Software Coach, Mentor and Consultant, TDD Trainer <a href=\"https://tdd.training\">tdd.training</a>",
+            "img": "images/jb_vec.png",
+            "title": "Unlocking the Awesome Power of Refactoring",
+            "description": "Many programmers get stuck when they try to learn evolutionary design, particularly the refactoring part of it. It never seems to get easier, it never seems to go faster, and so it always seems safer to rip things apart and write them again. If you or someone you know feels stuck like this, then let's talk about why that happens and what to do about it. I'm pretty sure that will also provide a nice starting point for larger discussions about our work as programmers, how evolutionary design (TDD, refactoring) fits in, and anything else that we feel vaguely interested in talking about. My brain will be open.",
+            "tags": ["testing", "test-driven-development", "software design"]
+          },
           {
             "name": "Kevlin Henney",
             "type": "speech",
@@ -226,35 +282,24 @@
             "img": "images/kevie.png"
           },          
           {
-            "time": "9:00",
-            "tags": ["clean code", "code design", "patterns"],
-            "name": "Venkat Subramaniam",
-            "twitter": "venkat_s",
-            "type": "speech",
-            "country": "us",
-            "bio": "Founder @ Agile Developer, Author of <a href=\"https://www.amazon.com/Practices-Agile-Developer-Pragmatic-Bookshelf/dp/097451408X/\">Practices of an Agile Developer</a>, <a href=\"https://www.amazon.com/Programming-Concurrency-JVM-Mastering-Synchronization-ebook/dp/B00A32NZEI/\">Programming Concurrency on the JVM</a>, <a href=\"https://www.amazon.com/Functional-Programming-Java-Harnessing-Expressions/dp/1937785467/\">Functional Programming in Java</a>",
-            "title": "Reasons & Ways to Improve Code Quality",
-            "description": "As programmers we crank out code day in and day out. In the pressure to deliver faster and to keep up with change, it's easy to forget about code quality. Over time, we may not even realize how much the code has deteriorated except that we feel the pain moving forward, as with each line of code we touch gets harder and slower to change. We will discuss the reasons to maintain good quality code and ways in which we, each one of us, can be part of creating quality code.",
-            "img": "images/venk_vec.png"
-          },     
-          {
-            "time": "9:00",
-            "tags": ["career", "decisions", "financial independence"],
-            "name": "Eduards Sizovs",
-            "twitter": "eduardsi",
-            "type": "speech",
-            "country": "lv",
-            "title": "Building Antifragile Technical Career",
-            "bio": "Founder @ DevTernity, Mentor @ <a href=\"https://principal.dev\">The Principal Developer</a>",
-            "description": "In this session, I'll share practical and unusual insights on building a successful career that benefits from the neverending tech changes and globalization. We'll be talking about evergreen skills, craftsmanship, financial independence, and much more. Come to learn how to survive and flourish under dense and growing competition conditions.",
-            "img": "images/eduardsi_vec.png"
-          },
-          {
             "type": "break",
             "time": "9:50",
             "title": "Coffee Break",
             "icon": "fa-coffee"
           },        
+          {
+            "time": "10:10",
+            "tags": ["effectiveness", "agility", "impact mapping"],
+            "name": "Gojko Adžić",
+            "type": "speech",
+            "twitter": "gojkoadzic",
+            "title": "Maximum Impact, Minimum Effort",
+            "country": "rs",
+            "bio": "Consultant, Trainer, Author of <a href=\"https://www.amazon.com/Running-Serverless-Introduction-Lambda-Application/dp/0993088155\">Running Serverless</a>, <a href=\"https://www.amazon.com/Specification-Example-Successful-Deliver-Software/dp/1617290084\">Specification by Example</a>, and <a href=\"https://www.amazon.com/Impact-Mapping-software-products-projects-ebook/dp/B009KWDKVA\">Impact Mapping</a>",
+            "long_bio": "Stefan Tilkov is a co-founder and principal consultant at innoQ, a technology consulting company with offices in Germany and Switzerland. He has been involved in the design of large-scale, distributed systems for more than two decades, using a variety of technologies and tools. He has authored numerous articles, authored and contributed to several books, and is a frequent speaker at conferences around the world.",
+            "description": "A big government IT project delivered two years ahead of schedule. A fraud detection initiative saving tens of millions more than predicted. An app that helped a city rebuild faster after a major disaster and save ten times more money than expected. Stories like these are very uncommon, even with all the advancements the software industry made in the last few decades. In this talk, Gojko will present how very successful teams create big impacts with minimum effort. You'll get practical, actionable ideas that you can use immediately in your work.",
+            "img": "images/gojkoa.png"
+          },          
           {
             "time": "10:10",
             "tags": ["productivity", "refactoring", "intellij"],
@@ -269,30 +314,18 @@
           },          
           {
             "time": "10:10",
-            "tags": ["effectiveness", "agility", "impact mapping"],
-            "name": "Gojko Adzic",
+            "tags": ["leadership", "motivation", "soft skills"],
+            "name": "David Neal",
+            "twitter": "reverentgeek",
             "type": "speech",
-            "twitter": "gojkoadzic",
-            "title": "Maximum Impact, Minimum Effort",
-            "country": "rs",
-            "bio": "Consultant, Trainer, Author of <a href=\"https://www.amazon.com/Running-Serverless-Introduction-Lambda-Application/dp/0993088155\">Running Serverless</a>, <a href=\"https://www.amazon.com/Specification-Example-Successful-Deliver-Software/dp/1617290084\">Specification by Example</a>, and <a href=\"https://www.amazon.com/Impact-Mapping-software-products-projects-ebook/dp/B009KWDKVA\">Impact Mapping</a>",
-            "long_bio": "Stefan Tilkov is a co-founder and principal consultant at innoQ, a technology consulting company with offices in Germany and Switzerland. He has been involved in the design of large-scale, distributed systems for more than two decades, using a variety of technologies and tools. He has authored numerous articles, authored and contributed to several books, and is a frequent speaker at conferences around the world.",
-            "description": "A big government IT project delivered two years ahead of schedule. A fraud detection initiative saving tens of millions more than predicted. An app that helped a city rebuild faster after a major disaster and save ten times more money than expected. Stories like these are very uncommon, even with all the advancements the software industry made in the last few decades. In this talk, Gojko will present how very successful teams create big impacts with minimum effort. You'll get practical, actionable ideas that you can use immediately in your work.",
-            "img": "images/gojkoa.png"
-          },
-          {
-            "time": "10:10",            
-            "name": "Dave Farley",
-            "type": "speech",
-            "tags": ["testing", "qa", "automation"],
-            "twitter": "davefarley77",
-            "country": "gb",
-            "bio": "Founder and Director @ Continuous Delivery Ltd, Co-author of best-selling <a href=\"https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912\">Continuous Delivery</a> and <a href=\"https://leanpub.com/cd-pipelines\">Continuous Delivery Pipelines</a>",
-            "description": "Writing and maintaining a suite of acceptance tests that can give you a high level of confidence in the behaviour and configuration of your system is a complex task. In this session, Dave will describe approaches to acceptance testing that allow teams to work quickly and effectively, build excellent functional coverage for complex enterprise-scale systems, manage and maintain those tests in the face of change, and of evolution in both the codebase and the understanding of the business problem.",
-            "img": "images/davefarleysmall.png",
+            "country": "us",
+            "bio": "Developer Relations Manager @ ActiveCampaign, Microsoft MVP",
+            "title": "Leadership for Software Developers",
+            "description": "Regardless of the technology you know, regardless of the job title you have, you have amazing potential to impact your workplace, community, and beyond. In this talk, I’ll share a few candid stories of my career failures… I mean… learning opportunities. We’ll start by debunking the myth that leadership == management. Next, we’ll talk about some the attributes, behaviors and skills of good leaders. Last, we’ll cover some practical steps and resources to accelerate your journey. You’ll walk away with some essential leadership skills I believe anyone can develop, and a good dose of encouragement to be more awesome!",
+            "img": "images/dneal.png",
             "presentation": "",
             "video": ""
-        },                              
+          },                            
         {
           "type": "break",
           "time": "11:00",
@@ -301,15 +334,16 @@
         },        
         {
           "time": "11:20",
-          "name": "Jakub Nabrdalik",
+          "tags": ["career", "decisions", "financial independence"],
+          "name": "Eduards Sizovs",
+          "twitter": "eduardsi",
           "type": "speech",
-          "tags": ["software design", "architecture"],
-          "twitter": "jnabrdalik",
-          "country": "pl",
-          "bio": "Solution Architect, Developer and Mentor at Bottega IT Minds, ex-Head of Software Development @ 4Finance",
-          "img": "images/jnb_vec.png",
-          "description": "I started designing systems (also known as: architecture) 18 years ago. I'm not very smart, so I've made a lot of mistakes on the way. Surprisingly it turned out these are quite common. I'd like to share a few things I’ve learned that would save me a lot of tears, had I known better back then. I’ll talk about communication styles, modularity, SLA, invariants and events, choreography vs orchestration, single point of truth vs data ownership, products vs projects. This talk is for people starting with software architecture."
-        }, 
+          "country": "lv",
+          "title": "Building Antifragile Technical Career",
+          "bio": "Founder @ DevTernity, Mentor @ <a href=\"https://principal.dev\">The Principal Developer</a>",
+          "description": "In this session, I'll share practical and unusual insights on building a successful career that benefits from the neverending tech changes and globalization. We'll be talking about evergreen skills, craftsmanship, financial independence, and much more. Come to learn how to survive and flourish under dense and growing competition conditions.",
+          "img": "images/eduardsi_vec.png"
+        },
         {
           "time": "11:20",
           "name": "Bert Jan Schrijver",
