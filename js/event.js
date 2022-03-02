@@ -269,15 +269,16 @@
           },          
           {
             "time": "10:10",
-            "tags": ["architecture", "principles", "lessons learned"],
-            "name": "Stefan Tilkov",
+            "tags": ["effectiveness", "agility", "impact mapping"],
+            "name": "Gojko Adzic",
             "type": "speech",
-            "twitter": "stilkov",
-            "country": "de",
-            "bio": "Co-founder & Software Architect @ innoQ, Author of <a href=\"https://www.amazon.com/REST-HTTP-Stefan-Tilkov/dp/3864901200/\">REST and HTTP</a>",
+            "twitter": "gojkoadzic",
+            "title": "Maximum Impact, Minimum Effort",
+            "country": "rs",
+            "bio": "Consultant, Trainer, Author of <a href=\"https://www.amazon.com/Running-Serverless-Introduction-Lambda-Application/dp/0993088155\">Running Serverless</a>, <a href=\"https://www.amazon.com/Specification-Example-Successful-Deliver-Software/dp/1617290084\">Specification by Example</a>, and <a href=\"https://www.amazon.com/Impact-Mapping-software-products-projects-ebook/dp/B009KWDKVA\">Impact Mapping</a>",
             "long_bio": "Stefan Tilkov is a co-founder and principal consultant at innoQ, a technology consulting company with offices in Germany and Switzerland. He has been involved in the design of large-scale, distributed systems for more than two decades, using a variety of technologies and tools. He has authored numerous articles, authored and contributed to several books, and is a frequent speaker at conferences around the world.",
-            "description": "In this session, we’ll take a look at some of the ways we can determine whether the development efforts we’re undertaking suffer from too much or too little focus on architecture. We’ll examine a number of real-world examples that are intended to inspire either admiration or terror, and try to find some recipes of how we can get more of the former and less of the latter in our own projects.",
-            "img": "images/tilkov_vec.png"
+            "description": "A big government IT project delivered two years ahead of schedule. A fraud detection initiative saving tens of millions more than predicted. An app that helped a city rebuild faster after a major disaster and save ten times more money than expected. Stories like these are very uncommon, even with all the advancements the software industry made in the last few decades. In this talk, Gojko will present how very successful teams create big impacts with minimum effort. You'll get practical, actionable ideas that you can use immediately in your work.",
+            "img": "images/gojkoa.png"
           },
           {
             "time": "10:10",            
