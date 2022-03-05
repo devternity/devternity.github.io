@@ -225,6 +225,18 @@
             "img": "images/viktor_small.png"
           },
           {
+            "product": "ALLEN",    
+            "name": "Allen Holub",
+            "type": "speech",
+            "tags": ["agile done right", "effectiveness"],
+            "twitter": "allenholub",
+            "country": "us",
+            "bio": "Principal @ Hollub Associates Ltd, Pluralsight Author, Author of <a href=\"https://www.oreilly.com/library/view/design-patterns-in/9781491935828/\">Design Patterns in the Real World</a> course",
+            "title": "26 Heuristics for Effective Software Development",
+            "brief_description": "In this training, you’ll learn how to leverage Allen Holub’s 26 rules of thumb to create a highly effective software organization. You’ll learn how to infuse real agility (as compared to “Agile”) into your organization. <p>You don’t do that by implementing some framework. You don’t do that with rigid rules, processes, and tools imposed by management. Instead, you use a set of values, principles, and practices to release the potential of your organization and develop processes that work for you. This class gives you a leg up and prevents lots of expensive flailing around on your path to agility.</p><p>There will be plenty of time to ask questions and get answers. We'll question many assumptions that people make about how companies are supposed to work, so be prepared to be challenged.</p><p>Note: this workshop runs from 16:00 until 21:00.</p>",
+            "img": "images/allenvector.png"
+          },            
+          {
             "product": "DNEAL",
             "name": "David Neal",
             "type": "speech",
@@ -253,7 +265,7 @@
             "type": "speech",
             "country": "us",
             "bio": "Founder @ Agile Developer, Author of <a href=\"https://www.amazon.com/Practices-Agile-Developer-Pragmatic-Bookshelf/dp/097451408X/\">Practices of an Agile Developer</a>, <a href=\"https://www.amazon.com/Programming-Concurrency-JVM-Mastering-Synchronization-ebook/dp/B00A32NZEI/\">Programming Concurrency on the JVM</a>, <a href=\"https://www.amazon.com/Functional-Programming-Java-Harnessing-Expressions/dp/1937785467/\">Functional Programming in Java</a>",
-            "title": "Reasons & Ways to Improve Code Quality",
+            "title": "Reasons and Ways to Improve Code Quality",
             "description": "As programmers we crank out code day in and day out. In the pressure to deliver faster and to keep up with change, it's easy to forget about code quality. Over time, we may not even realize how much the code has deteriorated except that we feel the pain moving forward, as with each line of code we touch gets harder and slower to change. We will discuss the reasons to maintain good quality code and ways in which we, each one of us, can be part of creating quality code.",
             "img": "images/venk_vec.png"
           },          
@@ -270,23 +282,37 @@
             "tags": ["testing", "test-driven-development", "software design"]
           },
           {
+            "time": "9:00",
+            "name": "Allen Holub",
+            "type": "speech",
+            "tags": ["agility", "craftsmanship", "extreme programming"],
+            "twitter": "allenholub",
+            "country": "us",
+            "title": "26 Heuristics for Effective Software Development",
+            "bio": "Principal @ Hollub Associates Ltd, Pluralsight Author, Author of <a href=\"https://www.oreilly.com/library/view/design-patterns-in/9781491935828/\">Design Patterns in the Real World</a> course",
+            "description": "In this talk, you’ll learn how to leverage Allen Holub’s 26 rules of thumb to create a highly effective software organization. You’ll learn how to infuse real agility (as compared to “Agile”) into your organization.",
+            "img": "images/allenvector.png",
+            "presentation": "",
+            "video": ""
+          },
+          {
+            "type": "break",
+            "time": "9:50",
+            "title": "Coffee Break",
+            "icon": "fa-coffee"
+          },
+          {
             "name": "Kevlin Henney",
             "type": "speech",
             "tags": ["programming paradigms", "code quality", "refactoring"],
             "twitter": "kevlinhenney",
-            "time": "9:00",
+            "time": "10:10",
             "country": "gb",
             "bio": "Consultant, Trainer, Writer, Editor of <a href=\"https://www.amazon.com/Things-Every-Programmer-Should-Know/dp/0596809484/\">97 Things Every Programmer Should Know</a>",
             "title": "Code?",
             "description": "Coming soon...",
             "img": "images/kevie.png"
           },          
-          {
-            "type": "break",
-            "time": "9:50",
-            "title": "Coffee Break",
-            "icon": "fa-coffee"
-          },        
           {
             "time": "10:10",
             "tags": ["effectiveness", "agility", "impact mapping"],
@@ -295,11 +321,11 @@
             "twitter": "gojkoadzic",
             "title": "Maximum Impact, Minimum Effort",
             "country": "rs",
-            "bio": "Consultant, Trainer, Author of <a href=\"https://www.amazon.com/Running-Serverless-Introduction-Lambda-Application/dp/0993088155\">Running Serverless</a>, <a href=\"https://www.amazon.com/Specification-Example-Successful-Deliver-Software/dp/1617290084\">Specification by Example</a>, and <a href=\"https://www.amazon.com/Impact-Mapping-software-products-projects-ebook/dp/B009KWDKVA\">Impact Mapping</a>",
+            "bio": "Consultant, Trainer, Author of <a href=\"https://www.amazon.com/Running-Serverless-Introduction-Lambda-Application/dp/0993088155\">Running Serverless</a>, <a href=\"https://www.amazon.com/Specification-Example-Successful-Deliver-Software/dp/1617290084\">Specification by Example</a>, <a href=\"https://www.amazon.com/Impact-Mapping-software-products-projects-ebook/dp/B009KWDKVA\">Impact Mapping</a>, Founder of <a href=\"https://www.narakeet.com\">Narakeet</a>",
             "long_bio": "Stefan Tilkov is a co-founder and principal consultant at innoQ, a technology consulting company with offices in Germany and Switzerland. He has been involved in the design of large-scale, distributed systems for more than two decades, using a variety of technologies and tools. He has authored numerous articles, authored and contributed to several books, and is a frequent speaker at conferences around the world.",
             "description": "A big government IT project delivered two years ahead of schedule. A fraud detection initiative saving tens of millions more than predicted. An app that helped a city rebuild faster after a major disaster and save ten times more money than expected. Stories like these are very uncommon, even with all the advancements the software industry made in the last few decades. In this talk, Gojko will present how very successful teams create big impacts with minimum effort. You'll get practical, actionable ideas that you can use immediately in your work.",
             "img": "images/gojkoa.png"
-          },          
+          },
           {
             "time": "10:10",
             "tags": ["productivity", "refactoring", "intellij"],
@@ -311,27 +337,27 @@
             "title": "The Secrets of the Fastest Java Developers on Earth",
             "description": "In this session, you’ll learn a lot of hands-on tricks that will skyrocket your Java coding speed, after just several days of practice. Writing, editing, navigating and refactoring code faster will let you focus on your goals and allow you to experiment various design alternatives without wasting precious time. In this talk I’ll demonstrate some the best tricks of IntelliJ (community included): Advanced Auto-Completion: over-dot, TAB, type-aware, statics, generating boilerplate, Live Templates and Postfix Expansion, Essential quickfixes and inspections, Multi-cursor, Statement Completion, Navigating Code like a Pro, Java Streams support, and many more, all curated with the help of many nice JetBrains people.",
             "img": "images/viktor_small.png"
-          },          
-          {
-            "time": "10:10",
-            "tags": ["leadership", "motivation", "soft skills"],
-            "name": "David Neal",
-            "twitter": "reverentgeek",
-            "type": "speech",
-            "country": "us",
-            "bio": "Developer Relations Manager @ ActiveCampaign, Microsoft MVP",
-            "title": "Leadership for Software Developers",
-            "description": "Regardless of the technology you know, regardless of the job title you have, you have amazing potential to impact your workplace, community, and beyond. In this talk, I’ll share a few candid stories of my career failures… I mean… learning opportunities. We’ll start by debunking the myth that leadership == management. Next, we’ll talk about some the attributes, behaviors and skills of good leaders. Last, we’ll cover some practical steps and resources to accelerate your journey. You’ll walk away with some essential leadership skills I believe anyone can develop, and a good dose of encouragement to be more awesome!",
-            "img": "images/dneal.png",
-            "presentation": "",
-            "video": ""
-          },                            
+          },
         {
           "type": "break",
           "time": "11:00",
           "title": "Coffee Break",
           "icon": "fa-coffee"
-        },        
+        },
+        {
+          "time": "11:20",
+          "tags": ["leadership", "motivation", "soft skills"],
+          "name": "David Neal",
+          "twitter": "reverentgeek",
+          "type": "speech",
+          "country": "us",
+          "bio": "Developer Relations Manager @ ActiveCampaign, Microsoft MVP",
+          "title": "Leadership for Software Developers",
+          "description": "Regardless of the technology you know, regardless of the job title you have, you have amazing potential to impact your workplace, community, and beyond. In this talk, I’ll share a few candid stories of my career failures… I mean… learning opportunities. We’ll start by debunking the myth that leadership == management. Next, we’ll talk about some the attributes, behaviors and skills of good leaders. Last, we’ll cover some practical steps and resources to accelerate your journey. You’ll walk away with some essential leadership skills I believe anyone can develop, and a good dose of encouragement to be more awesome!",
+          "img": "images/dneal.png",
+          "presentation": "",
+          "video": ""
+        },
         {
           "time": "11:20",
           "tags": ["career", "decisions", "financial independence"],
@@ -344,19 +370,6 @@
           "description": "In this session, I'll share practical and unusual insights on building a successful career that benefits from the neverending tech changes and globalization. We'll be talking about evergreen skills, craftsmanship, financial independence, and much more. Come to learn how to survive and flourish under dense and growing competition conditions.",
           "img": "images/eduardsi_vec.png"
         },
-        {
-          "time": "11:20",
-          "name": "Bert Jan Schrijver",
-          "twitter": "bjschrijver",
-          "tags": ["no slides", "live show", "tips&tricks"],
-          "type": "speech",
-          "country": "nl",
-          "bio": "CTO @ OpenValue, Netherlands JUG Lead",
-          "description": "TLDR: I'll show you everything you need to know about the Linux command line as a developer.",
-          "img": "images/bert.png",
-          "presentation": "",
-          "video": ""
-        },           
         {
           "time": "11:20",
           "tags": ["professionalism", "extreme programming", "career"],
