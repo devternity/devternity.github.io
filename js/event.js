@@ -232,7 +232,7 @@
             "twitter": "allenholub",
             "country": "us",
             "bio": "Principal @ Hollub Associates Ltd, Pluralsight Author, Author of <a href=\"https://www.oreilly.com/library/view/design-patterns-in/9781491935828/\">Design Patterns in the Real World</a> course",
-            "title": "26 Heuristics for Effective Software Development",
+            "title": "Heuristics for Effective Software Development",
             "brief_description": "In this training, you’ll learn how to leverage Allen Holub’s 26 rules of thumb to create a highly effective software organization. You’ll learn how to infuse real agility (as compared to “Agile”) into your organization. <p>You don’t do that by implementing some framework. You don’t do that with rigid rules, processes, and tools imposed by management. Instead, you use a set of values, principles, and practices to release the potential of your organization and develop processes that work for you. This class gives you a leg up and prevents lots of expensive flailing around on your path to agility.</p><p>There will be plenty of time to ask questions and get answers. We'll question many assumptions that people make about how companies are supposed to work, so be prepared to be challenged.</p><p>Note: this workshop runs from 16:00 until 21:00.</p>",
             "img": "images/allenvector.png"
           },            
