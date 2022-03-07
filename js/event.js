@@ -324,7 +324,7 @@
             "bio": "Consultant, Trainer, Author of <a href=\"https://www.amazon.com/Running-Serverless-Introduction-Lambda-Application/dp/0993088155\">Running Serverless</a>, <a href=\"https://www.amazon.com/Specification-Example-Successful-Deliver-Software/dp/1617290084\">Specification by Example</a>, <a href=\"https://www.amazon.com/Impact-Mapping-software-products-projects-ebook/dp/B009KWDKVA\">Impact Mapping</a>, Founder of <a href=\"https://narakeet.com/create/video-as-code.html\">Narakeet</a>",
             "long_bio": "Stefan Tilkov is a co-founder and principal consultant at innoQ, a technology consulting company with offices in Germany and Switzerland. He has been involved in the design of large-scale, distributed systems for more than two decades, using a variety of technologies and tools. He has authored numerous articles, authored and contributed to several books, and is a frequent speaker at conferences around the world.",
             "description": "A big government IT project delivered two years ahead of schedule. A fraud detection initiative saving tens of millions more than predicted. An app that helped a city rebuild faster after a major disaster and save ten times more money than expected. Stories like these are very uncommon, even with all the advancements the software industry made in the last few decades. In this talk, Gojko will present how very successful teams create big impacts with minimum effort. You'll get practical, actionable ideas that you can use immediately in your work.",
-            "img": "images/gojkoa.png"
+            "img": "images/gojkoo.png"
           },
           {
             "time": "10:10",
@@ -372,14 +372,15 @@
         },
         {
           "time": "11:20",
-          "tags": ["professionalism", "extreme programming", "career"],
-          "name": "Anton Keks",
+          "tags": ["software engineering", "history", "future"],
+          "name": "Mary Poppendieck",
           "twitter": "antonkeks",
           "type": "speech",
-          "country": "ee",
-          "bio": "Software Craftsman, Co-Founder, Developer @ Codeborne",
-          "description": "Developers and IT people in general tend to specialize and become narrowly skilled. In the past there was always the conflict of DB developers vs application developers, or DBA vs developers vs testers. Nowadays developers split even more into front-end/back-end/Android/iOS/whatever else. This leads to inflated teams, inefficient communication, lack of each developer's responsibility, low team's truck factor, and inability to solve production/design problems once and for all instead of applying patches here and there. The term \"full-stack\" is often applied to developers being responsible for all aspects of their work, but XP/craftsmanship practices go further — we should also take our communication, requirements, operations, testing, etc. under control. True сraftsmen can be an order of magnitude more efficient than narrowly skilled developers. They not only write code, but solve problems. Surely you want to be one. Let's break it down and see why it works.",
-          "img": "images/keks_vec.png",
+          "country": "us",
+          "bio": "Author of <a href=\"https://www.amazon.com/Lean-Software-Development-Agile-Toolkit/dp/0321150783\">Lean Software Development</a>, <a href=\"https://www.amazon.com/Implementing-Lean-Software-Development-Concept/dp/0321437381\">Implementing Lean Software Development</a>, <a href=\"https://www.amazon.com/Leading-Lean-Software-Development-Results/dp/0321620704\">Leading Lean Software Development</a>, and <a href=\"https://www.amazon.com/Lean-Mindset-Ask-Right-Questions/dp/0321896904\">The Lean Mindset</a>",
+          "title": "Software Engineering – Then, Now, and Next",
+          "description": "Twenty years ago Google was struggling to search the vast amount of data in the web, while Amazon was struggling to move an increasing volume of transactions through its monolithic architecture. Their solutions broke new ground in software engineering even as they enabled the companies to thrive. Creative approaches to digital technology have been fundamental in enabling the massive scale and incredible speed of today’s digital giants. More than that, they are at the core of every successful digital transformation. This talk will discuss how software engineering has been changed by the scale and speed required of digital companies in the past, now, and in the future.",
+          "img": "images/mary.png",
           "presentation": "",
           "video": ""
         },   
