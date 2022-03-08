@@ -246,7 +246,7 @@
             "tags": ["leadership", "teamwork", "mentoring"],
             "country": "us",
             "bio": "Principal Developer Evangelist @ Pluralsight, Microsoft MVP",
-            "title": "Leadership for Software Developers",
+            "title": "Practical Leadership for Software Developers",
             "brief_description": "We all have an opportunity every day to make a postive impact on folks around us. These are often called \"soft skills,\" but they can be some of the hardest to learn! We could call them \"people skills,\" \"essential skills,\" or \"core skills.\" But, how about \"<b>SKILLS OF AWESOMENESS</b>?\" Yes, what we all need is more ways we can be awesome to each other, and awesome together. You'll learn: <ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Why leadership and awesomeness skills matter to everyone</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to become a better leader</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to run effective meetings</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to deal with conflict and find consensus</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to get better at listening and communication</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to encourage and motivate others</li></ul></p><p>Through a series of practical exercises, we will discover and discuss the most important and relevant topics you want to cover, so that you can get the most value out of this workshop! The workshop is led by David Neal – #1 speaker of 2019.</p><p>Note: this workshop runs from 9:00 until 16:00.</p>",
             "img": "images/dneal.png",
             "presentation": "",
@@ -258,17 +258,17 @@
         "event": "keynotes",
         "schedule": [
           {
-            "time": "9:00",
-            "tags": ["clean code", "code design", "patterns"],
-            "name": "Venkat Subramaniam",
-            "twitter": "venkat_s",
+            "name": "Kevlin Henney",
             "type": "speech",
-            "country": "us",
-            "bio": "Founder @ Agile Developer, Author of <a href=\"https://www.amazon.com/Practices-Agile-Developer-Pragmatic-Bookshelf/dp/097451408X/\">Practices of an Agile Developer</a>, <a href=\"https://www.amazon.com/Programming-Concurrency-JVM-Mastering-Synchronization-ebook/dp/B00A32NZEI/\">Programming Concurrency on the JVM</a>, <a href=\"https://www.amazon.com/Functional-Programming-Java-Harnessing-Expressions/dp/1937785467/\">Functional Programming in Java</a>",
-            "title": "Reasons and Ways to Improve Code Quality",
-            "description": "As programmers we crank out code day in and day out. In the pressure to deliver faster and to keep up with change, it's easy to forget about code quality. Over time, we may not even realize how much the code has deteriorated except that we feel the pain moving forward, as with each line of code we touch gets harder and slower to change. We will discuss the reasons to maintain good quality code and ways in which we, each one of us, can be part of creating quality code.",
-            "img": "images/venk_vec.png"
-          },          
+            "tags": ["programming paradigms", "code quality", "refactoring"],
+            "twitter": "kevlinhenney",
+            "time": "9:00",
+            "country": "gb",
+            "bio": "Consultant, Trainer, Writer, Editor of <a href=\"https://www.amazon.com/Things-Every-Programmer-Should-Know/dp/0596809484/\">97 Things Every Programmer Should Know</a>",
+            "title": "Good Code",
+            "description": "Coming soon...",
+            "img": "images/kevie.png"
+          },
           {
             "time": "9:00",
             "name": "J.B. Rainsberger",
@@ -281,19 +281,17 @@
             "description": "Many programmers get stuck when they try to learn evolutionary design, particularly the refactoring part of it. It never seems to get easier, it never seems to go faster, and so it always seems safer to rip things apart and write them again. If you or someone you know feels stuck like this, then let's talk about why that happens and what to do about it. I'm pretty sure that will also provide a nice starting point for larger discussions about our work as programmers, how evolutionary design (TDD, refactoring) fits in, and anything else that we feel vaguely interested in talking about. My brain will be open.",
             "tags": ["testing", "test-driven-development", "software design"]
           },
-          {
+          {                           
             "time": "9:00",
-            "name": "Allen Holub",
+            "name": "Scott Hanselman",
             "type": "speech",
-            "tags": ["agility", "craftsmanship", "extreme programming"],
-            "twitter": "allenholub",
+            "twitter": "shanselman",
             "country": "us",
-            "title": "26 Heuristics for Effective Software Development",
-            "bio": "Principal @ Hollub Associates Ltd, Pluralsight Author, Author of <a href=\"https://www.oreilly.com/library/view/design-patterns-in/9781491935828/\">Design Patterns in the Real World</a> course",
-            "description": "In this talk, you’ll learn how to leverage Allen Holub’s 26 rules of thumb to create a highly effective software organization. You’ll learn how to infuse real agility (as compared to “Agile”) into your organization.",
-            "img": "images/allenvector.png",
-            "presentation": "",
-            "video": ""
+            "bio": "Principal Community Architect for Web Platform @ Microsoft, Blogger, Podcaster",
+            "img": "images/hanselman.png", 
+            "title": "Skills for a Successful Programmer",
+            "description": "In this session, Scott Hanselman will share his career journey from a programmer to a Lead .NET Program Manager at Microsoft. Explain some (unusual) advice on skills and practices you need to succeed.",
+            "tags": ["career advice", "growth", "skills"]
           },
           {
             "type": "break",
@@ -302,29 +300,16 @@
             "icon": "fa-coffee"
           },
           {
-            "name": "Kevlin Henney",
-            "type": "speech",
-            "tags": ["programming paradigms", "code quality", "refactoring"],
-            "twitter": "kevlinhenney",
             "time": "10:10",
-            "country": "gb",
-            "bio": "Consultant, Trainer, Writer, Editor of <a href=\"https://www.amazon.com/Things-Every-Programmer-Should-Know/dp/0596809484/\">97 Things Every Programmer Should Know</a>",
-            "title": "Code?",
-            "description": "Coming soon...",
-            "img": "images/kevie.png"
-          },          
-          {
-            "time": "10:10",
-            "tags": ["effectiveness", "agility", "impact mapping"],
-            "name": "Gojko Adžić",
+            "tags": ["clean code", "code design", "patterns"],
+            "name": "Venkat Subramaniam",
+            "twitter": "venkat_s",
             "type": "speech",
-            "twitter": "gojkoadzic",
-            "title": "Maximum Impact, Minimum Effort",
-            "country": "rs",
-            "bio": "Consultant, Trainer, Author of <a href=\"https://www.amazon.com/Running-Serverless-Introduction-Lambda-Application/dp/0993088155\">Running Serverless</a>, <a href=\"https://www.amazon.com/Specification-Example-Successful-Deliver-Software/dp/1617290084\">Specification by Example</a>, <a href=\"https://www.amazon.com/Impact-Mapping-software-products-projects-ebook/dp/B009KWDKVA\">Impact Mapping</a>, Founder of <a href=\"https://narakeet.com/create/video-as-code.html\">Narakeet</a>",
-            "long_bio": "Stefan Tilkov is a co-founder and principal consultant at innoQ, a technology consulting company with offices in Germany and Switzerland. He has been involved in the design of large-scale, distributed systems for more than two decades, using a variety of technologies and tools. He has authored numerous articles, authored and contributed to several books, and is a frequent speaker at conferences around the world.",
-            "description": "A big government IT project delivered two years ahead of schedule. A fraud detection initiative saving tens of millions more than predicted. An app that helped a city rebuild faster after a major disaster and save ten times more money than expected. Stories like these are very uncommon, even with all the advancements the software industry made in the last few decades. In this talk, Gojko will present how very successful teams create big impacts with minimum effort. You'll get practical, actionable ideas that you can use immediately in your work.",
-            "img": "images/gojkoo.png"
+            "country": "us",
+            "bio": "Founder @ Agile Developer, Author of <a href=\"https://www.amazon.com/Practices-Agile-Developer-Pragmatic-Bookshelf/dp/097451408X/\">Practices of an Agile Developer</a>, <a href=\"https://www.amazon.com/Programming-Concurrency-JVM-Mastering-Synchronization-ebook/dp/B00A32NZEI/\">Programming Concurrency on the JVM</a>, <a href=\"https://www.amazon.com/Functional-Programming-Java-Harnessing-Expressions/dp/1937785467/\">Functional Programming in Java</a>",
+            "title": "How to Improve Code Quality",
+            "description": "As programmers we crank out code day in and day out. In the pressure to deliver faster and to keep up with change, it's easy to forget about code quality. Over time, we may not even realize how much the code has deteriorated except that we feel the pain moving forward, as with each line of code we touch gets harder and slower to change. We will discuss the reasons to maintain good quality code and ways in which we, each one of us, can be part of creating quality code.",
+            "img": "images/venk_vec.png"
           },
           {
             "time": "10:10",
@@ -338,6 +323,20 @@
             "description": "In this session, you’ll learn a lot of hands-on tricks that will skyrocket your Java coding speed, after just several days of practice. Writing, editing, navigating and refactoring code faster will let you focus on your goals and allow you to experiment various design alternatives without wasting precious time. In this talk I’ll demonstrate some the best tricks of IntelliJ (community included): Advanced Auto-Completion: over-dot, TAB, type-aware, statics, generating boilerplate, Live Templates and Postfix Expansion, Essential quickfixes and inspections, Multi-cursor, Statement Completion, Navigating Code like a Pro, Java Streams support, and many more, all curated with the help of many nice JetBrains people.",
             "img": "images/viktor_small.png"
           },
+          {
+            "time": "10:10",
+            "tags": ["software engineering", "history", "future"],
+            "name": "Mary Poppendieck",
+            "twitter": "antonkeks",
+            "type": "speech",
+            "country": "us",
+            "bio": "Author of <a href=\"https://www.amazon.com/Lean-Software-Development-Agile-Toolkit/dp/0321150783\">Lean Software Development</a>, <a href=\"https://www.amazon.com/Implementing-Lean-Software-Development-Concept/dp/0321437381\">Implementing Lean Software Development</a>, <a href=\"https://www.amazon.com/Leading-Lean-Software-Development-Results/dp/0321620704\">Leading Lean Software Development</a>, and <a href=\"https://www.amazon.com/Lean-Mindset-Ask-Right-Questions/dp/0321896904\">The Lean Mindset</a>",
+            "title": "Software Engineering – Then, Now, and Next",
+            "description": "Twenty years ago Google was struggling to search the vast amount of data in the web, while Amazon was struggling to move an increasing volume of transactions through its monolithic architecture. Their solutions broke new ground in software engineering even as they enabled the companies to thrive. Creative approaches to digital technology have been fundamental in enabling the massive scale and incredible speed of today’s digital giants. More than that, they are at the core of every successful digital transformation. This talk will discuss how software engineering has been changed by the scale and speed required of digital companies in the past, now, and in the future.",
+            "img": "images/mary.png",
+            "presentation": "",
+            "video": ""
+          },
         {
           "type": "break",
           "time": "11:00",
@@ -346,15 +345,28 @@
         },
         {
           "time": "11:20",
-          "tags": ["leadership", "motivation", "soft skills"],
-          "name": "David Neal",
-          "twitter": "reverentgeek",
+          "tags": ["effectiveness", "agility", "impact mapping"],
+          "name": "Gojko Adžić",
           "type": "speech",
+          "twitter": "gojkoadzic",
+          "title": "Maximum Impact, Minimum Effort",
+          "country": "rs",
+          "bio": "Consultant, Trainer, Author of <a href=\"https://www.amazon.com/Running-Serverless-Introduction-Lambda-Application/dp/0993088155\">Running Serverless</a>, <a href=\"https://www.amazon.com/Specification-Example-Successful-Deliver-Software/dp/1617290084\">Specification by Example</a>, <a href=\"https://www.amazon.com/Impact-Mapping-software-products-projects-ebook/dp/B009KWDKVA\">Impact Mapping</a>, Founder of <a href=\"https://narakeet.com/create/video-as-code.html\">Narakeet</a>",
+          "long_bio": "Stefan Tilkov is a co-founder and principal consultant at innoQ, a technology consulting company with offices in Germany and Switzerland. He has been involved in the design of large-scale, distributed systems for more than two decades, using a variety of technologies and tools. He has authored numerous articles, authored and contributed to several books, and is a frequent speaker at conferences around the world.",
+          "description": "A big government IT project delivered two years ahead of schedule. A fraud detection initiative saving tens of millions more than predicted. An app that helped a city rebuild faster after a major disaster and save ten times more money than expected. Stories like these are very uncommon, even with all the advancements the software industry made in the last few decades. In this talk, Gojko will present how very successful teams create big impacts with minimum effort. You'll get practical, actionable ideas that you can use immediately in your work.",
+          "img": "images/gojkoo.png"
+        },
+        {
+          "time": "11:20",
+          "name": "Allen Holub",
+          "type": "speech",
+          "tags": ["agility", "craftsmanship", "extreme programming"],
+          "twitter": "allenholub",
           "country": "us",
-          "bio": "Principal Developer Evangelist @ Pluralsight, Microsoft MVP",
-          "title": "Leadership for Software Developers",
-          "description": "Regardless of the technology you know, regardless of the job title you have, you have amazing potential to impact your workplace, community, and beyond. In this talk, I’ll share a few candid stories of my career failures… I mean… learning opportunities. We’ll start by debunking the myth that leadership == management. Next, we’ll talk about some the attributes, behaviors and skills of good leaders. Last, we’ll cover some practical steps and resources to accelerate your journey. You’ll walk away with some essential leadership skills I believe anyone can develop, and a good dose of encouragement to be more awesome!",
-          "img": "images/dneal.png",
+          "title": "26 Heuristics for Effective Software Development",
+          "bio": "Principal @ Hollub Associates Ltd, Pluralsight Author, Author of <a href=\"https://www.oreilly.com/library/view/design-patterns-in/9781491935828/\">Design Patterns in the Real World</a> course",
+          "description": "In this talk, you’ll learn how to leverage Allen Holub’s 26 rules of thumb to create a highly effective software organization. You’ll learn how to infuse real agility (as compared to “Agile”) into your organization.",
+          "img": "images/allenvector.png",
           "presentation": "",
           "video": ""
         },
@@ -371,37 +383,40 @@
           "img": "images/eduardsi_vec.png"
         },
         {
-          "time": "11:20",
-          "tags": ["software engineering", "history", "future"],
-          "name": "Mary Poppendieck",
-          "twitter": "antonkeks",
-          "type": "speech",
-          "country": "us",
-          "bio": "Author of <a href=\"https://www.amazon.com/Lean-Software-Development-Agile-Toolkit/dp/0321150783\">Lean Software Development</a>, <a href=\"https://www.amazon.com/Implementing-Lean-Software-Development-Concept/dp/0321437381\">Implementing Lean Software Development</a>, <a href=\"https://www.amazon.com/Leading-Lean-Software-Development-Results/dp/0321620704\">Leading Lean Software Development</a>, and <a href=\"https://www.amazon.com/Lean-Mindset-Ask-Right-Questions/dp/0321896904\">The Lean Mindset</a>",
-          "title": "Software Engineering – Then, Now, and Next",
-          "description": "Twenty years ago Google was struggling to search the vast amount of data in the web, while Amazon was struggling to move an increasing volume of transactions through its monolithic architecture. Their solutions broke new ground in software engineering even as they enabled the companies to thrive. Creative approaches to digital technology have been fundamental in enabling the massive scale and incredible speed of today’s digital giants. More than that, they are at the core of every successful digital transformation. This talk will discuss how software engineering has been changed by the scale and speed required of digital companies in the past, now, and in the future.",
-          "img": "images/mary.png",
-          "presentation": "",
-          "video": ""
-        },   
-        {
           "type": "break",
           "time": "12:10",
           "title": "Coffee Break",
           "icon": "fa-coffee"
-        },             
+        },
         {
           "time": "13:10",
-          "name": "J.B. Rainsberger",
+          "tags": ["leadership", "motivation", "soft skills"],
+          "name": "David Neal",
+          "twitter": "reverentgeek",
           "type": "speech",
-          "twitter": "jbrains",
-          "country": "ca",
-          "bio": "Software Coach, Mentor and Consultant, TDD Trainer <a href=\"https://tdd.training\">tdd.training</a>",
-          "img": "images/jb_vec.png",
-          "description": "Integrated tests are a scam. You’re probably writing 2-5% of the integrated tests you need to test thoroughly. You’re probably duplicating unit tests all over the place. Your integrated tests probably duplicate each other all over the place. When an integrated test fails, who knows what’s broken? Integrated tests probably do you more harm than good. Learn the two-pronged attack that solves the problem: collaboration tests and contract tests.",
-          "tags": ["testing", "test-driven-development", "software design"]
-        },               
-       
+          "country": "us",
+          "bio": "Principal Developer Evangelist @ Pluralsight, Microsoft MVP",
+          "title": "Practical Leadership for Software Developers",
+          "description": "Regardless of the technology you know, regardless of the job title you have, you have amazing potential to impact your workplace, community, and beyond. In this talk, I’ll share a few candid stories of my career failures… I mean… learning opportunities. We’ll start by debunking the myth that leadership == management. Next, we’ll talk about some the attributes, behaviors and skills of good leaders. Last, we’ll cover some practical steps and resources to accelerate your journey. You’ll walk away with some essential leadership skills I believe anyone can develop, and a good dose of encouragement to be more awesome!",
+          "img": "images/dneal.png",
+          "presentation": "",
+          "video": ""
+        },
+        {
+          "time": "13:10",
+          "tags": [],
+          "name": "Natalie Stadler",
+          "twitter": "",
+          "type": "speech",
+          "country": "de",
+          "bio": "Software Craftswoman @ Coinbase, Author @ The Practical Dev",
+          "title": "anything",
+          "description": "Many developers aspire to become architects. Some of us serve currently as architects while the rest of us may hope to become one some day. We all have worked with architects, some good, and some that could be better. What are the traits of a good architect? What are the skills and qualities we should pick to become a very good one? Come to this presentation to learn about things that can make that journey to be a successful architect a pleasant one.",
+          "img": "images/inta_150x150.png",
+          "presentation": "",
+          "plumber": true,
+          "video": ""
+        },                 
         {
           "time": "13:10",
           "tags": ["clean code", "domain-driven design", "java examples"],
