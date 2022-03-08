@@ -351,7 +351,7 @@
           "twitter": "reverentgeek",
           "type": "speech",
           "country": "us",
-          "bio": "Developer Relations Manager @ ActiveCampaign, Microsoft MVP",
+          "bio": "Principal Developer Evangelist @ Pluralsight, Microsoft MVP",
           "title": "Leadership for Software Developers",
           "description": "Regardless of the technology you know, regardless of the job title you have, you have amazing potential to impact your workplace, community, and beyond. In this talk, I’ll share a few candid stories of my career failures… I mean… learning opportunities. We’ll start by debunking the myth that leadership == management. Next, we’ll talk about some the attributes, behaviors and skills of good leaders. Last, we’ll cover some practical steps and resources to accelerate your journey. You’ll walk away with some essential leadership skills I believe anyone can develop, and a good dose of encouragement to be more awesome!",
           "img": "images/dneal.png",
