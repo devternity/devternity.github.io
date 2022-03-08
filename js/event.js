@@ -408,7 +408,7 @@
           "name": "Natalie Stadler",
           "twitter": "",
           "type": "speech",
-          "country": "de",
+          "country": "us",
           "bio": "Software Craftswoman @ Coinbase, Author @ The Practical Dev",
           "title": "anything",
           "description": "Many developers aspire to become architects. Some of us serve currently as architects while the rest of us may hope to become one some day. We all have worked with architects, some good, and some that could be better. What are the traits of a good architect? What are the skills and qualities we should pick to become a very good one? Come to this presentation to learn about things that can make that journey to be a successful architect a pleasant one.",
