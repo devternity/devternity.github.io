@@ -390,6 +390,20 @@
         },
         {
           "time": "13:10",
+          "tags": ["clean code", "code design", "best practices"],
+          "name": "Dan North",
+          "twitter": "tastapod",
+          "type": "speech",
+          "country": "gb",
+          "bio": "Principal Consultant @ Dan North & Associates, Creator of Behavior-Driven Development (BDD)",
+          "title": "Why Every Single Element of SOLID is Wrong",
+          "description": "In this session, Dan will explain why he's never really bought into SOLID and provide a better alternative – CUPID code.",
+          "img": "images/north.png",
+          "presentation": "",
+          "video": ""
+        },
+        {
+          "time": "13:10",
           "tags": ["leadership", "motivation", "soft skills"],
           "name": "David Neal",
           "twitter": "reverentgeek",
@@ -416,20 +430,7 @@
           "presentation": "",
           "plumber": true,
           "video": ""
-        },                 
-        {
-          "time": "13:10",
-          "tags": ["clean code", "domain-driven design", "java examples"],
-          "name": "Bartłomiej Słota",
-          "twitter": "bartekslota",
-          "type": "speech",
-          "country": "pl",
-          "bio": "Trainer, Consultant @ Bottega IT Minds, OSS contributor",
-          "description": "We might have heard that Domain Driven Design is Object Oriented done right. Is it, however, always true? Thinking of business processes as workflows and pipelines lets us map our problems into the concepts of functional programming, thus bringing our code to another level. During this session we will apply bits of functional programming into our Java application, discussing their impact, including security, testability, readability, and more.",
-          "img": "images/bart.png",
-          "presentation": "",
-          "video": ""
-        },        
+        },    
         {
           "time": "13:10",
           "tags": ["estimation", "planning", "handling deadlines"],
