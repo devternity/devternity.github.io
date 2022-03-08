@@ -265,8 +265,8 @@
             "time": "9:00",
             "country": "gb",
             "bio": "Consultant, Trainer, Writer, Editor of <a href=\"https://www.amazon.com/Things-Every-Programmer-Should-Know/dp/0596809484/\">97 Things Every Programmer Should Know</a>",
-            "title": "Good Code",
-            "description": "Coming soon...",
+            "title": "Code?",
+            "description": "In this session, Kevlin will explore what we do and do not mean by code, and the consequences for development and our systems. Some developers do not consider their unit tests to be proper code, because unit tests are not shipped with the software. On the other hand, many developers do not consider configuration to be code, even though it is shipped with the software, defines how the software executes and is written in a formal notation. And imagine deploying a system with millions and millions of configuration parameters that none of the developers understood or knew how to test properly? Imagine machine learning. This talk is a journey into code, a journey into testing, a journey into quality and a journey into keeping software soft. There's no need to make it than it already is.",
             "img": "images/kevie.png"
           },
           {
