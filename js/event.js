@@ -307,7 +307,7 @@
             "type": "speech",
             "country": "us",
             "bio": "Founder @ Agile Developer, Author of <a href=\"https://www.amazon.com/Practices-Agile-Developer-Pragmatic-Bookshelf/dp/097451408X/\">Practices of an Agile Developer</a>, <a href=\"https://www.amazon.com/Programming-Concurrency-JVM-Mastering-Synchronization-ebook/dp/B00A32NZEI/\">Programming Concurrency on the JVM</a>, <a href=\"https://www.amazon.com/Functional-Programming-Java-Harnessing-Expressions/dp/1937785467/\">Functional Programming in Java</a>",
-            "title": "How to Improve Code Quality",
+            "title": "Reasons and Ways to Improve Code Quality",
             "description": "As programmers we crank out code day in and day out. In the pressure to deliver faster and to keep up with change, it's easy to forget about code quality. Over time, we may not even realize how much the code has deteriorated except that we feel the pain moving forward, as with each line of code we touch gets harder and slower to change. We will discuss the reasons to maintain good quality code and ways in which we, each one of us, can be part of creating quality code.",
             "img": "images/venk_vec.png"
           },
