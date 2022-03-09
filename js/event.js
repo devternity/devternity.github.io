@@ -331,7 +331,7 @@
             "type": "speech",
             "country": "us",
             "bio": "Author of <a href=\"https://www.amazon.com/Lean-Software-Development-Agile-Toolkit/dp/0321150783\">Lean Software Development</a>, <a href=\"https://www.amazon.com/Implementing-Lean-Software-Development-Concept/dp/0321437381\">Implementing Lean Software Development</a>, <a href=\"https://www.amazon.com/Leading-Lean-Software-Development-Results/dp/0321620704\">Leading Lean Software Development</a>, and <a href=\"https://www.amazon.com/Lean-Mindset-Ask-Right-Questions/dp/0321896904\">The Lean Mindset</a>",
-            "title": "Software Engineering – Then, Now, and Next",
+            "title": "The Future of Software Engineering",
             "description": "Twenty years ago Google was struggling to search the vast amount of data in the web, while Amazon was struggling to move an increasing volume of transactions through its monolithic architecture. Their solutions broke new ground in software engineering even as they enabled the companies to thrive. Creative approaches to digital technology have been fundamental in enabling the massive scale and incredible speed of today’s digital giants. More than that, they are at the core of every successful digital transformation. This talk will discuss how software engineering has been changed by the scale and speed required of digital companies in the past, now, and in the future.",
             "img": "images/mary.png",
             "presentation": "",
