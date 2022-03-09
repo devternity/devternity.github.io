@@ -260,7 +260,7 @@
           {
             "name": "Kevlin Henney",
             "type": "speech",
-            "tags": ["programming paradigms", "code quality", "refactoring"],
+            "tags": ["code", "testing", "quality"],
             "twitter": "kevlinhenney",
             "time": "9:00",
             "country": "gb",
