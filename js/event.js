@@ -279,7 +279,8 @@
             "bio": "Consultant, Trainer, Writer, Editor of <a href=\"https://www.amazon.com/Things-Every-Programmer-Should-Know/dp/0596809484/\">97 Things Every Programmer Should Know</a>",
             "title": "Code?",
             "description": "In this session, Kevlin will explore what we do and do not mean by code, and the consequences for development and our systems. Some developers do not consider their unit tests to be proper code, because unit tests are not shipped with the software. On the other hand, many developers do not consider configuration to be code, even though it is shipped with the software, defines how the software executes and is written in a formal notation. And imagine deploying a system with millions and millions of configuration parameters that none of the developers understood or knew how to test properly? Imagine machine learning. This talk is a journey into code, a journey into testing, a journey into quality and a journey into keeping software soft. There's no need to make it harder than it already is.",
-            "img": "images/kevie.png"
+            "img": "images/kevie.png",
+            "order": 4
           },
           {
             "time": "9:00",
@@ -291,7 +292,8 @@
             "img": "images/jb_vec.png",
             "title": "Unlocking the Awesome Power of Refactoring",
             "description": "Many programmers get stuck when they try to learn evolutionary design, particularly the refactoring part of it. It never seems to get easier, it never seems to go faster, and so it always seems safer to rip things apart and write them again. If you or someone you know feels stuck like this, then let's talk about why that happens and what to do about it. I'm pretty sure that will also provide a nice starting point for larger discussions about our work as programmers, how evolutionary design (TDD, refactoring) fits in, and anything else that we feel vaguely interested in talking about. My brain will be open.",
-            "tags": ["testing", "test-driven-development", "software design"]
+            "tags": ["testing", "test-driven-development", "software design"],
+            "order": 5
           },
           {
             "time": "9:00",
@@ -324,7 +326,8 @@
             "bio": "Founder @ Agile Developer, Author of <a href=\"https://www.amazon.com/Practices-Agile-Developer-Pragmatic-Bookshelf/dp/097451408X/\">Practices of an Agile Developer</a>, <a href=\"https://www.amazon.com/Programming-Concurrency-JVM-Mastering-Synchronization-ebook/dp/B00A32NZEI/\">Programming Concurrency on the JVM</a>, <a href=\"https://www.amazon.com/Functional-Programming-Java-Harnessing-Expressions/dp/1937785467/\">Functional Programming in Java</a>",
             "title": "Reasons and Ways to Improve Code Quality",
             "description": "As programmers we crank out code day in and day out. In the pressure to deliver faster and to keep up with change, it's easy to forget about code quality. Over time, we may not even realize how much the code has deteriorated except that we feel the pain moving forward, as with each line of code we touch gets harder and slower to change. We will discuss the reasons to maintain good quality code and ways in which we, each one of us, can be part of creating quality code.",
-            "img": "images/venk_vec.png"
+            "img": "images/venk_vec.png",
+            "order": 3
           },
           {
             "time": "10:10",
@@ -341,18 +344,17 @@
           {
             "time": "10:10",
             "tags": [],
-            "name": "Julia Kirsina",
-            "twitter": "UnicornCoding",
+            "name": "Natalie Stadler",
+            "twitter": "",
             "type": "speech",
-            "country": "lv",
-            "bio": "Technical Lead, Tech Influencer @ Instagram",
-            "title": "Anything",
+            "country": "us",
+            "bio": "Software Craftswoman @ Coinbase, Author @ The Practical Dev",
             "description": "Many developers aspire to become architects. Some of us serve currently as architects while the rest of us may hope to become one some day. We all have worked with architects, some good, and some that could be better. What are the traits of a good architect? What are the skills and qualities we should pick to become a very good one? Come to this presentation to learn about things that can make that journey to be a successful architect a pleasant one.",
-            "img": "images/sveta_vec.png",
+            "img": "images/inta_150x150.png",
             "presentation": "",
             "plumber": true,
             "video": ""
-          },             
+          },           
           {
             "time": "10:10",
             "tags": ["software engineering", "history", "future"],
@@ -364,7 +366,7 @@
             "title": "The Future of Software Engineering",
             "description": "Twenty years ago Google was struggling to search the vast amount of data in the web, while Amazon was struggling to move an increasing volume of transactions through its monolithic architecture. Their solutions broke new ground in software engineering even as they enabled the companies to thrive. Creative approaches to digital technology have been fundamental in enabling the massive scale and incredible speed of today’s digital giants. More than that, they are at the core of every successful digital transformation. This talk will discuss how software engineering has been changed by the scale and speed required of digital companies in the past, now, and in the future.",
             "img": "images/mary.png",
-            "order": 3
+            "order": 2
           },
         {
           "type": "break",
@@ -409,8 +411,8 @@
           "img": "images/hanselman.png", 
           "title": "Career Advice for Programmers",
           "description": "In this session, Scott Hanselman will share his career journey from a programmer to a Lead .NET Program Manager at Microsoft. Expect some (unusual) advice on skills and practices you need to succeed.",
-          "order": 2,
-          "tags": ["career advice", "growth", "skills"]
+          "tags": ["career advice", "growth", "skills"],
+          "order": 6
         },
         {
           "type": "break",
@@ -418,6 +420,21 @@
           "title": "Coffee Break",
           "icon": "fa-coffee"
         },
+        {
+          "time": "13:10",
+          "tags": [],
+          "name": "Natalie Stadler",
+          "twitter": "",
+          "type": "speech",
+          "country": "us",
+          "bio": "Software Craftswoman @ Coinbase, Author @ The Practical Dev",
+          "title": "anything",
+          "description": "Many developers aspire to become architects. Some of us serve currently as architects while the rest of us may hope to become one some day. We all have worked with architects, some good, and some that could be better. What are the traits of a good architect? What are the skills and qualities we should pick to become a very good one? Come to this presentation to learn about things that can make that journey to be a successful architect a pleasant one.",
+          "img": "images/inta_150x150.png",
+          "presentation": "",
+          "plumber": true,
+          "video": ""
+        },           
         {
           "time": "13:10",
           "tags": ["clean code", "code design", "best practices"],
@@ -434,6 +451,21 @@
         },
         {
           "time": "13:10",
+          "tags": [],
+          "name": "Julia Kirsina",
+          "twitter": "UnicornCoding",
+          "type": "speech",
+          "country": "lv",
+          "bio": "Technical Lead, Tech Influencer @ Instagram",
+          "title": "Anything",
+          "description": "Many developers aspire to become architects. Some of us serve currently as architects while the rest of us may hope to become one some day. We all have worked with architects, some good, and some that could be better. What are the traits of a good architect? What are the skills and qualities we should pick to become a very good one? Come to this presentation to learn about things that can make that journey to be a successful architect a pleasant one.",
+          "img": "images/sveta_vec.png",
+          "presentation": "",
+          "plumber": true,
+          "video": ""
+        },          
+        {
+          "time": "13:10",
           "tags": ["leadership", "motivation", "soft skills"],
           "name": "David Neal",
           "twitter": "reverentgeek",
@@ -445,22 +477,7 @@
           "img": "images/dneal.png",
           "presentation": "",
           "video": ""
-        },
-        {
-          "time": "13:10",
-          "tags": [],
-          "name": "Natalie Stadler",
-          "twitter": "",
-          "type": "speech",
-          "country": "us",
-          "bio": "Software Craftswoman @ Coinbase, Author @ The Practical Dev",
-          "title": "anything",
-          "description": "Many developers aspire to become architects. Some of us serve currently as architects while the rest of us may hope to become one some day. We all have worked with architects, some good, and some that could be better. What are the traits of a good architect? What are the skills and qualities we should pick to become a very good one? Come to this presentation to learn about things that can make that journey to be a successful architect a pleasant one.",
-          "img": "images/inta_150x150.png",
-          "presentation": "",
-          "plumber": true,
-          "video": ""
-        },    
+        }, 
         {
           "time": "13:10",
           "tags": ["extreme programming", "engineering practices", "test-driven development"],
@@ -612,23 +629,22 @@
           "description": "Many developers aspire to become architects. Some of us serve currently as architects while the rest of us may hope to become one some day. We all have worked with architects, some good, and some that could be better. What are the traits of a good architect? What are the skills and qualities we should pick to become a very good one? Come to this presentation to learn about things that can make that journey to be a successful architect a pleasant one.",
           "img": "images/venk_vec.png",
           "presentation": "",
-          "superspeaker": true,
           "video": ""
         }, 
         {
           "time": "16:40",
           "tags": [],
-          "name": "Julia Kirsina",
-          "twitter": "UnicornCoding",
+          "name": "Natalie Stadler",
+          "twitter": "",
           "type": "speech",
-          "country": "lv",
-          "bio": "Technical Lead, Tech Influencer @ Instagram",
+          "country": "us",
+          "bio": "Software Craftswoman @ Coinbase, Author @ The Practical Dev",
           "description": "Many developers aspire to become architects. Some of us serve currently as architects while the rest of us may hope to become one some day. We all have worked with architects, some good, and some that could be better. What are the traits of a good architect? What are the skills and qualities we should pick to become a very good one? Come to this presentation to learn about things that can make that journey to be a successful architect a pleasant one.",
-          "img": "images/sveta_vec.png",
+          "img": "images/inta_150x150.png",
           "presentation": "",
           "plumber": true,
           "video": ""
-        },                       
+        },                        
           {
             "time": "16:40",
             "tags": ["leadership", "soft skills", "people"],
