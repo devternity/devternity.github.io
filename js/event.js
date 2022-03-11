@@ -235,7 +235,19 @@
             "title": "Heuristics for Effective Software Development",
             "brief_description": "In this training, you’ll learn how to leverage Allen Holub’s 26 rules of thumb to create a highly effective software organization. You’ll learn how to infuse real agility (as compared to “Agile”) into your organization. <p>You don’t do that by implementing some framework. You don’t do that with rigid rules, processes, and tools imposed by management. Instead, you use a set of values, principles, and practices to release the potential of your organization and develop processes that work for you. This class gives you a leg up and prevents lots of expensive flailing around on your path to agility.</p><p>There will be plenty of time to ask questions and get answers. We'll question many assumptions that people make about how companies are supposed to work, so be prepared to be challenged.</p><p>Note: this workshop runs from 16:00 until 21:00.</p>",
             "img": "images/allenvector.png"
-          },            
+          },
+          {
+            "product": "MODUL",
+            "tags": ["backend architecture", "microservices", "modularity"],
+            "name": "Jakub Nabrdalik",
+            "twitter": "jnabrdalik",
+            "type": "speech",
+            "country": "pl",
+            "bio": "Solution Architect, Developer and Mentor at Bottega IT Minds, ex-Head of Software Development @ 4Finance",
+            "title": "Microservices, Modular Monoliths, and Event-Driven Systems",
+            "brief_description": "In this workshop, I’ll take you through three different styles of enterprise service architecture: modular monoliths, distributed synchronous systems, and event-driven systems. Together, we will design a non-trivial backend system and find out the strengths and weaknesses of each architectural approach. We will discuss the typical mistakes and problems developers face during service architecture design and how to solve them. You will learn how to choose the best architecture style for your project, and how to design hybrid solutions, leveraging the best parts of each architecture style. Topics include:<ul class=\"awsm\"><li>Understanding the main styles of service and backend architecture</li><li>Microservies or monoliths? Is there a middle ground?</li><li>How to improve monoliths with modularity; Intro to Modular Monoliths</li><li>How and when to split the system into services with REST/RPC</li><li>How and when to become event-driven and fully async</li><li>How to design non-trivial backend and service architecture</li><li>How to avoid common errors in designing backend and service architectures</li><li>How to use C4 model to communicate your architecture</li><li>...and much more!</li></ul><p><strong>This workshop covers fundamental concepts, relevant to all programming platforms and languages; developers and architects with different backgrounds can attend.</strong> </p><p>Note: this workshop runs from 9:00 until 16:00.</p>",
+            "img": "images/jnb_vec.png"
+          },          
           {
             "product": "DNEAL",
             "name": "David Neal",
@@ -281,18 +293,21 @@
             "description": "Many programmers get stuck when they try to learn evolutionary design, particularly the refactoring part of it. It never seems to get easier, it never seems to go faster, and so it always seems safer to rip things apart and write them again. If you or someone you know feels stuck like this, then let's talk about why that happens and what to do about it. I'm pretty sure that will also provide a nice starting point for larger discussions about our work as programmers, how evolutionary design (TDD, refactoring) fits in, and anything else that we feel vaguely interested in talking about. My brain will be open.",
             "tags": ["testing", "test-driven-development", "software design"]
           },
-          {                           
+          {
             "time": "9:00",
-            "name": "Scott Hanselman",
+            "tags": ["extreme programming", "engineering practices", "test-driven development"],
+            "name": "Kent Beck",
+            "twitter": "kentbeck",
             "type": "speech",
-            "twitter": "shanselman",
             "country": "us",
-            "bio": "Principal Community Architect for Web Platform @ Microsoft, Blogger, Podcaster",
-            "img": "images/hanselman.png", 
-            "title": "Unusual Skills for a Successful Programmer",
-            "description": "In this session, Scott Hanselman will share his career journey from a programmer to a Lead .NET Program Manager at Microsoft. Expect some (unusual) advice on skills and practices you need to succeed.",
-            "tags": ["career advice", "growth", "skills"]
-          },
+            "bio": "Creator of Extreme Programming and TDD, Author of <a href=\"https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530\">TDD by Example</a> and <a href=\"https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658\">Extreme Programming Explained</a>",
+            "title": "Extreme Programming — 25 Years Later",
+            "description": "As soon as you become a team lead or manager, you immediately become responsible for making vague things certain. When you have no idea what exactly shall be done, you are asked how much it costs and how long it will take.  When you give an estimate and commit to delivering to your promise, scope creeps and you enjoy estimation hell again. In this talk, you will learn how to estimate without screwing things up. I will be as practical as possible and will share the real Excel-spreadsheet that implements a simple statistical model of project estimation so you can use it for your projects the next day.",
+            "img": "images/kent.png",
+            "order": 1,
+            "presentation": "",
+            "video": ""
+          },          
           {
             "type": "break",
             "time": "9:50",
@@ -325,6 +340,21 @@
           },
           {
             "time": "10:10",
+            "tags": [],
+            "name": "Julia Kirsina",
+            "twitter": "UnicornCoding",
+            "type": "speech",
+            "country": "lv",
+            "bio": "Technical Lead, Tech Influencer @ Instagram",
+            "title": "Anything",
+            "description": "Many developers aspire to become architects. Some of us serve currently as architects while the rest of us may hope to become one some day. We all have worked with architects, some good, and some that could be better. What are the traits of a good architect? What are the skills and qualities we should pick to become a very good one? Come to this presentation to learn about things that can make that journey to be a successful architect a pleasant one.",
+            "img": "images/sveta_vec.png",
+            "presentation": "",
+            "plumber": true,
+            "video": ""
+          },             
+          {
+            "time": "10:10",
             "tags": ["software engineering", "history", "future"],
             "name": "Mary Poppendieck",
             "twitter": "antonkeks",
@@ -334,8 +364,7 @@
             "title": "The Future of Software Engineering",
             "description": "Twenty years ago Google was struggling to search the vast amount of data in the web, while Amazon was struggling to move an increasing volume of transactions through its monolithic architecture. Their solutions broke new ground in software engineering even as they enabled the companies to thrive. Creative approaches to digital technology have been fundamental in enabling the massive scale and incredible speed of today’s digital giants. More than that, they are at the core of every successful digital transformation. This talk will discuss how software engineering has been changed by the scale and speed required of digital companies in the past, now, and in the future.",
             "img": "images/mary.png",
-            "presentation": "",
-            "video": ""
+            "order": 3
           },
         {
           "type": "break",
@@ -370,17 +399,18 @@
           "presentation": "",
           "video": ""
         },
-        {
+        {                           
           "time": "11:20",
-          "tags": ["career", "decisions", "financial independence"],
-          "name": "Eduards Sizovs",
-          "twitter": "eduardsi",
+          "name": "Scott Hanselman",
           "type": "speech",
-          "country": "lv",
-          "title": "Building Antifragile Technical Career",
-          "bio": "Founder @ DevTernity, Mentor @ <a href=\"https://principal.dev\">The Principal Developer</a>",
-          "description": "In this session, I'll share practical and unusual insights on building a successful career that benefits from the neverending tech changes and globalization. We'll be talking about evergreen skills, craftsmanship, financial independence, and much more. Come to learn how to survive and flourish under dense and growing competition conditions.",
-          "img": "images/eduardsi_vec.png"
+          "twitter": "shanselman",
+          "country": "us",
+          "bio": "Principal Community Architect for Web Platform @ Microsoft, Blogger, Podcaster",
+          "img": "images/hanselman.png", 
+          "title": "Career Advice for Programmers",
+          "description": "In this session, Scott Hanselman will share his career journey from a programmer to a Lead .NET Program Manager at Microsoft. Expect some (unusual) advice on skills and practices you need to succeed.",
+          "order": 2,
+          "tags": ["career advice", "growth", "skills"]
         },
         {
           "type": "break",
@@ -433,14 +463,14 @@
         },    
         {
           "time": "13:10",
-          "tags": ["estimation", "planning", "handling deadlines"],
-          "name": "Maxim Dorofeev",
-          "twitter": "cartmendum",
+          "tags": ["extreme programming", "engineering practices", "test-driven development"],
+          "name": "Kent Beck",
+          "twitter": "kentbeck",
           "type": "speech",
-          "country": "ru",
-          "bio": "Founder @ mnogosdelal.ru, ex-Head of IT @ Kaspersky Lab, Author of <a href=\"https://www.amazon.com/dp/B06XX85FXM\">Jedi Techniques</a>",
+          "country": "us",
+          "bio": "Creator of Extreme Programming and TDD, Author of <a href=\"https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530\">TDD by Example</a> and <a href=\"https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658\">Extreme Programming Explained</a>",
           "description": "As soon as you become a team lead or manager, you immediately become responsible for making vague things certain. When you have no idea what exactly shall be done, you are asked how much it costs and how long it will take.  When you give an estimate and commit to delivering to your promise, scope creeps and you enjoy estimation hell again. In this talk, you will learn how to estimate without screwing things up. I will be as practical as possible and will share the real Excel-spreadsheet that implements a simple statistical model of project estimation so you can use it for your projects the next day.",
-          "img": "images/max_vec.png",
+          "img": "images/kent.png",
           "presentation": "",
           "video": ""
         },
