@@ -409,7 +409,7 @@
           "country": "us",
           "bio": "Principal Community Architect for Web Platform @ Microsoft, Blogger, Podcaster",
           "img": "images/hanselman.png", 
-          "title": "Career Advice for Programmers",
+          "title": "Unusual Skills for a Successful Programmer",
           "description": "In this session, Scott Hanselman will share his career journey from a programmer to a Lead .NET Program Manager at Microsoft. Expect some (unusual) advice on skills and practices you need to succeed.",
           "tags": ["career advice", "growth", "skills"],
           "order": 6
