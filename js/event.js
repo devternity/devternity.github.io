@@ -486,7 +486,7 @@
           "type": "speech",
           "country": "us",
           "bio": "Creator of Extreme Programming and TDD, Author of <a href=\"https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530\">TDD by Example</a> and <a href=\"https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658\">Extreme Programming Explained</a>",
-          "description": "As soon as you become a team lead or manager, you immediately become responsible for making vague things certain. When you have no idea what exactly shall be done, you are asked how much it costs and how long it will take.  When you give an estimate and commit to delivering to your promise, scope creeps and you enjoy estimation hell again. In this talk, you will learn how to estimate without screwing things up. I will be as practical as possible and will share the real Excel-spreadsheet that implements a simple statistical model of project estimation so you can use it for your projects the next day.",
+          "description": "25 years ago, Kent Beck invented Extreme Programming and Test-Driven Development. In this session, Kent reviews what he got right, what he got wrong, and what he's still working on.",
           "img": "images/kent.png",
           "presentation": "",
           "video": ""
