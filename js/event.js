@@ -463,7 +463,19 @@
           "presentation": "",
           "plumber": true,
           "video": ""
-        },          
+        },
+        {
+          "time": "13:10",
+          "tags": ["tools", "libraries", "best practices"],
+          "name": "Stefan Judis",
+          "type": "speech",
+          "twitter": "stefanjudis",
+          "country": "de",
+          "bio": "Developer Advocate @ Contentful, Teaching <a href=\"https://twitter.com/CSSclasses\">@CSSclasses</a>, Maintaining <a href=\"https://twitter.com/perf_tooling\">@perf_tooling</a>",
+          "title": "Web Development in 2022 – Everything You Should Know",
+          "description": "Frontend and JavaScript technologies are moving fast. So fast that it's always hard to keep track of all the new things that are coming up. This talk will show new tools, workflows, ways to develop and give advice on how to stay up to date.",
+          "img": "images/judis.png"
+      },
         {
           "time": "13:10",
           "tags": ["leadership", "motivation", "soft skills"],
@@ -479,7 +491,13 @@
           "video": ""
         }, 
         {
-          "time": "13:10",
+          "type": "break",
+          "time": "14:00",
+          "title": "Coffee Break",
+          "icon": "fa-coffee"
+        },
+        {
+          "time": "14:20",
           "tags": ["extreme programming", "engineering practices", "test-driven development"],
           "name": "Kent Beck",
           "twitter": "kentbeck",
@@ -490,13 +508,7 @@
           "img": "images/kent.png",
           "presentation": "",
           "video": ""
-        },
-        {
-          "type": "break",
-          "time": "14:00",
-          "title": "Coffee Break",
-          "icon": "fa-coffee"
-        },         
+        },        
         {
           "time": "14:20",
           "tags": [],
@@ -536,20 +548,6 @@
           "bio": "Chief Architect @ Headspring, Microsoft MVP, Creator of <a href=\"https://github.com/AutoMapper/AutoMapper\">AutoMapper</a>",
           "description": "Books, workshops, storming and more, all build up an idealized domain model. All describe great techniques for domain-driven greenfield applications. But what about the code we have? How can we take what's already built, and move it towards a better, more cohesive design? In this session, we'll look at anemic, procedural, boring code and examine code smells that can point us in the right direction. We'll also look at standard design patterns for more complex behaviors and models, and how to recognize when (and when not) to apply them. Finally, we'll cover how to safely apply refactoring techniques to achieve our domain-driven model nirvana.",
           "img": "images/jimbo.png",
-          "presentation": "",
-          "video": ""
-        },        
-        {
-          "time": "14:20",
-          "tags": ["effectiveness", "productivity", "deep work"],
-          "name": "Sven Peters",
-          "twitter": "svenpet",
-          "type": "speech",
-          "country": "de",
-          "bio": "Developer Advocate @ MongoDB, ex-Technology Evangelist @ Atlassian",
-          "long_bio": "Sven Peters is a software geek working as an ambassador for Atlassian. He has been developing Java applications for over 12 years and leading small teams using lean methodologies. Sven likes effective software development and cares about the motivation of developers.",
-          "description": "We’re agile, we’re doing DevOps, we work in cross-functional teams, and we use the latest developer pipeline tooling. With all those methodologies and technologies we should be highly effective, right? Probably not. Most of us still struggle with balancing coding speed and quality, working on the stuff that really makes a difference, and feeling constantly stressed by all the things we should learn. Effective developers don't just write clean, simple, and robust code. They also have a strong understanding of the entire development process and the problem that needs to be solved. They take time to learn, practice, and play. Learn how those developers build effective coding habits, use automations whenever needed, reserve time for deep work, and much more. You’ll walk away from this talk with lots of ideas on how to work smarter, not harder.",
-          "img": "images/sven_vec.png",
           "presentation": "",
           "video": ""
         },        
