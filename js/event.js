@@ -442,7 +442,7 @@
           "twitter": "tastapod",
           "type": "speech",
           "country": "gb",
-          "bio": "Principal Consultant @ Dan North & Associates, Creator of Behavior-Driven Development (BDD)",
+          "bio": "Creator of Behavior-Driven Development (BDD), Principal Consultant @ Dan North & Associates",
           "title": "Why Every Single Element of SOLID is Wrong",
           "description": "In this session, Dan will explain why he's never really bought into SOLID and provide a better alternative – CUPID code.",
           "img": "images/north.png",
