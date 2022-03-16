@@ -527,7 +527,7 @@
         },                  
         {
           "time": "14:20",
-          "tags": ["agility", "software delivery", "work organization"],
+          "tags": ["software craftsmanship", "professionalism", "discussion"],
           "name": "Sandro Mancuso",
           "twitter": "sandromancuso",
           "type": "speech",
@@ -535,7 +535,8 @@
           "country_long": "United Kingdom",
           "bio": "Software Craftsman and Founder @ Codurance, Author of <a href=\"https://www.amazon.com/Software-Craftsman-Professionalism-Pragmatism-Robert/dp/0134052501\">The Software Craftsman</a>",
           "long_bio": "Software craftsman at Codurance, author of The Software Craftsman, and founder of the London Software Craftsmanship Community (LSCC). Sandro has been coding since a very young age but only started his professional career in 1996. Before starting his own consultancy, he worked for startups, software houses, product companies, international consultancy companies, and investment banks. During his career Sandro had the opportunity to work in a good variety of projects, with different languages, technologies, and across many different industries. Sandro has a lot of experience in bringing the Software Craftsmanship ideology and Extreme Programming practices to organisations of all sizes. Sandro is internationally renowned by his work on evolving and spreading Software Craftsmanship and is frequently invited to speak in many conferences around the world. His professional aspiration is to raise the bar of the software industry by helping developers become better at and care more about their craft.",
-          "description": "There is still a lot of frustration in software projects. Micro management, lack of autonomy, lack of trust, time pressure, personality clashes and lack of motivation are, among many, reasons for a general feeling of dissatisfaction. Behind all that there is an expectation mismatch between business, delivery teams, and individuals. This talk focus on the rights and responsibilities a delivery team should have in order to reduce frictions and increase the chances of a successful collaboration.",
+          "title": "Minimum Viable Professional",
+          "description": "In this session, together with Sandro we'll discuss hard and soft skills that every software craftsperson needs and how can we nurture those skills independently, at work, and as a community.",
           "img": "images/sandro_vec.png",
           "presentation": "",
           "video": ""
