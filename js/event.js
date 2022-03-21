@@ -524,7 +524,21 @@
           "presentation": "",
           "plumber": true,
           "video": ""
-        },                  
+        },
+        {
+          "time": "14:20",
+          "tags": ["design patterns", "functional programming", "domain-driven design"],
+          "name": "Scott Wlaschin",
+          "twitter": "scottwlaschin",
+          "type": "speech",
+          "country": "gb",
+          "bio": "Software Architect, F# Trainer, Author of <a href=\"https://pragprog.com/book/swdddf/domain-modeling-made-functional\">Domain Modeling Made Functional</a>",
+          "title": "Domain Modeling Made Functional",
+          "description": "Statically typed functional programming languages encourage a very different way of thinking about types. The type system is your friend, not an annoyance, and can be used in many ways that might not be familiar to OO programmers. Types can be used to represent the domain in a fine-grained, self documenting way. And in many cases, types can even be used to encode business rules so that you literally cannot create incorrect code. You can then use the static type checking almost as an instant unit test — making sure that your code is correct at compile time. In this talk, we'll look at some of the ways you can use types as part of a domain driven design process, with some simple real world examples in F#. No jargon, no maths, and no prior F# experience necessary.",
+          "img": "images/scott_vec.png",
+          "presentation": "",
+          "video": ""
+        },          
         {
           "time": "14:20",
           "tags": ["software craftsmanship", "professionalism", "discussion"],
@@ -540,20 +554,7 @@
           "img": "images/sandro_vec.png",
           "presentation": "",
           "video": ""
-        },        
-        {
-          "time": "14:20",
-          "tags": ["live coding", "DDD", ".net examples"],
-          "name": "Jimmy Bogard",
-          "type": "speech",
-          "country": "us",
-          "twitter": "jbogard",
-          "bio": "Chief Architect @ Headspring, Microsoft MVP, Creator of <a href=\"https://github.com/AutoMapper/AutoMapper\">AutoMapper</a>",
-          "description": "Books, workshops, storming and more, all build up an idealized domain model. All describe great techniques for domain-driven greenfield applications. But what about the code we have? How can we take what's already built, and move it towards a better, more cohesive design? In this session, we'll look at anemic, procedural, boring code and examine code smells that can point us in the right direction. We'll also look at standard design patterns for more complex behaviors and models, and how to recognize when (and when not) to apply them. Finally, we'll cover how to safely apply refactoring techniques to achieve our domain-driven model nirvana.",
-          "img": "images/jimbo.png",
-          "presentation": "",
-          "video": ""
-        },        
+        },  
         {
           "type": "break",
           "time": "15:10",
