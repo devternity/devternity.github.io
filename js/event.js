@@ -184,6 +184,7 @@
             "bio": "Founder @ Agile Developer, Author of <a href=\"https://www.amazon.com/Practices-Agile-Developer-Pragmatic-Bookshelf/dp/097451408X/\">Practices of an Agile Developer</a>, <a href=\"https://www.amazon.com/Programming-Concurrency-JVM-Mastering-Synchronization-ebook/dp/B00A32NZEI/\">Programming Concurrency on the JVM</a>, <a href=\"https://www.amazon.com/Functional-Programming-Java-Harnessing-Expressions/dp/1937785467/\">Functional Programming in Java</a>",
             "title": "Software Design By Practice",
             "brief_description": "The goal of this intensive, hands-on workshop, is to <strong>deepen your understanding of SOLID and other core software design principles and patterns</strong>. You'll be practicing those concepts under different constraints and requirements, devising elegant lightweight design, writing code, and discussing the tradeoffs. <p>Come experience the evolution of ideas into clean code by way of incremental development!</p><p>Note: this workshop runs from 9:00 until 16:00.</p>",
+            "sold_out_soon": true,
             "img": "images/venk_vec.png"
           },
           {
