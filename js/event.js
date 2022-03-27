@@ -10,7 +10,7 @@
     "talks_total": 20,
     "workshops_total": 7,
     "city": "Online",
-    "venue_name": "Eastern European Time",
+    "venue_name": "GMT",
     "contactEmail": "hello@devternity.com",
     "status": "on_sale",
     "country": "Latvia",
