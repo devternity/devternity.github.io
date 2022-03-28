@@ -563,31 +563,27 @@
           "icon": "fa-coffee"
         },        
         {
-          "time": "15:30",
-          "tags": ["professionalism", "craftsmanship", "career"],
-          "name": "Robert \"Uncle Bob\" Martin",
-          "twitter": "unclebobmartin",
+          "time": "15:30",            
+          "name": "Gwen Shapira",
           "type": "speech",
+          "tags": ["microservices", "architecture", "best practices"],
+          "twitter": "gwenshapri",
           "country": "us",
-          "bio": "Master Craftsman, Author of <a href=\"https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882\">Clean Code</a>, <a href=\"https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882\">Clean Architecture</a>, <a href=\"https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073/\">The Clean Coder</a>, and <a href=\"https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164\">Clean Agile</a>",
-          "description": "We are programmers who aspire to be worthy of the title of Craftsman. So what is a software craftsman? What promises do software craftsmen make to their fellow craftsmen, their employers, and society at large? In this talk, Uncle Bob presents, for your consideration, an oath for all who desire to serve society through the design and implementation of computer programs.",
-          "img": "images/unclebobvec.png",
-          "presentation": "",
-          "superspeaker": true,
-          "video": ""
+          "title": "Beyond Microservices: Streams, State and Scalability",
+          "bio": "Chief Product Officer @ Stealth Startup, ex-Engineering Leader @ Confluent, Author of <a href=\"https://www.amazon.com/Kafka-Definitive-Real-Time-Stream-Processing/dp/1491936169\">Kafka: The Definitive Guide</a>",
+          "description": "Microservices have been a popular architecture choice for at least 5 years by now. Over these years we've adopted microservices architectures to ever growing set of use-cases and different development and deployment strategies. Lessons were learned and our ability to design, develop, deploy and operate microservices has improved. This presentation will give an opinionated view of how microservices evolved in the last few years, based on experience gained while working with companies using Apache Kafka to update their application architecture. We'll discuss the rise of API gateways, service mesh, state management and serverless architectures - what works well, and in which cases. We'll show real-world examples of how applications become more resilient and scalable when new patterns are introduced, and make sure to include caveats - because patterns are all about using them in the right context.",
+          "img": "images/gwen.png"
         },
         {
           "time": "15:30",            
-          "name": "Hadi Hariri",
+          "name": "Gwen Shapira",
           "type": "speech",
           "tags": ["kotlin", "fp", "best practices"],
-          "twitter": "hhariri",
-          "country": "es",
-          "bio": "VP of Developer Advocacy @ JetBrains",
-          "description": "In this talk we'll explain the basics of functional programming, where it fits in with the Object Orientation paradigm and how we can use functional programming in our every day work. We’ll cover important concepts functional programming such as: Lambdas, Higher Order Functions, Partial Functions, Monads and more, and see how we can apply these in a series of functional patterns to cut down our codebase and at the same time make sure we keep it maintainable.",
-          "img": "images/hadi.png",
-          "presentation": "",
-          "video": ""
+          "twitter": "gwenshapri",
+          "country": "us",
+          "bio": "Chief Product Officer @ Stealth Startup, ex-Engineering Leader @ Confluent, Author of <a href=\"https://www.amazon.com/Kafka-Definitive-Real-Time-Stream-Processing/dp/1491936169\">Kafka: The Definitive Guide</a>",
+          "description": "Microservices have been a popular architecture choice for at least 5 years by now. Over these years we've adopted microservices architectures to ever growing set of use-cases and different development and deployment strategies. Lessons were learned and our ability to design, develop, deploy and operate microservices has improved. This presentation will give an opinionated view of how microservices evolved in the last few years, based on experience gained while working with companies using Apache Kafka to update their application architecture. We'll discuss the rise of API gateways, service mesh, state management and serverless architectures - what works well, and in which cases. We'll show real-world examples of how applications become more resilient and scalable when new patterns are introduced, and make sure to include caveats - because patterns are all about using them in the right context.",
+          "img": "images/gwen.png"
         },
         {
           "time": "15:30",
