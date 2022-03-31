@@ -572,7 +572,7 @@
           "title": "Beyond Microservices: Streams, State and Scalability",
           "bio": "Chief Product Officer @ Stealth Startup, ex-Engineering Leader @ Confluent, Author of <a href=\"https://www.amazon.com/Kafka-Definitive-Real-Time-Stream-Processing/dp/1491936169\">Kafka: The Definitive Guide</a>",
           "description": "Microservices have been a popular architecture choice for at least 5 years by now. Over these years we've adopted microservices architectures to ever growing set of use-cases and different development and deployment strategies. Lessons were learned and our ability to design, develop, deploy and operate microservices has improved. This presentation will give an opinionated view of how microservices evolved in the last few years, based on experience gained while working with companies using Apache Kafka to update their application architecture. We'll discuss the rise of API gateways, service mesh, state management and serverless architectures - what works well, and in which cases. We'll show real-world examples of how applications become more resilient and scalable when new patterns are introduced, and make sure to include caveats - because patterns are all about using them in the right context.",
-          "img": "images/gwen.png"
+          "img": "images/gwen_150x150.png"
         },
         {
           "time": "15:30",            
