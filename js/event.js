@@ -576,14 +576,15 @@
         },
         {
           "time": "15:30",            
-          "name": "Gwen Shapira",
+          "name": "Randy Shoup",
           "type": "speech",
-          "tags": ["kotlin", "fp", "best practices"],
-          "twitter": "gwenshapri",
+          "tags": ["architecture", "continuous delivery", "case study"],
+          "twitter": "randyshoup",
           "country": "us",
-          "bio": "Chief Product Officer @ Stealth Startup, ex-Engineering Leader @ Confluent, Author of <a href=\"https://www.amazon.com/Kafka-Definitive-Real-Time-Stream-Processing/dp/1491936169\">Kafka: The Definitive Guide</a>",
-          "description": "Microservices have been a popular architecture choice for at least 5 years by now. Over these years we've adopted microservices architectures to ever growing set of use-cases and different development and deployment strategies. Lessons were learned and our ability to design, develop, deploy and operate microservices has improved. This presentation will give an opinionated view of how microservices evolved in the last few years, based on experience gained while working with companies using Apache Kafka to update their application architecture. We'll discuss the rise of API gateways, service mesh, state management and serverless architectures - what works well, and in which cases. We'll show real-world examples of how applications become more resilient and scalable when new patterns are introduced, and make sure to include caveats - because patterns are all about using them in the right context.",
-          "img": "images/gwen.png"
+          "title": "Improving eBay's Development Velocity",
+          "bio": "VP Engineering and Chief Architect @ eBay, ex-Director of Engineering @ Google",
+          "description": "This session outlines eBay’s cross-organizational Velocity initiative to improve our ability to deliver value to customers. While the problem ultimately spans culture, organization, people, and technology, we focused our initial efforts on improving software delivery across the board, because eBay’s ability to deliver software rapidly, safely, and repeatably is a prerequisite for every other improvement. We also focused on modularizing and modernizing the architecture of one particular area of the site that is a bottleneck for numerous business initiatives.",
+          "img": "images/randy_150x150.png"
         },
         {
           "time": "15:30",
