@@ -305,7 +305,7 @@
             "country": "us",
             "bio": "Creator of Extreme Programming and TDD, Author of <a href=\"https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530\">TDD by Example</a> and <a href=\"https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658\">Extreme Programming Explained</a>",
             "title": "Extreme Programming — 25 Years Later",
-            "description": "As soon as you become a team lead or manager, you immediately become responsible for making vague things certain. When you have no idea what exactly shall be done, you are asked how much it costs and how long it will take.  When you give an estimate and commit to delivering to your promise, scope creeps and you enjoy estimation hell again. In this talk, you will learn how to estimate without screwing things up. I will be as practical as possible and will share the real Excel-spreadsheet that implements a simple statistical model of project estimation so you can use it for your projects the next day.",
+            "description": "Kent Beck invented Extreme Programming. In this session, he'll share what he got right, what he got wrong, and what he's still working on.",
             "img": "images/kent.png",
             "order": 1,
             "presentation": "",
@@ -583,7 +583,7 @@
           "country": "us",
           "title": "Improving eBay's Development Velocity",
           "bio": "VP Engineering and Chief Architect @ eBay, ex-Director of Engineering @ Google",
-          "description": "This session outlines eBay’s cross-organizational Velocity initiative to improve our ability to deliver value to customers. While the problem ultimately spans culture, organization, people, and technology, we focused our initial efforts on improving software delivery across the board, because eBay’s ability to deliver software rapidly, safely, and repeatably is a prerequisite for every other improvement. We also focused on modularizing and modernizing the architecture of one particular area of the site that is a bottleneck for numerous business initiatives.",
+          "description": "This session outlines eBay’s efforts towards better, faster, safer, and continious software delivery. You'll learn about measuring software delivery, reducing waiting times and improving flow, breaking down silos, removing impediments, embedding experts directly in product teams, modernizing architecture, and much more! This session will provide actionable insights for other organizations going through similar journeys.",
           "img": "images/randy_150x150.png"
         },
         {
