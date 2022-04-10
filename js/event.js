@@ -16,7 +16,7 @@
     "country": "Latvia",
     "classes": "extended_event",
     "time": "8:00",
-    "register": "https://devternity.com/registration",
+    "register": "https://devternity.com/registration/",
     "socials": {
       "twitter": "https://twitter.com/devternity",
       "facebook": "https://www.facebook.com/devternity",
