@@ -150,6 +150,8 @@ devternity.controller('LandingPageController', function ($window, $http, $scope,
     $cookies.referral = referral
   }
 
+  $scope.embedded = url.indexOf("embedded") >= 0;
+
   $scope.startTimer = function (){
       $scope.$broadcast('timer-start');
       $scope.timerRunning = true;

@@ -146,7 +146,7 @@
         <p>Turning developers into architects and engineering leaders since 2015.</p>
         <p>8-9 December 2022. Online. GMT.</p>
         <ul class="actions">
-          <li><a class="button big pulse" ng-click="slideTo('#tickets-container')" ng-if="!event.sold_out">Get tickets</a><br><br>
+          <li><a class="button big pulse" ng-if="embedded" href="https://devternity.com">Visit website</a><a class="button big pulse" ng-if="!embedded" ng-click="slideTo('#tickets-container')">Get tickets</a><br><br>
             <timer ng-show="showCountdown(1670457600000)" end-time="1670457600000" max-time-unit="'month'">We start in just <strong style="color: white;">{{months ? months + ' month' + monthsS + ', ' : ''}} {{days}} day{{daysS}}, {{hours}} hour{{hoursS}}, {{minutes}} minutes {{seconds}} seconds</strong></timer>
           </li>
         </ul>
@@ -167,7 +167,7 @@
           </h2>
           <p style="color: #ffdd57;"><i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></p>
           <p>
-             P.S. we will connect you with attendees living nearby so you could meet, chat, and have fun online <strong>and </strong>offline.</p>
+             P.S. we will connect you with attendees living nearby so you could meet, chat, and have fun online <strong>and </strong>face-to-face.</p>
         </header>
       </div>
     </section>
@@ -798,9 +798,6 @@
             <section class="12u 12u$(medium)"><a target="_blank" rel="noopener nofollow" alt="Sponsor link" href="https://www.innogames.com/career/"><img class="lazy" style="height: 60px;" data-src="images/innogames.png" alt="undefined logo"></a><br><i class="fa fa-star" aria-hidden="true" style="color: orange;"></i><i class="fa fa-star" aria-hidden="true" style="color: orange;"></i><i class="fa fa-star" aria-hidden="true" style="color: orange;"></i><em> Gold Sponsor  (since 2019)</em>
               <p><p>InnoGames is Germany’s leading game developer & publisher, and a certified Great Place to Work®. We are best known for Forge of Empires, Elvenar and Tribal Wars. Join our awesome international team in Hamburg!</p></p>
             </section>
-            <section class="12u 12u$(medium)"><a target="_blank" rel="noopener nofollow" alt="Sponsor link" href="https://sistemas.lmt.lv/"><img class="lazy" style="height: 60px;" data-src="images/lmt.png" alt="undefined logo"></a><br><i class="fa fa-star" aria-hidden="true" style="color: orange;"></i><i class="fa fa-star" aria-hidden="true" style="color: orange;"></i><i class="fa fa-star" aria-hidden="true" style="color: orange;"></i><em> Gold Sponsor  (since 2021)</em>
-              <p><p>We are a professional and highly motived team working on especially complex and large-scale IT project implementation. We are privileged to have sustainable and innovative resources to tackle challenges rather than create new ones.</p></p>
-            </section>
             <section class="12u 12u$(medium)"><a target="_blank" rel="noopener nofollow" alt="Sponsor link" href="https://betsoftware.com/"><img class="lazy" style="height: 60px;" data-src="images/bets.png" alt="undefined logo"></a><br><i class="fa fa-star" aria-hidden="true" style="color: orange;"></i><i class="fa fa-star" aria-hidden="true" style="color: orange;"></i><i class="fa fa-star" aria-hidden="true" style="color: orange;"></i><em> Gold Sponsor  (since 2021)</em>
               <p><p>BET Software is one of the most diverse betting software providers in Sub-Saharan Africa, with a growing presence internationally. We are the workplace of choice for technologists and engineers due to our pioneering use of technology, our talented Team and the innovative solutions we deliver.</p></p>
             </section>
@@ -830,24 +827,13 @@
             <section class="3u 12u$(medium)"><a target="_blank" rel="noopener nofollow" alt="Sponsor link" href="https://pulumi.com"><img class="lazy" style="height: 60px;" data-src="images/pulumi.jpg" alt="Partner logo"></a><br><em> Partner  (since 2019)</em>
               <p></p>
             </section>
-            <section class="3u 12u$(medium)"><a target="_blank" rel="noopener nofollow" alt="Sponsor link" href="https://dna325.com/"><img class="lazy" style="height: 60px;" data-src="images/dns325.png" alt="DNA325 logo"></a><br><em> DNA325  (since 2021)</em>
-              <p></p>
-            </section>
             <section class="3u 12u$(medium)"><a target="_blank" rel="noopener nofollow" alt="Sponsor link" href="https://gitlab.com/"><img class="lazy" style="height: 60px;" data-src="images/gitlab.jpeg" alt="Gitlab logo"></a><br><em> Gitlab  (since 2021)</em>
-              <p></p>
-            </section>
-            <section class="3u 12u$(medium)"><a target="_blank" rel="noopener nofollow" alt="Sponsor link" href="https://likeit.lv"><img class="lazy" style="height: 60px;" data-src="images/likeit.png" alt="LikeIT logo"></a><br><em> LikeIT  (since 2021)</em>
-              <p></p>
-            </section>
-            <section class="3u 12u$(medium)"><a target="_blank" rel="noopener nofollow" alt="Sponsor link" href="https://80.lv/"><img class="lazy" style="height: 60px;" data-src="images/80lv.svg" alt="80 Level logo"></a><br><em> 80 Level  (since 2021)</em>
-              <p></p>
-            </section>
-            <section class="3u 12u$(medium)"><a target="_blank" rel="noopener nofollow" alt="Sponsor link" href="https://swissdevjobs.ch/"><img class="lazy" style="height: 60px;" data-src="images/swissdev.png" alt="SwissDev Jobs logo"></a><br><em> SwissDev Jobs  (since 2021)</em>
               <p></p>
             </section><br>
           </div>
         </header>
-        <p class="align-center" style="margin-top: 100px;">Want to boost your company's visibility?<br><br><a class="button pulse" style="padding: 0 1em;" href="mailto:hello@devternity.com?subject=Sponsorship">Become a sponsor</a></p>
+        <p class="align-center" style="margin-top: 100px;">
+           Want to expose your company to 1000+ experienced developers? <strong><a href="mailto:hello@devternity.com?subject=Sponsorship">Let's chat</a></strong></p>
       </div>
     </section>
     <footer id="footer">
@@ -858,7 +844,7 @@
         <div class="row">
           <section class="6u 12u$(small)">
             <h3>Organisers</h3>
-            <p><i class="fa fa-heart" style="color: red;" aria-hidden="true"></i> DevTernity is organised with love and care by <strong><a target="_blank" href="https://medium.com/@eduardsi/my-team-58f99b215be8" alt="Our team" rel="nofollow noopener">passionate software craftspeople from Latvia, Estonia, and Netherlands. </a></strong></p>
+            <p><i class="fa fa-heart" style="color: red;" aria-hidden="true"></i> DevTernity is organised with love and care by software developers from Latvia, Estonia, and Netherlands. </p>
           </section>
           <section class="6u 12u$(small)">
             <h3>Contacts</h3>
@@ -874,21 +860,8 @@
           </section>
         </div>
       </div>
-      <!-- section#exitOffer(data-remodal-id="exitOffer")
-      form(ng-controller="ExitOfferController" name="exitOffer")
-        h2 
-          | Lucky you! Here is the secret deal 
-          i.fas.fa-user-secret(aria-hidden="true")
-        div
-          input#email(type="email" ng-model="email")
-          br
-          input(type="button" value="Receive limited 60€ discount" ng-click="onDiscount()" ng-disabled="!email || exitOffer.$error.email")
-          br
-          br
-          p {{subscribeMessage}}
-          strong: a(href="#" data-remodal-action="close" alt="Close window") No, thanks. Already have my ticket.
-      -->
       <p class="copyright">&copy; DevTernity OÜ, 14226860, Mõisavahe tn 38-129 Tartu, Estonia. <br>All rights reserved.</p>
+      <p class="align-center" ng-if="embedded"><br><a class="button big pulse" href="https://devternity.com">Visit website</a></p>
     </footer>
     <script defer data-domain="devternity.com" data-api="/pla/event" src="/pla/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/8.6.0/lazyload.min.js"></script>

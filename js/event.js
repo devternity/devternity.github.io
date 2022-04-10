@@ -71,12 +71,6 @@
             "info": "<p>InnoGames is Germany’s leading game developer & publisher, and a certified Great Place to Work®. We are best known for Forge of Empires, Elvenar and Tribal Wars. Join our awesome international team in Hamburg!</p>"
           },
           {
-            "logo": "lmt.png",
-            "since": "2021",
-            "link": "https://sistemas.lmt.lv/",
-            "info": "<p>We are a professional and highly motived team working on especially complex and large-scale IT project implementation. We are privileged to have sustainable and innovative resources to tackle challenges rather than create new ones.</p>"
-          },
-          {
             "logo": "bets.png",
             "since": "2021",
             "link": "https://betsoftware.com/",
@@ -138,35 +132,11 @@
             "link": "https://pulumi.com"
           },
           {
-            "title": "DNA325",
-            "logo": "dns325.png",
-            "since": "2021",
-            "link": "https://dna325.com/"
-          },
-          {
             "title": "Gitlab",
             "logo": "gitlab.jpeg",
             "since": "2021",
             "link": "https://gitlab.com/"
-          },          
-          {
-            "title": "LikeIT",
-            "logo": "likeit.png",
-            "since": "2021",
-            "link": "https://likeit.lv"
-          },
-          {
-            "title": "80 Level",
-            "logo": "80lv.svg",
-            "since": "2021",
-            "link": "https://80.lv/"
-          },
-          {
-            "title": "SwissDev Jobs",
-            "logo": "swissdev.png",
-            "since": "2021",
-            "link": "https://swissdevjobs.ch/"
-          }          
+          }
         ]
       }
     },
