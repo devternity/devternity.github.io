@@ -207,6 +207,7 @@ devternity.controller('LandingPageController', function ($window, $http, $scope,
        .then(function(response){
           var body = response.data[0];
 		      $scope.event = body;
+          $scope.nextMonth = moment().format("MMMM");
           $('#devternity-loading').fadeOut('slow',function(){
             $('#devternity-loading').remove();
         });

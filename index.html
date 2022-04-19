@@ -161,7 +161,7 @@
           <h2></h2>
           <p>We focus on the core skills paramount to your success – coding, architecture, and leadership.</p>
           <h2></h2>
-          <p>Start preparing for the role of a software architect, engineering leader, or CTO today.</p>
+          <p>Start preparing for a software architect, engineering leader, or CTO role today.</p>
           <h2>
             <p style="text-transform: uppercase;">it's a must-see.</p>
           </h2>
@@ -745,7 +745,7 @@
         <div class="row">
           <section class="feature 12u 12u$(small) align-left">
             <h3><strong>{ 7/7 }  </strong><strong> Practical Leadership for Software Developers </strong><em> (limited seats)</em></h3>
-            <h5> </h5><span class="tag">leadership</span> <span class="tag">teamwork</span> <span class="tag">mentoring</span>
+            <h5> </h5><span class="tag sold"> <i class="fab fa-hotjar"></i> FEW TICKETS LEFT </span>&nbsp;<span class="tag">leadership</span> <span class="tag">teamwork</span> <span class="tag">mentoring</span>
           </section>
         </div>
         <div class="row">
@@ -767,16 +767,16 @@
     <section class="wrapper style1 tickets align-center" id="tickets-container">
       <div class="container">
         <header>
-          <h1> <i class="fa fa-heart" style="color: red;" aria-hidden="true"> </i> Tickets</h1>
+          <h1>Tickets</h1>
           <h2></h2>
-          <p>This is a limited offer. Grab your ticket today.</p>
+          <p>This is a limited offer. The price is valid until end of {{nextMonth}}, then it goes up.</p>
         </header>
         <div class="row">
           <section class="tick feature 12u 12u$(medium) 12u$(small)">
             <div class="row">
               <section class="4u 12u$(small)" ng-repeat="product in event.pricing.packages | packages">
                 <h3 class="product" ng-class="{'attention' : product.attention, 'fade-attention': !product.attention}"><span style="font-weight: bolder;">{{product.name}}</span><br><span><span ng-if="product.attention">🚀 </span><span class="fa-layers fa-fw fa-3x best" ng-if="product.attention"><i class="fas fa-certificate" style="color:#ffffff;"></i><i class="fas fa-certificate" style="color:#e2333f;" data-fa-transform="shrink-1"></i><span class="fa-layers-text fa-inverse" data-fa-transform="shrink-11.5 rotate--30">BEST</span></span><span>{{product.price}} </span>
-                    <strike>{{product.price + product.extra}}</strike>€<br><i class="fas" style="font-size: 40px;" ng-class="product.battery"></i><br><a class="button" ng-if="!product.sold_out &amp;&amp; event.status == 'on_sale'" href="https://devternity.com/registration/" style="padding: 0 0.5em;">Buy</a><a class="button disabled" ng-if="product.sold_out" style="padding: 0 0.5em; border: 0;">Sold out</a></span></h3>
+                    <strike>{{product.price + product.extra}}</strike>€<br><br><i>Few tickets left at this price.</i><br><br><a class="button" ng-if="!product.sold_out &amp;&amp; event.status == 'on_sale'" href="https://devternity.com/registration/" style="padding: 0 0.5em;">Buy Now</a><a class="button disabled" ng-if="product.sold_out" style="padding: 0 0.5em; border: 0;">Sold out</a></span></h3>
               </section>
             </div>
           </section>
