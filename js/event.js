@@ -547,6 +547,18 @@
         },
         {
           "time": "15:30",            
+          "name": "Dave Rensin",
+          "type": "speech",
+          "tags": ["tech leadership", "management", "how-to guide"],
+          "twitter": "drensin",
+          "country": "us",
+          "title": "Engineering Management: The Missing Manual",
+          "bio": "SVP Engineering @ Pendo.io, ex-Senior Director of Engineering @ Google",
+          "description": "Coming soon...",
+          "img": "images/raisin_150x150.png"
+        },        
+        {
+          "time": "15:30",            
           "name": "Randy Shoup",
           "type": "speech",
           "tags": ["architecture", "continuous delivery", "case study"],
@@ -558,7 +570,13 @@
           "img": "images/randy_150x150.png"
         },
         {
-          "time": "15:30",
+          "type": "break",
+          "time": "16:20",
+          "title": "Coffee Break",
+          "icon": "fa-coffee"
+        }, 
+        {
+          "time": "16:40",
           "tags": ["career", "advice", "programmer's life"],
           "name": "Cory House",
           "type": "speech",
@@ -570,26 +588,7 @@
           "img": "images/cory_150x150.png",
           "presentation": "",
           "video": ""
-        },
-        {
-          "type": "break",
-          "time": "16:20",
-          "title": "Coffee Break",
-          "icon": "fa-coffee"
-        }, 
-        {
-          "time": "16:40",          
-          "name": "Allen Holub",
-          "type": "speech",
-          "tags": ["delivering value", "agility", "teamwork"],
-          "twitter": "allenholub",
-          "country": "us",
-          "bio": "Principal @ Hollub Associates Ltd, Pluralsight Author, Author of <a href=\"https://www.oreilly.com/library/view/design-patterns-in/9781491935828/\">Design Patterns in the Real World</a> course",
-          "description": "A few years ago, the death of agile was a meme. Agile was (and is still) being supplanted by 'Dark Agile', an Agile in name only, with few of the benefits of the real thing. In a way, things have gotten worse. Agile has arisen as a zombie, eating the brains of the corporate world. 'Dark Agile' flies in the face of basic principles, and does active damage. All is not lost, though. There are organizations, some quite large, that are 'doing it right', and reaping the benefits. We haven't fallen completely into Orwellian dysfunction. This talk shows you what Agile should be and contrasts that to what it has become. We’ll look at the ways that it’s been perverted",
-          "img": "images/allenvector.png",
-          "presentation": "",
-          "video": ""
-        },           
+        },          
         {
           "time": "16:40",
           "tags": ["career advice", "architect's skills", "soft skills"],
