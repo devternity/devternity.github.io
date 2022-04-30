@@ -196,17 +196,21 @@
             "img": "images/viktor_small.png"
           },
           {
-            "product": "ALLEN",    
+            "product": "ALLEN",
             "name": "Allen Holub",
             "type": "speech",
-            "tags": ["agile done right", "effectiveness"],
             "twitter": "allenholub",
+            "time": "16:00",
+            "endTime": "21:00",
+            "tags": ["software architecture", "systems design"],
             "country": "us",
             "bio": "Principal @ Hollub Associates Ltd, Pluralsight Author, Author of <a href=\"https://www.oreilly.com/library/view/design-patterns-in/9781491935828/\">Design Patterns in the Real World</a> course",
-            "title": "Heuristics for Effective Software Development",
-            "brief_description": "In this training, you’ll learn how to create highly effective software development teams and organizations by infusing real agility (as compared to “Agile”) into your everyday workflow. <p>You don’t do that by implementing some framework. You don’t do that with rigid rules, processes, and tools imposed by management. Instead, you use a set of values, principles, and practices to release the potential of your organization and team and develop processes that work for you. This class gives you a leg up and prevents lots of expensive flailing around on your path to agility.</p><p>There will be plenty of time to ask questions and get answers. We'll question many assumptions that people make about how companies and teams are supposed to work, so be prepared to be challenged.</p><p>Note: this workshop runs from 14:00 until 19:00.</p>",
-            "img": "images/allenvector.png"
-          },
+            "title": "Building an Incremental Architecture",
+            "brief_description": "You can’t simultaneously fight your code and be Agile—it slows you down too much. Your code’s design must evolve incrementally along with your understanding of the product. In this workshop, you’ll learn <b>everything you need to create highly adaptable designs</b> literally as you implement them. Along the way, you’ll also experience Event Storming and other Domain-Driven Design techniques.<h3>You’ll learn:</h3><ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to design a system that can evolve incrementally</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>SOLDIER principles (Simple, Obvious, Lightweight, Domain focused, Independent, Essential, Refactorable)</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Architectural patterns appropriate for incremental development</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to create strictly-isolated highly decoupled subsystems</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Domain-focused architectures (including DDD)</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to use the domain to maintain system coherence as the architecture grows</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to identify key abstractions, bounded contexts, entities, aggregates.</li></ul></p><p>In all, you’ll learn how to build a coherent and highly maintainable system and architecture that can easily accommodate changing requirements and grow incrementally as the system evolves.</p><p>Note: this workshop runs from 14:00 until 19:00.</p> ",
+            "img": "images/allenvector.png",
+            "presentation": "",
+            "video": ""
+          },             
           {
             "product": "MODUL",
             "tags": ["backend architecture", "microservices", "modularity"],
