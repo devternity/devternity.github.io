@@ -29,22 +29,22 @@
       "packages": {
         "Main Day Only": {
           "sold_out": false,
-          "price": 399,
-          "extra": 100,
+          "price": 499,
+          "extra": 200,
           "battery": "fa-battery-half",
           "includesMainDay": true
         },
         "Power Workshop Only": {
           "price": 499,
-          "extra": 116,
+          "extra": 200,
           "battery": "fa-battery-half",
           "includesWorkshop": true,
           "sold_out": false
         },
         "2-Days Super Pack": {
           "attention": true,
-          "price": 898,
-          "extra": 200,
+          "price": 998,
+          "extra": 400,
           "sold_out": false,
           "includesWorkshop": true,
           "includesMainDay": true,
