@@ -136,7 +136,13 @@
             "logo": "gitlab.jpeg",
             "since": "2021",
             "link": "https://gitlab.com/"
-          }
+          },
+          {
+            "title": "SwissDev Jobs",
+            "logo": "swissdev.png",
+            "since": "2021",
+            "link": "https://swissdevjobs.ch/"
+          }             
         ]
       }
     },
