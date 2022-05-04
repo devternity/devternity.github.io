@@ -37,7 +37,7 @@
             "Access to live conference",
             "Access to session recordings",
             "Certificates (1x)",
-            "Inspiration (999x)"
+            "Inspiration (10x)"
           ]       
         },
         "Power Workshop Only": {
@@ -49,7 +49,7 @@
           "included": [
             "Access to a full-day workshop",
             "Certificates (1x)",
-            "Superskills (999x)",
+            "Superskills (10x)",
             ""
           ]          
         },
@@ -66,8 +66,8 @@
             "Access to session recordings",
             "Access to a full-day workshop",
             "Certificates (2x)",
-            "Inspiration (999x)",
-            "Superskills (999x)"
+            "Inspiration (10x)",
+            "Superskills (10x)"
           ]          
         }
       }
