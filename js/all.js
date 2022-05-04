@@ -9,36 +9,36 @@
 		reset: 'full',
 		breakpoints: {
 			global: {
-				href: 'css/style.css?pppppxxx',
+				href: 'css/style.css?xx',
 				containers: 1400,
 				grid: { gutters: ['2em', 0] }
 			},
 			xlarge: {
 				media: '(max-width: 1680px)',
-				href: 'css/style-xlarge.css?ppp',
+				href: 'css/style-xlarge.css?xx',
 				containers: 1200
 			},
 			large: {
 				media: '(max-width: 1280px)',
-				href: 'css/style-large.css?ppp',
+				href: 'css/style-large.css?xx',
 				containers: 960,
 				grid: { gutters: ['1.5em', 0] },
 				viewport: { scalable: false }
 			},
 			medium: {
 				media: '(max-width: 980px)',
-				href: 'css/style-medium.css?ppp',
+				href: 'css/style-medium.css?xx',
 				containers: '90%'
 			},
 			small: {
 				media: '(max-width: 736px)',
-				href: 'css/style-small.css?ppp',
+				href: 'css/style-small.css?xx',
 				containers: '90%',
 				grid: { gutters: ['1.25em', 0] }
 			},
 			xsmall: {
 				media: '(max-width: 480px)',
-				href: 'css/style-xsmall.css?ppp',
+				href: 'css/style-xsmall.css?xx',
 			}
 		},
 		plugins: {

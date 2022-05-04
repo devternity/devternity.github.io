@@ -6,6 +6,16 @@
 
 /* Basic */
 
+.product .whatincluded {
+	font-size: 11px !important;
+	line-height: 1.75em;
+}
+
+.whatincluded {
+	text-align: left;
+	margin-left: 5px;
+}
+
 	body, input, select, textarea, .button {
 		font-size: 13pt;
 	}

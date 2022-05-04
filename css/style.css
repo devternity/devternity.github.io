@@ -2,6 +2,11 @@
 
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400");
 
+.whatincluded {
+	text-align: left;
+	margin-left: 50px;
+}
+
 
 #exitOffer h2, #exitOffer input, #exitOffer p {
 	color: white;
@@ -15,6 +20,8 @@
 	border: 1px solid white;
 	background-color: #4dac71;
 }
+
+
 
 #exitOffer a {
 	font-size: 0.8em;

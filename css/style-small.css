@@ -86,3 +86,14 @@
 #venue p {
 	font-size: 1em;
 }		
+
+
+.product .whatincluded {
+	font-size: 15px !important;
+	line-height: 1.75em;
+}
+
+.whatincluded {
+	text-align: left;
+	margin-left: 50px;
+}
