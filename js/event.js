@@ -584,7 +584,7 @@
           "country": "us",
           "title": "Engineering Management: The Missing Manual",
           "bio": "SVP Engineering @ Pendo.io, ex-Senior Director of Engineering @ Google",
-          "description": "Coming soon...",
+          "description": "Managing engineers isn't hard once you have the missing instruction manual. In this talk, Dave will explain why people act the way they do and how you can navigate common (and uncommon) management situations with a few basic principles.",
           "img": "images/raisin_150x150.png"
         },        
         {
