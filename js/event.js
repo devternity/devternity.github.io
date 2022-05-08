@@ -361,7 +361,7 @@
             "time": "10:10",
             "tags": ["software engineering", "history", "future"],
             "name": "Mary Poppendieck",
-            "twitter": "antonkeks",
+            "twitter": "mpoppendieck",
             "type": "speech",
             "country": "us",
             "bio": "Author of <a href=\"https://www.amazon.com/Lean-Software-Development-Agile-Toolkit/dp/0321150783\">Lean Software Development</a>, <a href=\"https://www.amazon.com/Implementing-Lean-Software-Development-Concept/dp/0321437381\">Implementing Lean Software Development</a>, <a href=\"https://www.amazon.com/Leading-Lean-Software-Development-Results/dp/0321620704\">Leading Lean Software Development</a>, and <a href=\"https://www.amazon.com/Lean-Mindset-Ask-Right-Questions/dp/0321896904\">The Lean Mindset</a>",
