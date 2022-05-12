@@ -29,7 +29,7 @@
       "packages": {
         "Main Day Only": {
           "sold_out": false,
-          "price": 499,
+          "price": 399,
           "extra": 200,
           "battery": "fa-battery-half",
           "includesMainDay": true,
@@ -55,7 +55,7 @@
         },
         "2-Days Super Pack": {
           "attention": true,
-          "price": 998,
+          "price": 898,
           "extra": 400,
           "sold_out": false,
           "includesWorkshop": true,
