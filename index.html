@@ -802,8 +802,7 @@
                       <ul>
                         <li ng-repeat="extra in product.included"><span ng-if="extra"><i class="fas fa-plus"></i><span> &nbsp;{{extra}}.</span></span><span ng-else><span>&nbsp;</span></span></li>
                       </ul>
-                    </div><br>
-                    <h4>⚠️ Few tickets left at this price.                       </h4><br><a class="button" ng-if="!product.sold_out &amp;&amp; event.status == 'on_sale'" href="https://devternity.com/registration/" style="padding: 0 0.5em;">Buy Now</a><a class="button disabled" ng-if="product.sold_out" style="padding: 0 0.5em; border: 0;">Sold out</a></span></h3>
+                    </div><br><a class="button" ng-if="!product.sold_out &amp;&amp; event.status == 'on_sale'" href="https://devternity.com/registration/" style="padding: 0 0.5em;">Buy Now</a><a class="button disabled" ng-if="product.sold_out" style="padding: 0 0.5em; border: 0;">Sold out</a></span></h3>
               </section>
             </div>
           </section>
