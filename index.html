@@ -796,13 +796,7 @@
             <div class="row">
               <section class="4u 12u$(small)" ng-repeat="product in event.pricing.packages | packages">
                 <h3 class="product" ng-class="{'attention' : product.attention, 'fade-attention': !product.attention}"><span style="font-weight: bolder;">{{product.name}}</span><br><span><span ng-if="product.attention">🚀 </span><span class="fa-layers fa-fw fa-5x best" ng-if="product.attention"><i class="fas fa-certificate" style="color:#ffffff;"></i><i class="fas fa-certificate" style="color:#e2333f;" data-fa-transform="shrink-1"></i><span class="fa-layers-text fa-inverse" data-fa-transform="shrink-11.5 rotate--30">BEST</span></span><span>{{product.price}} </span>
-                    <strike>{{product.price + product.extra}}</strike>€<br><br>
-                    <div class="whatincluded">
-                      <h4 style="color: white; font-weight: bolder;">What's included:</h4>
-                      <ul>
-                        <li ng-repeat="extra in product.included"><span ng-if="extra"><i class="fas fa-plus"></i><span> &nbsp;{{extra}}.</span></span><span ng-else><span>&nbsp;</span></span></li>
-                      </ul>
-                    </div><br><a class="button" ng-if="!product.sold_out &amp;&amp; event.status == 'on_sale'" href="https://devternity.com/registration/" style="padding: 0 0.5em;">Buy Now</a><a class="button disabled" ng-if="product.sold_out" style="padding: 0 0.5em; border: 0;">Sold out</a></span></h3>
+                    <strike>{{product.price + product.extra}}</strike>€<br><br><a class="button" ng-if="!product.sold_out &amp;&amp; event.status == 'on_sale'" href="https://devternity.com/registration/" style="padding: 0 0.5em;">Buy Now</a><a class="button disabled" ng-if="product.sold_out" style="padding: 0 0.5em; border: 0;">Sold out</a></span></h3>
               </section>
             </div>
           </section>
