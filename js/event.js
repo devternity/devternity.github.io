@@ -244,7 +244,7 @@
             "twitter": "jnabrdalik",
             "type": "speech",
             "country": "pl",
-            "bio": "Solution Architect, Developer and Mentor at Bottega IT Minds, ex-Head of Software Development @ 4Finance",
+            "bio": "Solution Architect, Developer and Mentor at Bottega IT Minds, ex-Head of Software Development",
             "title": "Microservices, Modular Monoliths, and Event-Driven Systems",
             "brief_description": "In this workshop, I’ll take you through three different styles of enterprise service architecture: modular monoliths, distributed synchronous systems, and event-driven systems. Together, we will design a non-trivial backend system and find out the strengths and weaknesses of each architectural approach. We will discuss the typical mistakes and problems developers face during service architecture design and how to solve them. You will learn how to choose the best architecture style for your project, and how to design hybrid solutions, leveraging the best parts of each architecture style. Topics include:<ul class=\"awsm\"><li>Understanding the main styles of service and backend architecture</li><li>Microservies or monoliths? Is there a middle ground?</li><li>How to improve monoliths with modularity; Intro to Modular Monoliths</li><li>How and when to split the system into services with REST/RPC</li><li>How and when to become event-driven and fully async</li><li>How to design non-trivial backend and service architecture</li><li>How to avoid common errors in designing backend and service architectures</li><li>How to use C4 model to communicate your architecture</li><li>...and much more!</li></ul><p><strong>This workshop covers fundamental concepts, relevant to all programming platforms and languages; developers and architects with different backgrounds can attend.</strong> </p><p>Note: this workshop runs from 9:00 until 16:00.</p>",
             "img": "images/jnb_vec.png"
@@ -621,16 +621,15 @@
         },          
         {
           "time": "16:40",
-          "tags": ["career advice", "architect's skills", "soft skills"],
-          "name": "Venkat Subramaniam",
-          "twitter": "venkat_s",
+          "name": "Jakub Nabrdalik",
           "type": "speech",
-          "country": "us",
-          "bio": "Founder @ Agile Developer, Author of <a href=\"https://www.amazon.com/Practices-Agile-Developer-Pragmatic-Bookshelf/dp/097451408X/\">Practices of an Agile Developer</a>, <a href=\"https://www.amazon.com/Programming-Concurrency-JVM-Mastering-Synchronization-ebook/dp/B00A32NZEI/\">Programming Concurrency on the JVM</a>, <a href=\"https://www.amazon.com/Functional-Programming-Java-Harnessing-Expressions/dp/1937785467/\">Functional Programming in Java</a>",
-          "description": "Many developers aspire to become architects. Some of us serve currently as architects while the rest of us may hope to become one some day. We all have worked with architects, some good, and some that could be better. What are the traits of a good architect? What are the skills and qualities we should pick to become a very good one? Come to this presentation to learn about things that can make that journey to be a successful architect a pleasant one.",
-          "img": "images/venk_vec.png",
-          "presentation": "",
-          "video": ""
+          "tags": ["game changers", "thinking", "productivity"],
+          "twitter": "jnabrdalik",
+          "country": "pl",
+          "bio": "Solution Architect, Developer and Mentor at Bottega IT Minds, ex-Head of Software Development @ 4Finance",
+          "img": "images/jnb_vec.png",
+          "title": "Things That Work for Me",
+          "description": "There's a surprising lot of best practices that are irrelevant in practice. There are also those that do not sound like much, but I use them every single day and cannot imagine how I would deal without them. This talk is about those silent game-changers. I'll talk about fixing bugs with a scientific method, how 7 years of implementing and operating microservices changed my observability practices, and how higher-order functions allowed me to not only express what's important, but also put emphasis on it. And then we'll talk a bit about neuroscience and how to deal with your own head. Perhaps it will work for you as well."
         }, 
         {
           "time": "16:40",
