@@ -628,7 +628,7 @@
           "country": "pl",
           "bio": "Solution Architect, Developer and Mentor at Bottega IT Minds, ex-Head of Software Development @ 4Finance",
           "img": "images/jnb_vec.png",
-          "title": "Things That Work for Me",
+          "title": "Simple and Powerful Things That Work for Me",
           "description": "There's a surprising lot of best practices that are irrelevant in practice. There are also those that do not sound like much, but I use them every single day and cannot imagine how I would deal without them. This talk is about those silent game-changers. I'll talk about fixing bugs with a scientific method, how 7 years of implementing and operating microservices changed my observability practices, and how higher-order functions allowed me to not only express what's important, but also put emphasis on it. And then we'll talk a bit about neuroscience and how to deal with your own head. Perhaps it will work for you as well."
         }, 
         {
