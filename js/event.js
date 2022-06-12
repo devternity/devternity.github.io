@@ -405,15 +405,15 @@
         },
         {                           
           "time": "11:20",
-          "name": "Scott Hanselman",
+          "name": "Jakub Pilimon",
           "type": "speech",
-          "twitter": "shanselman",
+          "twitter": "jakubpilimon",
           "country": "us",
-          "bio": "Principal Community Architect for Web Platform @ Microsoft, Blogger, Podcaster",
-          "img": "images/hanselman.png", 
-          "title": "Unusual Skills for a Successful Programmer",
-          "description": "In this session, Scott Hanselman will share his career journey from a programmer to a Lead .NET Program Manager at Microsoft. Expect some (unusual) advice on skills and practices you need to succeed.",
-          "tags": ["career advice", "growth", "skills"],
+          "bio": "Principal Technologist @ VMWare, Trainer @ Bottega IT Minds, DZone's Most-Valuable Blogger",
+          "img": "images/pilo.png", 
+          "title": "Clean Code: Eternal Principles",
+          "description": "coming soon",
+          "tags": ["clean code", "patterns", "best practices"],
           "order": 6
         },
         {
@@ -645,19 +645,19 @@
           "plumber": true,
           "video": ""
         },                        
-          {
-            "time": "16:40",
-            "tags": ["leadership", "soft skills", "people"],
-            "name": "David Neal",
-            "twitter": "reverentgeek",
-            "type": "speech",
-            "country": "us",
-            "bio": "Principal Developer Evangelist @ Pluralsight, Microsoft MVP",
-            "description": "Regardless of the technology you know, regardless of the job title you have, you have amazing potential to impact your workplace, community, and beyond. In this talk, I’ll share a few candid stories of my career failures… I mean… learning opportunities. We’ll start by debunking the myth that leadership == management. Next, we’ll talk about some the attributes, behaviors and skills of good leaders. Last, we’ll cover some practical steps and resources to accelerate your journey. You’ll walk away with some essential leadership skills I believe anyone can develop, and a good dose of encouragement to be more awesome!",
-            "img": "images/dneal.png",
-            "presentation": "",
-            "video": ""
-          },                 
+        {                           
+          "time": "16:40",
+          "name": "Scott Hanselman",
+          "type": "speech",
+          "twitter": "shanselman",
+          "country": "us",
+          "bio": "Principal Community Architect for Web Platform @ Microsoft, Blogger, Podcaster",
+          "img": "images/hanselman.png", 
+          "title": "Unusual Skills for a Successful Programmer",
+          "description": "In this session, Scott Hanselman will share his career journey from a programmer to a Lead .NET Program Manager at Microsoft. Expect some (unusual) advice on skills and practices you need to succeed.",
+          "tags": ["career advice", "growth", "skills"],
+          "order": 6
+        },              
           {
             "type": "break",
             "time": "17:30",
