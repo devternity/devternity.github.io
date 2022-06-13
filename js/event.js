@@ -408,7 +408,7 @@
           "name": "Jakub Pilimon",
           "type": "speech",
           "twitter": "jakubpilimon",
-          "country": "us",
+          "country": "pl",
           "bio": "Principal Technologist @ VMWare, Trainer @ Bottega IT Minds, DZone's Most-Valuable Blogger",
           "img": "images/pilo.png", 
           "title": "Clean Code: Eternal Principles",
