@@ -101,7 +101,13 @@
             "since": "2021",
             "link": "https://humancapitalmanagement.wd3.myworkdayjobs.com/en-US/OnAir-Entertainment-Careers",
             "info": "<p>On Air Entertainment, founded in December 2020, is led by a collective of senior industry professionals with a proven history in live casino. Guided by a clear vision, our management team seized the opportunity to build a new live casino studio from the ground up, with our purpose-built platform and suite of live casino products, including our first game Standard Blackjack – debut game delivered in record 11 months. Rapid growth ensued as we moved into our current head office in Malta before expanding into our spacious modern studio in Riga, Latvia. As our team continuously grows, new IT Hubs were established in Poland and Estonia.</p>"            
-          }
+          },
+          {
+            "logo": "jetbrains.png",
+            "since": "2022",
+            "link": "https://jetbrains.com",
+            "info": "<p>At JetBrains, code is our passion. Ever since we started, back in 2000, we have strived to make the strongest, most effective developer tools on earth. By automating routine checks and corrections, our tools speed up production, freeing developers to grow, discover and create.</p>"            
+          }          
         ]
       },
       "silver": {
