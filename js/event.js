@@ -117,6 +117,12 @@
         "sponsors": [
           {
             "title": "Silver Sponsor",
+            "logo": "logi.png",
+            "since": "2022",
+            "link": "https://www.logitech.com"
+          },          
+          {
+            "title": "Silver Sponsor",
             "logo": "codecentric.png",
             "since": "2019",
             "link": "https://www.codecentric.de"
