@@ -111,18 +111,18 @@
         ]
       },
       "silver": {
-        "title": "Silver Sponsor",
+        "title": "Sponsor",
         "stars": 0,
         "sponsorsPerLine": 4,
         "sponsors": [
           {
-            "title": "Silver Sponsor",
+            "title": "Sponsor",
             "logo": "logi.png",
             "since": "2022",
             "link": "https://www.logitech.com"
           },          
           {
-            "title": "Silver Sponsor",
+            "title": "Sponsor",
             "logo": "codecentric.png",
             "since": "2019",
             "link": "https://www.codecentric.de"
