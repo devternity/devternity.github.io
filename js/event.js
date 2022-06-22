@@ -38,7 +38,7 @@
             "Access to session recordings",
             "Certificates (1x)",
             "Inspiration (10x)"
-          ]       
+          ]
         },
         "Power Workshop Only": {
           "price": 399,
@@ -51,7 +51,7 @@
             "Certificates (1x)",
             "Superskills (10x)",
             ""
-          ]          
+          ]
         },
         "2-Days Super Pack": {
           "attention": true,
@@ -68,7 +68,7 @@
             "Certificates (2x)",
             "Inspiration (10x)",
             "Superskills (10x)"
-          ]          
+          ]
         }
       }
     },
@@ -100,14 +100,14 @@
             "logo": "onair3.jpg",
             "since": "2021",
             "link": "https://humancapitalmanagement.wd3.myworkdayjobs.com/en-US/OnAir-Entertainment-Careers",
-            "info": "<p>On Air Entertainment, founded in December 2020, is led by a collective of senior industry professionals with a proven history in live casino. Guided by a clear vision, our management team seized the opportunity to build a new live casino studio from the ground up, with our purpose-built platform and suite of live casino products, including our first game Standard Blackjack – debut game delivered in record 11 months. Rapid growth ensued as we moved into our current head office in Malta before expanding into our spacious modern studio in Riga, Latvia. As our team continuously grows, new IT Hubs were established in Poland and Estonia.</p>"            
+            "info": "<p>On Air Entertainment, founded in December 2020, is led by a collective of senior industry professionals with a proven history in live casino. Guided by a clear vision, our management team seized the opportunity to build a new live casino studio from the ground up, with our purpose-built platform and suite of live casino products, including our first game Standard Blackjack – debut game delivered in record 11 months. Rapid growth ensued as we moved into our current head office in Malta before expanding into our spacious modern studio in Riga, Latvia. As our team continuously grows, new IT Hubs were established in Poland and Estonia.</p>"
           },
           {
             "logo": "jetbrains.png",
             "since": "2022",
             "link": "https://jetbrains.com",
-            "info": "<p>At JetBrains, code is our passion. Ever since we started, back in 2000, we have strived to make the strongest, most effective developer tools on earth. By automating routine checks and corrections, our tools speed up production, freeing developers to grow, discover and create.</p>"            
-          }          
+            "info": "<p>At JetBrains, code is our passion. Ever since we started, back in 2000, we have strived to make the strongest, most effective developer tools on earth. By automating routine checks and corrections, our tools speed up production, freeing developers to grow, discover and create.</p>"
+          }
         ]
       },
       "silver": {
@@ -120,7 +120,7 @@
             "logo": "logi.png",
             "since": "2022",
             "link": "https://www.logitech.com"
-          },          
+          },
           {
             "title": "Sponsor",
             "logo": "codecentric.png",
@@ -174,14 +174,14 @@
             "logo": "swissdev.png",
             "since": "2021",
             "link": "https://swissdevjobs.ch/"
-          }             
+          }
         ]
       }
     },
     "program": [
       {
         "event": "workshops",
-        "schedule": [        
+        "schedule": [
           {
             "product": "VENKAT",
             "name": "Venkat Subramaniam",
@@ -201,7 +201,7 @@
             "type": "speech",
             "twitter": "jbrains",
             "time": "9:00",
-            "endTime": "18:00",                      
+            "endTime": "18:00",
             "tags": ["evolutionary design", "legacy code", "clean code"],
             "country": "ca",
             "bio": "Software Coach, Mentor and Consultant, TDD Trainer <a href=\"https://tdd.training\">tdd.training</a>",
@@ -210,7 +210,7 @@
             "img": "images/jb_vec.png",
             "presentation": "",
             "video": ""
-          },             
+          },
           {
             "product": "AGILE_ARCHITECTURE",
             "name": "Kevlin Henney",
@@ -248,7 +248,7 @@
             "img": "images/allenvector.png",
             "presentation": "",
             "video": ""
-          },             
+          },
           {
             "product": "MODUL",
             "tags": ["backend architecture", "microservices", "modularity"],
@@ -260,7 +260,7 @@
             "title": "Microservices, Modular Monoliths, and Event-Driven Systems",
             "brief_description": "In this workshop, I’ll take you through three different styles of enterprise service architecture: modular monoliths, distributed synchronous systems, and event-driven systems. Together, we will design a non-trivial backend system and find out the strengths and weaknesses of each architectural approach. We will discuss the typical mistakes and problems developers face during service architecture design and how to solve them. You will learn how to choose the best architecture style for your project, and how to design hybrid solutions, leveraging the best parts of each architecture style. Topics include:<ul class=\"awsm\"><li>Understanding the main styles of service and backend architecture</li><li>Microservies or monoliths? Is there a middle ground?</li><li>How to improve monoliths with modularity; Intro to Modular Monoliths</li><li>How and when to split the system into services with REST/RPC</li><li>How and when to become event-driven and fully async</li><li>How to design non-trivial backend and service architecture</li><li>How to avoid common errors in designing backend and service architectures</li><li>How to use C4 model to communicate your architecture</li><li>...and much more!</li></ul><p><strong>This workshop covers fundamental concepts, relevant to all programming platforms and languages; developers and architects with different backgrounds can attend.</strong> </p><p>Note: this workshop runs from 9:00 until 16:00.</p>",
             "img": "images/jnb_vec.png"
-          },          
+          },
           {
             "product": "DNEAL",
             "name": "David Neal",
@@ -277,7 +277,7 @@
             "sold_out_soon": true,
             "presentation": "",
             "video": ""
-          }          
+          }
         ]
       },
       {
@@ -298,6 +298,97 @@
           },
           {
             "time": "9:00",
+            "name": "Jakub Pilimon",
+            "type": "speech",
+            "twitter": "jakubpilimon",
+            "country": "pl",
+            "bio": "Principal Technologist @ VMWare, Trainer @ Bottega IT Minds, DZone's Most-Valuable Blogger",
+            "img": "images/pilo.png",
+            "title": "Clean Code: Eternal Principles",
+            "description": "coming soon",
+            "tags": ["clean code", "patterns", "best practices"],
+            "order": 6
+          },
+          {
+            "time": "9:00",
+            "name": "Jakub Nabrdalik",
+            "type": "speech",
+            "tags": ["game changers", "thinking", "productivity"],
+            "twitter": "jnabrdalik",
+            "country": "pl",
+            "bio": "Solution Architect, Developer and Mentor at Bottega IT Minds, ex-Head of Software Development @ 4Finance",
+            "img": "images/jnb_vec.png",
+            "title": "Simple and Powerful Things That Work for Me",
+            "description": "There's a surprising lot of best practices that are irrelevant in practice. There are also those that do not sound like much, but I use them every single day and cannot imagine how I would deal without them. This talk is about those silent game-changers. I'll talk about fixing bugs with a scientific method, how 7 years of implementing and operating microservices changed my observability practices, and how higher-order functions allowed me to not only express what's important, but also put emphasis on it. And then we'll talk a bit about neuroscience and how to deal with your own head. Perhaps it will work for you as well."
+          },
+          {
+            "type": "break",
+            "time": "9:50",
+            "title": "Coffee Break",
+            "icon": "fa-coffee"
+          },
+          {
+            "time": "10:10",
+            "tags": ["productivity", "intellij", "java"],
+            "name": "Victor Rentea",
+            "type": "speech",
+            "twitter": "VictorRentea",
+            "country": "ro",
+            "bio": "Software Craftsman, Java Champion, and Independent Technical Trainer",
+            "title": "The Secrets of the Fastest Developers on Earth",
+            "description": "In this session, you’ll learn a lot of hands-on tricks that will skyrocket your Java coding speed, after just several days of practice. Writing, editing, navigating and refactoring code faster will let you focus on your goals and allow you to experiment various design alternatives without wasting precious time. In this talk I’ll demonstrate some the best tricks of IntelliJ (community included): Advanced Auto-Completion: over-dot, TAB, type-aware, statics, generating boilerplate, Live Templates and Postfix Expansion, Essential quickfixes and inspections, Multi-cursor, Statement Completion, Navigating Code like a Pro, Java Streams support, and many more, all curated with the help of many nice JetBrains people.",
+            "img": "images/viktor_small.png"
+          },
+          {
+            "time": "10:10",
+            "tags": [],
+            "name": "Natalie Stadler",
+            "twitter": "",
+            "type": "speech",
+            "country": "us",
+            "title": "Anything",
+            "bio": "Software Craftswoman @ Coinbase, Author @ The Practical Dev",
+            "description": "Many developers aspire to become architects. Some of us serve currently as architects while the rest of us may hope to become one some day. We all have worked with architects, some good, and some that could be better. What are the traits of a good architect? What are the skills and qualities we should pick to become a very good one? Come to this presentation to learn about things that can make that journey to be a successful architect a pleasant one.",
+            "img": "images/inta_150x150.png",
+            "presentation": "",
+            "plumber": true,
+            "video": ""
+          },
+          {
+            "time": "10:10",
+            "tags": ["design patterns", "functional programming", "domain-driven design"],
+            "name": "Scott Wlaschin",
+            "twitter": "scottwlaschin",
+            "type": "speech",
+            "country": "gb",
+            "bio": "Software Architect, F# Trainer, Author of <a href=\"https://pragprog.com/book/swdddf/domain-modeling-made-functional\">Domain Modeling Made Functional</a>",
+            "title": "Domain Modeling Made Functional",
+            "description": "Statically typed functional programming languages encourage a very different way of thinking about types. The type system is your friend, not an annoyance, and can be used in many ways that might not be familiar to OO programmers. Types can be used to represent the domain in a fine-grained, self documenting way. And in many cases, types can even be used to encode business rules so that you literally cannot create incorrect code. You can then use the static type checking almost as an instant unit test — making sure that your code is correct at compile time. In this talk, we'll look at some of the ways you can use types as part of a domain driven design process, with some simple real world examples in F#. No jargon, no maths, and no prior F# experience necessary.",
+            "img": "images/scott_vec.png",
+            "presentation": "",
+            "video": ""
+          },
+          {
+            "time": "10:10",
+            "tags": ["effectiveness", "agility", "impact mapping"],
+            "name": "Gojko Adžić",
+            "type": "speech",
+            "twitter": "gojkoadzic",
+            "title": "Maximum Impact, Minimum Effort",
+            "country": "rs",
+            "bio": "Consultant, Trainer, Author of <a href=\"https://www.amazon.com/Running-Serverless-Introduction-Lambda-Application/dp/0993088155\">Running Serverless</a>, <a href=\"https://www.amazon.com/Specification-Example-Successful-Deliver-Software/dp/1617290084\">Specification by Example</a>, <a href=\"https://www.amazon.com/Impact-Mapping-software-products-projects-ebook/dp/B009KWDKVA\">Impact Mapping</a>, Founder of <a href=\"https://narakeet.com/create/video-as-code.html\">Narakeet</a>",
+            "long_bio": "Stefan Tilkov is a co-founder and principal consultant at innoQ, a technology consulting company with offices in Germany and Switzerland. He has been involved in the design of large-scale, distributed systems for more than two decades, using a variety of technologies and tools. He has authored numerous articles, authored and contributed to several books, and is a frequent speaker at conferences around the world.",
+            "description": "A big government IT project delivered two years ahead of schedule. A fraud detection initiative saving tens of millions more than predicted. An app that helped a city rebuild faster after a major disaster and save ten times more money than expected. Stories like these are very uncommon, even with all the advancements the software industry made in the last few decades. In this talk, Gojko will present how very successful teams create big impacts with minimum effort. You'll get practical, actionable ideas that you can use immediately in your work.",
+            "img": "images/gojkoo.png"
+          },
+          {
+            "type": "break",
+            "time": "11:00",
+            "title": "Coffee Break",
+            "icon": "fa-coffee"
+          },
+          {
+            "time": "11:20",
             "name": "J.B. Rainsberger",
             "type": "speech",
             "twitter": "jbrains",
@@ -310,28 +401,150 @@
             "order": 5
           },
           {
-            "time": "9:00",
-            "tags": ["extreme programming", "engineering practices", "test-driven development"],
-            "name": "Kent Beck",
-            "twitter": "kentbeck",
+            "time": "11:20",
+            "tags": ["tools", "libraries", "best practices"],
+            "name": "Stefan Judis",
             "type": "speech",
-            "country": "us",
-            "bio": "Creator of Extreme Programming and TDD, Author of <a href=\"https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530\">TDD by Example</a> and <a href=\"https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658\">Extreme Programming Explained</a>",
-            "title": "Extreme Programming — 25 Years Later",
-            "description": "Kent Beck invented Extreme Programming. In this session, he'll share what he got right, what he got wrong, and what he's still working on.",
-            "img": "images/kent.png",
-            "order": 1,
+            "twitter": "stefanjudis",
+            "country": "de",
+            "bio": "Developer Advocate @ Contentful, Teaching <a href=\"https://twitter.com/CSSclasses\">@CSSclasses</a>, Maintaining <a href=\"https://twitter.com/perf_tooling\">@perf_tooling</a>",
+            "title": "Everything You Should Know About Web Development in 2022",
+            "description": "Frontend and JavaScript technologies are moving fast. So fast that it's always hard to keep track of all the new things that are coming up. This talk will show new tools, workflows, ways to develop and give advice on how to stay up to date.",
+            "img": "images/judis.png"
+          },
+          {
+            "time": "11:20",
+            "tags": ["software craftsmanship", "professionalism", "discussion"],
+            "name": "Sandro Mancuso",
+            "twitter": "sandromancuso",
+            "type": "speech",
+            "country": "gb",
+            "country_long": "United Kingdom",
+            "bio": "Software Craftsman and Founder @ Codurance, Author of <a href=\"https://www.amazon.com/Software-Craftsman-Professionalism-Pragmatism-Robert/dp/0134052501\">The Software Craftsman</a>",
+            "long_bio": "Software craftsman at Codurance, author of The Software Craftsman, and founder of the London Software Craftsmanship Community (LSCC). Sandro has been coding since a very young age but only started his professional career in 1996. Before starting his own consultancy, he worked for startups, software houses, product companies, international consultancy companies, and investment banks. During his career Sandro had the opportunity to work in a good variety of projects, with different languages, technologies, and across many different industries. Sandro has a lot of experience in bringing the Software Craftsmanship ideology and Extreme Programming practices to organisations of all sizes. Sandro is internationally renowned by his work on evolving and spreading Software Craftsmanship and is frequently invited to speak in many conferences around the world. His professional aspiration is to raise the bar of the software industry by helping developers become better at and care more about their craft.",
+            "title": "Minimum Viable Professional",
+            "description": "In this session, together with Sandro we'll discuss hard and soft skills that every software craftsperson needs and how can we nurture those skills independently, at work, and as a community.",
+            "img": "images/sandro_vec.png",
             "presentation": "",
             "video": ""
-          },          
+          },
           {
             "type": "break",
-            "time": "9:50",
+            "time": "12:10",
             "title": "Coffee Break",
             "icon": "fa-coffee"
           },
           {
-            "time": "10:10",
+            "time": "13:10",
+            "tags": [],
+            "name": "Julia Kirsina",
+            "twitter": "UnicornCoding",
+            "type": "speech",
+            "country": "lv",
+            "bio": "Technical Lead, Tech Influencer @ Instagram",
+            "title": "Anything",
+            "description": "Many developers aspire to become architects. Some of us serve currently as architects while the rest of us may hope to become one some day. We all have worked with architects, some good, and some that could be better. What are the traits of a good architect? What are the skills and qualities we should pick to become a very good one? Come to this presentation to learn about things that can make that journey to be a successful architect a pleasant one.",
+            "img": "images/sveta_vec.png",
+            "presentation": "",
+            "plumber": true,
+            "video": ""
+          },
+          {
+            "time": "13:10",
+            "tags": ["career", "advice", "programmer's life"],
+            "name": "Cory House",
+            "type": "speech",
+            "twitter": "housecor",
+            "country": "us",
+            "bio": "Founder @ <a href=\"https://www.reactjsconsulting.com\">ReactJS Consulting</a>, Software Developer, Author, Speaker, Consultant, Teacher",
+            "title": "The 7 Pillar Developer",
+            "description": "As developers, we focus on code. Yet mastering syntax alone isn't sufficient. Our behaviors away from the keyboard profoundly effect our impact and career satisfaction. So, to dramatically expand our potential as developers, we must reconsider our behaviors as a humans. In this story-oriented session, we'll explore seven surprisingly relevant facets of life that profoundly impact our software quality. ",
+            "img": "images/cory_150x150.png",
+            "presentation": "",
+            "video": ""
+          },
+          {
+            "time": "13:10",
+            "tags": ["architecture", "microservices", "patterns"],
+            "name": "Jimmy Bogard",
+            "type": "speech",
+            "country": "us",
+            "twitter": "jbogard",
+            "bio": "Chief Architect @ Headspring, Microsoft MVP, Creator of <a href=\"https://github.com/AutoMapper/AutoMapper\">AutoMapper</a>",
+            "title": "Effective Microservice Communication and Conversation Patterns",
+            "description": "Orchestration or Choreography? Sagas or process manager? REST, RPC or Events? Are we just making this all up as we go along? Once we move away from a single process to many services and processes, we immediately hit the problem that our services need to communicate with each other. The architect mandated REST! But then nothing worked in production. Then came events! And nothing ever completed. In this talk we'll look at the problem from a holistic perspective - take the fundamental property of autonomy for any microservice-based architecture, and design how services should communicate so that they can still achieve their purpose in the world. We'll cover basic communication patterns, where we run into problems with them, and how advanced conversational patterns can help. Finally, we'll look at some real-world scenarios for designing complex coordination and where conversation patterns can retain our autonomy and loose coupling.",
+            "img": "images/jimbo.png",
+            "presentation": "",
+            "video": ""
+          },
+          {
+            "time": "13:10",
+            "tags": ["leadership", "motivation", "soft skills"],
+            "name": "David Neal",
+            "twitter": "reverentgeek",
+            "type": "speech",
+            "country": "us",
+            "bio": "Principal Developer Evangelist @ Pluralsight, Microsoft MVP",
+            "title": "Practical Leadership for Software Developers",
+            "description": "Regardless of the technology you know, regardless of the job title you have, you have amazing potential to impact your workplace, community, and beyond. In this talk, I’ll share a few candid stories of my career failures… I mean… learning opportunities. We’ll start by debunking the myth that leadership == management. Next, we’ll talk about some the attributes, behaviors and skills of good leaders. Last, we’ll cover some practical steps and resources to accelerate your journey. You’ll walk away with some essential leadership skills I believe anyone can develop, and a good dose of encouragement to be more awesome!",
+            "img": "images/dneal.png",
+            "presentation": "",
+            "video": ""
+          },
+          {
+            "type": "break",
+            "time": "14:00",
+            "title": "Coffee Break",
+            "icon": "fa-coffee"
+          },
+          {
+            "time": "14:20",
+            "tags": ["architecture", "design", "modularity"],
+            "name": "Robert \"Uncle Bob\" Martin",
+            "twitter": "unclebobmartin",
+            "type": "speech",
+            "country": "us",
+            "bio": "Master Craftsman, Author of <a href=\"https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882\">Clean Code</a>, <a href=\"https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882\">Clean Architecture</a>, <a href=\"https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073/\">The Clean Coder</a>, and <a href=\"https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164\">Clean Agile</a>",
+            "title": "Clean Architecture – A Craftsman's Guide to Software Structure",
+            "description": "By applying universal rules of software architecture, you can dramatically improve developer productivity throughout the life of any software system. Now, building upon the success of his best-selling books Clean Code and The Clean Coder, legendary software craftsman Robert C. Martin reveals those rules and helps you apply them.",
+            "img": "images/unclebobvec.png",
+            "presentation": "",
+            "order": 1.5,
+            "video": ""
+          },
+          {
+            "time": "14:20",
+            "name": "Randy Shoup",
+            "type": "speech",
+            "tags": ["architecture", "continuous delivery", "case study"],
+            "twitter": "randyshoup",
+            "country": "us",
+            "title": "Improving eBay's Development Velocity",
+            "bio": "VP Engineering and Chief Architect @ eBay, ex-Director of Engineering @ Google",
+            "description": "This session outlines eBay’s efforts towards better, faster, safer, and continious software delivery. You'll learn about measuring software delivery, reducing waiting times and improving flow, breaking down silos, removing impediments, embedding experts directly in product teams, modernizing architecture, and much more! This session will provide actionable insights for other organizations going through similar journeys.",
+            "img": "images/randy_150x150.png"
+          },
+          {
+            "time": "14:20",
+            "tags": ["software engineering", "history", "future"],
+            "name": "Mary Poppendieck",
+            "twitter": "mpoppendieck",
+            "type": "speech",
+            "country": "us",
+            "bio": "Author of <a href=\"https://www.amazon.com/Lean-Software-Development-Agile-Toolkit/dp/0321150783\">Lean Software Development</a>, <a href=\"https://www.amazon.com/Implementing-Lean-Software-Development-Concept/dp/0321437381\">Implementing Lean Software Development</a>, <a href=\"https://www.amazon.com/Leading-Lean-Software-Development-Results/dp/0321620704\">Leading Lean Software Development</a>, and <a href=\"https://www.amazon.com/Lean-Mindset-Ask-Right-Questions/dp/0321896904\">The Lean Mindset</a>",
+            "title": "The Future of Software Engineering",
+            "description": "Twenty years ago Google was struggling to search the vast amount of data in the web, while Amazon was struggling to move an increasing volume of transactions through its monolithic architecture. Their solutions broke new ground in software engineering even as they enabled the companies to thrive. Creative approaches to digital technology have been fundamental in enabling the massive scale and incredible speed of today’s digital giants. More than that, they are at the core of every successful digital transformation. This talk will discuss how software engineering has been changed by the scale and speed required of digital companies in the past, now, and in the future.",
+            "img": "images/mary.png",
+            "order": 2
+          },
+          {
+            "type": "break",
+            "time": "15:10",
+            "title": "Coffee Break",
+            "icon": "fa-coffee"
+          },
+          {
+            "time": "15:30",
             "tags": ["clean code", "code design", "patterns"],
             "name": "Venkat Subramaniam",
             "twitter": "venkat_s",
@@ -344,332 +557,77 @@
             "order": 3
           },
           {
-            "time": "10:10",
-            "tags": ["productivity", "refactoring", "intellij"],
-            "name": "Victor Rentea",
+            "time": "15:30",
+            "name": "Gwen Shapira",
             "type": "speech",
-            "twitter": "VictorRentea",
-            "country": "ro",
-            "bio": "Software Craftsman, Java Champion, and Independent Technical Trainer",
-            "title": "The Secrets of the Fastest Java Developers on Earth",
-            "description": "In this session, you’ll learn a lot of hands-on tricks that will skyrocket your Java coding speed, after just several days of practice. Writing, editing, navigating and refactoring code faster will let you focus on your goals and allow you to experiment various design alternatives without wasting precious time. In this talk I’ll demonstrate some the best tricks of IntelliJ (community included): Advanced Auto-Completion: over-dot, TAB, type-aware, statics, generating boilerplate, Live Templates and Postfix Expansion, Essential quickfixes and inspections, Multi-cursor, Statement Completion, Navigating Code like a Pro, Java Streams support, and many more, all curated with the help of many nice JetBrains people.",
-            "img": "images/viktor_small.png"
+            "tags": ["microservices", "architecture", "best practices"],
+            "twitter": "gwenshapri",
+            "country": "us",
+            "title": "Beyond Microservices: Streams, State and Scalability",
+            "bio": "Chief Product Officer @ Stealth Startup, ex-Engineering Leader @ Confluent, Author of <a href=\"https://www.amazon.com/Kafka-Definitive-Real-Time-Stream-Processing/dp/1491936169\">Kafka: The Definitive Guide</a>",
+            "description": "Microservices have been a popular architecture choice for at least 5 years by now. Over these years we've adopted microservices architectures to ever growing set of use-cases and different development and deployment strategies. Lessons were learned and our ability to design, develop, deploy and operate microservices has improved. This presentation will give an opinionated view of how microservices evolved in the last few years, based on experience gained while working with companies using Apache Kafka to update their application architecture. We'll discuss the rise of API gateways, service mesh, state management and serverless architectures - what works well, and in which cases. We'll show real-world examples of how applications become more resilient and scalable when new patterns are introduced, and make sure to include caveats - because patterns are all about using them in the right context.",
+            "img": "images/gwen_150x150.png"
           },
           {
-            "time": "10:10",
-            "tags": [],
-            "name": "Natalie Stadler",
-            "twitter": "",
+            "time": "15:30",
+            "name": "Dave Rensin",
+            "type": "speech",
+            "tags": ["tech leadership", "management", "how-to guide"],
+            "twitter": "drensin",
+            "country": "us",
+            "title": "Engineering Management: The Missing Manual",
+            "bio": "SVP Engineering @ Pendo.io, ex-Senior Director of Engineering @ Google",
+            "description": "Managing engineers isn't hard once you have the missing instruction manual. In this talk, Dave will explain why people act the way they do and how you can navigate common (and uncommon) management situations with a few basic principles.",
+            "img": "images/raisin_150x150.png"
+          },
+          {
+            "type": "break",
+            "time": "16:20",
+            "title": "Coffee Break",
+            "icon": "fa-coffee"
+          },
+          {
+            "time": "16:40",
+            "tags": ["extreme programming", "engineering practices", "test-driven development"],
+            "name": "Kent Beck",
+            "twitter": "kentbeck",
             "type": "speech",
             "country": "us",
-            "bio": "Software Craftswoman @ Coinbase, Author @ The Practical Dev",
-            "description": "Many developers aspire to become architects. Some of us serve currently as architects while the rest of us may hope to become one some day. We all have worked with architects, some good, and some that could be better. What are the traits of a good architect? What are the skills and qualities we should pick to become a very good one? Come to this presentation to learn about things that can make that journey to be a successful architect a pleasant one.",
-            "img": "images/inta_150x150.png",
+            "bio": "Creator of Extreme Programming and TDD, Author of <a href=\"https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530\">TDD by Example</a> and <a href=\"https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658\">Extreme Programming Explained</a>",
+            "title": "Extreme Programming — 25 Years Later",
+            "description": "Kent Beck invented Extreme Programming. In this session, he'll share what he got right, what he got wrong, and what he's still working on.",
+            "img": "images/kent.png",
+            "order": 1,
             "presentation": "",
-            "plumber": true,
             "video": ""
-          },           
-          {
-            "time": "10:10",
-            "tags": ["software engineering", "history", "future"],
-            "name": "Mary Poppendieck",
-            "twitter": "mpoppendieck",
-            "type": "speech",
-            "country": "us",
-            "bio": "Author of <a href=\"https://www.amazon.com/Lean-Software-Development-Agile-Toolkit/dp/0321150783\">Lean Software Development</a>, <a href=\"https://www.amazon.com/Implementing-Lean-Software-Development-Concept/dp/0321437381\">Implementing Lean Software Development</a>, <a href=\"https://www.amazon.com/Leading-Lean-Software-Development-Results/dp/0321620704\">Leading Lean Software Development</a>, and <a href=\"https://www.amazon.com/Lean-Mindset-Ask-Right-Questions/dp/0321896904\">The Lean Mindset</a>",
-            "title": "The Future of Software Engineering",
-            "description": "Twenty years ago Google was struggling to search the vast amount of data in the web, while Amazon was struggling to move an increasing volume of transactions through its monolithic architecture. Their solutions broke new ground in software engineering even as they enabled the companies to thrive. Creative approaches to digital technology have been fundamental in enabling the massive scale and incredible speed of today’s digital giants. More than that, they are at the core of every successful digital transformation. This talk will discuss how software engineering has been changed by the scale and speed required of digital companies in the past, now, and in the future.",
-            "img": "images/mary.png",
-            "order": 2
           },
-        {
-          "type": "break",
-          "time": "11:00",
-          "title": "Coffee Break",
-          "icon": "fa-coffee"
-        },
-        {
-          "time": "11:20",
-          "tags": ["effectiveness", "agility", "impact mapping"],
-          "name": "Gojko Adžić",
-          "type": "speech",
-          "twitter": "gojkoadzic",
-          "title": "Maximum Impact, Minimum Effort",
-          "country": "rs",
-          "bio": "Consultant, Trainer, Author of <a href=\"https://www.amazon.com/Running-Serverless-Introduction-Lambda-Application/dp/0993088155\">Running Serverless</a>, <a href=\"https://www.amazon.com/Specification-Example-Successful-Deliver-Software/dp/1617290084\">Specification by Example</a>, <a href=\"https://www.amazon.com/Impact-Mapping-software-products-projects-ebook/dp/B009KWDKVA\">Impact Mapping</a>, Founder of <a href=\"https://narakeet.com/create/video-as-code.html\">Narakeet</a>",
-          "long_bio": "Stefan Tilkov is a co-founder and principal consultant at innoQ, a technology consulting company with offices in Germany and Switzerland. He has been involved in the design of large-scale, distributed systems for more than two decades, using a variety of technologies and tools. He has authored numerous articles, authored and contributed to several books, and is a frequent speaker at conferences around the world.",
-          "description": "A big government IT project delivered two years ahead of schedule. A fraud detection initiative saving tens of millions more than predicted. An app that helped a city rebuild faster after a major disaster and save ten times more money than expected. Stories like these are very uncommon, even with all the advancements the software industry made in the last few decades. In this talk, Gojko will present how very successful teams create big impacts with minimum effort. You'll get practical, actionable ideas that you can use immediately in your work.",
-          "img": "images/gojkoo.png"
-        },
-        {
-          "time": "11:20",
-          "name": "Allen Holub",
-          "type": "speech",
-          "tags": ["agility", "craftsmanship", "extreme programming"],
-          "twitter": "allenholub",
-          "country": "us",
-          "title": "26 Heuristics for Effective Software Development",
-          "bio": "Principal @ Hollub Associates Ltd, Pluralsight Author, Author of <a href=\"https://www.oreilly.com/library/view/design-patterns-in/9781491935828/\">Design Patterns in the Real World</a> course",
-          "description": "In this talk, you’ll learn how to leverage Allen Holub’s 26 rules of thumb to create a highly effective software organization. You’ll learn how to infuse real agility (as compared to “Agile”) into your organization.",
-          "img": "images/allenvector.png",
-          "presentation": "",
-          "video": ""
-        },
-        {                           
-          "time": "11:20",
-          "name": "Jakub Pilimon",
-          "type": "speech",
-          "twitter": "jakubpilimon",
-          "country": "pl",
-          "bio": "Principal Technologist @ VMWare, Trainer @ Bottega IT Minds, DZone's Most-Valuable Blogger",
-          "img": "images/pilo.png", 
-          "title": "Clean Code: Eternal Principles",
-          "description": "coming soon",
-          "tags": ["clean code", "patterns", "best practices"],
-          "order": 6
-        },
-        {
-          "type": "break",
-          "time": "12:10",
-          "title": "Coffee Break",
-          "icon": "fa-coffee"
-        },
-        {
-          "time": "13:10",
-          "tags": [],
-          "name": "Natalie Stadler",
-          "twitter": "",
-          "type": "speech",
-          "country": "us",
-          "bio": "Software Craftswoman @ Coinbase, Author @ The Practical Dev",
-          "title": "anything",
-          "description": "Many developers aspire to become architects. Some of us serve currently as architects while the rest of us may hope to become one some day. We all have worked with architects, some good, and some that could be better. What are the traits of a good architect? What are the skills and qualities we should pick to become a very good one? Come to this presentation to learn about things that can make that journey to be a successful architect a pleasant one.",
-          "img": "images/inta_150x150.png",
-          "presentation": "",
-          "plumber": true,
-          "video": ""
-        },           
-        {
-          "time": "13:10",
-          "tags": ["architecture", "microservices", "patterns"],
-          "name": "Jimmy Bogard",
-          "type": "speech",
-          "country": "us",
-          "twitter": "jbogard",
-          "bio": "Chief Architect @ Headspring, Microsoft MVP, Creator of <a href=\"https://github.com/AutoMapper/AutoMapper\">AutoMapper</a>",
-          "title": "Effective Microservice Communication and Conversation Patterns",
-          "description": "Orchestration or Choreography? Sagas or process manager? REST, RPC or Events? Are we just making this all up as we go along? Once we move away from a single process to many services and processes, we immediately hit the problem that our services need to communicate with each other. The architect mandated REST! But then nothing worked in production. Then came events! And nothing ever completed. In this talk we'll look at the problem from a holistic perspective - take the fundamental property of autonomy for any microservice-based architecture, and design how services should communicate so that they can still achieve their purpose in the world. We'll cover basic communication patterns, where we run into problems with them, and how advanced conversational patterns can help. Finally, we'll look at some real-world scenarios for designing complex coordination and where conversation patterns can retain our autonomy and loose coupling.",
-          "img": "images/jimbo.png",
-          "presentation": "",
-          "video": ""
-        },     
-        {
-          "time": "13:10",
-          "tags": [],
-          "name": "Julia Kirsina",
-          "twitter": "UnicornCoding",
-          "type": "speech",
-          "country": "lv",
-          "bio": "Technical Lead, Tech Influencer @ Instagram",
-          "title": "Anything",
-          "description": "Many developers aspire to become architects. Some of us serve currently as architects while the rest of us may hope to become one some day. We all have worked with architects, some good, and some that could be better. What are the traits of a good architect? What are the skills and qualities we should pick to become a very good one? Come to this presentation to learn about things that can make that journey to be a successful architect a pleasant one.",
-          "img": "images/sveta_vec.png",
-          "presentation": "",
-          "plumber": true,
-          "video": ""
-        },
-        {
-          "time": "13:10",
-          "tags": ["tools", "libraries", "best practices"],
-          "name": "Stefan Judis",
-          "type": "speech",
-          "twitter": "stefanjudis",
-          "country": "de",
-          "bio": "Developer Advocate @ Contentful, Teaching <a href=\"https://twitter.com/CSSclasses\">@CSSclasses</a>, Maintaining <a href=\"https://twitter.com/perf_tooling\">@perf_tooling</a>",
-          "title": "Everything You Should Know About Web Development in 2022",
-          "description": "Frontend and JavaScript technologies are moving fast. So fast that it's always hard to keep track of all the new things that are coming up. This talk will show new tools, workflows, ways to develop and give advice on how to stay up to date.",
-          "img": "images/judis.png"
-      },
-        {
-          "time": "13:10",
-          "tags": ["leadership", "motivation", "soft skills"],
-          "name": "David Neal",
-          "twitter": "reverentgeek",
-          "type": "speech",
-          "country": "us",
-          "bio": "Principal Developer Evangelist @ Pluralsight, Microsoft MVP",
-          "title": "Practical Leadership for Software Developers",
-          "description": "Regardless of the technology you know, regardless of the job title you have, you have amazing potential to impact your workplace, community, and beyond. In this talk, I’ll share a few candid stories of my career failures… I mean… learning opportunities. We’ll start by debunking the myth that leadership == management. Next, we’ll talk about some the attributes, behaviors and skills of good leaders. Last, we’ll cover some practical steps and resources to accelerate your journey. You’ll walk away with some essential leadership skills I believe anyone can develop, and a good dose of encouragement to be more awesome!",
-          "img": "images/dneal.png",
-          "presentation": "",
-          "video": ""
-        }, 
-        {
-          "type": "break",
-          "time": "14:00",
-          "title": "Coffee Break",
-          "icon": "fa-coffee"
-        },
-        {
-          "time": "14:20",
-          "tags": ["architecture", "design", "modularity"],
-          "name": "Robert \"Uncle Bob\" Martin",
-          "twitter": "unclebobmartin",
-          "type": "speech",
-          "country": "us",
-          "bio": "Master Craftsman, Author of <a href=\"https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882\">Clean Code</a>, <a href=\"https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882\">Clean Architecture</a>, <a href=\"https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073/\">The Clean Coder</a>, and <a href=\"https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164\">Clean Agile</a>",
-          "title": "Clean Architecture – A Craftsman's Guide to Software Structure",
-          "description": "By applying universal rules of software architecture, you can dramatically improve developer productivity throughout the life of any software system. Now, building upon the success of his best-selling books Clean Code and The Clean Coder, legendary software craftsman Robert C. Martin reveals those rules and helps you apply them.",
-          "img": "images/unclebobvec.png",
-          "presentation": "",
-          "order": 1.5,
-          "video": ""
-        },     
-        {
-          "time": "14:20",
-          "tags": [],
-          "name": "Natalie Stadler",
-          "twitter": "",
-          "type": "speech",
-          "country": "us",
-          "bio": "Software Craftswoman @ Coinbase, Author @ The Practical Dev",
-          "description": "Many developers aspire to become architects. Some of us serve currently as architects while the rest of us may hope to become one some day. We all have worked with architects, some good, and some that could be better. What are the traits of a good architect? What are the skills and qualities we should pick to become a very good one? Come to this presentation to learn about things that can make that journey to be a successful architect a pleasant one.",
-          "img": "images/inta_150x150.png",
-          "presentation": "",
-          "plumber": true,
-          "video": ""
-        },
-        {
-          "time": "14:20",
-          "tags": ["design patterns", "functional programming", "domain-driven design"],
-          "name": "Scott Wlaschin",
-          "twitter": "scottwlaschin",
-          "type": "speech",
-          "country": "gb",
-          "bio": "Software Architect, F# Trainer, Author of <a href=\"https://pragprog.com/book/swdddf/domain-modeling-made-functional\">Domain Modeling Made Functional</a>",
-          "title": "Domain Modeling Made Functional",
-          "description": "Statically typed functional programming languages encourage a very different way of thinking about types. The type system is your friend, not an annoyance, and can be used in many ways that might not be familiar to OO programmers. Types can be used to represent the domain in a fine-grained, self documenting way. And in many cases, types can even be used to encode business rules so that you literally cannot create incorrect code. You can then use the static type checking almost as an instant unit test — making sure that your code is correct at compile time. In this talk, we'll look at some of the ways you can use types as part of a domain driven design process, with some simple real world examples in F#. No jargon, no maths, and no prior F# experience necessary.",
-          "img": "images/scott_vec.png",
-          "presentation": "",
-          "video": ""
-        },          
-        {
-          "time": "14:20",
-          "tags": ["software craftsmanship", "professionalism", "discussion"],
-          "name": "Sandro Mancuso",
-          "twitter": "sandromancuso",
-          "type": "speech",
-          "country": "gb",
-          "country_long": "United Kingdom",
-          "bio": "Software Craftsman and Founder @ Codurance, Author of <a href=\"https://www.amazon.com/Software-Craftsman-Professionalism-Pragmatism-Robert/dp/0134052501\">The Software Craftsman</a>",
-          "long_bio": "Software craftsman at Codurance, author of The Software Craftsman, and founder of the London Software Craftsmanship Community (LSCC). Sandro has been coding since a very young age but only started his professional career in 1996. Before starting his own consultancy, he worked for startups, software houses, product companies, international consultancy companies, and investment banks. During his career Sandro had the opportunity to work in a good variety of projects, with different languages, technologies, and across many different industries. Sandro has a lot of experience in bringing the Software Craftsmanship ideology and Extreme Programming practices to organisations of all sizes. Sandro is internationally renowned by his work on evolving and spreading Software Craftsmanship and is frequently invited to speak in many conferences around the world. His professional aspiration is to raise the bar of the software industry by helping developers become better at and care more about their craft.",
-          "title": "Minimum Viable Professional",
-          "description": "In this session, together with Sandro we'll discuss hard and soft skills that every software craftsperson needs and how can we nurture those skills independently, at work, and as a community.",
-          "img": "images/sandro_vec.png",
-          "presentation": "",
-          "video": ""
-        },  
-        {
-          "type": "break",
-          "time": "15:10",
-          "title": "Coffee Break",
-          "icon": "fa-coffee"
-        },        
-        {
-          "time": "15:30",            
-          "name": "Gwen Shapira",
-          "type": "speech",
-          "tags": ["microservices", "architecture", "best practices"],
-          "twitter": "gwenshapri",
-          "country": "us",
-          "title": "Beyond Microservices: Streams, State and Scalability",
-          "bio": "Chief Product Officer @ Stealth Startup, ex-Engineering Leader @ Confluent, Author of <a href=\"https://www.amazon.com/Kafka-Definitive-Real-Time-Stream-Processing/dp/1491936169\">Kafka: The Definitive Guide</a>",
-          "description": "Microservices have been a popular architecture choice for at least 5 years by now. Over these years we've adopted microservices architectures to ever growing set of use-cases and different development and deployment strategies. Lessons were learned and our ability to design, develop, deploy and operate microservices has improved. This presentation will give an opinionated view of how microservices evolved in the last few years, based on experience gained while working with companies using Apache Kafka to update their application architecture. We'll discuss the rise of API gateways, service mesh, state management and serverless architectures - what works well, and in which cases. We'll show real-world examples of how applications become more resilient and scalable when new patterns are introduced, and make sure to include caveats - because patterns are all about using them in the right context.",
-          "img": "images/gwen_150x150.png"
-        },
-        {
-          "time": "15:30",            
-          "name": "Dave Rensin",
-          "type": "speech",
-          "tags": ["tech leadership", "management", "how-to guide"],
-          "twitter": "drensin",
-          "country": "us",
-          "title": "Engineering Management: The Missing Manual",
-          "bio": "SVP Engineering @ Pendo.io, ex-Senior Director of Engineering @ Google",
-          "description": "Managing engineers isn't hard once you have the missing instruction manual. In this talk, Dave will explain why people act the way they do and how you can navigate common (and uncommon) management situations with a few basic principles.",
-          "img": "images/raisin_150x150.png"
-        },        
-        {
-          "time": "15:30",            
-          "name": "Randy Shoup",
-          "type": "speech",
-          "tags": ["architecture", "continuous delivery", "case study"],
-          "twitter": "randyshoup",
-          "country": "us",
-          "title": "Improving eBay's Development Velocity",
-          "bio": "VP Engineering and Chief Architect @ eBay, ex-Director of Engineering @ Google",
-          "description": "This session outlines eBay’s efforts towards better, faster, safer, and continious software delivery. You'll learn about measuring software delivery, reducing waiting times and improving flow, breaking down silos, removing impediments, embedding experts directly in product teams, modernizing architecture, and much more! This session will provide actionable insights for other organizations going through similar journeys.",
-          "img": "images/randy_150x150.png"
-        },
-        {
-          "type": "break",
-          "time": "16:20",
-          "title": "Coffee Break",
-          "icon": "fa-coffee"
-        }, 
-        {
-          "time": "16:40",
-          "tags": ["career", "advice", "programmer's life"],
-          "name": "Cory House",
-          "type": "speech",
-          "twitter": "housecor",
-          "country": "us",
-          "bio": "Founder @ <a href=\"https://www.reactjsconsulting.com\">ReactJS Consulting</a>, Software Developer, Author, Speaker, Consultant, Teacher",
-          "title": "The 7 Pillar Developer",
-          "description": "As developers, we focus on code. Yet mastering syntax alone isn't sufficient. Our behaviors away from the keyboard profoundly effect our impact and career satisfaction. So, to dramatically expand our potential as developers, we must reconsider our behaviors as a humans. In this story-oriented session, we'll explore seven surprisingly relevant facets of life that profoundly impact our software quality. ",
-          "img": "images/cory_150x150.png",
-          "presentation": "",
-          "video": ""
-        },          
-        {
-          "time": "16:40",
-          "name": "Jakub Nabrdalik",
-          "type": "speech",
-          "tags": ["game changers", "thinking", "productivity"],
-          "twitter": "jnabrdalik",
-          "country": "pl",
-          "bio": "Solution Architect, Developer and Mentor at Bottega IT Minds, ex-Head of Software Development @ 4Finance",
-          "img": "images/jnb_vec.png",
-          "title": "Simple and Powerful Things That Work for Me",
-          "description": "There's a surprising lot of best practices that are irrelevant in practice. There are also those that do not sound like much, but I use them every single day and cannot imagine how I would deal without them. This talk is about those silent game-changers. I'll talk about fixing bugs with a scientific method, how 7 years of implementing and operating microservices changed my observability practices, and how higher-order functions allowed me to not only express what's important, but also put emphasis on it. And then we'll talk a bit about neuroscience and how to deal with your own head. Perhaps it will work for you as well."
-        }, 
-        {
-          "time": "16:40",
-          "tags": [],
-          "name": "Natalie Stadler",
-          "twitter": "",
-          "type": "speech",
-          "country": "us",
-          "bio": "Software Craftswoman @ Coinbase, Author @ The Practical Dev",
-          "description": "Many developers aspire to become architects. Some of us serve currently as architects while the rest of us may hope to become one some day. We all have worked with architects, some good, and some that could be better. What are the traits of a good architect? What are the skills and qualities we should pick to become a very good one? Come to this presentation to learn about things that can make that journey to be a successful architect a pleasant one.",
-          "img": "images/inta_150x150.png",
-          "presentation": "",
-          "plumber": true,
-          "video": ""
-        },                        
-        {                           
-          "time": "16:40",
-          "name": "Scott Hanselman",
-          "type": "speech",
-          "twitter": "shanselman",
-          "country": "us",
-          "bio": "Principal Community Architect for Web Platform @ Microsoft, Blogger, Podcaster",
-          "img": "images/hanselman.png", 
-          "title": "Unusual Skills for a Successful Programmer",
-          "description": "In this session, Scott Hanselman will share his career journey from a programmer to a Lead .NET Program Manager at Microsoft. Expect some (unusual) advice on skills and practices you need to succeed.",
-          "tags": ["career advice", "growth", "skills"],
-          "order": 6
-        },              
+          {
+            "time": "16:40",
+            "name": "Scott Hanselman",
+            "type": "speech",
+            "twitter": "shanselman",
+            "country": "us",
+            "bio": "Principal Community Architect for Web Platform @ Microsoft, Blogger, Podcaster",
+            "img": "images/hanselman.png",
+            "title": "Building Careers with Empathy",
+            "description": "In this session, Scott Hanselman will share his career journey from a programmer to a Lead .NET Program Manager at Microsoft. Expect some (unusual) advice on skills and practices you need to succeed.",
+            "tags": ["career advice", "growth", "skills"],
+            "order": 6
+          },
+          {
+            "time": "16:40",
+            "name": "Allen Holub",
+            "type": "speech",
+            "tags": ["agility", "craftsmanship", "extreme programming"],
+            "twitter": "allenholub",
+            "country": "us",
+            "title": "26 Heuristics for Effective Software Development",
+            "bio": "Principal @ Hollub Associates Ltd, Pluralsight Author, Author of <a href=\"https://www.oreilly.com/library/view/design-patterns-in/9781491935828/\">Design Patterns in the Real World</a> course",
+            "description": "In this talk, you’ll learn how to leverage Allen Holub’s 26 rules of thumb to create a highly effective software organization. You’ll learn how to infuse real agility (as compared to “Agile”) into your organization.",
+            "img": "images/allenvector.png",
+            "presentation": "",
+            "video": ""
+          },
           {
             "type": "break",
             "time": "17:30",
