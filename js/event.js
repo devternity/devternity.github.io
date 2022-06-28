@@ -223,6 +223,7 @@
             "img": "images/kevie.png"
           },
           {
+            "product": "CLEAN_PRAG",
             "tags": ["clean architecture", "patterns", "java"],
             "name": "Victor Rentea",
             "type": "speech",
