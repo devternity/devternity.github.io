@@ -31,27 +31,15 @@
           "sold_out": false,
           "price": 399,
           "extra": 200,
-          "battery": "fa-battery-half",
           "includesMainDay": true,
-          "included": [
-            "Access to live conference",
-            "Access to session recordings",
-            "Certificates (1x)",
-            "Inspiration (10x)"
-          ]
+          "capacity": 70
         },
         "Power Workshop Only": {
           "price": 399,
           "extra": 200,
-          "battery": "fa-battery-half",
           "includesWorkshop": true,
           "sold_out": false,
-          "included": [
-            "Access to a full-day workshop",
-            "Certificates (1x)",
-            "Superskills (10x)",
-            ""
-          ]
+          "capacity": 90
         },
         "2-Days Super Pack": {
           "attention": true,
@@ -60,15 +48,7 @@
           "sold_out": false,
           "includesWorkshop": true,
           "includesMainDay": true,
-          "battery": "fa-battery-half",
-          "included": [
-            "Access to live conference",
-            "Access to session recordings",
-            "Access to a full-day workshop",
-            "Certificates (2x)",
-            "Inspiration (10x)",
-            "Superskills (10x)"
-          ]
+          "capacity": 90
         }
       }
     },

@@ -9,7 +9,7 @@
 		reset: 'full',
 		breakpoints: {
 			global: {
-				href: 'css/style.css?xx',
+				href: 'css/style.css?xxxx',
 				containers: 1400,
 				grid: { gutters: ['2em', 0] }
 			},
