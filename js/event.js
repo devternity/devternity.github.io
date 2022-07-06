@@ -542,7 +542,7 @@
             "name": "Gwen Shapira",
             "type": "speech",
             "tags": ["microservices", "architecture", "best practices"],
-            "twitter": "gwenshapri",
+            "twitter": "gwenshap",
             "country": "us",
             "title": "Beyond Microservices: Streams, State and Scalability",
             "bio": "Chief Product Officer @ Stealth Startup, ex-Engineering Leader @ Confluent, Author of <a href=\"https://www.amazon.com/Kafka-Definitive-Real-Time-Stream-Processing/dp/1491936169\">Kafka: The Definitive Guide</a>",
