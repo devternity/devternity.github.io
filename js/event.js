@@ -438,7 +438,7 @@
             "twitter": "housecor",
             "country": "us",
             "bio": "Founder @ <a href=\"https://www.reactjsconsulting.com\">ReactJS Consulting</a>, Software Developer, Author, Speaker, Consultant, Teacher",
-            "title": "The 7 Pillar Developer",
+            "title": "The 7 Pillar Developer: A Holistic Approach to Building an Exceptional Career",
             "description": "As developers, we focus on code. Yet mastering syntax alone isn't sufficient. Our behaviors away from the keyboard profoundly effect our impact and career satisfaction. So, to dramatically expand our potential as developers, we must reconsider our behaviors as a humans. In this story-oriented session, we'll explore seven surprisingly relevant facets of life that profoundly impact our software quality. ",
             "img": "images/cory_150x150.png",
             "presentation": "",
