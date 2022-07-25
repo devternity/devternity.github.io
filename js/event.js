@@ -59,30 +59,6 @@
         "sponsorsPerLine": 1,
         "sponsors": [
           {
-            "logo": "devchampions.png",
-            "since": "2015",
-            "link": "https://www.devchampions.com/",
-            "info": "<p>DevChampions offer the highest quality courses for software developers. We specialize, but are not limited to engineering practices, software architecture, automation and soft skills.</p>"
-          },
-          {
-            "logo": "innogames.png",
-            "since": "2019",
-            "link": "https://www.innogames.com/career/",
-            "info": "<p>InnoGames is Germany’s leading game developer & publisher, and a certified Great Place to Work®. We are best known for Forge of Empires, Elvenar and Tribal Wars. Join our awesome international team in Hamburg!</p>"
-          },
-          {
-            "logo": "bets.png",
-            "since": "2021",
-            "link": "https://betsoftware.com/",
-            "info": "<p>BET Software is one of the most diverse betting software providers in Sub-Saharan Africa, with a growing presence internationally. We are the workplace of choice for technologists and engineers due to our pioneering use of technology, our talented Team and the innovative solutions we deliver.</p>"
-          },
-          {
-            "logo": "onair3.jpg",
-            "since": "2021",
-            "link": "https://humancapitalmanagement.wd3.myworkdayjobs.com/en-US/OnAir-Entertainment-Careers",
-            "info": "<p>On Air Entertainment, founded in December 2020, is led by a collective of senior industry professionals with a proven history in live casino. Guided by a clear vision, our management team seized the opportunity to build a new live casino studio from the ground up, with our purpose-built platform and suite of live casino products, including our first game Standard Blackjack – debut game delivered in record 11 months. Rapid growth ensued as we moved into our current head office in Malta before expanding into our spacious modern studio in Riga, Latvia. As our team continuously grows, new IT Hubs were established in Poland and Estonia.</p>"
-          },
-          {
             "logo": "jetbrains.png",
             "since": "2022",
             "link": "https://jetbrains.com",
