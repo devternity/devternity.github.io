@@ -202,9 +202,7 @@
             "bio": "Principal @ Hollub Associates Ltd, Pluralsight Author, Author of <a href=\"https://www.oreilly.com/library/view/design-patterns-in/9781491935828/\">Design Patterns in the Real World</a> course",
             "title": "Building an Incremental Architecture",
             "brief_description": "You can’t simultaneously fight your code and be Agile—it slows you down too much. Your code’s design must evolve incrementally along with your understanding of the product. In this workshop, you’ll learn <b>everything you need to create highly adaptable designs</b> literally as you implement them. Along the way, you’ll also experience Event Storming and other Domain-Driven Design techniques.<h3>You’ll learn:</h3><ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to design a system that can evolve incrementally</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>SOLDIER principles (Simple, Obvious, Lightweight, Domain focused, Independent, Essential, Refactorable)</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Architectural patterns appropriate for incremental development</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to create strictly-isolated highly decoupled subsystems</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Domain-focused architectures (including DDD)</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to use the domain to maintain system coherence as the architecture grows</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to identify key abstractions, bounded contexts, entities, aggregates.</li></ul></p><p>In all, you’ll learn how to build a coherent and highly maintainable system and architecture that can easily accommodate changing requirements and grow incrementally as the system evolves.</p><p>Note: this workshop runs from 14:00 until 19:00. <b><a href='#tickets-container'>Buy</a></b></p> ",
-            "img": "images/allenvector.png",
-            "presentation": "",
-            "video": ""
+            "img": "images/allenvector.png"
           },
           {
             "product": "MODUL",
@@ -219,6 +217,18 @@
             "img": "images/jnb_vec.png"
           },
           {
+            "product": "FUNCTIONAL",
+            "name": "Scott Wlaschin",
+            "twitter": "scottwlaschin",
+            "type": "speech",
+            "country": "gb",
+            "bio": "Software Architect, F# Trainer, Author of <a href=\"https://pragprog.com/book/swdddf/domain-modeling-made-functional\">Domain Modeling Made Functional</a>",
+            "title": "Domain Modeling Made Functional",            
+            "tags": ["fp", "patterns", "domain-driven design"],
+            "brief_description": "Functional programming can be an excellent approach to designing decoupled, reusable systems with a rich domain model. This workshop will show you why and how. <p>You'll learn the core concepts of FP, and how to apply them to crafting domain logic, capturing business rules, designing business workflows, error handling, and much more, including:</p> <ul class=\"awsm\"><li>Introduction to functional programming</li><li>Functions and types</li><li>Composition as the fundamental principle</li><li>Overview of DDD principles</li><li>The importance of bounded contexts</li><li>Onion/Hexagonal architecture and how this works with functional programming</li><li>Modeling requirements with algebraic types</li><li>Modeling constraints, states, and workflows</li><li>Keeping IO at the edges</li><li>Handling domain errors</li><li>Composing complex functions</li><li>Evolving the domain</li><li>Dealing with changes in requirements</li></ul><p>Note: We will be using F# as our development language. The principles will be applicable to other languages. No experience with F# needed.</p><p>Note: this workshop runs from 9:00 until 16:00. <b><a href='#tickets-container'>Buy</a></b></p>",
+            "img": "images/scott_vec.png"
+          },
+          {
             "product": "DNEAL",
             "name": "David Neal",
             "type": "speech",
@@ -231,9 +241,7 @@
             "title": "Practical Leadership for Software Developers",
             "brief_description": "We all have an opportunity every day to make a postive impact on folks around us. These are often called \"soft skills,\" but they can be some of the hardest to learn! We could call them \"people skills,\" \"essential skills,\" or \"core skills.\" But, how about \"<b>SKILLS OF AWESOMENESS</b>?\" Yes, what we all need is more ways we can be awesome to each other, and awesome together. You'll learn: <ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Why leadership and awesomeness skills matter to everyone</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to become a better leader</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to run effective meetings</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to deal with conflict and find consensus</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to get better at listening and communication</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to encourage and motivate others</li></ul></p><p>Through a series of practical exercises, we will discover and discuss the most important and relevant topics you want to cover, so that you can get the most value out of this workshop! The workshop is led by David Neal – #1 speaker of 2020.</p><p>Note: this workshop runs from 9:00 until 16:00. <b><a href='#tickets-container'>Buy</a></b></p>",
             "img": "images/dneal.png",
-            "sold_out_soon": true,
-            "presentation": "",
-            "video": ""
+            "sold_out_soon": true
           }
         ]
       },
