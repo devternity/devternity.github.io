@@ -321,17 +321,15 @@
           },
           {
             "time": "10:10",
-            "tags": ["design patterns", "functional programming", "domain-driven design"],
-            "name": "Scott Wlaschin",
-            "twitter": "scottwlaschin",
+            "name": "Randy Shoup",
             "type": "speech",
-            "country": "gb",
-            "bio": "Software Architect, F# Trainer, Author of <a href=\"https://pragprog.com/book/swdddf/domain-modeling-made-functional\">Domain Modeling Made Functional</a>",
-            "title": "Domain Modeling Made Functional",
-            "description": "Statically typed functional programming languages encourage a very different way of thinking about types. The type system is your friend, not an annoyance, and can be used in many ways that might not be familiar to OO programmers. Types can be used to represent the domain in a fine-grained, self documenting way. And in many cases, types can even be used to encode business rules so that you literally cannot create incorrect code. You can then use the static type checking almost as an instant unit test — making sure that your code is correct at compile time. In this talk, we'll look at some of the ways you can use types as part of a domain driven design process, with some simple real world examples in F#. No jargon, no maths, and no prior F# experience necessary.",
-            "img": "images/scott_vec.png",
-            "presentation": "",
-            "video": ""
+            "tags": ["architecture", "continuous delivery", "case study"],
+            "twitter": "randyshoup",
+            "country": "us",
+            "title": "Improving eBay's Development Velocity",
+            "bio": "VP Engineering and Chief Architect @ eBay, ex-Director of Engineering @ Google",
+            "description": "This session outlines eBay’s efforts towards better, faster, safer, and continious software delivery. You'll learn about measuring software delivery, reducing waiting times and improving flow, breaking down silos, removing impediments, embedding experts directly in product teams, modernizing architecture, and much more! This session will provide actionable insights for other organizations going through similar journeys.",
+            "img": "images/randy_150x150.png"
           },
           {
             "time": "10:10",
@@ -479,16 +477,18 @@
           },
           {
             "time": "14:20",
-            "name": "Randy Shoup",
+            "tags": ["design patterns", "functional programming", "domain-driven design"],
+            "name": "Scott Wlaschin",
+            "twitter": "scottwlaschin",
             "type": "speech",
-            "tags": ["architecture", "continuous delivery", "case study"],
-            "twitter": "randyshoup",
-            "country": "us",
-            "title": "Improving eBay's Development Velocity",
-            "bio": "VP Engineering and Chief Architect @ eBay, ex-Director of Engineering @ Google",
-            "description": "This session outlines eBay’s efforts towards better, faster, safer, and continious software delivery. You'll learn about measuring software delivery, reducing waiting times and improving flow, breaking down silos, removing impediments, embedding experts directly in product teams, modernizing architecture, and much more! This session will provide actionable insights for other organizations going through similar journeys.",
-            "img": "images/randy_150x150.png"
-          },
+            "country": "gb",
+            "bio": "Software Architect, F# Trainer, Author of <a href=\"https://pragprog.com/book/swdddf/domain-modeling-made-functional\">Domain Modeling Made Functional</a>",
+            "title": "Domain Modeling Made Functional",
+            "description": "Statically typed functional programming languages encourage a very different way of thinking about types. The type system is your friend, not an annoyance, and can be used in many ways that might not be familiar to OO programmers. Types can be used to represent the domain in a fine-grained, self documenting way. And in many cases, types can even be used to encode business rules so that you literally cannot create incorrect code. You can then use the static type checking almost as an instant unit test — making sure that your code is correct at compile time. In this talk, we'll look at some of the ways you can use types as part of a domain driven design process, with some simple real world examples in F#. No jargon, no maths, and no prior F# experience necessary.",
+            "img": "images/scott_vec.png",
+            "presentation": "",
+            "video": ""
+          },          
           {
             "time": "14:20",
             "tags": ["software engineering", "history", "future"],
