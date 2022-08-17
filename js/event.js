@@ -139,6 +139,19 @@
         "event": "workshops",
         "schedule": [
           {
+            "product": "FUNCTIONAL",
+            "name": "Scott Wlaschin",
+            "twitter": "scottwlaschin",
+            "type": "speech",
+            "country": "gb",
+            "bio": "Software Architect, F# Trainer, Author of <a href=\"https://pragprog.com/book/swdddf/domain-modeling-made-functional\">Domain Modeling Made Functional</a>",
+            "title": "Domain Modeling Made Functional",            
+            "tags": ["fp", "patterns", "domain-driven design"],
+            "brief_description": "Functional programming can be an excellent approach to designing decoupled, reusable systems with a rich domain model. This workshop will show you why and how. <p>You'll learn the core concepts of FP, and how to apply them to crafting domain logic, capturing business rules, designing business workflows, error handling, and much more, including:</p> <ul class=\"awsm\"><li>Introduction to functional programming</li><li>Functions and types</li><li>Composition as the fundamental principle</li><li>Overview of DDD principles</li><li>The importance of bounded contexts</li><li>Onion/Hexagonal architecture and how this works with functional programming</li><li>Modeling requirements with algebraic types</li><li>Modeling constraints, states, and workflows</li><li>Keeping IO at the edges</li><li>Handling domain errors</li><li>Composing complex functions</li><li>Evolving the domain</li><li>Dealing with changes in requirements</li></ul><p>Note: We will be using F# as our development language. The principles will be applicable to other languages. No experience with F# needed.</p><p>Note: this workshop runs from 9:00 until 16:00. <b><a href='#tickets-container'>Buy</a></b></p>",
+            "sold_out_soon": true,
+            "img": "images/scott_vec.png"
+          },          
+          {
             "product": "VENKAT",
             "name": "Venkat Subramaniam",
             "type": "speech",
@@ -148,24 +161,7 @@
             "bio": "Founder @ Agile Developer, Author of <a href=\"https://www.amazon.com/Practices-Agile-Developer-Pragmatic-Bookshelf/dp/097451408X/\">Practices of an Agile Developer</a>, <a href=\"https://www.amazon.com/Programming-Concurrency-JVM-Mastering-Synchronization-ebook/dp/B00A32NZEI/\">Programming Concurrency on the JVM</a>, <a href=\"https://www.amazon.com/Functional-Programming-Java-Harnessing-Expressions/dp/1937785467/\">Functional Programming in Java</a>",
             "title": "Software Design By Practice",
             "brief_description": "The goal of this intensive, hands-on workshop, is to <strong>deepen your understanding of SOLID and other core software design principles and patterns</strong>. You'll be practicing those concepts under different constraints and requirements, devising elegant lightweight design, writing code, and discussing the tradeoffs. <p>Come experience the evolution of ideas into clean code by way of incremental development!</p><p>Note: this workshop runs from 9:00 until 16:00. <b><a href='#tickets-container'>Buy</a></b></p>",
-            "sold_out_soon": true,
             "img": "images/venk_vec.png"
-          },
-          {
-            "product": "JBRAINS",
-            "name": "J.B. Rainsberger",
-            "type": "speech",
-            "twitter": "jbrains",
-            "time": "9:00",
-            "endTime": "18:00",
-            "tags": ["evolutionary design", "legacy code", "clean code"],
-            "country": "ca",
-            "bio": "Software Coach, Mentor and Consultant, TDD Trainer <a href=\"https://tdd.training\">tdd.training</a>",
-            "title": "Surviving Legacy Code",
-            "brief_description": "We all have legacy code – profitable code that we’re afraid to change. Rewrite or refactor? How to crack the chicken-and-egg problem (I need to write tests in order to refactor, and I need to refactor in order to write tests)? What to do when we're already behind the schedule? We need a way to learn how to work with legacy safely, correctly, and quickly. That’s what Surviving Legacy Code is about. <p>In this workshop, you'll be working on a diabolical-but-fun code base and practicing different refactoring and testing techniques – from basic to advanced ones. <b>Learned techniques will eventually help you improve your production codebase – safely and quickly enough.</b></p> <p>Note: this workshop runs from 11:00 until 17:00. <b><a href='#tickets-container'>Buy</a></b></p>",
-            "img": "images/jb_vec.png",
-            "presentation": "",
-            "video": ""
           },
           {
             "product": "AGILE_ARCHITECTURE",
@@ -217,18 +213,6 @@
             "img": "images/jnb_vec.png"
           },
           {
-            "product": "FUNCTIONAL",
-            "name": "Scott Wlaschin",
-            "twitter": "scottwlaschin",
-            "type": "speech",
-            "country": "gb",
-            "bio": "Software Architect, F# Trainer, Author of <a href=\"https://pragprog.com/book/swdddf/domain-modeling-made-functional\">Domain Modeling Made Functional</a>",
-            "title": "Domain Modeling Made Functional",            
-            "tags": ["fp", "patterns", "domain-driven design"],
-            "brief_description": "Functional programming can be an excellent approach to designing decoupled, reusable systems with a rich domain model. This workshop will show you why and how. <p>You'll learn the core concepts of FP, and how to apply them to crafting domain logic, capturing business rules, designing business workflows, error handling, and much more, including:</p> <ul class=\"awsm\"><li>Introduction to functional programming</li><li>Functions and types</li><li>Composition as the fundamental principle</li><li>Overview of DDD principles</li><li>The importance of bounded contexts</li><li>Onion/Hexagonal architecture and how this works with functional programming</li><li>Modeling requirements with algebraic types</li><li>Modeling constraints, states, and workflows</li><li>Keeping IO at the edges</li><li>Handling domain errors</li><li>Composing complex functions</li><li>Evolving the domain</li><li>Dealing with changes in requirements</li></ul><p>Note: We will be using F# as our development language. The principles will be applicable to other languages. No experience with F# needed.</p><p>Note: this workshop runs from 9:00 until 16:00. <b><a href='#tickets-container'>Buy</a></b></p>",
-            "img": "images/scott_vec.png"
-          },
-          {
             "product": "DNEAL",
             "name": "David Neal",
             "type": "speech",
@@ -240,9 +224,23 @@
             "bio": "Principal Developer Evangelist @ Pluralsight, Microsoft MVP",
             "title": "Practical Leadership for Software Developers",
             "brief_description": "We all have an opportunity every day to make a postive impact on folks around us. These are often called \"soft skills,\" but they can be some of the hardest to learn! We could call them \"people skills,\" \"essential skills,\" or \"core skills.\" But, how about \"<b>SKILLS OF AWESOMENESS</b>?\" Yes, what we all need is more ways we can be awesome to each other, and awesome together. You'll learn: <ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Why leadership and awesomeness skills matter to everyone</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to become a better leader</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to run effective meetings</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to deal with conflict and find consensus</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to get better at listening and communication</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to encourage and motivate others</li></ul></p><p>Through a series of practical exercises, we will discover and discuss the most important and relevant topics you want to cover, so that you can get the most value out of this workshop! The workshop is led by David Neal – #1 speaker of 2020.</p><p>Note: this workshop runs from 9:00 until 16:00. <b><a href='#tickets-container'>Buy</a></b></p>",
-            "img": "images/dneal.png",
+            "img": "images/dneal.png"
+          },
+          {
+            "product": "JBRAINS",
+            "name": "J.B. Rainsberger",
+            "type": "speech",
+            "twitter": "jbrains",
+            "time": "9:00",
+            "endTime": "18:00",
+            "tags": ["evolutionary design", "legacy code", "clean code"],
+            "country": "ca",
+            "bio": "Software Coach, Mentor and Consultant, TDD Trainer <a href=\"https://tdd.training\">tdd.training</a>",
+            "title": "Surviving Legacy Code",
+            "brief_description": "We all have legacy code – profitable code that we’re afraid to change. Rewrite or refactor? How to crack the chicken-and-egg problem (I need to write tests in order to refactor, and I need to refactor in order to write tests)? What to do when we're already behind the schedule? We need a way to learn how to work with legacy safely, correctly, and quickly. That’s what Surviving Legacy Code is about. <p>In this workshop, you'll be working on a diabolical-but-fun code base and practicing different refactoring and testing techniques – from basic to advanced ones. <b>Learned techniques will eventually help you improve your production codebase – safely and quickly enough.</b></p> <p>Note: this workshop runs from 11:00 until 17:00. <b><a href='#tickets-container'>Buy</a></b></p>",
+            "img": "images/jb_vec.png",
             "sold_out_soon": true
-          }
+          }          
         ]
       },
       {
