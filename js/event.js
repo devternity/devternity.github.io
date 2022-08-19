@@ -261,16 +261,15 @@
           },
           {
             "time": "9:00",
-            "name": "Jakub Pilimon",
+            "name": "Randy Shoup",
             "type": "speech",
-            "twitter": "jakubpilimon",
-            "country": "pl",
-            "bio": "Principal Technologist @ VMWare, Trainer @ Bottega IT Minds, DZone's Most-Valuable Blogger",
-            "img": "images/pilo.png",
-            "title": "Clean Code: Eternal Principles",
-            "description": "coming soon",
-            "tags": ["clean code", "patterns", "best practices"],
-            "order": 6
+            "tags": ["architecture", "continuous delivery", "case study"],
+            "twitter": "randyshoup",
+            "country": "us",
+            "title": "Improving eBay's Development Velocity",
+            "bio": "VP Engineering and Chief Architect @ eBay, ex-Director of Engineering @ Google",
+            "description": "This session outlines eBay’s efforts towards better, faster, safer, and continious software delivery. You'll learn about measuring software delivery, reducing waiting times and improving flow, breaking down silos, removing impediments, embedding experts directly in product teams, modernizing architecture, and much more! This session will provide actionable insights for other organizations going through similar journeys.",
+            "img": "images/randy_150x150.png"
           },
           {
             "time": "9:00",
@@ -319,16 +318,17 @@
           },
           {
             "time": "10:10",
-            "name": "Randy Shoup",
+            "name": "Jakub Pilimon",
             "type": "speech",
-            "tags": ["architecture", "continuous delivery", "case study"],
-            "twitter": "randyshoup",
-            "country": "us",
-            "title": "Improving eBay's Development Velocity",
-            "bio": "VP Engineering and Chief Architect @ eBay, ex-Director of Engineering @ Google",
-            "description": "This session outlines eBay’s efforts towards better, faster, safer, and continious software delivery. You'll learn about measuring software delivery, reducing waiting times and improving flow, breaking down silos, removing impediments, embedding experts directly in product teams, modernizing architecture, and much more! This session will provide actionable insights for other organizations going through similar journeys.",
-            "img": "images/randy_150x150.png"
-          },
+            "twitter": "jakubpilimon",
+            "country": "pl",
+            "bio": "Principal Technologist @ VMWare, Trainer @ Bottega IT Minds, DZone's Most-Valuable Blogger",
+            "img": "images/pilo.png",
+            "title": "Clean Code: Eternal Principles",
+            "description": "coming soon",
+            "tags": ["clean code", "patterns", "best practices"],
+            "order": 6
+          },          
           {
             "time": "10:10",
             "tags": ["effectiveness", "agility", "impact mapping"],
