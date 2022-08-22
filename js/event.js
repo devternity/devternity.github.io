@@ -325,7 +325,7 @@
             "bio": "Principal Technologist @ VMWare, Trainer @ Bottega IT Minds, DZone's Most-Valuable Blogger",
             "img": "images/pilo.png",
             "title": "Clean Code: Eternal Principles",
-            "description": "coming soon",
+            "description": "In this talk we will cover: thinking in terms of abstractions, placing the right language in right places, fighting with cognitive load and biases, what kinds of coupling can we see and which one is the worst, how to overcome the fear of having many small classes, hot to explain cohesion to a junior developer and more. Those evergreen rules can help you become more efficient and persuasive at work.",
             "tags": ["clean code", "patterns", "best practices"],
             "order": 6
           },          
