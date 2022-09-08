@@ -7,8 +7,6 @@
     "month": "December 2022",
     "date": "8-9 December 2022",
     "date_iso": "2022-12-08",
-    "talks_total": 20,
-    "workshops_total": 7,
     "city": "Online",
     "venue_name": "GMT (London Time)",
     "contactEmail": "hello@devternity.com",
@@ -150,7 +148,20 @@
             "brief_description": "Functional programming can be an excellent approach to designing decoupled, reusable systems with a rich domain model. This workshop will show you why and how. <p>You'll learn the core concepts of FP, and how to apply them to crafting domain logic, capturing business rules, designing business workflows, error handling, and much more, including:</p> <ul class=\"awsm\"><li>Introduction to functional programming</li><li>Functions and types</li><li>Composition as the fundamental principle</li><li>Overview of DDD principles</li><li>The importance of bounded contexts</li><li>Onion/Hexagonal architecture and how this works with functional programming</li><li>Modeling requirements with algebraic types</li><li>Modeling constraints, states, and workflows</li><li>Keeping IO at the edges</li><li>Handling domain errors</li><li>Composing complex functions</li><li>Evolving the domain</li><li>Dealing with changes in requirements</li></ul><p>Note: We will be using F# as our development language. The principles will be applicable to other languages. No experience with F# needed.</p><p>Note: this workshop runs from 9:00 until 16:00. <b><a href='#tickets-container'>Buy</a></b></p>",
             "sold_out_soon": true,
             "img": "images/scott_vec.png"
-          },          
+          },
+          {
+            "product": "DDD",
+            "name": "Jimmy Bogard",
+            "type": "speech",
+            "country": "us",
+            "twitter": "jbogard",
+            "bio": "Chief Architect @ Headspring, Microsoft MVP, Creator of <a href=\"https://github.com/AutoMapper/AutoMapper\">AutoMapper</a>",
+            "title": "Domain-Driven Design: Theory and Practice",            
+            "tags": ["domain-driven design", "architecture"],
+            "brief_description": "Understand the concepts of DDD but feeling overwhelmed to implement? Feeling overwhelmed by complex examples and can't connect how to implement DDD in your project? Looking for more concrete guidance on the concepts and principles of DDD and want to learn how to connect it to real-world code? If this sounds familiar, then this workshop is for you. <b>We cover both the theory and patterns of Domain-Driven Design, and connect it to code with hands-on examples in .NET 6</b>. The described concepts will be applicable to other languages and platforms. In this workshop, you'll learn:</p> <ul class=\"awsm\"><li>Where DDD fits in to software delivery and what business problems it addresses</li><li>When to use DDD and when not to use it</li><li>How to craft and enforce a ubiquitous language</li><li>The fundamental modeling building blocks</li><li>The role of refactoring in shaping and reshaping our model</li><li>How to define bounded contexts and microservices</li><li>Realizing a pragmatic implementation with .NET</li><li>...and much more!</li></ul><p>Note: We will be using .NET as our development platform. The principles will be applicable to other languages and platforms.</p><p>Note: this workshop runs from 14:00 until 20:00. <b><a href='#tickets-container'>Buy</a></b></p>",
+            "sold_out_soon": true,
+            "img": "images/jimbo.png"
+          },            
           {
             "product": "VENKAT",
             "name": "Venkat Subramaniam",
