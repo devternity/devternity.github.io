@@ -198,20 +198,6 @@
             "img": "images/viktor_small.png"
           },
           {
-            "product": "ALLEN",
-            "name": "Allen Holub",
-            "type": "speech",
-            "twitter": "allenholub",
-            "time": "16:00",
-            "endTime": "21:00",
-            "tags": ["software architecture", "systems design"],
-            "country": "us",
-            "bio": "Principal @ Hollub Associates Ltd, Pluralsight Author, Author of <a href=\"https://www.oreilly.com/library/view/design-patterns-in/9781491935828/\">Design Patterns in the Real World</a> course",
-            "title": "Building an Incremental Architecture",
-            "brief_description": "You can’t simultaneously fight your code and be Agile—it slows you down too much. Your code’s design must evolve incrementally along with your understanding of the product. In this workshop, you’ll learn <b>everything you need to create highly adaptable designs</b> literally as you implement them. Along the way, you’ll also experience Event Storming and other Domain-Driven Design techniques.<h3>You’ll learn:</h3><ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to design a system that can evolve incrementally</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>SOLDIER principles (Simple, Obvious, Lightweight, Domain focused, Independent, Essential, Refactorable)</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Architectural patterns appropriate for incremental development</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to create strictly-isolated highly decoupled subsystems</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Domain-focused architectures (including DDD)</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to use the domain to maintain system coherence as the architecture grows</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to identify key abstractions, bounded contexts, entities, aggregates.</li></ul></p><p>In all, you’ll learn how to build a coherent and highly maintainable system and architecture that can easily accommodate changing requirements and grow incrementally as the system evolves.</p><p>Note: this workshop runs from 14:00 until 19:00. <b><a href='#tickets-container'>Buy</a></b></p> ",
-            "img": "images/allenvector.png"
-          },
-          {
             "product": "MODUL",
             "tags": ["backend architecture", "microservices", "modularity"],
             "name": "Jakub Nabrdalik",
@@ -251,7 +237,22 @@
             "brief_description": "We all have legacy code – profitable code that we’re afraid to change. Rewrite or refactor? How to crack the chicken-and-egg problem (I need to write tests in order to refactor, and I need to refactor in order to write tests)? What to do when we're already behind the schedule? We need a way to learn how to work with legacy safely, correctly, and quickly. That’s what Surviving Legacy Code is about. <p>In this workshop, you'll be working on a diabolical-but-fun code base and practicing different refactoring and testing techniques – from basic to advanced ones. <b>Learned techniques will eventually help you improve your production codebase – safely and quickly enough.</b></p> <p>Note: this workshop runs from 11:00 until 17:00. <b><a href='#tickets-container'>Buy</a></b></p>",
             "img": "images/jb_vec.png",
             "sold_out_soon": true
-          }          
+          },
+          {
+            "product": "ALLEN",
+            "name": "Allen Holub",
+            "type": "speech",
+            "twitter": "allenholub",
+            "time": "16:00",
+            "endTime": "21:00",
+            "tags": ["software architecture", "systems design"],
+            "country": "us",
+            "bio": "Principal @ Hollub Associates Ltd, Pluralsight Author, Author of <a href=\"https://www.oreilly.com/library/view/design-patterns-in/9781491935828/\">Design Patterns in the Real World</a> course",
+            "title": "Building an Incremental Architecture",
+            "brief_description": "You can’t simultaneously fight your code and be Agile—it slows you down too much. Your code’s design must evolve incrementally along with your understanding of the product. In this workshop, you’ll learn <b>everything you need to create highly adaptable designs</b> literally as you implement them. Along the way, you’ll also experience Event Storming and other Domain-Driven Design techniques.<h3>You’ll learn:</h3><ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to design a system that can evolve incrementally</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>SOLDIER principles (Simple, Obvious, Lightweight, Domain focused, Independent, Essential, Refactorable)</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Architectural patterns appropriate for incremental development</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to create strictly-isolated highly decoupled subsystems</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Domain-focused architectures (including DDD)</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to use the domain to maintain system coherence as the architecture grows</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to identify key abstractions, bounded contexts, entities, aggregates.</li></ul></p><p>In all, you’ll learn how to build a coherent and highly maintainable system and architecture that can easily accommodate changing requirements and grow incrementally as the system evolves.</p><p>Note: this workshop runs from 14:00 until 19:00. <b><a href='#tickets-container'>Buy</a></b></p> ",
+            "img": "images/allenvector.png",
+            "sold_out": true
+          }                   
         ]
       },
       {
