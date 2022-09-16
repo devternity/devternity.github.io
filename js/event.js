@@ -198,18 +198,6 @@
             "img": "images/viktor_small.png"
           },
           {
-            "product": "MODUL",
-            "tags": ["backend architecture", "microservices", "modularity"],
-            "name": "Jakub Nabrdalik",
-            "twitter": "jnabrdalik",
-            "type": "speech",
-            "country": "pl",
-            "bio": "Solution Architect, Developer and Mentor at Bottega IT Minds, ex-Head of Software Development",
-            "title": "Microservices, Modular Monoliths, and Event-Driven Systems",
-            "brief_description": "In this workshop, I’ll take you through three different styles of enterprise service architecture: modular monoliths, distributed synchronous systems, and event-driven systems. Together, we will design a non-trivial backend system and find out the strengths and weaknesses of each architectural approach. We will discuss the typical mistakes and problems developers face during service architecture design and how to solve them. You will learn how to choose the best architecture style for your project, and how to design hybrid solutions, leveraging the best parts of each architecture style. Topics include:<ul class=\"awsm\"><li>Understanding the main styles of service and backend architecture</li><li>Microservies or monoliths? Is there a middle ground?</li><li>How to improve monoliths with modularity; Intro to Modular Monoliths</li><li>How and when to split the system into services with REST/RPC</li><li>How and when to become event-driven and fully async</li><li>How to design non-trivial backend and service architecture</li><li>How to avoid common errors in designing backend and service architectures</li><li>How to use C4 model to communicate your architecture</li><li>...and much more!</li></ul><p><strong>This workshop covers fundamental concepts, relevant to all programming platforms and languages; developers and architects with different backgrounds can attend.</strong> </p><p>Note: this workshop runs from 9:00 until 16:00. <b><a href='#tickets-container'>Buy</a></b></p>",
-            "img": "images/jnb_vec.png"
-          },
-          {
             "product": "DNEAL",
             "name": "David Neal",
             "type": "speech",
@@ -238,6 +226,19 @@
             "img": "images/jb_vec.png",
             "sold_out_soon": true
           },
+          {
+            "product": "MODUL",
+            "tags": ["backend architecture", "microservices", "modularity"],
+            "name": "Jakub Nabrdalik",
+            "twitter": "jnabrdalik",
+            "type": "speech",
+            "country": "pl",
+            "bio": "Solution Architect, Developer and Mentor at Bottega IT Minds, ex-Head of Software Development",
+            "title": "Microservices, Modular Monoliths, and Event-Driven Systems",
+            "brief_description": "In this workshop, I’ll take you through three different styles of enterprise service architecture: modular monoliths, distributed synchronous systems, and event-driven systems. Together, we will design a non-trivial backend system and find out the strengths and weaknesses of each architectural approach. We will discuss the typical mistakes and problems developers face during service architecture design and how to solve them. You will learn how to choose the best architecture style for your project, and how to design hybrid solutions, leveraging the best parts of each architecture style. Topics include:<ul class=\"awsm\"><li>Understanding the main styles of service and backend architecture</li><li>Microservies or monoliths? Is there a middle ground?</li><li>How to improve monoliths with modularity; Intro to Modular Monoliths</li><li>How and when to split the system into services with REST/RPC</li><li>How and when to become event-driven and fully async</li><li>How to design non-trivial backend and service architecture</li><li>How to avoid common errors in designing backend and service architectures</li><li>How to use C4 model to communicate your architecture</li><li>...and much more!</li></ul><p><strong>This workshop covers fundamental concepts, relevant to all programming platforms and languages; developers and architects with different backgrounds can attend.</strong> </p><p>Note: this workshop runs from 9:00 until 16:00. <b><a href='#tickets-container'>Buy</a></b></p>",
+            "img": "images/jnb_vec.png",
+            "sold_out": true
+          },          
           {
             "product": "ALLEN",
             "name": "Allen Holub",
