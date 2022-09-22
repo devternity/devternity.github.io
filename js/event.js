@@ -198,20 +198,6 @@
             "img": "images/viktor_small.png"
           },
           {
-            "product": "DNEAL",
-            "name": "David Neal",
-            "type": "speech",
-            "twitter": "reverentgeek",
-            "time": "9:00",
-            "endTime": "18:00",
-            "tags": ["leadership", "teamwork", "mentoring"],
-            "country": "us",
-            "bio": "Principal Developer Evangelist @ Pluralsight, Microsoft MVP",
-            "title": "Practical Leadership for Software Developers",
-            "brief_description": "We all have an opportunity every day to make a postive impact on folks around us. These are often called \"soft skills,\" but they can be some of the hardest to learn! We could call them \"people skills,\" \"essential skills,\" or \"core skills.\" But, how about \"<b>SKILLS OF AWESOMENESS</b>?\" Yes, what we all need is more ways we can be awesome to each other, and awesome together. You'll learn: <ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Why leadership and awesomeness skills matter to everyone</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to become a better leader</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to run effective meetings</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to deal with conflict and find consensus</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to get better at listening and communication</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to encourage and motivate others</li></ul></p><p>Through a series of practical exercises, we will discover and discuss the most important and relevant topics you want to cover, so that you can get the most value out of this workshop! The workshop is led by David Neal – #1 speaker of 2020.</p><p>Note: this workshop runs from 9:00 until 16:00. <b><a href='#tickets-container'>Buy</a></b></p>",
-            "img": "images/dneal.png"
-          },
-          {
             "product": "JBRAINS",
             "name": "J.B. Rainsberger",
             "type": "speech",
@@ -253,7 +239,22 @@
             "brief_description": "You can’t simultaneously fight your code and be Agile—it slows you down too much. Your code’s design must evolve incrementally along with your understanding of the product. In this workshop, you’ll learn <b>everything you need to create highly adaptable designs</b> literally as you implement them. Along the way, you’ll also experience Event Storming and other Domain-Driven Design techniques.<h3>You’ll learn:</h3><ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to design a system that can evolve incrementally</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>SOLDIER principles (Simple, Obvious, Lightweight, Domain focused, Independent, Essential, Refactorable)</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Architectural patterns appropriate for incremental development</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to create strictly-isolated highly decoupled subsystems</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Domain-focused architectures (including DDD)</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to use the domain to maintain system coherence as the architecture grows</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to identify key abstractions, bounded contexts, entities, aggregates.</li></ul></p><p>In all, you’ll learn how to build a coherent and highly maintainable system and architecture that can easily accommodate changing requirements and grow incrementally as the system evolves.</p><p>Note: this workshop runs from 14:00 until 19:00. <b><a href='#tickets-container'>Buy</a></b></p> ",
             "img": "images/allenvector.png",
             "sold_out": true
-          }                   
+          },
+          {
+            "product": "DNEAL",
+            "name": "David Neal",
+            "type": "speech",
+            "twitter": "reverentgeek",
+            "time": "9:00",
+            "endTime": "18:00",
+            "tags": ["leadership", "teamwork", "mentoring"],
+            "country": "us",
+            "bio": "Principal Developer Evangelist @ Pluralsight, Microsoft MVP",
+            "title": "Practical Leadership for Software Developers",
+            "brief_description": "We all have an opportunity every day to make a postive impact on folks around us. These are often called \"soft skills,\" but they can be some of the hardest to learn! We could call them \"people skills,\" \"essential skills,\" or \"core skills.\" But, how about \"<b>SKILLS OF AWESOMENESS</b>?\" Yes, what we all need is more ways we can be awesome to each other, and awesome together. You'll learn: <ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Why leadership and awesomeness skills matter to everyone</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to become a better leader</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to run effective meetings</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to deal with conflict and find consensus</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to get better at listening and communication</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to encourage and motivate others</li></ul></p><p>Through a series of practical exercises, we will discover and discuss the most important and relevant topics you want to cover, so that you can get the most value out of this workshop! The workshop is led by David Neal – #1 speaker of 2020.</p><p>Note: this workshop runs from 9:00 until 16:00. <b><a href='#tickets-container'>Buy</a></b></p>",
+            "img": "images/dneal.png",
+            "sold_out": true
+          }    
         ]
       },
       {
