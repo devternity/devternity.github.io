@@ -163,6 +163,19 @@
             "img": "images/jimbo.png"
           },            
           {
+            "product": "JPILO",
+            "name": "Jakub Pilimon",
+            "twitter": "JakubPilimon",
+            "type": "speech",
+            "country": "pl",
+            "bio": "Principal Technologist @ VMWare, Trainer @ Bottega IT Minds, DZone's Most-Valuable Blogger",
+            "img": "images/pilo.png",
+            "title": "Pragmatic Refactoring Towards Better Architecture",            
+            "tags": ["clean code", "code design", "refactoring"],
+            "brief_description": "Are you struggling with your codebase which causes problems like <b>poor maintenance, unreadability, performance, and poor testability</b>? After this workshop, you will be ready to identify and repair architectural and code root causes of those issues using proven patterns and techniques from Domain-Driven Design, Test-Driven Development, Object-Oriented Programming, and modularization. During code exercises, we will walk through solutions to issues like: <ul class=\"awsm\"><li>What to do with a “God Classes”?</li><li>Modules/classes with huge coupling and with overload of business logic</li><li>Mismatch between the code model and the business model of the reality</li><li>How to repair data inconsistency?</li><li>Inefficient reads from my database?</li><li>No clear boundaries in my codebase, how to introduce some?</li><li>... and much more!</li></ul><p>The workshop will start with code that represents a huge legacy system that some of us have to work with on a daily basis. We will gradually refactor it and not only introduce patterns like <b>CQRS, aggregates, policies, and parallel change</b>, but also walk through how to talk about refactoring, technical debt, and how to sell our ideas to management. </p><p>Note: The course is for developers able to code and complete exercises in Java, C#, or PHP.</p><p>Note: this workshop runs from 14:00 until 20:00. <b><a href='#tickets-container'>Buy</a></b></p>",
+            "sold_out_soon": true
+          },          
+          {
             "product": "VENKAT",
             "name": "Venkat Subramaniam",
             "type": "speech",
