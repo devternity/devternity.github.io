@@ -199,18 +199,6 @@
             "img": "images/kevie.png"
           },
           {
-            "product": "CLEAN_PRAG",
-            "tags": ["clean architecture", "patterns", "java"],
-            "name": "Victor Rentea",
-            "type": "speech",
-            "twitter": "VictorRentea",
-            "country": "ro",
-            "bio": "Software Craftsman, Java Champion and Trainer",
-            "title": "Clean and Pragmatic Architecture",
-            "brief_description": "In this workshop, through code examples, hands-on exercises, and discussions you'll learn how to design a clean and pragmatic architecture. The topics include: <ul class=\"awsm\"><li>Layered Architecture: strict and relaxed variants</li><li>Onion Architecture (aka Clean, Hexagonal, Ports-and-Adapters, Universal)</li><li>Controllers: typical design options with tradeoffs</li><li>Entities: techniques and best practices for modeling expressive entities</li><li>Domain Services: how to keep them small, what is the domain logic?</li><li>Facade vs. Application Service (DDD): a pragmatic evolutionary design strategy</li><li>DTOs: enemy structures and when to keep them out of our domain</li><li>Entity/DTO mapping: Best practices, pitfalls of automatic mappers</li><li>Dependency Inversion Principle: stopping external APIs from polluting our domain</li><li>Repositories: designing a domain-friendly search DSL</li><li>Domain Events: mainstream best practices</li><li>CQRS: separating read/write models</li><li>...and much more!</li></ul><p>This workshop uses Java as a reference language.</p><p>Note: this workshop runs from 8:00 until 16:00. <b><a href='#tickets-container'>Buy</a></b></p>",
-            "img": "images/viktor_small.png"
-          },
-          {
             "product": "JBRAINS",
             "name": "J.B. Rainsberger",
             "type": "speech",
@@ -225,6 +213,19 @@
             "img": "images/jb_vec.png",
             "sold_out_soon": true
           },
+          {
+            "product": "CLEAN_PRAG",
+            "tags": ["clean architecture", "patterns", "java"],
+            "name": "Victor Rentea",
+            "type": "speech",
+            "twitter": "VictorRentea",
+            "country": "ro",
+            "bio": "Software Craftsman, Java Champion and Trainer",
+            "title": "Clean and Pragmatic Architecture",
+            "brief_description": "In this workshop, through code examples, hands-on exercises, and discussions you'll learn how to design a clean and pragmatic architecture. The topics include: <ul class=\"awsm\"><li>Layered Architecture: strict and relaxed variants</li><li>Onion Architecture (aka Clean, Hexagonal, Ports-and-Adapters, Universal)</li><li>Controllers: typical design options with tradeoffs</li><li>Entities: techniques and best practices for modeling expressive entities</li><li>Domain Services: how to keep them small, what is the domain logic?</li><li>Facade vs. Application Service (DDD): a pragmatic evolutionary design strategy</li><li>DTOs: enemy structures and when to keep them out of our domain</li><li>Entity/DTO mapping: Best practices, pitfalls of automatic mappers</li><li>Dependency Inversion Principle: stopping external APIs from polluting our domain</li><li>Repositories: designing a domain-friendly search DSL</li><li>Domain Events: mainstream best practices</li><li>CQRS: separating read/write models</li><li>...and much more!</li></ul><p>This workshop uses Java as a reference language.</p><p>Note: this workshop runs from 8:00 until 16:00. <b><a href='#tickets-container'>Buy</a></b></p>",
+            "img": "images/viktor_small.png",
+            "sold_out": true
+          },          
           {
             "product": "MODUL",
             "tags": ["backend architecture", "microservices", "modularity"],
@@ -267,7 +268,7 @@
             "brief_description": "We all have an opportunity every day to make a postive impact on folks around us. These are often called \"soft skills,\" but they can be some of the hardest to learn! We could call them \"people skills,\" \"essential skills,\" or \"core skills.\" But, how about \"<b>SKILLS OF AWESOMENESS</b>?\" Yes, what we all need is more ways we can be awesome to each other, and awesome together. You'll learn: <ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Why leadership and awesomeness skills matter to everyone</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to become a better leader</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to run effective meetings</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to deal with conflict and find consensus</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to get better at listening and communication</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to encourage and motivate others</li></ul></p><p>Through a series of practical exercises, we will discover and discuss the most important and relevant topics you want to cover, so that you can get the most value out of this workshop! The workshop is led by David Neal – #1 speaker of 2020.</p><p>Note: this workshop runs from 9:00 until 16:00. <b><a href='#tickets-container'>Buy</a></b></p>",
             "img": "images/dneal.png",
             "sold_out": true
-          }    
+          }
         ]
       },
       {
