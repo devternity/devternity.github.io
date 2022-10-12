@@ -188,17 +188,6 @@
             "img": "images/venk_vec.png"
           },
           {
-            "product": "AGILE_ARCHITECTURE",
-            "name": "Kevlin Henney",
-            "tags": ["software architecture", "agility"],
-            "type": "speech",
-            "country": "gb",
-            "bio": "Consultant, Trainer, Writer, Author of 97 Things Every Programmer Should Know",
-            "title": "Architecture with Agility",
-            "brief_description": "Every system has an architecture, whether accidental or intentional, and regardless of whether it was put in place by a nominated architect or whether it emerged from the decisions and discussions of a team. All too often the focus of what is often described as architecture is centred around a specific set of platform technologies, which forms only one part of the set of concerns an architecture should. And all too often architecture is seen as a separate concern from development process, whereas the two are intertwined — what you build is influenced by how you build it, and vice versa. The course covers a wide range of topics through a number of practical exercises, with plenty of time dedicated to group discussion:</p><ul class=\"awsm\"><li>The relationship between development process and architecture<li>The roles and failure modes of testing, modelling and technology platforms<li>Different architectural styles and design patterns<li>How to transform product vision into architecture<li>Future-proofing your architecture, and accounting for uncertainty<li>How to ground your architecture and avoid overdesign<li>...and much more!</li></ul><p>Note: this workshop runs from 9:00 until 16:00. <b><a href='#tickets-container'>Buy</a></b></p>",
-            "img": "images/kevie.png"
-          },
-          {
             "product": "JBRAINS",
             "name": "J.B. Rainsberger",
             "type": "speech",
@@ -214,6 +203,21 @@
             "sold_out_soon": true
           },
           {
+            "product": "DNEAL",
+            "name": "David Neal",
+            "type": "speech",
+            "twitter": "reverentgeek",
+            "time": "9:00",
+            "endTime": "18:00",
+            "tags": ["leadership", "teamwork", "mentoring"],
+            "country": "us",
+            "bio": "Principal Developer Evangelist @ Pluralsight, Microsoft MVP",
+            "title": "Practical Leadership for Software Developers",
+            "brief_description": "We all have an opportunity every day to make a postive impact on folks around us. These are often called \"soft skills,\" but they can be some of the hardest to learn! We could call them \"people skills,\" \"essential skills,\" or \"core skills.\" But, how about \"<b>SKILLS OF AWESOMENESS</b>?\" Yes, what we all need is more ways we can be awesome to each other, and awesome together. You'll learn: <ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Why leadership and awesomeness skills matter to everyone</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to become a better leader</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to run effective meetings</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to deal with conflict and find consensus</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to get better at listening and communication</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to encourage and motivate others</li></ul></p><p>Through a series of practical exercises, we will discover and discuss the most important and relevant topics you want to cover, so that you can get the most value out of this workshop! The workshop is led by David Neal – #1 speaker of 2020.</p><p>Note: this workshop runs from 9:00 until 16:00. <b><a href='#tickets-container'>Buy</a></b></p>",
+            "img": "images/dneal.png",
+            "sold_out": false
+          },          
+          {
             "product": "CLEAN_PRAG",
             "tags": ["clean architecture", "patterns", "java"],
             "name": "Victor Rentea",
@@ -224,6 +228,18 @@
             "title": "Clean and Pragmatic Architecture",
             "brief_description": "In this workshop, through code examples, hands-on exercises, and discussions you'll learn how to design a clean and pragmatic architecture. The topics include: <ul class=\"awsm\"><li>Layered Architecture: strict and relaxed variants</li><li>Onion Architecture (aka Clean, Hexagonal, Ports-and-Adapters, Universal)</li><li>Controllers: typical design options with tradeoffs</li><li>Entities: techniques and best practices for modeling expressive entities</li><li>Domain Services: how to keep them small, what is the domain logic?</li><li>Facade vs. Application Service (DDD): a pragmatic evolutionary design strategy</li><li>DTOs: enemy structures and when to keep them out of our domain</li><li>Entity/DTO mapping: Best practices, pitfalls of automatic mappers</li><li>Dependency Inversion Principle: stopping external APIs from polluting our domain</li><li>Repositories: designing a domain-friendly search DSL</li><li>Domain Events: mainstream best practices</li><li>CQRS: separating read/write models</li><li>...and much more!</li></ul><p>This workshop uses Java as a reference language.</p><p>Note: this workshop runs from 8:00 until 16:00. <b><a href='#tickets-container'>Buy</a></b></p>",
             "img": "images/viktor_small.png",
+            "sold_out": true
+          },
+          {
+            "product": "AGILE_ARCHITECTURE",
+            "name": "Kevlin Henney",
+            "tags": ["software architecture", "agility"],
+            "type": "speech",
+            "country": "gb",
+            "bio": "Consultant, Trainer, Writer, Author of 97 Things Every Programmer Should Know",
+            "title": "Architecture with Agility",
+            "brief_description": "Every system has an architecture, whether accidental or intentional, and regardless of whether it was put in place by a nominated architect or whether it emerged from the decisions and discussions of a team. All too often the focus of what is often described as architecture is centred around a specific set of platform technologies, which forms only one part of the set of concerns an architecture should. And all too often architecture is seen as a separate concern from development process, whereas the two are intertwined — what you build is influenced by how you build it, and vice versa. The course covers a wide range of topics through a number of practical exercises, with plenty of time dedicated to group discussion:</p><ul class=\"awsm\"><li>The relationship between development process and architecture<li>The roles and failure modes of testing, modelling and technology platforms<li>Different architectural styles and design patterns<li>How to transform product vision into architecture<li>Future-proofing your architecture, and accounting for uncertainty<li>How to ground your architecture and avoid overdesign<li>...and much more!</li></ul><p>Note: this workshop runs from 9:00 until 16:00. <b><a href='#tickets-container'>Buy</a></b></p>",
+            "img": "images/kevie.png",
             "sold_out": true
           },          
           {
@@ -253,21 +269,6 @@
             "brief_description": "You can’t simultaneously fight your code and be Agile—it slows you down too much. Your code’s design must evolve incrementally along with your understanding of the product. In this workshop, you’ll learn <b>everything you need to create highly adaptable designs</b> literally as you implement them. Along the way, you’ll also experience Event Storming and other Domain-Driven Design techniques.<h3>You’ll learn:</h3><ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to design a system that can evolve incrementally</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>SOLDIER principles (Simple, Obvious, Lightweight, Domain focused, Independent, Essential, Refactorable)</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Architectural patterns appropriate for incremental development</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to create strictly-isolated highly decoupled subsystems</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Domain-focused architectures (including DDD)</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to use the domain to maintain system coherence as the architecture grows</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to identify key abstractions, bounded contexts, entities, aggregates.</li></ul></p><p>In all, you’ll learn how to build a coherent and highly maintainable system and architecture that can easily accommodate changing requirements and grow incrementally as the system evolves.</p><p>Note: this workshop runs from 14:00 until 19:00. <b><a href='#tickets-container'>Buy</a></b></p> ",
             "img": "images/allenvector.png",
             "sold_out": true
-          },
-          {
-            "product": "DNEAL",
-            "name": "David Neal",
-            "type": "speech",
-            "twitter": "reverentgeek",
-            "time": "9:00",
-            "endTime": "18:00",
-            "tags": ["leadership", "teamwork", "mentoring"],
-            "country": "us",
-            "bio": "Principal Developer Evangelist @ Pluralsight, Microsoft MVP",
-            "title": "Practical Leadership for Software Developers",
-            "brief_description": "We all have an opportunity every day to make a postive impact on folks around us. These are often called \"soft skills,\" but they can be some of the hardest to learn! We could call them \"people skills,\" \"essential skills,\" or \"core skills.\" But, how about \"<b>SKILLS OF AWESOMENESS</b>?\" Yes, what we all need is more ways we can be awesome to each other, and awesome together. You'll learn: <ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Why leadership and awesomeness skills matter to everyone</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to become a better leader</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to run effective meetings</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to deal with conflict and find consensus</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to get better at listening and communication</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>How to encourage and motivate others</li></ul></p><p>Through a series of practical exercises, we will discover and discuss the most important and relevant topics you want to cover, so that you can get the most value out of this workshop! The workshop is led by David Neal – #1 speaker of 2020.</p><p>Note: this workshop runs from 9:00 until 16:00. <b><a href='#tickets-container'>Buy</a></b></p>",
-            "img": "images/dneal.png",
-            "sold_out": false
           }
         ]
       },
