@@ -174,18 +174,6 @@
             "tags": ["clean code", "code design", "refactoring"],
             "brief_description": "Are you struggling with your codebase which causes problems like <b>poor maintenance, unreadability, performance, and poor testability</b>? After this workshop, you will be ready to identify and repair architectural and code root causes of those issues using proven patterns and techniques from Domain-Driven Design, Test-Driven Development, Object-Oriented Programming, and modularization. During code exercises, we will walk through solutions to issues like: <ul class=\"awsm\"><li>What to do with a “God Classes”?</li><li>Modules/classes with huge coupling and with overload of business logic</li><li>Mismatch between the code model and the business model of the reality</li><li>How to repair data inconsistency?</li><li>Inefficient reads from my database?</li><li>No clear boundaries in my codebase, how to introduce some?</li><li>... and much more!</li></ul><p>The workshop will start with code that represents a huge legacy system that some of us have to work with on a daily basis. We will gradually refactor it and not only introduce patterns like <b>CQRS, aggregates, policies, and parallel change</b>, but also walk through how to talk about refactoring, technical debt, and how to sell our ideas to management. </p><p>Note: The course is for developers able to code and complete exercises in Java, C#, or PHP.</p><p>Note: this workshop runs from 14:00 until 20:00. <b><a href='#tickets-container'>Buy</a></b></p>",
             "sold_out_soon": true
-          },          
-          {
-            "product": "VENKAT",
-            "name": "Venkat Subramaniam",
-            "type": "speech",
-            "twitter": "venkat_s",
-            "tags": ["code design", "architecture", "patterns"],
-            "country": "us",
-            "bio": "Founder @ Agile Developer, Author of <a href=\"https://www.amazon.com/Practices-Agile-Developer-Pragmatic-Bookshelf/dp/097451408X/\">Practices of an Agile Developer</a>, <a href=\"https://www.amazon.com/Programming-Concurrency-JVM-Mastering-Synchronization-ebook/dp/B00A32NZEI/\">Programming Concurrency on the JVM</a>, <a href=\"https://www.amazon.com/Functional-Programming-Java-Harnessing-Expressions/dp/1937785467/\">Functional Programming in Java</a>",
-            "title": "Software Design By Practice",
-            "brief_description": "The goal of this intensive, hands-on workshop, is to <strong>deepen your understanding of SOLID and other core software design principles and patterns</strong>. You'll be practicing those concepts under different constraints and requirements, devising elegant lightweight design, writing code, and discussing the tradeoffs. <p>Come experience the evolution of ideas into clean code by way of incremental development!</p><p>Note: this workshop runs from 9:00 until 16:00. <b><a href='#tickets-container'>Buy</a></b></p>",
-            "img": "images/venk_vec.png"
           },
           {
             "product": "JBRAINS",
@@ -202,6 +190,19 @@
             "img": "images/jb_vec.png",
             "sold_out_soon": true
           },
+          {
+            "product": "VENKAT",
+            "name": "Venkat Subramaniam",
+            "type": "speech",
+            "twitter": "venkat_s",
+            "tags": ["code design", "architecture", "patterns"],
+            "country": "us",
+            "bio": "Founder @ Agile Developer, Author of <a href=\"https://www.amazon.com/Practices-Agile-Developer-Pragmatic-Bookshelf/dp/097451408X/\">Practices of an Agile Developer</a>, <a href=\"https://www.amazon.com/Programming-Concurrency-JVM-Mastering-Synchronization-ebook/dp/B00A32NZEI/\">Programming Concurrency on the JVM</a>, <a href=\"https://www.amazon.com/Functional-Programming-Java-Harnessing-Expressions/dp/1937785467/\">Functional Programming in Java</a>",
+            "title": "Software Design By Practice",
+            "brief_description": "The goal of this intensive, hands-on workshop, is to <strong>deepen your understanding of SOLID and other core software design principles and patterns</strong>. You'll be practicing those concepts under different constraints and requirements, devising elegant lightweight design, writing code, and discussing the tradeoffs. <p>Come experience the evolution of ideas into clean code by way of incremental development!</p><p>Note: this workshop runs from 9:00 until 16:00. <b><a href='#tickets-container'>Buy</a></b></p>",
+            "img": "images/venk_vec.png",
+            "sold_out": true
+          },          
           {
             "product": "DNEAL",
             "name": "David Neal",
