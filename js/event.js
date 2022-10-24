@@ -188,7 +188,7 @@
             "title": "Surviving Legacy Code",
             "brief_description": "We all have legacy code – profitable code that we’re afraid to change. Rewrite or refactor? How to crack the chicken-and-egg problem (I need to write tests in order to refactor, and I need to refactor in order to write tests)? What to do when we're already behind the schedule? We need a way to learn how to work with legacy safely, correctly, and quickly. That’s what Surviving Legacy Code is about. <p>In this workshop, you'll be working on a diabolical-but-fun code base and practicing different refactoring and testing techniques – from basic to advanced ones. <b>Learned techniques will eventually help you improve your production codebase – safely and quickly enough.</b></p> <p>Note: this workshop runs from 11:00 until 17:00. <b><a href='#tickets-container'>Buy</a></b></p>",
             "img": "images/jb_vec.png",
-            "sold_out_soon": true
+            "sold_out": true
           },
           {
             "product": "VENKAT",
