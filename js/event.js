@@ -159,8 +159,8 @@
             "title": "Domain-Driven Design: Theory and Practice",            
             "tags": ["domain-driven design", "architecture"],
             "brief_description": "Understand the concepts of DDD but feeling overwhelmed to implement? Feeling overwhelmed by complex examples and can't connect how to implement DDD in your project? Looking for more concrete guidance on the concepts and principles of DDD and want to learn how to connect it to real-world code? If this sounds familiar, then this workshop is for you. <b>We cover both the theory and patterns of Domain-Driven Design, and connect it to code with hands-on examples in .NET 6</b>. The described concepts will be applicable to other languages and platforms. In this workshop, you'll learn:</p> <ul class=\"awsm\"><li>Where DDD fits in to software delivery and what business problems it addresses</li><li>When to use DDD and when not to use it</li><li>How to craft and enforce a ubiquitous language</li><li>The fundamental modeling building blocks</li><li>The role of refactoring in shaping and reshaping our model</li><li>How to define bounded contexts and microservices</li><li>Realizing a pragmatic implementation with .NET</li><li>...and much more!</li></ul><p>Note: We will be using .NET as our development platform. The principles will be applicable to other languages and platforms.</p><p>Note: this workshop runs from 14:00 until 20:00. <b><a href='#tickets-container'>Buy</a></b></p>",
-            "sold_out_soon": true,
-            "img": "images/jimbo.png"
+            "img": "images/jimbo.png",
+            "sold_out": true
           },            
           {
             "product": "JPILO",
