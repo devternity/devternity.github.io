@@ -146,8 +146,8 @@
             "title": "Domain Modeling Made Functional",            
             "tags": ["fp", "patterns", "domain-driven design"],
             "brief_description": "Functional programming can be an excellent approach to designing decoupled, reusable systems with a rich domain model. This workshop will show you why and how. <p>You'll learn the core concepts of FP, and how to apply them to crafting domain logic, capturing business rules, designing business workflows, error handling, and much more, including:</p> <ul class=\"awsm\"><li>Introduction to functional programming</li><li>Functions and types</li><li>Composition as the fundamental principle</li><li>Overview of DDD principles</li><li>The importance of bounded contexts</li><li>Onion/Hexagonal architecture and how this works with functional programming</li><li>Modeling requirements with algebraic types</li><li>Modeling constraints, states, and workflows</li><li>Keeping IO at the edges</li><li>Handling domain errors</li><li>Composing complex functions</li><li>Evolving the domain</li><li>Dealing with changes in requirements</li></ul><p>Note: We will be using F# as our development language. The principles will be applicable to other languages. No experience with F# needed.</p><p>Note: this workshop runs from 9:00 until 16:00. <b><a href='#tickets-container'>Buy</a></b></p>",
-            "sold_out_soon": true,
-            "img": "images/scott_vec.png"
+            "img": "images/scott_vec.png",
+            "sold_out": true
           },
           {
             "product": "DDD",
