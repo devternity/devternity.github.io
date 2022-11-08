@@ -36,17 +36,17 @@
           "price": 399,
           "extra": 200,
           "includesWorkshop": true,
-          "sold_out": false,
-          "capacity": 90
+          "sold_out": true,
+          "capacity": 100
         },
         "2-Days Super Pack": {
-          "attention": true,
+          "attention": false,
           "price": 798,
           "extra": 400,
-          "sold_out": false,
+          "sold_out": true,
           "includesWorkshop": true,
           "includesMainDay": true,
-          "capacity": 90
+          "capacity": 100
         }
       }
     },
