@@ -30,7 +30,7 @@
           "price": 399,
           "extra": 200,
           "includesMainDay": true,
-          "capacity": 70
+          "capacity": 90
         },
         "Power Workshop Only": {
           "price": 399,
