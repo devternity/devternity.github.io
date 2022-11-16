@@ -398,7 +398,7 @@
             "type": "speech",
             "twitter": "stefanjudis",
             "country": "de",
-            "bio": "Developer Advocate @ Contentful, Teaching <a href=\"https://twitter.com/CSSclasses\">@CSSclasses</a>, Maintaining <a href=\"https://twitter.com/perf_tooling\">@perf_tooling</a>",
+            "bio": "Head Dev Rel @ Checkly, Teaching <a href=\"https://twitter.com/CSSclasses\">@CSSclasses</a>, Maintaining <a href=\"https://twitter.com/perf_tooling\">@perf_tooling</a>",
             "title": "Everything You Should Know About Web Development in 2022",
             "description": "Frontend and JavaScript technologies are moving fast. So fast that it's always hard to keep track of all the new things that are coming up. This talk will show new tools, workflows, ways to develop and give advice on how to stay up to date.",
             "img": "images/judis.png"
