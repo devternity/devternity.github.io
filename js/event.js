@@ -327,7 +327,7 @@
             "twitter": "VictorRentea",
             "country": "ro",
             "bio": "Software Craftsman, Java Champion, and Independent Technical Trainer",
-            "title": "The Secrets of the Fastest Developers on Earth",
+            "title": "The Secrets of the Fastest Java Developers on Earth",
             "description": "In this session, you’ll learn a lot of hands-on tricks that will skyrocket your Java coding speed, after just several days of practice. Writing, editing, navigating and refactoring code faster will let you focus on your goals and allow you to experiment various design alternatives without wasting precious time. In this talk I’ll demonstrate some the best tricks of IntelliJ (community included): Advanced Auto-Completion: over-dot, TAB, type-aware, statics, generating boilerplate, Live Templates and Postfix Expansion, Essential quickfixes and inspections, Multi-cursor, Statement Completion, Navigating Code like a Pro, Java Streams support, and many more, all curated with the help of many nice JetBrains people.",
             "img": "images/viktor_small.png"
           },
