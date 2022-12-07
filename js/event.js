@@ -61,7 +61,13 @@
             "since": "2022",
             "link": "https://jetbrains.com",
             "info": "<p>At JetBrains, code is our passion. Ever since we started, back in 2000, we have strived to make the strongest, most effective developer tools on earth. By automating routine checks and corrections, our tools speed up production, freeing developers to grow, discover and create.</p>"
-          }
+          },
+          {
+            "logo": "bets.png",
+            "since": "2021",
+            "link": "https://betsoftware.com/",
+            "info": "<p>BET Software is one of the most diverse betting software providers in Sub-Saharan Africa, with a growing presence internationally. We are the workplace of choice for technologists and engineers due to our pioneering use of technology, our talented Team and the innovative solutions we deliver.</p>"
+          }          
         ]
       },
       "silver": {
