@@ -156,7 +156,8 @@ devternity.controller('LandingPageController', function ($window, $http, $scope,
   $scope.showCountdown = function(epoch) {
     var current = moment().startOf('day');
     var given = moment(epoch);
-    return moment.duration(given.diff(current)).asDays() < 100
+    var days = moment.duration(given.diff(current)).asDays()
+    return days < 100 && days > 2
   }
 
   $scope.seeVenue = function() {
